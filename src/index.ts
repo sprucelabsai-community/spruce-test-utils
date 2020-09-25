@@ -1,1 +1,1 @@
-export { default as errorAssertUtil} from './utilities/errorAssert.utility'
+export { default as errorAssertUtil } from './utilities/errorAssert.utility'
