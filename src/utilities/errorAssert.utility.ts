@@ -13,7 +13,7 @@ const errorAssertUtil = {
 				`Invalid error code. Expected ${expectedCode} but got ${error.options.code}`
 			)
 		}
-	}
+	},
 }
 
 export default errorAssertUtil
