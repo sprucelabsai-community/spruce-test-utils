@@ -9,7 +9,7 @@
 	"version": "0.0.1",
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
-	"description": "Spruce test utilities",
+	"description": "Spruce test utilities!",
 	"keywords": [
 		"node",
 		"components",
