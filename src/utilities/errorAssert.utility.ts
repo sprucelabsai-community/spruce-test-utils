@@ -1,6 +1,9 @@
+import { assert } from "@sprucelabs/test"
+import AbstractSpruceError from '@sprucelabs/error'
+
 const errorAssertUtil = {
 	assertError(
-		error: SpruceError,
+		error: AbstractSpruceError<any>,
 		expectedCode: string,
 		expectedPartialOptions?: Record<string, any>
 	) {
