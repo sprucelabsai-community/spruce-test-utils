@@ -55,6 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.4.2"],
             ["lodash", "npm:4.17.20"],
             ["prettier", "npm:2.1.2"],
+            ["semantic-release", "npm:17.1.2"],
             ["ts-node", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:9.0.0"],
             ["typescript", "patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"],
             ["yarn", "npm:1.22.5"]
@@ -2417,6 +2418,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.4.2"],
             ["lodash", "npm:4.17.20"],
             ["prettier", "npm:2.1.2"],
+            ["semantic-release", "npm:17.1.2"],
             ["ts-node", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:9.0.0"],
             ["typescript", "patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"],
             ["yarn", "npm:1.22.5"]
