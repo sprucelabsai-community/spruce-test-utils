@@ -1,5 +1,5 @@
-import { assert } from "@sprucelabs/test"
 import AbstractSpruceError from '@sprucelabs/error'
+import { assert } from '@sprucelabs/test'
 
 const errorAssertUtil = {
 	assertError(
@@ -16,7 +16,7 @@ const errorAssertUtil = {
 				`Invalid error code. Expected ${expectedCode} but got ${error.options.code}`
 			)
 		}
-	}
+	},
 }
 
 export default errorAssertUtil
