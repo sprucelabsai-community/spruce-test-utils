@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:2.2.348"],
+            ["@sprucelabs/error", "npm:2.2.349"],
             ["@sprucelabs/semantic-release", "npm:4.0.5"],
             ["@sprucelabs/test", "npm:7.0.62"],
             ["@types/lodash", "npm:4.14.161"],
@@ -2354,10 +2354,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sprucelabs/error", [
-        ["npm:2.2.348", {
-          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.348-4b04f45986-2bda5df203.zip/node_modules/@sprucelabs/error/",
+        ["npm:2.2.349", {
+          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.349-92db316daa-70b39000dd.zip/node_modules/@sprucelabs/error/",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:2.2.348"]
+            ["@sprucelabs/error", "npm:2.2.349"]
           ],
           "linkType": "HARD",
         }]
@@ -2400,7 +2400,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@sprucelabs/test-utils", "workspace:."],
-            ["@sprucelabs/error", "npm:2.2.348"],
+            ["@sprucelabs/error", "npm:2.2.349"],
             ["@sprucelabs/semantic-release", "npm:4.0.5"],
             ["@sprucelabs/test", "npm:7.0.62"],
             ["@types/lodash", "npm:4.14.161"],
@@ -3733,7 +3733,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:0.5.5"],
             ["move-concurrently", "npm:1.0.1"],
             ["promise-inflight", "virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1"],
-            ["rimraf", "npm:2.6.3"],
+            ["rimraf", "npm:2.7.1"],
             ["ssri", "npm:6.0.1"],
             ["unique-filename", "npm:1.1.1"],
             ["y18n", "npm:4.0.0"]
@@ -9377,7 +9377,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nopt", "npm:4.0.3"],
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
-            ["rimraf", "npm:2.6.3"],
+            ["rimraf", "npm:2.7.1"],
             ["semver", "npm:5.7.1"],
             ["tar", "npm:4.4.13"],
             ["which", "npm:1.3.1"]
@@ -9394,7 +9394,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nopt", "npm:4.0.3"],
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
-            ["rimraf", "npm:2.6.3"],
+            ["rimraf", "npm:2.7.1"],
             ["semver", "npm:7.3.2"],
             ["tar", "npm:6.0.5"],
             ["which", "npm:2.0.2"]

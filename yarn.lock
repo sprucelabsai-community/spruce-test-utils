@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.348":
-  version: 2.2.348
-  resolution: "@sprucelabs/error@npm:2.2.348"
-  checksum: 2bda5df2037aa9971e00582624b7704e5263e91ae02d6d6c5f09b9a3a07171136c1066080412df80e87239c573971750c11d19dee8a2eec84c89a1e129caaf6b
+"@sprucelabs/error@npm:^2.2.349":
+  version: 2.2.349
+  resolution: "@sprucelabs/error@npm:2.2.349"
+  checksum: 70b39000dd405f947a0250ce10792e41f8f96c9a6f5094fcbce4cb2524e4e4f9aebddd540fdb218b13c7338ee5a1631f67a1dc815498f4788cf122e3df93e69f
   languageName: node
   linkType: hard
 
@@ -1773,7 +1773,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sprucelabs/test-utils@workspace:."
   dependencies:
-    "@sprucelabs/error": ^2.2.348
+    "@sprucelabs/error": ^2.2.349
     "@sprucelabs/semantic-release": ^4.0.5
     "@sprucelabs/test": ^7.0.62
     "@types/lodash": ^4.14.161
@@ -1782,18 +1782,18 @@ __metadata:
     chokidar-cli: ^2.1.0
     concurrently: ^5.3.0
     eslint: ^7.9.0
-    eslint-config-spruce: ^10.9.46
+    eslint-config-spruce: ^10.9.62
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.0
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-react: ^7.21.1
-    eslint-plugin-spruce: ^10.9.60
+    eslint-plugin-react: ^7.21.2
+    eslint-plugin-spruce: ^10.9.62
     jest: ^26.4.2
     lodash: ^4.17.20
-    prettier: ^2.1.1
+    prettier: ^2.1.2
     semantic-release: ^17.1.2
     ts-node: ^9.0.0
-    typescript: ^4.0.2
+    typescript: ^4.0.3
     yarn: ^1.22.5
   languageName: unknown
   linkType: soft
@@ -4315,7 +4315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.46":
+"eslint-config-spruce@npm:^10.9.62":
   version: 10.9.62
   resolution: "eslint-config-spruce@npm:10.9.62"
   dependencies:
@@ -4412,7 +4412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.21.1, eslint-plugin-react@npm:^7.21.2":
+"eslint-plugin-react@npm:^7.21.2":
   version: 7.21.2
   resolution: "eslint-plugin-react@npm:7.21.2"
   dependencies:
@@ -4433,7 +4433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.60, eslint-plugin-spruce@npm:^10.9.62":
+"eslint-plugin-spruce@npm:^10.9.62":
   version: 10.9.62
   resolution: "eslint-plugin-spruce@npm:10.9.62"
   dependencies:
@@ -9066,7 +9066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.1":
+"prettier@npm:^2.1.2":
   version: 2.1.2
   resolution: "prettier@npm:2.1.2"
   bin:
@@ -9785,7 +9785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:2.6.3, rimraf@npm:^2.6.3":
+"rimraf@npm:2.6.3":
   version: 2.6.3
   resolution: "rimraf@npm:2.6.3"
   dependencies:
@@ -9796,7 +9796,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^2.5.2, rimraf@npm:^2.5.4, rimraf@npm:^2.6.2, rimraf@npm:^2.7.1":
+"rimraf@npm:^2.5.2, rimraf@npm:^2.5.4, rimraf@npm:^2.6.2, rimraf@npm:^2.6.3, rimraf@npm:^2.7.1":
   version: 2.7.1
   resolution: "rimraf@npm:2.7.1"
   dependencies:
@@ -11152,7 +11152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@^4.0.2, typescript@^4.0.3":
+typescript@^4.0.3:
   version: 4.0.3
   resolution: "typescript@npm:4.0.3"
   bin:
@@ -11162,7 +11162,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.2#builtin<compat/typescript>, typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
+"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
   version: 4.0.3
   resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"
   bin:
