@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   hub: yasuhiroki/hub@0.0.2
+  jq: circleci/jq@2.2.0
 jobs:
   test:
     docker:
@@ -18,7 +19,6 @@ jobs:
               echo "[npm-publish] detected. No publish necessary 👊"
               circleci-agent step halt
             fi
-      - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn build
       - run: yarn test -w 1
@@ -68,6 +68,7 @@ jobs:
             - "ec:9f:2e:aa:1f:c9:ab:49:57:8f:c0:cd:2e:5b:f3:b0"
       - checkout
       - hub/install
+      - jq/install
       - run:
           name: "Set TARGETBRANCH env variable"
           command: |
@@ -83,6 +84,10 @@ jobs:
             yarn run upgrade.packages.all
             if [[ $(git status) != *"modified"* ]]; then 
               echo "No modifications detected.  No push/PR necessary 👊"
+              circleci-agent step halt
+            fi
+            if [[ ! -f yarn.lock  ]]; then
+              echo "Upgrade errored and removed the yarn.lock. Likely due to a package version missing"
               circleci-agent step halt
             fi
       - run:
