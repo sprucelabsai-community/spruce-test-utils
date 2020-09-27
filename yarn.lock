@@ -1781,6 +1781,7 @@ __metadata:
     "@typescript-eslint/parser": ^4.2.0
     chokidar-cli: ^2.1.0
     concurrently: ^5.3.0
+    conventional-changelog-sprucelabs: ^1.1.1
     eslint: ^7.10.0
     eslint-config-spruce: ^10.9.64
     eslint-import-resolver-node: ^0.3.4
@@ -3458,7 +3459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-sprucelabs@npm:^1.1.0":
+"conventional-changelog-sprucelabs@npm:^1.1.0, conventional-changelog-sprucelabs@npm:^1.1.1":
   version: 1.1.1
   resolution: "conventional-changelog-sprucelabs@npm:1.1.1"
   dependencies:
