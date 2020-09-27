@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.355":
-  version: 2.2.355
-  resolution: "@sprucelabs/error@npm:2.2.355"
-  checksum: 972c413cabb33ef858fcef1c72c9ee719e4d4eeaef1dbc4876c31b06b0bbcef3c3cc7a6bf91b03fa956df60c957230d6c8d405cc1e6d12632644839ae87c73c8
+"@sprucelabs/error@npm:^2.2.356":
+  version: 2.2.356
+  resolution: "@sprucelabs/error@npm:2.2.356"
+  checksum: fdc09dde162660e8aef532c735f132ef2d83b6c7300f5408ed1791a442baa3ee0723d5b6e29d1f68a7a239d96e14ccc56a2a64381bcaa3b392d13da2e31147af
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.355
+    "@sprucelabs/error": ^2.2.356
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.66
+    "@sprucelabs/test": ^7.0.67
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.2.0
     "@typescript-eslint/parser": ^4.2.0
@@ -1785,12 +1785,12 @@ __metadata:
     concurrently: ^5.3.0
     conventional-changelog-sprucelabs: ^1.1.1
     eslint: ^7.10.0
-    eslint-config-spruce: ^10.9.64
+    eslint-config-spruce: ^10.9.65
     eslint-import-resolver-node: ^0.3.4
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.64
+    eslint-plugin-spruce: ^10.9.65
     jest: ^26.4.2
     lodash: ^4.17.20
     prettier: ^2.1.2
@@ -1801,9 +1801,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.66":
-  version: 7.0.66
-  resolution: "@sprucelabs/test@npm:7.0.66"
+"@sprucelabs/test@npm:^7.0.67":
+  version: 7.0.67
+  resolution: "@sprucelabs/test@npm:7.0.67"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1816,7 +1816,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.0
     typescript: ^4.0.3
-  checksum: 176753e807c83050f413689633d52c3dea8b6348321e0cab314b1a831e2b331d7d55f6ed1067bde6f0d55bcfff588956faf24f4d4cc5a5ce718789154b136866
+  checksum: c3e45e622ea83299bfd2a5354eac6494709a8bf5f58b17851d5c57206ef120f8c2237774c7743e7a9b4b426f751eb1bf22bcceaddca6cf15f775e51ddfe8f6af
   languageName: node
   linkType: hard
 
@@ -4318,28 +4318,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.64":
-  version: 10.9.64
-  resolution: "eslint-config-spruce@npm:10.9.64"
+"eslint-config-spruce@npm:^10.9.65":
+  version: 10.9.65
+  resolution: "eslint-config-spruce@npm:10.9.65"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.2.0
     "@typescript-eslint/parser": ^4.2.0
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.12.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.64
+    eslint-plugin-spruce: ^10.9.65
   peerDependencies:
     eslint: ^7.10.0
     prettier: ^2.1.2
     typescript: ^4.0.3
-  checksum: c573811540cdb6c3e1fab3c8cba964f8d02910ca028e46a10376d766a031363d3a82798d92058fcbc39ce1b4aa6cb975df6657961ee3807044e3b729379c8546
+  checksum: 73f80d0c18b4e31f4f44ab931bacf93dede0a69c4584bafd263b643c1e62f64dfb2705b0050e29c04fda2dc2ea8b626355832f42affa6bd1e83ae614adc8e1b9
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.3, eslint-import-resolver-node@npm:^0.3.4":
+"eslint-import-resolver-node@npm:^0.3.4":
   version: 0.3.4
   resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
@@ -4359,16 +4359,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.22.0":
-  version: 2.22.0
-  resolution: "eslint-plugin-import@npm:2.22.0"
+"eslint-plugin-import@npm:^2.22.1":
+  version: 2.22.1
+  resolution: "eslint-plugin-import@npm:2.22.1"
   dependencies:
     array-includes: ^3.1.1
     array.prototype.flat: ^1.2.3
     contains-path: ^0.1.0
     debug: ^2.6.9
     doctrine: 1.5.0
-    eslint-import-resolver-node: ^0.3.3
+    eslint-import-resolver-node: ^0.3.4
     eslint-module-utils: ^2.6.0
     has: ^1.0.3
     minimatch: ^3.0.4
@@ -4378,7 +4378,7 @@ __metadata:
     tsconfig-paths: ^3.9.0
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
-  checksum: ad41aec63d8986e0a0e279bb2877e1f36029573b8f310112159509fd52d7344a2e91bd4bb9c6d2b131838a3538a0bc5e3998217df1b88304df9872ad9fb30c84
+  checksum: 35ae09ceae6f0fe239f6b72e134d58d74762ad1ed0f57aa989affb856354e46bc082bb6df9399b624989107efb9ab9af2c91c08f03c0c70c5cb46a37676591ec
   languageName: node
   linkType: hard
 
@@ -4436,12 +4436,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.64":
-  version: 10.9.64
-  resolution: "eslint-plugin-spruce@npm:10.9.64"
+"eslint-plugin-spruce@npm:^10.9.65":
+  version: 10.9.65
+  resolution: "eslint-plugin-spruce@npm:10.9.65"
   dependencies:
     pascal-case: ^3.1.1
-  checksum: d3fb7b1a997767695497a83e9db7b22f44675ddbfe94dc15878744627c25e581a03d4428ab854c8f1bac61737a90deeef525098d6ee9dd4a2f58563bdd6cd1b8
+  checksum: 0ea625ad1b38b60e449d6546d83787e189139217585315f477e1e8a600aad6287dadf339f3c9958426373f5fd136828b22a429b08d948d9bbcf7de0f39607a41
   languageName: node
   linkType: hard
 

@@ -38,8 +38,8 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.355",
-		"@sprucelabs/test": "^7.0.66"
+		"@sprucelabs/error": "^2.2.356",
+		"@sprucelabs/test": "^7.0.67"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",
@@ -52,12 +52,12 @@
 		"concurrently": "^5.3.0",
 		"conventional-changelog-sprucelabs": "^1.1.1",
 		"eslint": "^7.10.0",
-		"eslint-config-spruce": "^10.9.64",
+		"eslint-config-spruce": "^10.9.65",
 		"eslint-import-resolver-node": "^0.3.4",
-		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.21.2",
-		"eslint-plugin-spruce": "^10.9.64",
+		"eslint-plugin-spruce": "^10.9.65",
 		"jest": "^26.4.2",
 		"lodash": "^4.17.20",
 		"prettier": "^2.1.2",
