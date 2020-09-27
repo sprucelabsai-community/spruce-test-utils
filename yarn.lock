@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.349":
-  version: 2.2.349
-  resolution: "@sprucelabs/error@npm:2.2.349"
-  checksum: 70b39000dd405f947a0250ce10792e41f8f96c9a6f5094fcbce4cb2524e4e4f9aebddd540fdb218b13c7338ee5a1631f67a1dc815498f4788cf122e3df93e69f
+"@sprucelabs/error@npm:^2.2.355":
+  version: 2.2.355
+  resolution: "@sprucelabs/error@npm:2.2.355"
+  checksum: 972c413cabb33ef858fcef1c72c9ee719e4d4eeaef1dbc4876c31b06b0bbcef3c3cc7a6bf91b03fa956df60c957230d6c8d405cc1e6d12632644839ae87c73c8
   languageName: node
   linkType: hard
 
@@ -1773,21 +1773,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sprucelabs/test-utils@workspace:."
   dependencies:
-    "@sprucelabs/error": ^2.2.349
+    "@sprucelabs/error": ^2.2.355
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.62
+    "@sprucelabs/test": ^7.0.66
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.2.0
     "@typescript-eslint/parser": ^4.2.0
     chokidar-cli: ^2.1.0
     concurrently: ^5.3.0
-    eslint: ^7.9.0
-    eslint-config-spruce: ^10.9.62
+    eslint: ^7.10.0
+    eslint-config-spruce: ^10.9.64
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.62
+    eslint-plugin-spruce: ^10.9.64
     jest: ^26.4.2
     lodash: ^4.17.20
     prettier: ^2.1.2
@@ -1798,9 +1798,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.62":
-  version: 7.0.62
-  resolution: "@sprucelabs/test@npm:7.0.62"
+"@sprucelabs/test@npm:^7.0.66":
+  version: 7.0.66
+  resolution: "@sprucelabs/test@npm:7.0.66"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1813,7 +1813,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.0
     typescript: ^4.0.3
-  checksum: aec6ad55141a86714850fbe1fa7608d7971f1675f815bdfa0605480717ba68724d5904503f4caeb2e335f866480291f59ac559a41fabe2ed5c028d50bebcbbac
+  checksum: 176753e807c83050f413689633d52c3dea8b6348321e0cab314b1a831e2b331d7d55f6ed1067bde6f0d55bcfff588956faf24f4d4cc5a5ce718789154b136866
   languageName: node
   linkType: hard
 
@@ -4315,9 +4315,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.62":
-  version: 10.9.62
-  resolution: "eslint-config-spruce@npm:10.9.62"
+"eslint-config-spruce@npm:^10.9.64":
+  version: 10.9.64
+  resolution: "eslint-config-spruce@npm:10.9.64"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.2.0
     "@typescript-eslint/parser": ^4.2.0
@@ -4327,12 +4327,12 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.62
+    eslint-plugin-spruce: ^10.9.64
   peerDependencies:
-    eslint: ^7.9.0
+    eslint: ^7.10.0
     prettier: ^2.1.2
     typescript: ^4.0.3
-  checksum: 58220637a5432346774b54d54149c4866f33193db0bc581f7adc2a685e72303f85fb8f491f402c1302842415b07748647f3fd51ff81b4e9611539a272e899c64
+  checksum: c573811540cdb6c3e1fab3c8cba964f8d02910ca028e46a10376d766a031363d3a82798d92058fcbc39ce1b4aa6cb975df6657961ee3807044e3b729379c8546
   languageName: node
   linkType: hard
 
@@ -4433,16 +4433,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.62":
-  version: 10.9.62
-  resolution: "eslint-plugin-spruce@npm:10.9.62"
+"eslint-plugin-spruce@npm:^10.9.64":
+  version: 10.9.64
+  resolution: "eslint-plugin-spruce@npm:10.9.64"
   dependencies:
     pascal-case: ^3.1.1
-  checksum: 09a06e70a59b49e696f91a1f2f3bd1d8c4c879372aff64e620f2b6a3b61b4cf9ff2d4ec453093246df6ae803fb1ce714a2c36e7187c7339e3a578d8840e21257
+  checksum: d3fb7b1a997767695497a83e9db7b22f44675ddbfe94dc15878744627c25e581a03d4428ab854c8f1bac61737a90deeef525098d6ee9dd4a2f58563bdd6cd1b8
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^5.0.0, eslint-scope@npm:^5.1.0":
+"eslint-scope@npm:^5.0.0, eslint-scope@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-scope@npm:5.1.1"
   dependencies:
@@ -4475,9 +4475,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.9.0":
-  version: 7.9.0
-  resolution: "eslint@npm:7.9.0"
+"eslint@npm:^7.10.0":
+  version: 7.10.0
+  resolution: "eslint@npm:7.10.0"
   dependencies:
     "@babel/code-frame": ^7.0.0
     "@eslint/eslintrc": ^0.1.3
@@ -4487,7 +4487,7 @@ __metadata:
     debug: ^4.0.1
     doctrine: ^3.0.0
     enquirer: ^2.3.5
-    eslint-scope: ^5.1.0
+    eslint-scope: ^5.1.1
     eslint-utils: ^2.1.0
     eslint-visitor-keys: ^1.3.0
     espree: ^7.3.0
@@ -4518,7 +4518,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 295fe8c442b9e9cc677fa03c88a873ad74c1d06620f4600745de83e5d4d10d53898cd1e15276e3420c976f00469d1ea8bbc5a4157c1f198753cece98f8903f5c
+  checksum: a136b9e01c956b97b1705517ecf71de082d7758b5871c97f4ca6a33a6f364f8be42a75f045ed74c3ae85e42e333269c4db5ad8b793f0ceeb10975726808a1514
   languageName: node
   linkType: hard
 
@@ -9259,13 +9259,13 @@ __metadata:
   linkType: hard
 
 "query-string@npm:^6.8.2":
-  version: 6.13.2
-  resolution: "query-string@npm:6.13.2"
+  version: 6.13.3
+  resolution: "query-string@npm:6.13.3"
   dependencies:
     decode-uri-component: ^0.2.0
     split-on-first: ^1.0.0
     strict-uri-encode: ^2.0.0
-  checksum: a93a866ccc68f58b14cb8f681bc93b94aa3c98433d987ae51295d0ffc5bcb24e812fbc66e81174d60d5e8e0e94e72ab1be8ec5c29f578a82ce0806018f74601e
+  checksum: a82ffda8c133057efc6445e9c60cc708677a66697b37fcb16d9206222e9fca5f539145ebf9cbccd81fcd887c4f86b1448a15cbb442ffc39f381c72ad088b8823
   languageName: node
   linkType: hard
 
@@ -11173,11 +11173,11 @@ typescript@^4.0.3:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.10.4
-  resolution: "uglify-js@npm:3.10.4"
+  version: 3.11.0
+  resolution: "uglify-js@npm:3.11.0"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: b16ee80e2d4bcddc6e792fdcc58a17f837eed9609f9b945012ab0829bb3a60b71e20a653d9f7a0eb73275694a08a33974bc2f9a8d9b3c829eb5e4a24bd81120d
+  checksum: f2a45ef9556fbc918cd990b8a55aa345b17b8071aa53407f90669cfe6c7bcb7136d652c0a06c8e8c835aadfb612899a06b9a4a07346a1ee4154f59dd53ea9266
   languageName: node
   linkType: hard
 
