@@ -89,6 +89,7 @@ jobs:
               echo "Upgrade errored and removed the yarn.lock. Likely due to a package version missing"
               circleci-agent step halt
             fi
+            yarn
       - run:
           name: "Create PR"
           command: |
