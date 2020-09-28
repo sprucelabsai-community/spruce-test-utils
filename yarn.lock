@@ -1797,7 +1797,6 @@ __metadata:
     semantic-release: ^17.1.2
     ts-node: ^9.0.0
     typescript: ^4.0.3
-    yarn: ^1.22.10
   languageName: unknown
   linkType: soft
 
@@ -11941,16 +11940,6 @@ typescript@^4.0.3:
     y18n: ^3.2.1
     yargs-parser: ^7.0.0
   checksum: 6930d9cddd837795714079549d994fe2bd2de33bf7d2f08a48caa0848ff5fbd23e976f3cbd98d2003f91a40b94789144d87744b681a99620b5c97ccbe694c0e9
-  languageName: node
-  linkType: hard
-
-"yarn@npm:^1.22.10":
-  version: 1.22.10
-  resolution: "yarn@npm:1.22.10"
-  bin:
-    yarn: bin/yarn.js
-    yarnpkg: bin/yarn.js
-  checksum: e43c2102576ac3d79f58f6cddc36726e39d54357bbdd2b9af8ad94d8368e63170555acb4652af08a04354e1a92555d5b293936f9d9b3c8b066872ac11f32cb29
   languageName: node
   linkType: hard
 
