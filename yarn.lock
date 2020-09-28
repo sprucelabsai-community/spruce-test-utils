@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.363":
-  version: 2.2.363
-  resolution: "@sprucelabs/error@npm:2.2.363"
-  checksum: 090429ac7bf85b0339c6007a304bd7cb22fdb7b466c55f08f6aa26fa378b3e70d93357847c2168a297c4e6a333116b14cac57217e21df79645537d136fa8c451
+"@sprucelabs/error@npm:^2.2.367":
+  version: 2.2.367
+  resolution: "@sprucelabs/error@npm:2.2.367"
+  checksum: 3189eb65459ad6f327c83959a77d24642a843b5ee578362dc9ce9f55ede5e53af8f86bef00aa346254bf86cb5b49ac77fa84c855c654e98981c414977da32692
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.363
+    "@sprucelabs/error": ^2.2.367
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.70
+    "@sprucelabs/test": ^7.0.74
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.70":
-  version: 7.0.70
-  resolution: "@sprucelabs/test@npm:7.0.70"
+"@sprucelabs/test@npm:^7.0.74":
+  version: 7.0.74
+  resolution: "@sprucelabs/test@npm:7.0.74"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.0
     typescript: ^4.0.3
-  checksum: 41fec3e403262e6365e89ac334534de7369694c98cdf41734dee0256815ef11be294401cd3888c90f66a04c656500e0aee3372bedd8454c182570d9d6692fcff
+  checksum: 6f140348ee69ef2bbe96681815e6b63d14973a160e379a0307e3dba7d39253847e5a4dbf559cbf918556ffe23088022efd2dcc26551fd3516e06985d46b77e84
   languageName: node
   linkType: hard
 
@@ -3777,9 +3777,9 @@ __metadata:
   linkType: hard
 
 "decimal.js@npm:^10.2.0":
-  version: 10.2.0
-  resolution: "decimal.js@npm:10.2.0"
-  checksum: f60df1cce54e4b717cf9b865cbacf667ee67747563a4e84a2ebe8fd65fd57814a3ba6eba0870345fe37aea574ecbb84b3642a6e4e7a9089d3c7fbff8247e3c7f
+  version: 10.2.1
+  resolution: "decimal.js@npm:10.2.1"
+  checksum: ba28b27bb8aca6bbb73fbdb51d759961d9ff82218c4aa737b4f4826dee4244618a61c410201bb152950c4915e3d82a86211d1c2a4e23f805ee577574ba115e59
   languageName: node
   linkType: hard
 
