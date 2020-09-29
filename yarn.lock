@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.372":
-  version: 2.2.372
-  resolution: "@sprucelabs/error@npm:2.2.372"
-  checksum: a631124bc393dd165962c9f2e23407a26bb4e3b30d2dbd93594548f0faf4a369d9f2d2c18d3343b19d1ee8fd1041de0f04f26a3b50e8ce0aa693c8620a44a426
+"@sprucelabs/error@npm:^2.2.373":
+  version: 2.2.373
+  resolution: "@sprucelabs/error@npm:2.2.373"
+  checksum: 693e6b623af6169d6b8055d630f28e10b8965be3d78d126778eed0f7a79ef86778b70143341a5ac509214451b6556bc01a25986cfabe3fd459f2d5e785f4ad6b
   languageName: node
   linkType: hard
 
@@ -1775,7 +1775,7 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.372
+    "@sprucelabs/error": ^2.2.373
     "@sprucelabs/semantic-release": ^4.0.5
     "@sprucelabs/test": ^7.0.77
     "@types/lodash": ^4.14.161
