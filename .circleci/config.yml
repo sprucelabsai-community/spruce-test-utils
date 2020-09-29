@@ -93,7 +93,8 @@ jobs:
       - run:
           name: "Create PR"
           command: |
-            git commit -a -m "chore(auto-upgrade): upgraded packages [upgrade-all]"
+            git add .
+            git commit -m "chore(auto-upgrade): upgraded packages [upgrade-all]"
             git push --force origin $TARGETBRANCH
             git push --set-upstream origin $TARGETBRANCH
             echo "$(hub pull-request --base master --head $TARGETBRANCH -m 'Automated Package Upgrade' 2>&1)" |egrep "/pull/|already exists"
