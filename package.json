@@ -38,7 +38,7 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.370",
+		"@sprucelabs/error": "^2.2.371",
 		"@sprucelabs/test": "^7.0.76"
 	},
 	"devDependencies": {
