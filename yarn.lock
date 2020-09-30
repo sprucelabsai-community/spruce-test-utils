@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.385":
-  version: 2.2.385
-  resolution: "@sprucelabs/error@npm:2.2.385"
-  checksum: 9af939c57f8fe26a37e6b8320c2bc1799031ef329a11897ea5708989fab4e3e6e9d814d9fa204d300f83d9497fc5e01c763f6e39b38cf1b2bb61595cc211b425
+"@sprucelabs/error@npm:^2.2.386":
+  version: 2.2.386
+  resolution: "@sprucelabs/error@npm:2.2.386"
+  checksum: 881ac274b2525fc6c8d2feed816913c4629d5e999c09bc9fdf44344d06a1daad16f13e4f57bee867869c6357b6441c63ebe7a783cb26f9d011b92d24f9a47cb3
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.385
+    "@sprucelabs/error": ^2.2.386
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.86
+    "@sprucelabs/test": ^7.0.87
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1785,12 +1785,12 @@ __metadata:
     concurrently: ^5.3.0
     conventional-changelog-sprucelabs: ^1.1.1
     eslint: ^7.10.0
-    eslint-config-spruce: ^10.9.67
+    eslint-config-spruce: ^10.9.68
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.67
+    eslint-plugin-spruce: ^10.9.68
     jest: ^26.4.2
     lodash: ^4.17.20
     prettier: ^2.1.2
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.86":
-  version: 7.0.86
-  resolution: "@sprucelabs/test@npm:7.0.86"
+"@sprucelabs/test@npm:^7.0.87":
+  version: 7.0.87
+  resolution: "@sprucelabs/test@npm:7.0.87"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 8473c5663aedf4325d6d5606afcd45e2a0fa29a4997b87a57c830a96abd033ee8619fb3e234b5f85632e11dd6d327377b425b032885aaefa6516f77ce6b238a5
+  checksum: f83e1dd4e71d5563effedd2a2f03243cbdbc2bdc692bf63a1ecda7007b84f0a2db3de72bad1d865e3a42201a46d532f5dbfb5554d9604beef2ba0753d10a85b1
   languageName: node
   linkType: hard
 
@@ -4184,25 +4184,25 @@ __metadata:
   linkType: hard
 
 "es-abstract@npm:^1.17.0, es-abstract@npm:^1.17.0-next.1, es-abstract@npm:^1.17.4, es-abstract@npm:^1.17.5":
-  version: 1.17.6
-  resolution: "es-abstract@npm:1.17.6"
+  version: 1.17.7
+  resolution: "es-abstract@npm:1.17.7"
   dependencies:
     es-to-primitive: ^1.2.1
     function-bind: ^1.1.1
     has: ^1.0.3
     has-symbols: ^1.0.1
-    is-callable: ^1.2.0
-    is-regex: ^1.1.0
-    object-inspect: ^1.7.0
+    is-callable: ^1.2.2
+    is-regex: ^1.1.1
+    object-inspect: ^1.8.0
     object-keys: ^1.1.1
-    object.assign: ^4.1.0
+    object.assign: ^4.1.1
     string.prototype.trimend: ^1.0.1
     string.prototype.trimstart: ^1.0.1
-  checksum: 637ad488bdcbc538dfb35ee30cdbe5e48ecf68c5145a368c8f1be346e83d2555e416709e9382eb9902e542da94763cdd2152d87dbbb01b5b39919c1329bd0bb4
+  checksum: e8dfb81bbabcde46d2309436f107d3e795e4bcb83d78614e0c65ca7baac50522603e363be1b81ad5b1943c93fc02ed550198a7dd0580a671a6171960f2490a97
   languageName: node
   linkType: hard
 
-"es-abstract@npm:^1.18.0-next.0":
+"es-abstract@npm:^1.18.0-next.0, es-abstract@npm:^1.18.0-next.1":
   version: 1.18.0-next.1
   resolution: "es-abstract@npm:1.18.0-next.1"
   dependencies:
@@ -4317,9 +4317,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.67":
-  version: 10.9.67
-  resolution: "eslint-config-spruce@npm:10.9.67"
+"eslint-config-spruce@npm:^10.9.68":
+  version: 10.9.68
+  resolution: "eslint-config-spruce@npm:10.9.68"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -4329,12 +4329,12 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.67
+    eslint-plugin-spruce: ^10.9.68
   peerDependencies:
     eslint: ^7.10.0
     prettier: ^2.1.2
     typescript: ^4.0.3
-  checksum: 2c37768562496a0faca0f3cbde71821a61233ee12fe70058b7ae4e611fa6b00e2e63b5cd811539d6107ea27adaad9b9367c58cffd7671f739e3744ff6db9eb1a
+  checksum: 683a75529931944c637638ec3149d7d3889841b2fc868ba8e365041607b8928d88cc8932ca49af2f0ee555fa68d08c6fedd75668da3eacb081bc9e9e8eddbba8
   languageName: node
   linkType: hard
 
@@ -4435,12 +4435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.67":
-  version: 10.9.67
-  resolution: "eslint-plugin-spruce@npm:10.9.67"
+"eslint-plugin-spruce@npm:^10.9.68":
+  version: 10.9.68
+  resolution: "eslint-plugin-spruce@npm:10.9.68"
   dependencies:
     pascal-case: ^3.1.1
-  checksum: 16b3f738677bfa4c489c61f4cf648bf12996ec512d8971643d8e4c8441a9cac48916fd3a0b361e4dce673885d866f90813fe4c6308f7a7e55b5b1b570460110a
+  checksum: d2168c7758d174fc289b4516e64d863ca62a741d00a01e464ea10f7ba377e782f5fb6b362f4103fb641673b855cebb37e143072fc89757c393e76c457e0bc7c8
   languageName: node
   linkType: hard
 
@@ -5789,7 +5789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-callable@npm:^1.1.4, is-callable@npm:^1.2.0, is-callable@npm:^1.2.2":
+"is-callable@npm:^1.1.4, is-callable@npm:^1.2.2":
   version: 1.2.2
   resolution: "is-callable@npm:1.2.2"
   checksum: c35d37cc46c997d6417d7254733c8a3b1146f18121197c5600f601c56fb27abd1b372b0b9c41ea9a69d30556a2a0fd85e396da8eb8bc4af2e5ad8c5232fcd433
@@ -6059,7 +6059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-regex@npm:^1.0.5, is-regex@npm:^1.1.0, is-regex@npm:^1.1.1":
+"is-regex@npm:^1.0.5, is-regex@npm:^1.1.1":
   version: 1.1.1
   resolution: "is-regex@npm:1.1.1"
   dependencies:
@@ -8464,7 +8464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-inspect@npm:^1.7.0, object-inspect@npm:^1.8.0":
+"object-inspect@npm:^1.8.0":
   version: 1.8.0
   resolution: "object-inspect@npm:1.8.0"
   checksum: 4da23a188b3811d75fcd6e7916471465f94e4752159e064f9621040945d375dca1afa092a000a398267d81b4f40bf33cfdbe1e99eff98f1972155efe055f80c8
@@ -8472,12 +8472,12 @@ __metadata:
   linkType: hard
 
 "object-is@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "object-is@npm:1.1.2"
+  version: 1.1.3
+  resolution: "object-is@npm:1.1.3"
   dependencies:
     define-properties: ^1.1.3
-    es-abstract: ^1.17.5
-  checksum: 9ea7df4475f250c968171fa142b6584bad4c65859af8cb50e06fa8168089ae47afb460776ab60fe5f3aea8ea3c97b30dd0b37d41e23106f2abcc7d6f982bec04
+    es-abstract: ^1.18.0-next.1
+  checksum: f16b6ae28ca9a46154dc549c1660d1db411bbe57643a0479292814cb1842c9ecacb13aac9a18df6ce7af0991c5b034113bdb5a4a9feb282d6deaa136d2ea14e2
   languageName: node
   linkType: hard
 
