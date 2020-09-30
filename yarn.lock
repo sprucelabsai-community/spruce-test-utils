@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.381":
-  version: 2.2.381
-  resolution: "@sprucelabs/error@npm:2.2.381"
-  checksum: 255a2979b33a24c11137c007c3f5735dd7edeae28ad0fdbb4015494c0c97b235a8676625b310e4512646dff15fefefb3ef830bf390c49a3d7c5bf18282ca9c25
+"@sprucelabs/error@npm:^2.2.382":
+  version: 2.2.382
+  resolution: "@sprucelabs/error@npm:2.2.382"
+  checksum: 47b62959c209b004a07f57ee7df1cd58a81f723acaa63a41d8c85375c805ab58bad76244dfbbc1e5998c142ebb645c82e30e7c884222eb905aacf52bc11673ef
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.381
+    "@sprucelabs/error": ^2.2.382
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.82
+    "@sprucelabs/test": ^7.0.83
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.82":
-  version: 7.0.82
-  resolution: "@sprucelabs/test@npm:7.0.82"
+"@sprucelabs/test@npm:^7.0.83":
+  version: 7.0.83
+  resolution: "@sprucelabs/test@npm:7.0.83"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: c5cb787e66094271e69e0b2158ea56933b4aa43eda82c54092f5eb9418fe5dc5416727e9b91648d322777a47874642cc74d9938c4cf06d05e2f2de008aed0021
+  checksum: 66a0de20b0897eddaa9ce92aa0154f78a5c18d29516e8b65282914e62f97364c9b0ce560b946c823b324c6ac13833f8f33c89ac73beaadfad8568f182de213b9
   languageName: node
   linkType: hard
 
@@ -11536,13 +11536,13 @@ typescript@^4.0.3:
   linkType: hard
 
 "whatwg-url@npm:^8.0.0":
-  version: 8.2.2
-  resolution: "whatwg-url@npm:8.2.2"
+  version: 8.3.0
+  resolution: "whatwg-url@npm:8.3.0"
   dependencies:
     lodash.sortby: ^4.7.0
     tr46: ^2.0.2
     webidl-conversions: ^6.1.0
-  checksum: 3200508d0b79cfee888fb36bf26873e0583608d59be5e7486959de492c5d1aa649f8457930d0be6920d1c9b2fbd4238af45c5bd57f7fa12bb0b03483f9ccb56b
+  checksum: f5735046ef21d5bac4e81313184eac071825b61130f81c70a956fd900938cd282dcf4ed6ccceebed8fcfc0ed76060070d9d16e26d240ef19c1a335487542f42c
   languageName: node
   linkType: hard
 
