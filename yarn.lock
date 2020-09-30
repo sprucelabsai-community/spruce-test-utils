@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.375":
-  version: 2.2.375
-  resolution: "@sprucelabs/error@npm:2.2.375"
-  checksum: 48ad2e45257e72d4d9333de875bb5b4adec5413eacb8c390250234328ea2331a7f1ddde348d49e767f3b8cd3d78d4f2fbdd9257a2381d48af6e9d3e606dabd01
+"@sprucelabs/error@npm:^2.2.376":
+  version: 2.2.376
+  resolution: "@sprucelabs/error@npm:2.2.376"
+  checksum: ab5ccc28ce272202457684418d36d3d7ac72f4b89c678eb8d6160eea0791f90add5972786b597f761fa2f695604a380447472f1f742f707b11c60e8f305227f4
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.375
+    "@sprucelabs/error": ^2.2.376
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.79
+    "@sprucelabs/test": ^7.0.80
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.79":
-  version: 7.0.79
-  resolution: "@sprucelabs/test@npm:7.0.79"
+"@sprucelabs/test@npm:^7.0.80":
+  version: 7.0.80
+  resolution: "@sprucelabs/test@npm:7.0.80"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 1f6a27f8569c01917d2094dc74dc284f271f2bb0da0b527f763e268d7aa4c26e9203fd51e5ab1ab5b6a9cc612272e58202cd389a2506f3c218348b36e3141312
+  checksum: aba1ff5ba819df80c3a6c67712f06726609738fc61ea70e8e9d9ba4ef24e12649392d6cda65db9e9a4d66503576dbfa263475c2cbb27feebd908255cbba71229
   languageName: node
   linkType: hard
 
@@ -2993,9 +2993,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001135":
-  version: 1.0.30001138
-  resolution: "caniuse-lite@npm:1.0.30001138"
-  checksum: 6b1bd74d8d67c5d7f15ba2a664e1be54a3aa485e30bc2e61ddbb4eba2caf0e0ef3584180d9d82cb4b88118ffff5ed919f80488e4795bba84a4b6762b4fae3469
+  version: 1.0.30001140
+  resolution: "caniuse-lite@npm:1.0.30001140"
+  checksum: 32d2130c29d99ff9e4aca14557ede1f2024aa3da6dce77f3759d139e95a698186c713e9d005ecd81cfa4ad59ad125c84d792aaabe1b2aa7a52ed19e0aef5b047
   languageName: node
   linkType: hard
 

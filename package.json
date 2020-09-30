@@ -38,8 +38,8 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.375",
-		"@sprucelabs/test": "^7.0.79"
+		"@sprucelabs/error": "^2.2.376",
+		"@sprucelabs/test": "^7.0.80"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",
