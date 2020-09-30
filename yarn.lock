@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.384":
-  version: 2.2.384
-  resolution: "@sprucelabs/error@npm:2.2.384"
-  checksum: c9f6202f3074154185fbe4ac5cbc5c691db320affc60f957b48fddc75508c57984956d7ac50f6dd8e69d495924502617e1d189ee695b0442daf0401b523bb6e7
+"@sprucelabs/error@npm:^2.2.385":
+  version: 2.2.385
+  resolution: "@sprucelabs/error@npm:2.2.385"
+  checksum: 9af939c57f8fe26a37e6b8320c2bc1799031ef329a11897ea5708989fab4e3e6e9d814d9fa204d300f83d9497fc5e01c763f6e39b38cf1b2bb61595cc211b425
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.384
+    "@sprucelabs/error": ^2.2.385
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.85
+    "@sprucelabs/test": ^7.0.86
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.85":
-  version: 7.0.85
-  resolution: "@sprucelabs/test@npm:7.0.85"
+"@sprucelabs/test@npm:^7.0.86":
+  version: 7.0.86
+  resolution: "@sprucelabs/test@npm:7.0.86"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 10e0624d353f151e4a0593232a2b63479fd9e62931333a71d3874c504bcc5aa1019fce0795bba96a9aabb369e61e47f7b4c396cd19028a177d53d5b0e5a20bee
+  checksum: 8473c5663aedf4325d6d5606afcd45e2a0fa29a4997b87a57c830a96abd033ee8619fb3e234b5f85632e11dd6d327377b425b032885aaefa6516f77ce6b238a5
   languageName: node
   linkType: hard
 
@@ -4203,22 +4203,22 @@ __metadata:
   linkType: hard
 
 "es-abstract@npm:^1.18.0-next.0":
-  version: 1.18.0-next.0
-  resolution: "es-abstract@npm:1.18.0-next.0"
+  version: 1.18.0-next.1
+  resolution: "es-abstract@npm:1.18.0-next.1"
   dependencies:
     es-to-primitive: ^1.2.1
     function-bind: ^1.1.1
     has: ^1.0.3
     has-symbols: ^1.0.1
-    is-callable: ^1.2.0
+    is-callable: ^1.2.2
     is-negative-zero: ^2.0.0
     is-regex: ^1.1.1
     object-inspect: ^1.8.0
     object-keys: ^1.1.1
-    object.assign: ^4.1.0
+    object.assign: ^4.1.1
     string.prototype.trimend: ^1.0.1
     string.prototype.trimstart: ^1.0.1
-  checksum: 1b2264251b11d77edb3005700d1d21f04d388f3d880b8c044b460f3dd0621a1568e0b637f8d0a3ff901e7c74ecda7922bf8a8e45b0bb7fd8d5cc7e343746d463
+  checksum: f1e37567e49a54c09050aa3371cac601a789441f4fa9730f2c2d386aadad547d6c303bb41e7f5cb5286b616104d6c13450f33b712f664939a09729dd5e45c963
   languageName: node
   linkType: hard
 
@@ -5789,7 +5789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-callable@npm:^1.1.4, is-callable@npm:^1.2.0":
+"is-callable@npm:^1.1.4, is-callable@npm:^1.2.0, is-callable@npm:^1.2.2":
   version: 1.2.2
   resolution: "is-callable@npm:1.2.2"
   checksum: c35d37cc46c997d6417d7254733c8a3b1146f18121197c5600f601c56fb27abd1b372b0b9c41ea9a69d30556a2a0fd85e396da8eb8bc4af2e5ad8c5232fcd433
@@ -8497,7 +8497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.assign@npm:^4.1.0":
+"object.assign@npm:^4.1.0, object.assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object.assign@npm:4.1.1"
   dependencies:
