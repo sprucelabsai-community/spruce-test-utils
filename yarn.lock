@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.383":
-  version: 2.2.383
-  resolution: "@sprucelabs/error@npm:2.2.383"
-  checksum: f7d2f3d7064308e1f8327c431c0261309b4c77ceb5e817296b5a5effa0b147f449b09e1f610c1977ef1af9fd6f8b4c253b572e11a26353f388dd3fdafba2979b
+"@sprucelabs/error@npm:^2.2.384":
+  version: 2.2.384
+  resolution: "@sprucelabs/error@npm:2.2.384"
+  checksum: c9f6202f3074154185fbe4ac5cbc5c691db320affc60f957b48fddc75508c57984956d7ac50f6dd8e69d495924502617e1d189ee695b0442daf0401b523bb6e7
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.383
+    "@sprucelabs/error": ^2.2.384
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.83
+    "@sprucelabs/test": ^7.0.85
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.83":
-  version: 7.0.83
-  resolution: "@sprucelabs/test@npm:7.0.83"
+"@sprucelabs/test@npm:^7.0.85":
+  version: 7.0.85
+  resolution: "@sprucelabs/test@npm:7.0.85"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 66a0de20b0897eddaa9ce92aa0154f78a5c18d29516e8b65282914e62f97364c9b0ce560b946c823b324c6ac13833f8f33c89ac73beaadfad8568f182de213b9
+  checksum: 10e0624d353f151e4a0593232a2b63479fd9e62931333a71d3874c504bcc5aa1019fce0795bba96a9aabb369e61e47f7b4c396cd19028a177d53d5b0e5a20bee
   languageName: node
   linkType: hard
 
