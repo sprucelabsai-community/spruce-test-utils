@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/changelog", "virtual:8691a3a3b981d9951d6a1b39d599f07c4479304974097cf39a78430b18ebeb98d86d8e51887cb405f1b72302f1426ba758fd98908c25c1fd1d03cd0f7fa21ab2#npm:5.0.1"],
             ["@semantic-release/git", "virtual:8691a3a3b981d9951d6a1b39d599f07c4479304974097cf39a78430b18ebeb98d86d8e51887cb405f1b72302f1426ba758fd98908c25c1fd1d03cd0f7fa21ab2#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.378"],
+            ["@sprucelabs/error", "npm:2.2.379"],
             ["@sprucelabs/semantic-release", "npm:4.0.5"],
             ["@sprucelabs/test", "npm:7.0.81"],
             ["@types/lodash", "npm:4.14.161"],
@@ -2294,7 +2294,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:9.0.1"],
             ["lodash", "npm:4.17.20"],
             ["nerf-dart", "npm:1.0.0"],
-            ["normalize-url", "npm:5.2.0"],
+            ["normalize-url", "npm:5.2.1"],
             ["npm", "npm:6.14.8"],
             ["rc", "npm:1.2.8"],
             ["read-pkg", "npm:5.2.0"],
@@ -2356,10 +2356,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sprucelabs/error", [
-        ["npm:2.2.378", {
-          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.378-1acd284261-4a333583da.zip/node_modules/@sprucelabs/error/",
+        ["npm:2.2.379", {
+          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.379-4fc084f07d-1b9f621897.zip/node_modules/@sprucelabs/error/",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:2.2.378"]
+            ["@sprucelabs/error", "npm:2.2.379"]
           ],
           "linkType": "HARD",
         }]
@@ -2404,7 +2404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test-utils", "workspace:."],
             ["@semantic-release/changelog", "virtual:8691a3a3b981d9951d6a1b39d599f07c4479304974097cf39a78430b18ebeb98d86d8e51887cb405f1b72302f1426ba758fd98908c25c1fd1d03cd0f7fa21ab2#npm:5.0.1"],
             ["@semantic-release/git", "virtual:8691a3a3b981d9951d6a1b39d599f07c4479304974097cf39a78430b18ebeb98d86d8e51887cb405f1b72302f1426ba758fd98908c25c1fd1d03cd0f7fa21ab2#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.378"],
+            ["@sprucelabs/error", "npm:2.2.379"],
             ["@sprucelabs/semantic-release", "npm:4.0.5"],
             ["@sprucelabs/test", "npm:7.0.81"],
             ["@types/lodash", "npm:4.14.161"],
@@ -9490,10 +9490,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["normalize-url", [
-        ["npm:5.2.0", {
-          "packageLocation": "./.yarn/cache/normalize-url-npm-5.2.0-92a80d6a05-47c36a6d7f.zip/node_modules/normalize-url/",
+        ["npm:5.2.1", {
+          "packageLocation": "./.yarn/cache/normalize-url-npm-5.2.1-b9eee4ac94-32b2039b43.zip/node_modules/normalize-url/",
           "packageDependencies": [
-            ["normalize-url", "npm:5.2.0"]
+            ["normalize-url", "npm:5.2.1"]
           ],
           "linkType": "HARD",
         }]
