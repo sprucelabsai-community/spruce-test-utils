@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.390":
-  version: 2.2.390
-  resolution: "@sprucelabs/error@npm:2.2.390"
-  checksum: cfbf14f509e20088df60dd12b172f44af45f3753040c900bde3f817fc508ff8936e895be2efc7cbe89d9e9e622abffb96cbe71984de0764a7da2d54f525cf9b3
+"@sprucelabs/error@npm:^2.2.391":
+  version: 2.2.391
+  resolution: "@sprucelabs/error@npm:2.2.391"
+  checksum: 9c4a63c462b0347783793c70de2e834c65bb4cddace9244ccaef926276adacd095858fae1c532ca0fc9f1098b78c26f99cb037d4074bb4a453cd015c31bacec8
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.390
+    "@sprucelabs/error": ^2.2.391
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.89
+    "@sprucelabs/test": ^7.0.90
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.89":
-  version: 7.0.89
-  resolution: "@sprucelabs/test@npm:7.0.89"
+"@sprucelabs/test@npm:^7.0.90":
+  version: 7.0.90
+  resolution: "@sprucelabs/test@npm:7.0.90"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 4b6ba9f4b788c7202e56ac1eb4632ae19dc50f41574c7294f93c9830f9eb9272dc7da945bf8b7f317c55319906f45b063f8c1256ab7230a4168ab56ce653e1e3
+  checksum: b886e49df7651484aa1c9cdef89d9da4b0301164b6e391250b8c2d2832030a95692a79e25253fbe6b360691584a0b8aae743ea1e2ef15c840bfea58197c42146
   languageName: node
   linkType: hard
 
@@ -11821,9 +11821,9 @@ typescript@^4.0.3:
   linkType: hard
 
 "yargs-parser@npm:20.x":
-  version: 20.2.0
-  resolution: "yargs-parser@npm:20.2.0"
-  checksum: d707279bded5a5e1dec5ce8c22d8b9adadd8da1c2a3e0f87c297d13284973fdeb10de8d93df950465036a23fa98bc2c3d26e2d2fc4c9c75f1f6b24db65da489f
+  version: 20.2.1
+  resolution: "yargs-parser@npm:20.2.1"
+  checksum: c4945ade7d792bde00e3f68930f56f1fdd531e501c4ecf944c524c1541c5fe2468c27b4f76b0b459009ef09e338750d01810732f99f0a1fa061af4126cf5f53e
   languageName: node
   linkType: hard
 
