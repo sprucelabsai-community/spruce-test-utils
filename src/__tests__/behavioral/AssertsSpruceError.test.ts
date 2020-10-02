@@ -46,4 +46,29 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		errorAssertUtil.assertError(err, 'ERROR_ONE', { booleanParam: true })
 	}
+
+	@test(
+		'can strip friendly message from options top level',
+		{ code: 'TEST', friendlyMessage: 'go away' },
+		{ code: 'TEST' }
+	)
+	@test(
+		'can strip friendly message from options at one level',
+		{ results: { code: 'TEST', friendlyMessage: 'go away' } },
+		{ results: { code: 'TEST' } }
+	)
+	@test(
+		'can strip friendly message from options at one level in array',
+		{ results: [{ code: 'TEST', friendlyMessage: 'go away' }] },
+		{ results: [{ code: 'TEST' }] }
+	)
+	@test(
+		'can strip friendly message from options at two levels',
+		{ results: { errors: [{ code: 'TEST', friendlyMessage: 'go away' }] } },
+		{ results: { errors: [{ code: 'TEST' }] } }
+	)
+	protected static async strippingFriendlyMessage(options: any, expected: any) {
+		const actual = errorAssertUtil.stripFriendlyMessageFromOptions(options)
+		assert.isEqualDeep(actual, expected)
+	}
 }

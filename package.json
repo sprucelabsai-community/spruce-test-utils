@@ -1,72 +1,71 @@
 {
-	"name": "@sprucelabs/test-utils",
-	"publishConfig": {
-		"access": "public"
-	},
-	"files": [
-		"build"
-	],
-	"version": "0.0.1",
-	"main": "./build/index.js",
-	"types": "./build/index.d.ts",
-	"description": "Spruce test utilities!",
-	"keywords": [
-		"node",
-		"components",
-		"sprucebot",
-		"sprucelabs"
-	],
-	"homepage": "https://github.com/sprucelabsai/spruce-test-utils",
-	"bugs": {
-		"url": "https://github.com/sprucelabsai/spruce-test-utils/issues"
-	},
-	"scripts": {
-		"build": "yarn clean && yarn build.tsc",
-		"build.tsc": "tsc",
-		"build.watch": "tsc -w",
-		"clean": "rm -rf build/",
-		"lint": "eslint '**/*.ts' --fix && yarn lint.tsc",
-		"lint.watch": "chokidar 'index.ts' 'src/**/*.(js|jsx|ts|tsx)' -c 'yarn lint'",
-		"lint.tsc": "tsc -p . --noEmit",
-		"lint.fix": "eslint --fix '**/*.ts'",
-		"test": "jest",
-		"test.watch": "jest --watch",
-		"release": "semantic-release",
-		"upgrade.packages": "yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn lint.fix | true",
-		"upgrade.packages.all": "yarn upgrade.packages",
-		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
-	},
-	"dependencies": {
-		"@sprucelabs/error": "^2.2.347",
-		"@sprucelabs/test": "^7.0.10"
-	},
-	"devDependencies": {
-		"@sprucelabs/semantic-release": "^4.0.5",
-		"@types/lodash": "^4.14.161",
-		"chokidar-cli": "^2.1.0",
-		"concurrently": "^5.3.0",
-		"eslint": "^7.9.0",
-		"eslint-config-spruce": "^10.9.46",
-		"lodash": "^4.17.20",
-		"prettier": "^2.1.1",
-		"ts-node": "^9.0.0",
-		"typescript": "^4.0.2",
-		"yarn": "^1.22.5"
-	},
-
-	"jest": {
-		"testEnvironment": "node",
-		"testPathIgnorePatterns": [
-			"<rootDir>/tmp/",
-			"<rootDir>/src/",
-			"<rootDir>/node_modules/",
-			"<rootDir>/build/__tests__/testDirsAndFiles/"
-		],
-		"watchPathIgnorePatterns": [
-			"<rootDir>/src/"
-		],
-		"testMatch": [
-			"**/__tests__/**/*.test.js?(x)"
-		]
-	}
+    "name": "@sprucelabs/test-utils",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "build"
+    ],
+    "version": "0.0.1",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "description": "Spruce test utilities!",
+    "keywords": [
+        "node",
+        "components",
+        "sprucebot",
+        "sprucelabs"
+    ],
+    "homepage": "https://github.com/sprucelabsai/spruce-test-utils",
+    "bugs": {
+        "url": "https://github.com/sprucelabsai/spruce-test-utils/issues"
+    },
+    "scripts": {
+        "build": "yarn clean && yarn build.tsc",
+        "build.tsc": "tsc",
+        "build.watch": "tsc -w",
+        "clean": "rm -rf build/",
+        "lint": "eslint '**/*.ts' --fix && yarn lint.tsc",
+        "lint.watch": "chokidar 'index.ts' 'src/**/*.(js|jsx|ts|tsx)' -c 'yarn lint'",
+        "lint.tsc": "tsc -p . --noEmit",
+        "lint.fix": "eslint --fix '**/*.ts'",
+        "test": "jest",
+        "test.watch": "jest --watch",
+        "release": "semantic-release",
+        "upgrade.packages": "yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn lint.fix | true",
+        "upgrade.packages.all": "yarn upgrade.packages",
+        "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
+    },
+    "dependencies": {
+        "@sprucelabs/error": "^2.2.347",
+        "@sprucelabs/test": "^7.0.10",
+        "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+        "@sprucelabs/semantic-release": "^4.0.5",
+        "@types/lodash": "^4.14.161",
+        "chokidar-cli": "^2.1.0",
+        "concurrently": "^5.3.0",
+        "eslint": "^7.9.0",
+        "eslint-config-spruce": "^10.9.46",
+        "prettier": "^2.1.1",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2",
+        "yarn": "^1.22.5"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "testPathIgnorePatterns": [
+            "<rootDir>/tmp/",
+            "<rootDir>/src/",
+            "<rootDir>/node_modules/",
+            "<rootDir>/build/__tests__/testDirsAndFiles/"
+        ],
+        "watchPathIgnorePatterns": [
+            "<rootDir>/src/"
+        ],
+        "testMatch": [
+            "**/__tests__/**/*.test.js?(x)"
+        ]
+    }
 }
