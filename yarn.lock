@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.397":
-  version: 2.2.397
-  resolution: "@sprucelabs/error@npm:2.2.397"
-  checksum: a7209998b11f6e99186c7434ffd899f44efb07c2ecc57b2097f1ecace1e7cba2774b21658ad8be0478fe81a712cccd8a2ab3d76e2a5a4684edd9e115b512ecd0
+"@sprucelabs/error@npm:^2.2.398":
+  version: 2.2.398
+  resolution: "@sprucelabs/error@npm:2.2.398"
+  checksum: bbabc5b3fe633b6a2175774fec193a1d02569ff8fd8a8b04541b68a5b3e2a4242fd4edf8b3cbdf03071dab8a36fda1662813508d761c698a482aeb3339ad93d2
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.397
+    "@sprucelabs/error": ^2.2.398
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.93
+    "@sprucelabs/test": ^7.0.94
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1785,12 +1785,12 @@ __metadata:
     concurrently: ^5.3.0
     conventional-changelog-sprucelabs: ^1.1.1
     eslint: ^7.10.0
-    eslint-config-spruce: ^10.9.70
+    eslint-config-spruce: ^10.9.71
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.3
-    eslint-plugin-spruce: ^10.9.70
+    eslint-plugin-spruce: ^10.9.71
     jest: ^26.4.2
     lodash: ^4.17.20
     prettier: ^2.1.2
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.93":
-  version: 7.0.93
-  resolution: "@sprucelabs/test@npm:7.0.93"
+"@sprucelabs/test@npm:^7.0.94":
+  version: 7.0.94
+  resolution: "@sprucelabs/test@npm:7.0.94"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 5f82fe3ef5efa6040cf246c6e5f24231f95b9db16bee642019be4117a85faac9c1aa87207026c15ef51112caf946410de434fb80bffd25e119675891c1665d54
+  checksum: 0a017305760829ac8ec57b9de9573e6ff0a487e46fe712df521ec4c0a4140677fab22d49b52b7364da84a5502b811f305da1d753a9923a04baa4e677bbcdf82f
   languageName: node
   linkType: hard
 
@@ -4317,9 +4317,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.70":
-  version: 10.9.70
-  resolution: "eslint-config-spruce@npm:10.9.70"
+"eslint-config-spruce@npm:^10.9.71":
+  version: 10.9.71
+  resolution: "eslint-config-spruce@npm:10.9.71"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -4328,13 +4328,13 @@ __metadata:
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-react: ^7.21.2
-    eslint-plugin-spruce: ^10.9.70
+    eslint-plugin-react: ^7.21.3
+    eslint-plugin-spruce: ^10.9.71
   peerDependencies:
     eslint: ^7.10.0
     prettier: ^2.1.2
     typescript: ^4.0.3
-  checksum: 0993dc6ce00876e2bab613f82433484f5515a9c7df620a6843b19f7742083fffe16766c17990c953029aa5c37b411bf53be2b48773068c8033f53cd16a8b7b7e
+  checksum: 57c61819de3582ab77f9cb8b3ed80487fb035f2893a2b4ec4dfd4b6b897b9bcee3b4d4a6d3933316fe5e49196c9a75304fd1a8a38e0e9551d6bd3c5e803c0469
   languageName: node
   linkType: hard
 
@@ -4414,7 +4414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.21.2, eslint-plugin-react@npm:^7.21.3":
+"eslint-plugin-react@npm:^7.21.3":
   version: 7.21.3
   resolution: "eslint-plugin-react@npm:7.21.3"
   dependencies:
@@ -4435,12 +4435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.70":
-  version: 10.9.70
-  resolution: "eslint-plugin-spruce@npm:10.9.70"
+"eslint-plugin-spruce@npm:^10.9.71":
+  version: 10.9.71
+  resolution: "eslint-plugin-spruce@npm:10.9.71"
   dependencies:
     pascal-case: ^3.1.1
-  checksum: 15c7911b90922eace293634811cd3a19984c68261c4b2ea9bbedbd6fa496a4848d167cb2692666ad19ce18d9988e6e4eb66bfb2f3dc9af50b9d60d57bdf73c01
+  checksum: 12d1c775d62e5128f7781d8c6588f6791596dd382beb4e4acb143da81b281fe137a18e2d9d4973747fe6758c937001d52ff36163aca65166ce5463e5ef51a877
   languageName: node
   linkType: hard
 
