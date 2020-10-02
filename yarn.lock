@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.392":
-  version: 2.2.392
-  resolution: "@sprucelabs/error@npm:2.2.392"
-  checksum: 80015ecc4906d05b323f50b952bf60095fabdc79d756a2ab024a53757ae9e78f451c7655ac39c3f359f40aa294e027f0fe3b55e55ae932475d164fa777e036af
+"@sprucelabs/error@npm:^2.2.393":
+  version: 2.2.393
+  resolution: "@sprucelabs/error@npm:2.2.393"
+  checksum: f90f8ca07dca094fa9787600b06829a70793e6808c779b5b4eacd67a5e729cd7c3eefb65758b7a00c1848ee7d7f93f9401a75633f9e8484b7160433fc58953b5
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.392
+    "@sprucelabs/error": ^2.2.393
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.90
+    "@sprucelabs/test": ^7.0.91
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,22 +1800,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.90":
-  version: 7.0.90
-  resolution: "@sprucelabs/test@npm:7.0.90"
+"@sprucelabs/test@npm:^7.0.91":
+  version: 7.0.91
+  resolution: "@sprucelabs/test@npm:7.0.91"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
     "@types/jest": ^26.0.14
     babel-jest: ^26.3.0
     chalk: ^4.1.0
-    deep-equal: ^2.0.3
+    deep-equal: ^2.0.4
     jest: ^26.4.2
     lodash: ^4.17.20
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: b886e49df7651484aa1c9cdef89d9da4b0301164b6e391250b8c2d2832030a95692a79e25253fbe6b360691584a0b8aae743ea1e2ef15c840bfea58197c42146
+  checksum: 2d40ec90f3ff1de74aced80b29c87a1c2ada7af7a794df8d3bfba53a0aa2f25353832b871c5a58f098efcfe2186f90563cc1c77a7403319dda212ee8788d6f9c
   languageName: node
   linkType: hard
 
@@ -2993,9 +2993,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001135":
-  version: 1.0.30001141
-  resolution: "caniuse-lite@npm:1.0.30001141"
-  checksum: b8850782e3fad8f6c6de6b4f7489bb2a5ea0ecb19656110052040d63ff80ecee5296f6862b333a7684f05227304b27ad455c563121995dbba52b1a669001d5f1
+  version: 1.0.30001142
+  resolution: "caniuse-lite@npm:1.0.30001142"
+  checksum: e8988ac35f495d4179eee1aee0862930e1c01aea17f4dfad7284a56fae642b074452569778306920e4df08f7efc4dbced86744906ccf686c3c5729239120e8ae
   languageName: node
   linkType: hard
 
@@ -3790,25 +3790,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "deep-equal@npm:2.0.3"
+"deep-equal@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "deep-equal@npm:2.0.4"
   dependencies:
-    es-abstract: ^1.17.5
+    es-abstract: ^1.18.0-next.1
     es-get-iterator: ^1.1.0
     is-arguments: ^1.0.4
     is-date-object: ^1.0.2
-    is-regex: ^1.0.5
+    is-regex: ^1.1.1
     isarray: ^2.0.5
-    object-is: ^1.1.2
+    object-is: ^1.1.3
     object-keys: ^1.1.1
-    object.assign: ^4.1.0
+    object.assign: ^4.1.1
     regexp.prototype.flags: ^1.3.0
-    side-channel: ^1.0.2
+    side-channel: ^1.0.3
     which-boxed-primitive: ^1.0.1
     which-collection: ^1.0.1
     which-typed-array: ^1.1.2
-  checksum: 68f1fa69dd179578bcece15e5325acc3976857393730361209c668c7d068912833e2896c166efd0b63922875f45aceffbf0a6083defbb22e797588205f0777d0
+  checksum: 377b0a3d4b944dfc9c8af7ba948cb5fed86767efda0d82b41ce7764a736426ed60df6af396833f64413585c483dcce1a145169c6dc868147d0071cdbc0fb0276
   languageName: node
   linkType: hard
 
@@ -6059,7 +6059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-regex@npm:^1.0.5, is-regex@npm:^1.1.1":
+"is-regex@npm:^1.1.1":
   version: 1.1.1
   resolution: "is-regex@npm:1.1.1"
   dependencies:
@@ -8471,7 +8471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-is@npm:^1.1.2":
+"object-is@npm:^1.1.3":
   version: 1.1.3
   resolution: "object-is@npm:1.1.3"
   dependencies:
@@ -10076,7 +10076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"side-channel@npm:^1.0.2":
+"side-channel@npm:^1.0.2, side-channel@npm:^1.0.3":
   version: 1.0.3
   resolution: "side-channel@npm:1.0.3"
   dependencies:
