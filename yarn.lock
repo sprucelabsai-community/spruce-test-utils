@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.396":
-  version: 2.2.396
-  resolution: "@sprucelabs/error@npm:2.2.396"
-  checksum: c2c06eec67497527a31941d27f2d46874b495eb63b5393f8274e2a3442d961e96c57a0ead28dfb0149efb74ad8a95ad332a93781a207fbca7dcc098b364123ba
+"@sprucelabs/error@npm:^2.2.397":
+  version: 2.2.397
+  resolution: "@sprucelabs/error@npm:2.2.397"
+  checksum: a7209998b11f6e99186c7434ffd899f44efb07c2ecc57b2097f1ecace1e7cba2774b21658ad8be0478fe81a712cccd8a2ab3d76e2a5a4684edd9e115b512ecd0
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.396
+    "@sprucelabs/error": ^2.2.397
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.92
+    "@sprucelabs/test": ^7.0.93
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1789,7 +1789,7 @@ __metadata:
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-react: ^7.21.2
+    eslint-plugin-react: ^7.21.3
     eslint-plugin-spruce: ^10.9.70
     jest: ^26.4.2
     lodash: ^4.17.20
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.92":
-  version: 7.0.92
-  resolution: "@sprucelabs/test@npm:7.0.92"
+"@sprucelabs/test@npm:^7.0.93":
+  version: 7.0.93
+  resolution: "@sprucelabs/test@npm:7.0.93"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 5dffdfea3dda1a21e862414eac8e9d79d695213cbd08a1400e879bdccd52e89d980fd0ad26d0079861aa5d82ca7e4e287892adbf0de22c45ad8d0ef37d407709
+  checksum: 5f82fe3ef5efa6040cf246c6e5f24231f95b9db16bee642019be4117a85faac9c1aa87207026c15ef51112caf946410de434fb80bffd25e119675891c1665d54
   languageName: node
   linkType: hard
 
@@ -4414,9 +4414,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.21.2":
-  version: 7.21.2
-  resolution: "eslint-plugin-react@npm:7.21.2"
+"eslint-plugin-react@npm:^7.21.2, eslint-plugin-react@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "eslint-plugin-react@npm:7.21.3"
   dependencies:
     array-includes: ^3.1.1
     array.prototype.flatmap: ^1.2.3
@@ -4431,7 +4431,7 @@ __metadata:
     string.prototype.matchall: ^4.0.2
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7
-  checksum: 48ec4da08a53b5d73ce66132a73a9553b7c4300c23ecbb3e14f4c9df8bbaca2b5bff559adecd7014e217ce7eb445f99ba4a6683ce6c958ee78769b992bd183f4
+  checksum: 8a126d405448534821126dd636a1aee8df3a4f49b3fcec8944ac8500cdb5119bccaf9e209512f20e73879ddce08f657deb32fdae2f92e6393614de61fed1cca8
   languageName: node
   linkType: hard
 
