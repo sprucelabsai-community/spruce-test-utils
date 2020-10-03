@@ -6,7 +6,7 @@
 	"files": [
 		"build"
 	],
-	"version": "1.1.103",
+	"version": "1.1.104",
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
 	"description": "Spruce test utilities!",
