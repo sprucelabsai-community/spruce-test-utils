@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.402":
-  version: 2.2.402
-  resolution: "@sprucelabs/error@npm:2.2.402"
-  checksum: a9f1cfe826c2181e46a0e64b36ec9083aa3fa802df1208d5a51e62a40923919c1e8b02d94eb1b0509147f85b4e99628438e1811e3ee83f9391ab8656e8322b83
+"@sprucelabs/error@npm:^2.2.403":
+  version: 2.2.403
+  resolution: "@sprucelabs/error@npm:2.2.403"
+  checksum: 3c9af85ef89b2caefbe5a1c4060029621e4511fd9e1c021a47ed89c7ec866b2677b71c3573b7b4db8499a82d8d4bc9e4e53099429cb7d01d6d2ace0bd31e9627
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.402
+    "@sprucelabs/error": ^2.2.403
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.96
+    "@sprucelabs/test": ^7.0.97
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1785,12 +1785,12 @@ __metadata:
     concurrently: ^5.3.0
     conventional-changelog-sprucelabs: ^1.1.1
     eslint: ^7.10.0
-    eslint-config-spruce: ^10.9.71
+    eslint-config-spruce: ^10.9.72
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.3
-    eslint-plugin-spruce: ^10.9.71
+    eslint-plugin-spruce: ^10.9.72
     jest: ^26.4.2
     lodash: ^4.17.20
     prettier: ^2.1.2
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.96":
-  version: 7.0.96
-  resolution: "@sprucelabs/test@npm:7.0.96"
+"@sprucelabs/test@npm:^7.0.97":
+  version: 7.0.97
+  resolution: "@sprucelabs/test@npm:7.0.97"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 221d0ac6d0d34ba398b3610e3dfb4fd7cbf4473be3e1ecdf8f14370e67cccbf4849e145c92561efd7cf0080e9dc02167098e086587a431d4404e0bcd5d079e3f
+  checksum: 4cac767b80a7e5e2e43d37f5bc4692e05be6e58435488a1203d20e3b3cfcbb903cecfcf9bf9bb7b1d4fe9cd6d4b10cc2fa3600a752633ad35333d54ca9bcd27f
   languageName: node
   linkType: hard
 
@@ -4317,9 +4317,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-spruce@npm:^10.9.71":
-  version: 10.9.71
-  resolution: "eslint-config-spruce@npm:10.9.71"
+"eslint-config-spruce@npm:^10.9.72":
+  version: 10.9.72
+  resolution: "eslint-config-spruce@npm:10.9.72"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -4329,12 +4329,12 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.3
-    eslint-plugin-spruce: ^10.9.71
+    eslint-plugin-spruce: ^10.9.72
   peerDependencies:
     eslint: ^7.10.0
     prettier: ^2.1.2
     typescript: ^4.0.3
-  checksum: 57c61819de3582ab77f9cb8b3ed80487fb035f2893a2b4ec4dfd4b6b897b9bcee3b4d4a6d3933316fe5e49196c9a75304fd1a8a38e0e9551d6bd3c5e803c0469
+  checksum: a8791ad600834db910e8c84ec3825b684e8c9e9a17cb5b48802a363ad5bab2ef3834600778970d3a8a5639c6045876f538df950f06415dc9b609a05bf73503f2
   languageName: node
   linkType: hard
 
@@ -4435,12 +4435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-spruce@npm:^10.9.71":
-  version: 10.9.71
-  resolution: "eslint-plugin-spruce@npm:10.9.71"
+"eslint-plugin-spruce@npm:^10.9.72":
+  version: 10.9.72
+  resolution: "eslint-plugin-spruce@npm:10.9.72"
   dependencies:
     pascal-case: ^3.1.1
-  checksum: 12d1c775d62e5128f7781d8c6588f6791596dd382beb4e4acb143da81b281fe137a18e2d9d4973747fe6758c937001d52ff36163aca65166ce5463e5ef51a877
+  checksum: 377757bf64a6563df70495311f358b45cc32a67daee94b30930840db2b0059b79716d82b86a62b2752589439f87e1b205e84a62830e6599fd842517ddbd51459
   languageName: node
   linkType: hard
 
@@ -11175,11 +11175,11 @@ typescript@^4.0.3:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.11.0
-  resolution: "uglify-js@npm:3.11.0"
+  version: 3.11.1
+  resolution: "uglify-js@npm:3.11.1"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: f2a45ef9556fbc918cd990b8a55aa345b17b8071aa53407f90669cfe6c7bcb7136d652c0a06c8e8c835aadfb612899a06b9a4a07346a1ee4154f59dd53ea9266
+  checksum: c9c8805a03eeaa5a0f7dfe25293f428da9d6539c45dc47fcf81ceb260fe9ba69f658fd56686a6d3608315aca5f7cc29cb45986d446320fda2b2f8aa2ce975b65
   languageName: node
   linkType: hard
 
@@ -11413,11 +11413,11 @@ typescript@^4.0.3:
   linkType: hard
 
 "uuid@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "uuid@npm:8.3.0"
+  version: 8.3.1
+  resolution: "uuid@npm:8.3.1"
   bin:
     uuid: dist/bin/uuid
-  checksum: a2bdb8a3eb80a53506e9657e7e1f70d7600562bf43fa010a645fd1deb7de1686df61c496c6f9826bac4be8db4d1ac1b976dd6fdf3bd083207eec1674507936fb
+  checksum: 6a5d07c5564614271237d8bbc5c1c72abf056343e91af8f67a8e6d29957a1a061f347b8425a1e499af32f5a8f0039c44d200dff663b9a8090c51a7f7b5031534
   languageName: node
   linkType: hard
 
