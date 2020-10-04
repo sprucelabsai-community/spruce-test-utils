@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.401":
-  version: 2.2.401
-  resolution: "@sprucelabs/error@npm:2.2.401"
-  checksum: cb35e913ffc13d9d1af469c9104503b34ee75433b59e8d71461164d2a986a9a09b9642a8e3f568fe5c6b5650432e539c3d917470b976f6919c38a209e0b36150
+"@sprucelabs/error@npm:^2.2.402":
+  version: 2.2.402
+  resolution: "@sprucelabs/error@npm:2.2.402"
+  checksum: a9f1cfe826c2181e46a0e64b36ec9083aa3fa802df1208d5a51e62a40923919c1e8b02d94eb1b0509147f85b4e99628438e1811e3ee83f9391ab8656e8322b83
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.401
+    "@sprucelabs/error": ^2.2.402
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.95
+    "@sprucelabs/test": ^7.0.96
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.95":
-  version: 7.0.95
-  resolution: "@sprucelabs/test@npm:7.0.95"
+"@sprucelabs/test@npm:^7.0.96":
+  version: 7.0.96
+  resolution: "@sprucelabs/test@npm:7.0.96"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 3759b13cbb5e0133b2ca086b42b4f845760647c1223cbe48a0575b6cd3d88cf9c2e464bed2a568018efa34512022c04bc3959fcbeae3de524623fb16c8460106
+  checksum: 221d0ac6d0d34ba398b3610e3dfb4fd7cbf4473be3e1ecdf8f14370e67cccbf4849e145c92561efd7cf0080e9dc02167098e086587a431d4404e0bcd5d079e3f
   languageName: node
   linkType: hard
 
@@ -2682,8 +2682,8 @@ __metadata:
   linkType: hard
 
 "babel-preset-current-node-syntax@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "babel-preset-current-node-syntax@npm:0.1.3"
+  version: 0.1.4
+  resolution: "babel-preset-current-node-syntax@npm:0.1.4"
   dependencies:
     "@babel/plugin-syntax-async-generators": ^7.8.4
     "@babel/plugin-syntax-bigint": ^7.8.3
@@ -2698,7 +2698,7 @@ __metadata:
     "@babel/plugin-syntax-optional-chaining": ^7.8.3
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 35ed34f14d3ebcf9b31275040434ac34224fe019f113290e00e5ff580322a9b8b3cc597267cda2eff02dce943745d8735f7664e17159ab569c51c2804258c340
+  checksum: f54dfafd352b5671dfe549d6e2d692ec4328988bc2040f3c67b2dd4185c85ced29b39440f6f6bfd8145ad00e2cc8b39c5a218ef4bd7c08c48e3afec0583f4125
   languageName: node
   linkType: hard
 
