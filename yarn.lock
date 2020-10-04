@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.405":
-  version: 2.2.405
-  resolution: "@sprucelabs/error@npm:2.2.405"
-  checksum: 6bccc0fec776345a84cd8be0ab1bef74cbb82be608892cdc3f13a5c8daa2fd20017e066938df7fd5c0366ddd2f1649d9144b4c5c681bf9d76206e9c020c197f1
+"@sprucelabs/error@npm:^2.2.406":
+  version: 2.2.406
+  resolution: "@sprucelabs/error@npm:2.2.406"
+  checksum: 86edc6c4c9a9b4e5fe688f3de2594339faa69b58b560a79290d0589bcbd8164aa09e33d041c9a075671cc831ccd0bdbb67902fafcc1899520a347fee2a801ca5
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.405
+    "@sprucelabs/error": ^2.2.406
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.98
+    "@sprucelabs/test": ^7.0.99
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.98":
-  version: 7.0.98
-  resolution: "@sprucelabs/test@npm:7.0.98"
+"@sprucelabs/test@npm:^7.0.99":
+  version: 7.0.99
+  resolution: "@sprucelabs/test@npm:7.0.99"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 9140b45aa2cefab7da4e3801aa8a86d3ef1869a4392b9fd3c3d54393f156e94585f1f65f4b5df8317b12b98500a6bb08623f429bfc6a7ff73af24a93133f1ff9
+  checksum: 591d5509d59475b6257f520b156eb6d298539b3a16fd11cb3e65c547ff79793720407d928bb4c0ca531ab32c12aa542ca4f4c70192d70bd7342053f11c556c2e
   languageName: node
   linkType: hard
 
@@ -1864,13 +1864,6 @@ __metadata:
   dependencies:
     "@babel/types": ^7.3.0
   checksum: 70c4bcc395738a6cf64e413095985b6863d34e81cd7c1c767715ecabbb3120bd6fc38f2dddfa8b30787a903f716a625ecdc93e0d5dd1d62935a016b2a07ab17d
-  languageName: node
-  linkType: hard
-
-"@types/color-name@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@types/color-name@npm:1.1.1"
-  checksum: 8311db94a9c4ecd247763b81e783ee49d87678b4ce6a7ee502e2bd5cea242b7357804a04855db009f713174bc654cc0c01c7303d40d757e5d710f5ac0368500f
   languageName: node
   linkType: hard
 
@@ -2314,12 +2307,11 @@ __metadata:
   linkType: hard
 
 "ansi-styles@npm:^4.0.0, ansi-styles@npm:^4.1.0":
-  version: 4.2.1
-  resolution: "ansi-styles@npm:4.2.1"
+  version: 4.3.0
+  resolution: "ansi-styles@npm:4.3.0"
   dependencies:
-    "@types/color-name": ^1.1.1
     color-convert: ^2.0.1
-  checksum: c8c007d5dab7b4fea064c9ea318114e1f6fc714bb382d061ac09e66bc83c8f3ce12bb6354be01598722c14a5d710af280b7614d269354f80d2535946aefa82f4
+  checksum: ea02c0179f3dd089a161f5fdd7ccd89dd84f31d82b68869f1134bf5c5b9e1313dadd2ff9edb02b44f46243f285ef5b785f6cb61c84a293694221417c42934407
   languageName: node
   linkType: hard
 
