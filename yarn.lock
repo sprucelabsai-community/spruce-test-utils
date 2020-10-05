@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.410":
-  version: 2.2.410
-  resolution: "@sprucelabs/error@npm:2.2.410"
-  checksum: bfa6d675bf1a0e6be21b944f55d1bca29c5745acab2ff6d20aedd45c1157cb41902e9d993800002503dbbe1f08d720f54feb4ad1f369dd871814a478117b75b6
+"@sprucelabs/error@npm:^2.2.411":
+  version: 2.2.411
+  resolution: "@sprucelabs/error@npm:2.2.411"
+  checksum: 3819b8da773bb0b76a62f52692daba7f062188a16298fdff1ffb9b87af1558cbf38530660c4c8889842a21d8b538bac049bba77873e3783157843e9ee66e6616
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.410
+    "@sprucelabs/error": ^2.2.411
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.102
+    "@sprucelabs/test": ^7.0.103
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.3.0
     "@typescript-eslint/parser": ^4.3.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.102":
-  version: 7.0.102
-  resolution: "@sprucelabs/test@npm:7.0.102"
+"@sprucelabs/test@npm:^7.0.103":
+  version: 7.0.103
+  resolution: "@sprucelabs/test@npm:7.0.103"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 58f5e7d9608a0b07689f0c86410577b6bc85fbfdc7ada202cba4448dcf56c9ec6c6fa88ffe29ef4c4afb4f6c9bb5d33334aab1c51b2bb1dc9a99a6379acaaed4
+  checksum: 5ab003ac3964c022b93a9c7bedc207cc80d9037d43a28a3878644ea67c393435197d62a44a73d72d5dbfd3ea83c453e0d7f4263acd053fc16fa3c5e726df799f
   languageName: node
   linkType: hard
 
@@ -6590,8 +6590,8 @@ __metadata:
   linkType: hard
 
 "jest-runner@npm:^26.5.0":
-  version: 26.5.0
-  resolution: "jest-runner@npm:26.5.0"
+  version: 26.5.1
+  resolution: "jest-runner@npm:26.5.1"
   dependencies:
     "@jest/console": ^26.5.0
     "@jest/environment": ^26.5.0
@@ -6613,7 +6613,7 @@ __metadata:
     jest-worker: ^26.5.0
     source-map-support: ^0.5.6
     throat: ^5.0.0
-  checksum: cbf2f5f90aeda0f58f8e0a6688406785572d17b93ec6f4ab7c08f5423f909e6f975b80e76ca77ebbc2e70a014fa11e430c09ca4f63bdcfba582ad0d98f9bb34d
+  checksum: 42c42ef4a872d954066108ae2fd0a097c99ccd5f19902047c923eb67ed9615c097082aff7ff895b036015f9ecb48b87f7f341ee8a7028472e453c4ffc034f64b
   languageName: node
   linkType: hard
 
