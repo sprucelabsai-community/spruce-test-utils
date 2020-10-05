@@ -2843,10 +2843,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["acorn", [
-        ["npm:7.4.0", {
-          "packageLocation": "./.yarn/cache/acorn-npm-7.4.0-8e5a67d17a-a25b12d9e8.zip/node_modules/acorn/",
+        ["npm:7.4.1", {
+          "packageLocation": "./.yarn/cache/acorn-npm-7.4.1-f450b4646c-2bde98c28c.zip/node_modules/acorn/",
           "packageDependencies": [
-            ["acorn", "npm:7.4.0"]
+            ["acorn", "npm:7.4.1"]
           ],
           "linkType": "HARD",
         }]
@@ -2856,7 +2856,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/acorn-globals-npm-6.0.0-acbec28ad5-078ed9bc35.zip/node_modules/acorn-globals/",
           "packageDependencies": [
             ["acorn-globals", "npm:6.0.0"],
-            ["acorn", "npm:7.4.0"],
+            ["acorn", "npm:7.4.1"],
             ["acorn-walk", "npm:7.2.0"]
           ],
           "linkType": "HARD",
@@ -2868,7 +2868,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["acorn-jsx", "virtual:d2b7d87b7d1b24ae28c976e6a4dd1f4502c0b4861c48ac890edb4bef9b304b0f14bb5b927b0e2264534c1a0de7bfcddcb87164733cca942d507282121e821e10#npm:5.3.1"],
             ["@types/acorn", null],
-            ["acorn", "npm:7.4.0"]
+            ["acorn", "npm:7.4.1"]
           ],
           "packagePeers": [
             "@types/acorn",
@@ -5521,7 +5521,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/espree-npm-7.3.0-d2b7d87b7d-dd2543c293.zip/node_modules/espree/",
           "packageDependencies": [
             ["espree", "npm:7.3.0"],
-            ["acorn", "npm:7.4.0"],
+            ["acorn", "npm:7.4.1"],
             ["acorn-jsx", "virtual:d2b7d87b7d1b24ae28c976e6a4dd1f4502c0b4861c48ac890edb4bef9b304b0f14bb5b927b0e2264534c1a0de7bfcddcb87164733cca942d507282121e821e10#npm:5.3.1"],
             ["eslint-visitor-keys", "npm:1.3.0"]
           ],
@@ -7999,7 +7999,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsdom", "virtual:64e51e9a8698edf38528ed7f8de310ca4b99499503f1a585192a2aea2d0d2a4d27eb0430bca97852773b539663f25cb82985bc49e8adfb30256c98499f00af13#npm:16.4.0"],
             ["@types/canvas", null],
             ["abab", "npm:2.0.5"],
-            ["acorn", "npm:7.4.0"],
+            ["acorn", "npm:7.4.1"],
             ["acorn-globals", "npm:6.0.0"],
             ["canvas", null],
             ["cssom", "npm:0.4.4"],
