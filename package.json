@@ -58,7 +58,7 @@
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.21.3",
 		"eslint-plugin-spruce": "^10.9.79",
-		"jest": "^26.5.0",
+		"jest": "^26.5.2",
 		"lodash": "^4.17.20",
 		"prettier": "^2.1.2",
 		"semantic-release": "^17.1.2",
