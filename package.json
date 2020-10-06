@@ -38,8 +38,8 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.417",
-		"@sprucelabs/test": "^7.0.106",
+		"@sprucelabs/error": "^2.2.418",
+		"@sprucelabs/test": "^7.0.107",
 		"@types/lodash": "^4.14.161"
 	},
 	"devDependencies": {

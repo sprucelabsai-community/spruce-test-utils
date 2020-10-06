@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.417":
-  version: 2.2.417
-  resolution: "@sprucelabs/error@npm:2.2.417"
-  checksum: 698a87c05cc3e0b934af6f6a18a30ec6c6defb221250ce61b3b98c8b67050bf7167193d9c4e42606713284a06a9a8e1662687be58886435e4a1656022f9ca354
+"@sprucelabs/error@npm:^2.2.418":
+  version: 2.2.418
+  resolution: "@sprucelabs/error@npm:2.2.418"
+  checksum: 8312873a45d6a278ce31188e7085ae79849c74b742dddd64078ea675a271d09b3d004ee36d5a4f67147cf8c2efef67c7aba6b06fc1bc1ceeb58a4975721defa9
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.417
+    "@sprucelabs/error": ^2.2.418
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.106
+    "@sprucelabs/test": ^7.0.107
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.106":
-  version: 7.0.106
-  resolution: "@sprucelabs/test@npm:7.0.106"
+"@sprucelabs/test@npm:^7.0.107":
+  version: 7.0.107
+  resolution: "@sprucelabs/test@npm:7.0.107"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 50e707b63e6a79d57a189d9dee8e2933e70209cb1721c60de2c70522727dc7684683838ea9187a263bf2aeab894d032afce4cdbf8277107429f7e8b70778d8b4
+  checksum: 87d79fbca7c5a4ccbf14699d10d570ead0380a0aa89ba594d2eb2e292766b3afefa39acc8cc15d769ba4d59a23e57f8d06f7f5e80fd79238a55153d8d0ddcf58
   languageName: node
   linkType: hard
 
@@ -1959,9 +1959,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>= 8":
-  version: 14.11.3
-  resolution: "@types/node@npm:14.11.3"
-  checksum: a4f643a432b94ba96833d3a18cf410c552e49dc714e35830b51038f24274cd3d23fd43934b134849155af035079b5134a2904e50a334f66ba79326f753ba02ab
+  version: 14.11.4
+  resolution: "@types/node@npm:14.11.4"
+  checksum: 27c793b33ad29e3ca709c389fb4d3ee3ecdc304e997af9bceaed9aebb27ebc0082b11c709483990827de35d6d1505b0a273951e0f11fbad847e7a6e9b0fbb353
   languageName: node
   linkType: hard
 
