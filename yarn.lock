@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.424":
-  version: 2.2.424
-  resolution: "@sprucelabs/error@npm:2.2.424"
-  checksum: 3f6a694a4a4577675345c0fa82ccebc21e445b1a1b4a3767fcf7fdf02779aad8e9a6bc46e25b46f42b17ef68ea4f2a67ecc841bd29ae2bdc716ca8e620edee3e
+"@sprucelabs/error@npm:^2.2.425":
+  version: 2.2.425
+  resolution: "@sprucelabs/error@npm:2.2.425"
+  checksum: d900c35124eb1bf0d2ad2483f42cf07bea20dc52b5ffa5dcccd7f8589de366220d1730675abce95eda69f653315a169046f87d65f5de660f278f466cb210a027
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.424
+    "@sprucelabs/error": ^2.2.425
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.110
+    "@sprucelabs/test": ^7.0.111
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,22 +1800,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.110":
-  version: 7.0.110
-  resolution: "@sprucelabs/test@npm:7.0.110"
+"@sprucelabs/test@npm:^7.0.111":
+  version: 7.0.111
+  resolution: "@sprucelabs/test@npm:7.0.111"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
     "@types/jest": ^26.0.14
-    babel-jest: ^26.5.0
+    babel-jest: ^26.5.2
     chalk: ^4.1.0
     deep-equal: ^2.0.4
-    jest: ^26.5.0
+    jest: ^26.5.2
     lodash: ^4.17.20
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: ddbdb4096edbe7c8630cc55a25b54e6834be00fcbad2404a440949fa91c9a7fad7499580293ec9b1217308a93c8bf6f5217c920d2bf8b366755495ba70e447b2
+  checksum: 1c9210c874a2476e263751f8a672a2a4a4642e5d6940b18afc8a88a4a98aa1a14f1ea5f3911217f3da357ccf35b9a179ce720bc0b0a5e8a33842710433aaafa1
   languageName: node
   linkType: hard
 
@@ -2621,7 +2621,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^26.5.0, babel-jest@npm:^26.5.2":
+"babel-jest@npm:^26.5.2":
   version: 26.5.2
   resolution: "babel-jest@npm:26.5.2"
   dependencies:
@@ -6730,7 +6730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.5.0, jest@npm:^26.5.2":
+"jest@npm:^26.5.2":
   version: 26.5.2
   resolution: "jest@npm:26.5.2"
   dependencies:
