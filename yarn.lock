@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.429":
-  version: 2.2.429
-  resolution: "@sprucelabs/error@npm:2.2.429"
-  checksum: 4553add805bf16819eeada0d4c18630ef39b6310069a743660c8e8acce2f55a27dd60233a5995d0e27b7e15e32c3661e5a9c7dc37437ab4f7a5e8fc1c1471993
+"@sprucelabs/error@npm:^2.2.430":
+  version: 2.2.430
+  resolution: "@sprucelabs/error@npm:2.2.430"
+  checksum: 66a594a23f7bdb6e19f050db107cd54811053e38880b08c14768070d11a668987965e9ee74a9cc43893dc99969f8aecdda99c5b6f3118cb22af3b9fea41247bf
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.429
+    "@sprucelabs/error": ^2.2.430
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.113
+    "@sprucelabs/test": ^7.0.114
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.113":
-  version: 7.0.113
-  resolution: "@sprucelabs/test@npm:7.0.113"
+"@sprucelabs/test@npm:^7.0.114":
+  version: 7.0.114
+  resolution: "@sprucelabs/test@npm:7.0.114"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 41c809584ea077043802d84b409defabe5655bb43222d55c1e4e273e97e530fd48cbaf063c8265a9be3450fb539d6cdd7dbdd58c6ad03b910da7aa7d6272d252
+  checksum: da2a9f69541b5fef316ff2bfa7c2191111e589f5ec29584b55f63aa4b319c95cfcf3bda980b5a2d6295222fa8d5a6dc77d775d01ba314d35d02582a6d0c4623d
   languageName: node
   linkType: hard
 
@@ -4070,9 +4070,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.571":
-  version: 1.3.577
-  resolution: "electron-to-chromium@npm:1.3.577"
-  checksum: ec22640bbe094fbd9fc122d9dbf366742e8e1451be7b3917cd146e71041248aed21dee290a1ec7b8d8809cf832baa9d099906d616f78c3972c482c56cf44a452
+  version: 1.3.578
+  resolution: "electron-to-chromium@npm:1.3.578"
+  checksum: 56a1497e2d188cfef39b97916e1c23c46e8d2d5e9251153b713e1a8692e6877c7c03f70ebb159a74f798eb8debd96e01a208d32197e7dcf39bc914550b14189b
   languageName: node
   linkType: hard
 
