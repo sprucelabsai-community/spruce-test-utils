@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.438":
-  version: 2.2.438
-  resolution: "@sprucelabs/error@npm:2.2.438"
-  checksum: ac9a92b8478f129a175784249357f0caf3de7ef18fd1b04a7ab8479ea0dbb5d36e402745724fbd184e7eb33ca4afe07e3f386f6058ad3eba7ed0194d58569e25
+"@sprucelabs/error@npm:^2.2.439":
+  version: 2.2.439
+  resolution: "@sprucelabs/error@npm:2.2.439"
+  checksum: ce33497a56c17c7d7d6b149db114722a8cf2e10bf0aa808f2b545c7d38837fb71d86450181dba421e086242b3a9060185830cecbae42991e62704c4adfd0a61a
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.438
+    "@sprucelabs/error": ^2.2.439
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.118
+    "@sprucelabs/test": ^7.0.119
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.118":
-  version: 7.0.118
-  resolution: "@sprucelabs/test@npm:7.0.118"
+"@sprucelabs/test@npm:^7.0.119":
+  version: 7.0.119
+  resolution: "@sprucelabs/test@npm:7.0.119"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 32ecb895e3872b33699afac56833567e0c6907abe02efee0ae4f3ad31543f564ae773c6e176f0e8d21aef6f3d0e4cb4dab22b6c3a9d1211d1a1e4a4a0707b951
+  checksum: 01ec9f82d04c06c1499cf12e51d6c0101e4794914d2106edf75ce923da002ed437eff0aef832b04dd9d34987ccd8c96dc32f36eb7e6a6188071cfc89d5538a20
   languageName: node
   linkType: hard
 
@@ -2017,11 +2017,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^15.0.0":
-  version: 15.0.7
-  resolution: "@types/yargs@npm:15.0.7"
+  version: 15.0.8
+  resolution: "@types/yargs@npm:15.0.8"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: df076111e3564fb2e92dc11fe0b32b096bb3ed8e241dd70205159c83d32a0ba281ea73108a995679cb29c6a2fa434c5a90237e33ba9cdcba2e98165e35a74440
+  checksum: f3a946ef2ffefdd396998f97d9a9ad89b3e57aa8886c4529f754b72834f9ee5b797d779e27d1e9b639552c4bea8eb7cc852faa150773e7277fdae02bfea9aa38
   languageName: node
   linkType: hard
 
