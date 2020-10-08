@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.436":
-  version: 2.2.436
-  resolution: "@sprucelabs/error@npm:2.2.436"
-  checksum: f69bbb0c6623b529bc6ddcc8e5b44d64674cd9ffa989979c2874b18ba61a3d57288d4f0b40586d0fdb0a6e2207919517d5f2f172673f5cc16cdf8c11e91930a4
+"@sprucelabs/error@npm:^2.2.437":
+  version: 2.2.437
+  resolution: "@sprucelabs/error@npm:2.2.437"
+  checksum: 39b8591445777d1c12296005dbcea25e081b9fcb934d0841f8c01aef29d2bf19419fc6e77b32ec70e92efbde2ded091f02b101ed7eff7ed17c9edcc22f898ef1
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.436
+    "@sprucelabs/error": ^2.2.437
     "@sprucelabs/semantic-release": ^4.0.5
-    "@sprucelabs/test": ^7.0.116
+    "@sprucelabs/test": ^7.0.117
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.116":
-  version: 7.0.116
-  resolution: "@sprucelabs/test@npm:7.0.116"
+"@sprucelabs/test@npm:^7.0.117":
+  version: 7.0.117
+  resolution: "@sprucelabs/test@npm:7.0.117"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 022724500b4a498bfcec78c4bb44aa46f66c06826b427dc7a79a987420f3d9bdcdc5f0f51c4da3c5c8e04173372fce785c6f938df04a991dbd9db8b2d9e8e946
+  checksum: a7e4c17df4525fe285330dc5f8e967f4d8fcbafb5a3b4070e0a54ecb7559da47a6d5eb46e521d3d36e895f47195f586f6d02361adfe72accb82182c1833c8f1f
   languageName: node
   linkType: hard
 
@@ -11529,13 +11529,13 @@ typescript@^4.0.3:
   linkType: hard
 
 "whatwg-url@npm:^8.0.0":
-  version: 8.3.0
-  resolution: "whatwg-url@npm:8.3.0"
+  version: 8.4.0
+  resolution: "whatwg-url@npm:8.4.0"
   dependencies:
     lodash.sortby: ^4.7.0
     tr46: ^2.0.2
     webidl-conversions: ^6.1.0
-  checksum: f5735046ef21d5bac4e81313184eac071825b61130f81c70a956fd900938cd282dcf4ed6ccceebed8fcfc0ed76060070d9d16e26d240ef19c1a335487542f42c
+  checksum: c85dfbedd2554e76d05eba467509db3a0ed5740e3bf1069a10ca302da531d64399693e4952c61be67d119a6b7f634f3ff65fbe59555b30474f849a7e0ce2a4c6
   languageName: node
   linkType: hard
 
