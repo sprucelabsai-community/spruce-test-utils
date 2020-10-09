@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.451":
-  version: 2.2.451
-  resolution: "@sprucelabs/error@npm:2.2.451"
-  checksum: 5f309405d63b4cc040070bb57f3f08be7cedea4cf4f17d50b3df59336102043649a8c4f827730112d8f0ef455b81a7574c59e02c0bc6b6903cf61e08e5b221cd
+"@sprucelabs/error@npm:^2.2.452":
+  version: 2.2.452
+  resolution: "@sprucelabs/error@npm:2.2.452"
+  checksum: 36604084d31203a88f4e956e9945733f73f5e5435bde48b3af8d63a8116ba8b752c637f0cda9abe4ba83eb5cb05b364232dac96988492cf34c3a0787d94a204c
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.451
+    "@sprucelabs/error": ^2.2.452
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.128
+    "@sprucelabs/test": ^7.0.129
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.128":
-  version: 7.0.128
-  resolution: "@sprucelabs/test@npm:7.0.128"
+"@sprucelabs/test@npm:^7.0.129":
+  version: 7.0.129
+  resolution: "@sprucelabs/test@npm:7.0.129"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 502f7094754c23a042dfb190086be587f0e82ef8a7e89ad9a1699e9533e1939b694e43d3f3c0bd7009b48085060ebceb6e0032851a823deadeb243d9d229dc03
+  checksum: 2744485058b879f662340774f9ff62894a48b83af1e1530c1333055e97e54de5b4805fa5b941e077dc2cbb737302edaecf4fee95eb20b7acd8feb6da81bbd32b
   languageName: node
   linkType: hard
 
@@ -11048,9 +11048,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^1.10.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0":
-  version: 1.14.0
-  resolution: "tslib@npm:1.14.0"
-  checksum: dfbb39a7f241f952ada0f1b148ad88b736e2030a2d44de2aad0723ac7527a3fdda1f710859e66495fd46659cf227727f74d6a10410d5562b7b23dbdc92e66c98
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
   languageName: node
   linkType: hard
 
