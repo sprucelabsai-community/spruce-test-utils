@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.454":
-  version: 2.2.454
-  resolution: "@sprucelabs/error@npm:2.2.454"
-  checksum: b65a12a92e685980265cb2052f670f9e114b128402531ab98630274dfc8ee43b260a1095f263ead317c268c0c74aca27fb60cd434c7bca521b7ddf43b22ce295
+"@sprucelabs/error@npm:^2.2.455":
+  version: 2.2.455
+  resolution: "@sprucelabs/error@npm:2.2.455"
+  checksum: 564664bc6e84d5e15afdd7457f4b7d62c890da484e0b810c7c4a9f2b7e09333ba05d337a4b3f2f40944b5125ce3571a51bc6e268ec3757f89afd8494d28a42aa
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.454
+    "@sprucelabs/error": ^2.2.455
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.130
+    "@sprucelabs/test": ^7.0.131
     "@types/lodash": ^4.14.161
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.130":
-  version: 7.0.130
-  resolution: "@sprucelabs/test@npm:7.0.130"
+"@sprucelabs/test@npm:^7.0.131":
+  version: 7.0.131
+  resolution: "@sprucelabs/test@npm:7.0.131"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: e09b4a16f9689f9938ea774bd5b2392c19607bba4b866c5d4e00d55454a00fba5eb16e148831e3ea0f57a0edca60affc83844141d067190e94d9c253f8cf62e5
+  checksum: c79d2035b1a2f379b3ed5c4b411cf94ecd7b635aca39df652de94722e76f39e1c07bb8463fd52734a8a678927a7e4253460448569cd852c6183f89bc020693cb
   languageName: node
   linkType: hard
 
@@ -1980,9 +1980,9 @@ __metadata:
   linkType: hard
 
 "@types/prettier@npm:^2.0.0":
-  version: 2.1.1
-  resolution: "@types/prettier@npm:2.1.1"
-  checksum: 3671bedc845a0e61bb8eb698746e1f6d1201ac784f95c536cd653c1406a51c0e9c338ecbbc73f1b5fd5fe0b0af98edf7e85428810357d959355ab46b3a63ebe6
+  version: 2.1.2
+  resolution: "@types/prettier@npm:2.1.2"
+  checksum: fbb0284ae165940e2d236d985477a3a7bf0215b5d32fe6dcb8b2cc80a7661ba52ce494ef73301c79b8eb315df27094f5529984f7b68e70c8cb1d451d0147031c
   languageName: node
   linkType: hard
 
