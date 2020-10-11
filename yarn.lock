@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.461":
-  version: 2.2.461
-  resolution: "@sprucelabs/error@npm:2.2.461"
-  checksum: 6ca8cfaeb3e74945398ef2b030a34efb0930ef607ed8dee0722cffe8d51aeba26504029392d73df4bc50cc09500726d7a1e53d3db8bd9da659dc25c32d5ad0cd
+"@sprucelabs/error@npm:^2.2.462":
+  version: 2.2.462
+  resolution: "@sprucelabs/error@npm:2.2.462"
+  checksum: 3d4c85fe4a5b027703ff73ff26a13733ec21b2ba8351b7d513843c0dc19bf307cc63e17800286bea875cf53ea5c993b262c1b5f2cb2b121aa5883822fc32023f
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.461
+    "@sprucelabs/error": ^2.2.462
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.134
+    "@sprucelabs/test": ^7.0.135
     "@types/lodash": ^4.14.162
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.134":
-  version: 7.0.134
-  resolution: "@sprucelabs/test@npm:7.0.134"
+"@sprucelabs/test@npm:^7.0.135":
+  version: 7.0.135
+  resolution: "@sprucelabs/test@npm:7.0.135"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: a6ec4b2d8b7b1c483e267d6c109777c2f114815f3ae2ce818a18da1a450fdf24e28433cd2469ca024ecf1ba3c5ac27149e4b27367339d0a2e12d59c7968f6134
+  checksum: e7e0c18703041547aa1808b04ec79769ab7476b5a4a9f6c3ac4a648f3d612de70601ce1601bb46102b056b132544153ae77290089ad2c6e21d2a4d4daebbc06a
   languageName: node
   linkType: hard
 
@@ -11178,11 +11178,11 @@ typescript@^4.0.3:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.11.1
-  resolution: "uglify-js@npm:3.11.1"
+  version: 3.11.2
+  resolution: "uglify-js@npm:3.11.2"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: c9c8805a03eeaa5a0f7dfe25293f428da9d6539c45dc47fcf81ceb260fe9ba69f658fd56686a6d3608315aca5f7cc29cb45986d446320fda2b2f8aa2ce975b65
+  checksum: 2bc8806d47c615c7b594e716a7d6da80ff11260b3aa504cb5e9b2dffea5d7efe4764b7e7831bfd6e20a8713fe3b29700bc9228b706db7eaf6ac41edd010dfc94
   languageName: node
   linkType: hard
 
