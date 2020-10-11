@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.465":
-  version: 2.2.465
-  resolution: "@sprucelabs/error@npm:2.2.465"
-  checksum: 2c7eb3db931da2e3a1a53e1bbc5732be90100518bbf6693ece2d5b1bcb402f75dbb62156242ca2610872b14e0169039b166e02f23b267f5d75bdc25327aa94db
+"@sprucelabs/error@npm:^2.2.466":
+  version: 2.2.466
+  resolution: "@sprucelabs/error@npm:2.2.466"
+  checksum: adffd387b1a8db59712e1a09aa6f259e6ee01904b500d259a4ae981edba5e2290198ebdd2f5e46f8baea02b7107f12288c6d4495519a8b379f24dd03f47588c0
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.465
+    "@sprucelabs/error": ^2.2.466
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.137
+    "@sprucelabs/test": ^7.0.138
     "@types/lodash": ^4.14.162
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.137":
-  version: 7.0.137
-  resolution: "@sprucelabs/test@npm:7.0.137"
+"@sprucelabs/test@npm:^7.0.138":
+  version: 7.0.138
+  resolution: "@sprucelabs/test@npm:7.0.138"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1810,12 +1810,12 @@ __metadata:
     babel-jest: ^26.5.2
     chalk: ^4.1.0
     deep-equal: ^2.0.4
-    jest: ^26.5.2
+    jest: ^26.5.3
     lodash: ^4.17.20
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 0ed5cc70116da34f3969f5bf4de6aa6f3744ebc4826e857d6f03be2a6dd200d306b1e006497de785683536f072d650f56df83683819782b2571e6e2f919e3ecf
+  checksum: 22adf2f083d8c2db9e217e5f88d1e9e223cd3ef42830646c066ee4301912aea1b6165684e22ef571721aed093154080ab02fb7657d6774bfe1a0c316b7e3f280
   languageName: node
   linkType: hard
 
@@ -6730,7 +6730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.5.2, jest@npm:^26.5.3":
+"jest@npm:^26.5.3":
   version: 26.5.3
   resolution: "jest@npm:26.5.3"
   dependencies:
