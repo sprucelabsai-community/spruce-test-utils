@@ -39,8 +39,8 @@
 	},
 	"dependencies": {
 		"@sprucelabs/error": "^2.2.458",
-		"@sprucelabs/test": "^7.0.132",
-		"@types/lodash": "^4.14.161"
+		"@sprucelabs/test": "^7.0.133",
+		"@types/lodash": "^4.14.162"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",

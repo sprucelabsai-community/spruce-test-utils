@@ -1777,8 +1777,8 @@ __metadata:
     "@semantic-release/git": ^9.0.0
     "@sprucelabs/error": ^2.2.458
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.132
-    "@types/lodash": ^4.14.161
+    "@sprucelabs/test": ^7.0.133
+    "@types/lodash": ^4.14.162
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
     chokidar-cli: ^2.1.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.132":
-  version: 7.0.132
-  resolution: "@sprucelabs/test@npm:7.0.132"
+"@sprucelabs/test@npm:^7.0.133":
+  version: 7.0.133
+  resolution: "@sprucelabs/test@npm:7.0.133"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: a80d8bfbec1f888479fd0bc9504c80fac250e7d957e7d55a67bb4da98284b904747933e993a32764793fd1e43ca41ecdff4575a6a4da8facdf686ad2b2de323d
+  checksum: d58515f3c82ce291063578570c88b874a2e5cf8d610e9c69a2af02c1a1608a9017c5b51aa640bb7d4b2f6c0efb77b1d96d5c61f5544c66f5982668f32ec50356
   languageName: node
   linkType: hard
 
@@ -1944,10 +1944,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.161":
-  version: 4.14.161
-  resolution: "@types/lodash@npm:4.14.161"
-  checksum: c3657517dab1a23059d86ae379c4e7538212f05ba9c3e108ab694167f086118a5b44ed04bcb6e5cd0a89778c29909668302a755df576e3597df16fda8b603443
+"@types/lodash@npm:^4.14.162":
+  version: 4.14.162
+  resolution: "@types/lodash@npm:4.14.162"
+  checksum: 16205a12995d659ac556f25405cfeec3b9fb427364ed8e24e4e4ab84f646b1a2f6f08f6aee155ebc6127ac6791fd7755fc15be10b6c8dd5a3ab3d3f4917f7173
   languageName: node
   linkType: hard
 
