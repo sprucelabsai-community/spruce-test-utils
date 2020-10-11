@@ -38,7 +38,7 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.464",
+		"@sprucelabs/error": "^2.2.465",
 		"@sprucelabs/test": "^7.0.137",
 		"@types/lodash": "^4.14.162"
 	},
@@ -58,7 +58,7 @@
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.21.4",
 		"eslint-plugin-spruce": "^10.9.90",
-		"jest": "^26.5.2",
+		"jest": "^26.5.3",
 		"lodash": "^4.17.20",
 		"prettier": "^2.1.2",
 		"semantic-release": "^17.1.2",
