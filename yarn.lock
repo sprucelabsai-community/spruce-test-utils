@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.463":
-  version: 2.2.463
-  resolution: "@sprucelabs/error@npm:2.2.463"
-  checksum: 4a13091443dd07ac3cfcfdd7e05c974a1045ab88862009574287a01a058b4d7ce7c468385bdae4a4d81131a7be315361392b8d8a92dc6fd5b49d421d3d182c94
+"@sprucelabs/error@npm:^2.2.464":
+  version: 2.2.464
+  resolution: "@sprucelabs/error@npm:2.2.464"
+  checksum: 5b70267f62b2cb508249bbef25ebdb2608cc0bbb40d2c02d7d4104ed3cde02f5753392bf39f0b52512a94da9713fe1d0e3f11692185c2e72487a735640224e7c
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.463
+    "@sprucelabs/error": ^2.2.464
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.136
+    "@sprucelabs/test": ^7.0.137
     "@types/lodash": ^4.14.162
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.136":
-  version: 7.0.136
-  resolution: "@sprucelabs/test@npm:7.0.136"
+"@sprucelabs/test@npm:^7.0.137":
+  version: 7.0.137
+  resolution: "@sprucelabs/test@npm:7.0.137"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: 53d7f31c0a0d9f5706ba4d40da4730c618b8c8f8263ec97a3259e1b4da9d5d6ce88916253153319744a18517756d9f5188822f2b75135341df7039ed7a046d52
+  checksum: 0ed5cc70116da34f3969f5bf4de6aa6f3744ebc4826e857d6f03be2a6dd200d306b1e006497de785683536f072d650f56df83683819782b2571e6e2f919e3ecf
   languageName: node
   linkType: hard
 
@@ -8126,9 +8126,9 @@ __metadata:
   linkType: hard
 
 "normalize-url@npm:^5.0.0":
-  version: 5.2.1
-  resolution: "normalize-url@npm:5.2.1"
-  checksum: 32b2039b4313e11e9e36a0266c59ed79269a241b53157b2cbe4a5ce90d4f06e5b3f093a8fc314717b2b2a582b1401402bdf55ce97f498639f1a5624a7266ee31
+  version: 5.3.0
+  resolution: "normalize-url@npm:5.3.0"
+  checksum: 126bcee51735bd975a3df3df008595fa4b6770f511494a05472519ca9e8e8caea62761f66d81c7cab28e758b201cdc656c1bc8a2c2c9d091bef661f32a182d6d
   languageName: node
   linkType: hard
 
