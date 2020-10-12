@@ -6500,10 +6500,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:3.0.5", {
-          "packageLocation": "./.yarn/cache/hosted-git-info-npm-3.0.5-da5a6f4564-38d6733778.zip/node_modules/hosted-git-info/",
+        ["npm:3.0.6", {
+          "packageLocation": "./.yarn/cache/hosted-git-info-npm-3.0.6-39db9371af-6791f585b8.zip/node_modules/hosted-git-info/",
           "packageDependencies": [
-            ["hosted-git-info", "npm:3.0.5"],
+            ["hosted-git-info", "npm:3.0.6"],
             ["lru-cache", "npm:6.0.0"]
           ],
           "linkType": "HARD",
@@ -11474,7 +11474,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-stream", "npm:5.2.0"],
             ["git-log-parser", "npm:1.2.0"],
             ["hook-std", "npm:2.0.0"],
-            ["hosted-git-info", "npm:3.0.5"],
+            ["hosted-git-info", "npm:3.0.6"],
             ["lodash", "npm:4.17.20"],
             ["marked", "npm:1.2.0"],
             ["marked-terminal", "virtual:577291bbf3614b9fc51b54e515f118033a413caaffcfe3c1d5a3683f471ff6261f37c07e3c747d20b80bfae39b990ed5fb1762b9926552e0f09514001831397b#npm:4.1.0"],
