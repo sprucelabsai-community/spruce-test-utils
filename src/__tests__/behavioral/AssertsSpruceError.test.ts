@@ -22,7 +22,7 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		assert.doesThrow(
 			() => errorAssertUtil.assertError(err, 'ERROR_THREE'),
-			/Invalid error code. Expected ERROR_THREE but got.*?ERROR_ONE/gis
+			/Invalid error code. Expected.*?ERROR_THREE.*?but got.*?ERROR_ONE/gis
 		)
 	}
 
