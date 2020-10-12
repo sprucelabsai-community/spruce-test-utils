@@ -35,7 +35,7 @@
 		"release": "semantic-release",
 		"upgrade.packages": "yarn run upgrade.packages.all",
 		"upgrade.packages.yarn2": "jq -r '(.dependencies, .devDependencies) | keys | .[]' package.json | sort |uniq | xargs yarn up",
-		"upgrade.packages.all": "yarn && yarn run upgrade.packages.yarn2 ; yarn ; yarn lint.fix || true",
+		"upgrade.packages.all": "yarn install zs&& yarn run upgrade.packages.yarn2 ; yarn ; yarn lint.fix || true",
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
