@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/changelog", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:5.0.1"],
             ["@semantic-release/git", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.470"],
+            ["@sprucelabs/error", "npm:2.2.471"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.0.139"],
             ["@types/lodash", "npm:4.14.162"],
@@ -2356,10 +2356,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sprucelabs/error", [
-        ["npm:2.2.470", {
-          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.470-20b7140664-aee5f2f3cb.zip/node_modules/@sprucelabs/error/",
+        ["npm:2.2.471", {
+          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.471-ffb96280b4-89a98ac7c0.zip/node_modules/@sprucelabs/error/",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:2.2.470"]
+            ["@sprucelabs/error", "npm:2.2.471"]
           ],
           "linkType": "HARD",
         }]
@@ -2404,7 +2404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test-utils", "workspace:."],
             ["@semantic-release/changelog", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:5.0.1"],
             ["@semantic-release/git", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.470"],
+            ["@sprucelabs/error", "npm:2.2.471"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.0.139"],
             ["@types/lodash", "npm:4.14.162"],
