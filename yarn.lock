@@ -3,7 +3,7 @@
 
 __metadata:
   version: 4
-  cacheKey: 6
+  cacheKey: 7
 
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
   version: 7.10.4
@@ -1164,7 +1164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.10.4, @babel/types@npm:^7.10.5, @babel/types@npm:^7.11.0, @babel/types@npm:^7.11.5, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.7.0":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.10.4, @babel/types@npm:^7.10.5, @babel/types@npm:^7.11.0, @babel/types@npm:^7.11.5, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.7.0, @babel/types@npm:^7.8.3":
   version: 7.11.5
   resolution: "@babel/types@npm:7.11.5"
   dependencies:
@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.471":
-  version: 2.2.471
-  resolution: "@sprucelabs/error@npm:2.2.471"
-  checksum: 89a98ac7c0612414973855d033a3febac6c05aac44b2ba35c28eae751408553f855c0f65d6c5c5742c0f10e7a40b80d5f3572387e411cec08a4e9c41e20ac182
+"@sprucelabs/error@npm:^2.2.472":
+  version: 2.2.472
+  resolution: "@sprucelabs/error@npm:2.2.472"
+  checksum: 3b9367013e69cc350042c4b3b8bd9094af0192c7d704490b8e3e464b74582ab2e71ef6ce2a39e71714e29793b4360e9d006229a6e561b2bcb5399cbaeb9313f8
   languageName: node
   linkType: hard
 
@@ -1775,9 +1775,9 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.471
+    "@sprucelabs/error": ^2.2.472
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.0.139
+    "@sprucelabs/test": ^7.1.2
     "@types/lodash": ^4.14.162
     "@typescript-eslint/eslint-plugin": ^4.4.0
     "@typescript-eslint/parser": ^4.4.0
@@ -1800,9 +1800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.0.139":
-  version: 7.0.139
-  resolution: "@sprucelabs/test@npm:7.0.139"
+"@sprucelabs/test@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "@sprucelabs/test@npm:7.1.2"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.11.5
@@ -1815,7 +1815,7 @@ __metadata:
     ts-expect: ^1.1.0
     ts-jest: ^26.4.1
     typescript: ^4.0.3
-  checksum: ef9d6b37779c4b6080d25e81075c0104654800d3f4e4e99961faf6cba40de506faeb1ead1fbee944b7d4307e85c7830df4ab1b2efce89ff4732dfbc16e3943fb
+  checksum: fcd796cdd87c5d2925b060b39a0f1aca75c0071d98831ad46a3f7a46fd06dcc237d779690b9ed4f3db3bf6767ec25b1a5d1b16ddb4b067981e5443db3be846ec
   languageName: node
   linkType: hard
 
@@ -5034,10 +5034,10 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#builtin<compat/fsevents>, fsevents@patch:fsevents@~2.1.2#builtin<compat/fsevents>":
   version: 2.1.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=87eb42"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e"
   dependencies:
     node-gyp: latest
-  checksum: d8ae862048fc127cdbd00d02b2feb7c25946c3ce4cbc44e958134be87e239577a16dafafa1c270d010b8624e1b1e0372e23f7865c55c6f83e83fc9f68b0a30d2
+  checksum: e2b8c379340e21a786d32c653854c8876f94eb1202dd5be378fd42c062bc123aab5051c32bf0011865257c85982c41ded203f9fe8c9f9c8f8c84dc4672abc0e0
   languageName: node
   linkType: hard
 
@@ -11169,7 +11169,7 @@ typescript@^4.0.3:
 
 "typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
   version: 4.0.3
-  resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"
+  resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5bf698"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
