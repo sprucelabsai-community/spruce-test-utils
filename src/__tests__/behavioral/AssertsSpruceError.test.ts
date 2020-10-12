@@ -22,7 +22,16 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		assert.doesThrow(
 			() => errorAssertUtil.assertError(err, 'ERROR_THREE'),
-			/Invalid error code. Expected ERROR_THREE but got ERROR_ONE/gi
+			/Invalid error code. Expected.*?ERROR_THREE.*?but got.*?ERROR_ONE/gis
+		)
+	}
+
+	@test()
+	protected static async failsWhenErrorIsNotSpruceError() {
+		assert.doesThrow(
+			//@ts-ignore
+			() => errorAssertUtil.assertError(new Error('taco bell'), 'ERROR_THREE'),
+			/Did not receive a SpruceError/
 		)
 	}
 
@@ -45,6 +54,12 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	protected static async passesWhenCodeAndPayloadMatches() {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		errorAssertUtil.assertError(err, 'ERROR_ONE', { booleanParam: true })
+	}
+
+	@test.skip('Enable to review pretty printed output. Always fails.')
+	protected static async testPrettyPrinting() {
+		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
+		errorAssertUtil.assertError(err, 'ERROR_TWO')
 	}
 
 	@test(
