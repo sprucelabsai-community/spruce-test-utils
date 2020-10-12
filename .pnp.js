@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/changelog", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:5.0.1"],
             ["@semantic-release/git", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.468"],
+            ["@sprucelabs/error", "npm:2.2.469"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.0.138"],
             ["@types/lodash", "npm:4.14.162"],
@@ -2356,10 +2356,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sprucelabs/error", [
-        ["npm:2.2.468", {
-          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.468-3250fb1e35-3e284fd2d5.zip/node_modules/@sprucelabs/error/",
+        ["npm:2.2.469", {
+          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-2.2.469-3639f912d6-9226201cf7.zip/node_modules/@sprucelabs/error/",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:2.2.468"]
+            ["@sprucelabs/error", "npm:2.2.469"]
           ],
           "linkType": "HARD",
         }]
@@ -2404,7 +2404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test-utils", "workspace:."],
             ["@semantic-release/changelog", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:5.0.1"],
             ["@semantic-release/git", "virtual:fe7e65db650faaac1a5e4a936e7eb02d6fb39a4576e4b7817e9b76d56d3fa23d176a8ef9acb028ea0b98263a3ebe32803d451a9d4240e6aa2c5b3a1d6f8359cf#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:2.2.468"],
+            ["@sprucelabs/error", "npm:2.2.469"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.0.138"],
             ["@types/lodash", "npm:4.14.162"],
@@ -3663,7 +3663,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.14.5-9f4c5b58ce-18261764bd.zip/node_modules/browserslist/",
           "packageDependencies": [
             ["browserslist", "npm:4.14.5"],
-            ["caniuse-lite", "npm:1.0.30001147"],
+            ["caniuse-lite", "npm:1.0.30001148"],
             ["electron-to-chromium", "npm:1.3.578"],
             ["escalade", "npm:3.1.0"],
             ["node-releases", "npm:1.1.61"]
@@ -3823,10 +3823,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["caniuse-lite", [
-        ["npm:1.0.30001147", {
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001147-1371dfc74f-ec2020f07c.zip/node_modules/caniuse-lite/",
+        ["npm:1.0.30001148", {
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001148-a57d5a6274-3231c85a2c.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
-            ["caniuse-lite", "npm:1.0.30001147"]
+            ["caniuse-lite", "npm:1.0.30001148"]
           ],
           "linkType": "HARD",
         }]

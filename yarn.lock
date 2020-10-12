@@ -1750,10 +1750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sprucelabs/error@npm:^2.2.468":
-  version: 2.2.468
-  resolution: "@sprucelabs/error@npm:2.2.468"
-  checksum: 3e284fd2d55c3832e108107ed23a98c460691e6a67fab153b80a7262702cd7b3332cc2c1317a9e82e6c82f15b6f6ae4259c7b8eae2feaa9b88708e6adfc9aa83
+"@sprucelabs/error@npm:^2.2.469":
+  version: 2.2.469
+  resolution: "@sprucelabs/error@npm:2.2.469"
+  checksum: 9226201cf74182522916a25697ff1936ce5328365eec6617ab6dc93f39ffaf6f49cab16bcb5bd8251ed37d941a2bf06b7484d2f81509d5f9fbfef88468a4cce3
   languageName: node
   linkType: hard
 
@@ -1775,7 +1775,7 @@ __metadata:
   dependencies:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/git": ^9.0.0
-    "@sprucelabs/error": ^2.2.468
+    "@sprucelabs/error": ^2.2.469
     "@sprucelabs/semantic-release": ^4.0.6
     "@sprucelabs/test": ^7.0.138
     "@types/lodash": ^4.14.162
@@ -2999,9 +2999,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001135":
-  version: 1.0.30001147
-  resolution: "caniuse-lite@npm:1.0.30001147"
-  checksum: ec2020f07ccfb39ffa604f80f96b9b35ef75729d83a32c3b3f076757cbda37485088e3ef936299d2598f9b59097b007b8628e4e4f87da286bae785e98868a11c
+  version: 1.0.30001148
+  resolution: "caniuse-lite@npm:1.0.30001148"
+  checksum: 3231c85a2cffcd39d2371f4f0640ff3297946abf9f90eb30030e2ec0bffc5d16e3ab8953f9a63e1504431a869a45e0541c4bb01c469d9ef8313fd074e863dd7f
   languageName: node
   linkType: hard
 
