@@ -20,25 +20,27 @@ function removeProps(obj: Record<string, any>, keys: string[]) {
 
 const errorAssertUtil = {
 	assertError(
-		error: AbstractSpruceError<any>,
+		error: Error | AbstractSpruceError<any>,
 		expectedCode: string,
 		expectedPartialOptions?: Record<string, any>
 	) {
-		if (!error.options) {
+		const spruceErr = error as AbstractSpruceError<any>
+
+		if (!spruceErr.options) {
 			assert.fail(
-				`Did not receive a SpruceError, got:\n\nMessage: ${error.message}\nStack: ${error.stack}`
+				`Did not receive a SpruceError, got:\n\nMessage: ${spruceErr.message}\nStack: ${spruceErr.stack}`
 			)
 		}
-		if (error.options.code === expectedCode) {
+		if (spruceErr.options.code === expectedCode) {
 			if (expectedPartialOptions) {
-				assert.doesInclude(error.options, expectedPartialOptions)
+				assert.doesInclude(spruceErr.options, expectedPartialOptions)
 			}
 		} else {
 			assert.fail(
 				`Invalid error code. Expected:\n\n'${expectedCode}'\n\nbut got:\n\nCode: '${
-					error.options.code
-				}'\nMessage: '${error.message}'\nOptions:${assertUtil.stringify(
-					error.options
+					spruceErr.options.code
+				}'\nMessage: '${spruceErr.message}'\nOptions:${assertUtil.stringify(
+					spruceErr.options
 				)}`
 			)
 		}
