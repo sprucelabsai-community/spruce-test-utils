@@ -5042,10 +5042,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:9.0.0", {
-          "packageLocation": "./.yarn/cache/emoji-regex-npm-9.0.0-41a2919770-d089be1902.zip/node_modules/emoji-regex/",
+        ["npm:9.1.1", {
+          "packageLocation": "./.yarn/cache/emoji-regex-npm-9.1.1-8ad89b9fba-d82f69cb30.zip/node_modules/emoji-regex/",
           "packageDependencies": [
-            ["emoji-regex", "npm:9.0.0"]
+            ["emoji-regex", "npm:9.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -5411,7 +5411,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axe-core", "npm:3.5.5"],
             ["axobject-query", "npm:2.2.0"],
             ["damerau-levenshtein", "npm:1.0.6"],
-            ["emoji-regex", "npm:9.0.0"],
+            ["emoji-regex", "npm:9.1.1"],
             ["eslint", "npm:7.11.0"],
             ["has", "npm:1.0.3"],
             ["jsx-ast-utils", "npm:2.4.1"],
