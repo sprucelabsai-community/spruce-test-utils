@@ -3650,7 +3650,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["browserslist", "npm:4.14.5"],
             ["caniuse-lite", "npm:1.0.30001148"],
             ["electron-to-chromium", "npm:1.3.578"],
-            ["escalade", "npm:3.1.0"],
+            ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.61"]
           ],
           "linkType": "HARD",
@@ -5216,10 +5216,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["escalade", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/escalade-npm-3.1.0-9338983f9b-437c5b2619.zip/node_modules/escalade/",
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/escalade-npm-3.1.1-e02da076aa-1e31ff50d6.zip/node_modules/escalade/",
           "packageDependencies": [
-            ["escalade", "npm:3.1.0"]
+            ["escalade", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
