@@ -3895,10 +3895,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["chokidar", [
-        ["npm:3.4.2", {
-          "packageLocation": "./.yarn/cache/chokidar-npm-3.4.2-4e5f7d3b1f-a394c13d28.zip/node_modules/chokidar/",
+        ["npm:3.4.3", {
+          "packageLocation": "./.yarn/cache/chokidar-npm-3.4.3-58f7548978-b5a566b312.zip/node_modules/chokidar/",
           "packageDependencies": [
-            ["chokidar", "npm:3.4.2"],
+            ["chokidar", "npm:3.4.3"],
             ["anymatch", "npm:3.1.1"],
             ["braces", "npm:3.0.2"],
             ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e"],
@@ -3906,7 +3906,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-binary-path", "npm:2.1.0"],
             ["is-glob", "npm:4.0.1"],
             ["normalize-path", "npm:3.0.0"],
-            ["readdirp", "npm:3.4.0"]
+            ["readdirp", "npm:3.5.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3916,7 +3916,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chokidar-cli-npm-2.1.0-3bc4fdea14-6d174178b4.zip/node_modules/chokidar-cli/",
           "packageDependencies": [
             ["chokidar-cli", "npm:2.1.0"],
-            ["chokidar", "npm:3.4.2"],
+            ["chokidar", "npm:3.4.3"],
             ["lodash.debounce", "npm:4.0.8"],
             ["lodash.throttle", "npm:4.1.1"],
             ["yargs", "npm:13.3.2"]
@@ -10971,10 +10971,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["readdirp", [
-        ["npm:3.4.0", {
-          "packageLocation": "./.yarn/cache/readdirp-npm-3.4.0-503e0a2772-0159f43eb0.zip/node_modules/readdirp/",
+        ["npm:3.5.0", {
+          "packageLocation": "./.yarn/cache/readdirp-npm-3.5.0-a1b1568d32-a64fe56069.zip/node_modules/readdirp/",
           "packageDependencies": [
-            ["readdirp", "npm:3.4.0"],
+            ["readdirp", "npm:3.5.0"],
             ["picomatch", "npm:2.2.2"]
           ],
           "linkType": "HARD",
