@@ -12652,7 +12652,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:1.0.4"],
             ["semver", "npm:7.3.2"],
             ["typescript", "patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5bf698"],
-            ["yargs-parser", "npm:20.2.1"]
+            ["yargs-parser", "npm:20.2.2"]
           ],
           "packagePeers": [
             "@types/jest",
@@ -13674,10 +13674,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:20.2.1", {
-          "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.1-b1a18008ef-c4945ade7d.zip/node_modules/yargs-parser/",
+        ["npm:20.2.2", {
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.2-62df5bc5f9-64f808e43c.zip/node_modules/yargs-parser/",
           "packageDependencies": [
-            ["yargs-parser", "npm:20.2.1"]
+            ["yargs-parser", "npm:20.2.2"]
           ],
           "linkType": "HARD",
         }],
