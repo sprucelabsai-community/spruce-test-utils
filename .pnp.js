@@ -5455,7 +5455,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["doctrine", "npm:2.1.0"],
             ["eslint", "npm:7.11.0"],
             ["has", "npm:1.0.3"],
-            ["jsx-ast-utils", "npm:3.0.0"],
+            ["jsx-ast-utils", "npm:3.1.0"],
             ["object.entries", "npm:1.1.2"],
             ["object.fromentries", "npm:2.0.2"],
             ["object.values", "npm:1.1.1"],
@@ -8166,10 +8166,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:3.0.0", {
-          "packageLocation": "./.yarn/cache/jsx-ast-utils-npm-3.0.0-78f28d939d-ccc9408797.zip/node_modules/jsx-ast-utils/",
+        ["npm:3.1.0", {
+          "packageLocation": "./.yarn/cache/jsx-ast-utils-npm-3.1.0-0ce367772e-189ef9aed8.zip/node_modules/jsx-ast-utils/",
           "packageDependencies": [
-            ["jsx-ast-utils", "npm:3.0.0"],
+            ["jsx-ast-utils", "npm:3.1.0"],
             ["array-includes", "npm:3.1.1"],
             ["object.assign", "npm:4.1.1"]
           ],
