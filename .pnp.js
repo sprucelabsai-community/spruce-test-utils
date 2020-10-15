@@ -6085,7 +6085,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/fsevents-patch-fa4e06e760/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e"],
-            ["node-gyp", "npm:7.1.0"]
+            ["node-gyp", "npm:7.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -9376,17 +9376,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:7.1.0", {
-          "packageLocation": "./.yarn/unplugged/node-gyp-npm-7.1.0-713c6fffcd/node_modules/node-gyp/",
+        ["npm:7.1.1", {
+          "packageLocation": "./.yarn/unplugged/node-gyp-npm-7.1.1-118076d80b/node_modules/node-gyp/",
           "packageDependencies": [
-            ["node-gyp", "npm:7.1.0"],
+            ["node-gyp", "npm:7.1.1"],
             ["env-paths", "npm:2.2.0"],
             ["glob", "npm:7.1.6"],
             ["graceful-fs", "npm:4.2.4"],
-            ["nopt", "npm:4.0.3"],
+            ["nopt", "npm:5.0.0"],
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
-            ["rimraf", "npm:2.7.1"],
+            ["rimraf", "npm:3.0.2"],
             ["semver", "npm:7.3.2"],
             ["tar", "npm:6.0.5"],
             ["which", "npm:2.0.2"]
@@ -9443,6 +9443,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nopt", "npm:4.0.3"],
             ["abbrev", "npm:1.1.1"],
             ["osenv", "npm:0.1.5"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:5.0.0", {
+          "packageLocation": "./.yarn/cache/nopt-npm-5.0.0-304b40fbfe-e1523158fc.zip/node_modules/nopt/",
+          "packageDependencies": [
+            ["nopt", "npm:5.0.0"],
+            ["abbrev", "npm:1.1.1"]
           ],
           "linkType": "HARD",
         }]
