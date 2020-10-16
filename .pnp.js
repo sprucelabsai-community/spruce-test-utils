@@ -2619,10 +2619,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/prettier", [
-        ["npm:2.1.4", {
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.1.4-b93de382b0-64faec39ba.zip/node_modules/@types/prettier/",
+        ["npm:2.1.5", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.1.5-6eb1ae07a5-bc6271235d.zip/node_modules/@types/prettier/",
           "packageDependencies": [
-            ["@types/prettier", "npm:2.1.4"]
+            ["@types/prettier", "npm:2.1.5"]
           ],
           "linkType": "HARD",
         }]
@@ -7881,7 +7881,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.12.1"],
             ["@jest/types", "npm:26.5.2"],
             ["@types/babel__traverse", "npm:7.0.15"],
-            ["@types/prettier", "npm:2.1.4"],
+            ["@types/prettier", "npm:2.1.5"],
             ["chalk", "npm:4.1.0"],
             ["expect", "npm:26.5.3"],
             ["graceful-fs", "npm:4.2.4"],
