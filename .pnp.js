@@ -5020,10 +5020,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["emittery", [
-        ["npm:0.7.1", {
-          "packageLocation": "./.yarn/cache/emittery-npm-0.7.1-2e5216986e-917b099512.zip/node_modules/emittery/",
+        ["npm:0.7.2", {
+          "packageLocation": "./.yarn/cache/emittery-npm-0.7.2-4a6f20265e-34acfef519.zip/node_modules/emittery/",
           "packageDependencies": [
-            ["emittery", "npm:0.7.1"]
+            ["emittery", "npm:0.7.2"]
           ],
           "linkType": "HARD",
         }]
@@ -7809,7 +7809,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:26.5.2"],
             ["@types/node", "npm:14.11.10"],
             ["chalk", "npm:4.1.0"],
-            ["emittery", "npm:0.7.1"],
+            ["emittery", "npm:0.7.2"],
             ["exit", "npm:0.1.2"],
             ["graceful-fs", "npm:4.2.4"],
             ["jest-config", "npm:26.5.3"],
