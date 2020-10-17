@@ -6079,7 +6079,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/fsevents-patch-fa4e06e760/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e"],
-            ["node-gyp", "npm:7.1.1"]
+            ["node-gyp", "npm:7.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -9370,10 +9370,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:7.1.1", {
-          "packageLocation": "./.yarn/unplugged/node-gyp-npm-7.1.1-118076d80b/node_modules/node-gyp/",
+        ["npm:7.1.2", {
+          "packageLocation": "./.yarn/unplugged/node-gyp-npm-7.1.2-002c5798eb/node_modules/node-gyp/",
           "packageDependencies": [
-            ["node-gyp", "npm:7.1.1"],
+            ["node-gyp", "npm:7.1.2"],
             ["env-paths", "npm:2.2.0"],
             ["glob", "npm:7.1.6"],
             ["graceful-fs", "npm:4.2.4"],
