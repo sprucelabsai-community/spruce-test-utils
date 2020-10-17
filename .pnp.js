@@ -9582,7 +9582,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-is-inside", "npm:1.0.2"],
             ["promise-inflight", "virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1"],
             ["qrcode-terminal", "npm:0.12.0"],
-            ["query-string", "npm:6.13.5"],
+            ["query-string", "npm:6.13.6"],
             ["qw", "npm:1.0.1"],
             ["read", "npm:1.0.7"],
             ["read-cmd-shim", "npm:1.0.5"],
@@ -10743,10 +10743,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["query-string", [
-        ["npm:6.13.5", {
-          "packageLocation": "./.yarn/cache/query-string-npm-6.13.5-9cf41f78b4-a60b70e261.zip/node_modules/query-string/",
+        ["npm:6.13.6", {
+          "packageLocation": "./.yarn/cache/query-string-npm-6.13.6-1f06a3ca1c-0f773349bf.zip/node_modules/query-string/",
           "packageDependencies": [
-            ["query-string", "npm:6.13.5"],
+            ["query-string", "npm:6.13.6"],
             ["decode-uri-component", "npm:0.2.0"],
             ["split-on-first", "npm:1.1.0"],
             ["strict-uri-encode", "npm:2.0.0"]
