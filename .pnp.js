@@ -5266,10 +5266,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-config-prettier", [
-        ["virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.13.0", {
-          "packageLocation": "./.yarn/$$virtual/eslint-config-prettier-virtual-a5f90b5655/0/cache/eslint-config-prettier-npm-6.13.0-f51683f2e4-fe88da82a4.zip/node_modules/eslint-config-prettier/",
+        ["virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.14.0", {
+          "packageLocation": "./.yarn/$$virtual/eslint-config-prettier-virtual-6a23abf47d/0/cache/eslint-config-prettier-npm-6.14.0-10ad0a5650-8d478429bb.zip/node_modules/eslint-config-prettier/",
           "packageDependencies": [
-            ["eslint-config-prettier", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.13.0"],
+            ["eslint-config-prettier", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.14.0"],
             ["@types/eslint", null],
             ["eslint", "npm:7.11.0"],
             ["get-stdin", "npm:6.0.0"]
@@ -5293,7 +5293,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:4.5.0"],
             ["babel-eslint", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:10.1.0"],
             ["eslint", "npm:7.11.0"],
-            ["eslint-config-prettier", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.13.0"],
+            ["eslint-config-prettier", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.14.0"],
             ["eslint-plugin-import", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:2.22.1"],
             ["eslint-plugin-jsx-a11y", "virtual:529342d2950c2cd2a775713daeceb147da0ddccbd6fcb7d53c71208e187bc889ce3dd5dd0e5f20b2880b4402c6b2dd6c4dc174c8ec12a023de4c3981f1fc1ac2#npm:6.3.1"],
             ["eslint-plugin-prettier", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:3.1.4"],
@@ -8880,10 +8880,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["marked", [
-        ["npm:1.2.1", {
-          "packageLocation": "./.yarn/cache/marked-npm-1.2.1-be914901f2-59174e4b4c.zip/node_modules/marked/",
+        ["npm:1.2.2", {
+          "packageLocation": "./.yarn/cache/marked-npm-1.2.2-6528b1f8bc-e7eb3dfbd8.zip/node_modules/marked/",
           "packageDependencies": [
-            ["marked", "npm:1.2.1"]
+            ["marked", "npm:1.2.2"]
           ],
           "linkType": "HARD",
         }]
@@ -8898,7 +8898,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cardinal", "npm:2.1.1"],
             ["chalk", "npm:4.1.0"],
             ["cli-table", "npm:0.3.1"],
-            ["marked", "npm:1.2.1"],
+            ["marked", "npm:1.2.2"],
             ["node-emoji", "npm:1.10.0"],
             ["supports-hyperlinks", "npm:2.1.0"]
           ],
@@ -11417,7 +11417,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hook-std", "npm:2.0.0"],
             ["hosted-git-info", "npm:3.0.7"],
             ["lodash", "npm:4.17.20"],
-            ["marked", "npm:1.2.1"],
+            ["marked", "npm:1.2.2"],
             ["marked-terminal", "virtual:577291bbf3614b9fc51b54e515f118033a413caaffcfe3c1d5a3683f471ff6261f37c07e3c747d20b80bfae39b990ed5fb1762b9926552e0f09514001831397b#npm:4.1.0"],
             ["micromatch", "npm:4.0.2"],
             ["p-each-series", "npm:2.1.0"],
