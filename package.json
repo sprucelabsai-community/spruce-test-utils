@@ -6,7 +6,7 @@
 	"files": [
 		"build"
 	],
-	"version": "1.1.562",
+	"version": "1.1.563",
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
 	"description": "Helpful utilities to make asserting more complicated conditions quick and easy! ⚡️",
