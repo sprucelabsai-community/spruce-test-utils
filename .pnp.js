@@ -2090,10 +2090,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/plugin-request-log", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/@octokit-plugin-request-log-npm-1.0.0-b6c4a34e91-fa9e3bd25f.zip/node_modules/@octokit/plugin-request-log/",
+        ["virtual:9fb1565d509b4a76f80be7b0568b4d2269e991a9479393f9012c6df1eb02fec161a107e32d4a209ae9a379c08283e640dfad514c8091b2ebfdc1dc88c221d7af#npm:1.0.1", {
+          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-request-log-virtual-d09e14bbda/0/cache/@octokit-plugin-request-log-npm-1.0.1-4d8fa1ec4a-ac7ef551a1.zip/node_modules/@octokit/plugin-request-log/",
           "packageDependencies": [
-            ["@octokit/plugin-request-log", "npm:1.0.0"]
+            ["@octokit/plugin-request-log", "virtual:9fb1565d509b4a76f80be7b0568b4d2269e991a9479393f9012c6df1eb02fec161a107e32d4a209ae9a379c08283e640dfad514c8091b2ebfdc1dc88c221d7af#npm:1.0.1"],
+            ["@octokit/core", "npm:2.5.4"],
+            ["@types/octokit__core", null]
+          ],
+          "packagePeers": [
+            "@octokit/core",
+            "@types/octokit__core"
           ],
           "linkType": "HARD",
         }]
@@ -2145,7 +2151,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@octokit/rest", "npm:17.11.2"],
             ["@octokit/core", "npm:2.5.4"],
             ["@octokit/plugin-paginate-rest", "virtual:9fb1565d509b4a76f80be7b0568b4d2269e991a9479393f9012c6df1eb02fec161a107e32d4a209ae9a379c08283e640dfad514c8091b2ebfdc1dc88c221d7af#npm:2.4.0"],
-            ["@octokit/plugin-request-log", "npm:1.0.0"],
+            ["@octokit/plugin-request-log", "virtual:9fb1565d509b4a76f80be7b0568b4d2269e991a9479393f9012c6df1eb02fec161a107e32d4a209ae9a379c08283e640dfad514c8091b2ebfdc1dc88c221d7af#npm:1.0.1"],
             ["@octokit/plugin-rest-endpoint-methods", "npm:3.17.0"]
           ],
           "linkType": "HARD",
@@ -3630,7 +3636,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["browserslist", "npm:4.14.5"],
             ["caniuse-lite", "npm:1.0.30001150"],
-            ["electron-to-chromium", "npm:1.3.582"],
+            ["electron-to-chromium", "npm:1.3.583"],
             ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.64"]
           ],
@@ -4975,10 +4981,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["electron-to-chromium", [
-        ["npm:1.3.582", {
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.582-1651d1c220-6cfe5f32b8.zip/node_modules/electron-to-chromium/",
+        ["npm:1.3.583", {
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.583-8057eacb5c-134710b06c.zip/node_modules/electron-to-chromium/",
           "packageDependencies": [
-            ["electron-to-chromium", "npm:1.3.582"]
+            ["electron-to-chromium", "npm:1.3.583"]
           ],
           "linkType": "HARD",
         }]
