@@ -3351,10 +3351,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["axe-core", [
-        ["npm:3.5.5", {
-          "packageLocation": "./.yarn/cache/axe-core-npm-3.5.5-d3bd08cfcc-3d42ed3f0a.zip/node_modules/axe-core/",
+        ["npm:4.0.2", {
+          "packageLocation": "./.yarn/cache/axe-core-npm-4.0.2-5871a8513b-27f5b3c24f.zip/node_modules/axe-core/",
           "packageDependencies": [
-            ["axe-core", "npm:3.5.5"]
+            ["axe-core", "npm:4.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -5319,7 +5319,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.12.0"],
             ["eslint-config-prettier", "virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.14.0"],
             ["eslint-plugin-import", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:2.22.1"],
-            ["eslint-plugin-jsx-a11y", "virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.3.1"],
+            ["eslint-plugin-jsx-a11y", "virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.4.0"],
             ["eslint-plugin-prettier", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:3.1.4"],
             ["eslint-plugin-react", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:7.21.5"],
             ["eslint-plugin-spruce", "npm:10.9.97"],
@@ -5388,22 +5388,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-jsx-a11y", [
-        ["virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.3.1", {
-          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jsx-a11y-virtual-615cc06590/0/cache/eslint-plugin-jsx-a11y-npm-6.3.1-c7b50f9698-3261972201.zip/node_modules/eslint-plugin-jsx-a11y/",
+        ["virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.4.0", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jsx-a11y-virtual-b9f03db10a/0/cache/eslint-plugin-jsx-a11y-npm-6.4.0-67ec5230bb-d7c125b126.zip/node_modules/eslint-plugin-jsx-a11y/",
           "packageDependencies": [
-            ["eslint-plugin-jsx-a11y", "virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.3.1"],
+            ["eslint-plugin-jsx-a11y", "virtual:2ef741314be3249fe03766691705f2665ae8ecd155e3784043f4abed071a282512e83604aa2d2307d9b174a06416cc0d1e679789c04ee1841e2adb41ad8282a5#npm:6.4.0"],
             ["@babel/runtime", "npm:7.12.1"],
             ["@types/eslint", null],
             ["aria-query", "npm:4.2.2"],
             ["array-includes", "npm:3.1.1"],
             ["ast-types-flow", "npm:0.0.7"],
-            ["axe-core", "npm:3.5.5"],
+            ["axe-core", "npm:4.0.2"],
             ["axobject-query", "npm:2.2.0"],
             ["damerau-levenshtein", "npm:1.0.6"],
             ["emoji-regex", "npm:9.2.0"],
             ["eslint", "npm:7.12.0"],
             ["has", "npm:1.0.3"],
-            ["jsx-ast-utils", "npm:2.4.1"],
+            ["jsx-ast-utils", "npm:3.1.0"],
             ["language-tags", "npm:1.0.5"]
           ],
           "packagePeers": [
@@ -8135,15 +8135,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jsx-ast-utils", [
-        ["npm:2.4.1", {
-          "packageLocation": "./.yarn/cache/jsx-ast-utils-npm-2.4.1-81203927bc-36471d635b.zip/node_modules/jsx-ast-utils/",
-          "packageDependencies": [
-            ["jsx-ast-utils", "npm:2.4.1"],
-            ["array-includes", "npm:3.1.1"],
-            ["object.assign", "npm:4.1.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:3.1.0", {
           "packageLocation": "./.yarn/cache/jsx-ast-utils-npm-3.1.0-0ce367772e-189ef9aed8.zip/node_modules/jsx-ast-utils/",
           "packageDependencies": [
