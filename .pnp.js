@@ -7513,7 +7513,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-config", "virtual:0f0bafc7a52f5e058d7c7e0783fc83a05745fde81ad74afbfe642d9d2dff0f7879a5bfe3463df39b78504e7db20a3463bb3453a5d647406a289058c32b819392#npm:26.6.1"],
             ["jest-util", "npm:26.6.1"],
             ["jest-validate", "npm:26.6.1"],
-            ["prompts", "npm:2.3.2"],
+            ["prompts", "npm:2.4.0"],
             ["yargs", "npm:15.4.1"]
           ],
           "linkType": "HARD",
@@ -10563,10 +10563,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prompts", [
-        ["npm:2.3.2", {
-          "packageLocation": "./.yarn/cache/prompts-npm-2.3.2-c8c33bdfcf-a910ba767e.zip/node_modules/prompts/",
+        ["npm:2.4.0", {
+          "packageLocation": "./.yarn/cache/prompts-npm-2.4.0-44f1e10a9a-fd375679ad.zip/node_modules/prompts/",
           "packageDependencies": [
-            ["prompts", "npm:2.3.2"],
+            ["prompts", "npm:2.4.0"],
             ["kleur", "npm:3.0.3"],
             ["sisteransi", "npm:1.0.5"]
           ],
