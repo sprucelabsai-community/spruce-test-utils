@@ -5319,7 +5319,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.12.0"],
             ["eslint-config-prettier", "virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.14.0"],
             ["eslint-plugin-import", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:2.22.1"],
-            ["eslint-plugin-jsx-a11y", "virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.0"],
+            ["eslint-plugin-jsx-a11y", "virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.1"],
             ["eslint-plugin-prettier", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:3.1.4"],
             ["eslint-plugin-react", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:7.21.5"],
             ["eslint-plugin-spruce", "npm:10.9.98"],
@@ -5388,10 +5388,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-jsx-a11y", [
-        ["virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.0", {
-          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jsx-a11y-virtual-a8b6bfadf0/0/cache/eslint-plugin-jsx-a11y-npm-6.4.0-67ec5230bb-d7c125b126.zip/node_modules/eslint-plugin-jsx-a11y/",
+        ["virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jsx-a11y-virtual-04d011a890/0/cache/eslint-plugin-jsx-a11y-npm-6.4.1-c0ffc3303a-680d13f5e3.zip/node_modules/eslint-plugin-jsx-a11y/",
           "packageDependencies": [
-            ["eslint-plugin-jsx-a11y", "virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.0"],
+            ["eslint-plugin-jsx-a11y", "virtual:780a173a1f5dd8db03afd5966bec719a4ccfd97d71e7b27016144f26654bba08577d903d1db2d97b8637ef6dffdb4448d278aa0cdde3c707713d429be48740cd#npm:6.4.1"],
             ["@babel/runtime", "npm:7.12.1"],
             ["@types/eslint", null],
             ["aria-query", "npm:4.2.2"],
