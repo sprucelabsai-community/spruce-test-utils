@@ -99,7 +99,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.12.1"],
             ["convert-source-map", "npm:1.7.0"],
             ["debug", "virtual:577291bbf3614b9fc51b54e515f118033a413caaffcfe3c1d5a3683f471ff6261f37c07e3c747d20b80bfae39b990ed5fb1762b9926552e0f09514001831397b#npm:4.3.0"],
-            ["gensync", "npm:1.0.0-beta.1"],
+            ["gensync", "npm:1.0.0-beta.2"],
             ["json5", "npm:2.1.3"],
             ["lodash", "npm:4.17.20"],
             ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
@@ -6117,10 +6117,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["gensync", [
-        ["npm:1.0.0-beta.1", {
-          "packageLocation": "./.yarn/cache/gensync-npm-1.0.0-beta.1-0bc9838d39-3d14f7c34f.zip/node_modules/gensync/",
+        ["npm:1.0.0-beta.2", {
+          "packageLocation": "./.yarn/cache/gensync-npm-1.0.0-beta.2-224666d72f-d523437689.zip/node_modules/gensync/",
           "packageDependencies": [
-            ["gensync", "npm:1.0.0-beta.1"]
+            ["gensync", "npm:1.0.0-beta.2"]
           ],
           "linkType": "HARD",
         }]
