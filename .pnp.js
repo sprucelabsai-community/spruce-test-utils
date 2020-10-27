@@ -8187,10 +8187,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["language-subtag-registry", [
-        ["npm:0.3.20", {
-          "packageLocation": "./.yarn/cache/language-subtag-registry-npm-0.3.20-37031e1c3c-ea5fea4f2e.zip/node_modules/language-subtag-registry/",
+        ["npm:0.3.21", {
+          "packageLocation": "./.yarn/cache/language-subtag-registry-npm-0.3.21-b2d9abe624-91bcb4717a.zip/node_modules/language-subtag-registry/",
           "packageDependencies": [
-            ["language-subtag-registry", "npm:0.3.20"]
+            ["language-subtag-registry", "npm:0.3.21"]
           ],
           "linkType": "HARD",
         }]
@@ -8200,7 +8200,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/language-tags-npm-1.0.5-3a50e75c96-a3d30a9118.zip/node_modules/language-tags/",
           "packageDependencies": [
             ["language-tags", "npm:1.0.5"],
-            ["language-subtag-registry", "npm:0.3.20"]
+            ["language-subtag-registry", "npm:0.3.21"]
           ],
           "linkType": "HARD",
         }]
