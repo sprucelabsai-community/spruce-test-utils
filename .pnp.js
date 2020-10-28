@@ -2244,7 +2244,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["aggregate-error", "npm:3.1.0"],
             ["debug", "virtual:577291bbf3614b9fc51b54e515f118033a413caaffcfe3c1d5a3683f471ff6261f37c07e3c747d20b80bfae39b990ed5fb1762b9926552e0f09514001831397b#npm:4.3.0"],
             ["dir-glob", "npm:3.0.1"],
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["lodash", "npm:4.17.20"],
             ["micromatch", "npm:4.0.2"],
             ["p-reduce", "npm:2.1.0"],
@@ -2296,7 +2296,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/error", "npm:2.2.0"],
             ["@types/semantic-release", null],
             ["aggregate-error", "npm:3.1.0"],
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["fs-extra", "npm:9.0.1"],
             ["lodash", "npm:4.17.20"],
             ["nerf-dart", "npm:1.0.0"],
@@ -5074,7 +5074,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/env-ci-npm-5.0.2-6d81f85981-dd71422acf.zip/node_modules/env-ci/",
           "packageDependencies": [
             ["env-ci", "npm:5.0.2"],
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["java-properties", "npm:1.0.2"]
           ],
           "linkType": "HARD",
@@ -5610,10 +5610,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:4.0.3", {
-          "packageLocation": "./.yarn/cache/execa-npm-4.0.3-b70e1b2212-65b237d178.zip/node_modules/execa/",
+        ["npm:4.1.0", {
+          "packageLocation": "./.yarn/cache/execa-npm-4.1.0-cc675b4189-79bd736acd.zip/node_modules/execa/",
           "packageDependencies": [
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["cross-spawn", "npm:7.0.3"],
             ["get-stream", "npm:5.2.0"],
             ["human-signals", "npm:1.1.1"],
@@ -7491,7 +7491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jest-changed-files", "npm:26.6.1"],
             ["@jest/types", "npm:26.6.1"],
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["throat", "npm:5.0.0"]
           ],
           "linkType": "HARD",
@@ -11432,7 +11432,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cosmiconfig", "npm:6.0.0"],
             ["debug", "virtual:577291bbf3614b9fc51b54e515f118033a413caaffcfe3c1d5a3683f471ff6261f37c07e3c747d20b80bfae39b990ed5fb1762b9926552e0f09514001831397b#npm:4.3.0"],
             ["env-ci", "npm:5.0.2"],
-            ["execa", "npm:4.0.3"],
+            ["execa", "npm:4.1.0"],
             ["figures", "npm:3.2.0"],
             ["find-versions", "npm:3.2.0"],
             ["get-stream", "npm:5.2.0"],
