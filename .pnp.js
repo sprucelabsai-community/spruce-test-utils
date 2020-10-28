@@ -3783,10 +3783,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:6.1.0", {
-          "packageLocation": "./.yarn/cache/camelcase-npm-6.1.0-d0e05be5f0-3e968d5efb.zip/node_modules/camelcase/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/camelcase-npm-6.2.0-69f8c130ac-654700600a.zip/node_modules/camelcase/",
           "packageDependencies": [
-            ["camelcase", "npm:6.1.0"]
+            ["camelcase", "npm:6.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -7906,7 +7906,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jest-validate", "npm:26.6.1"],
             ["@jest/types", "npm:26.6.1"],
-            ["camelcase", "npm:6.1.0"],
+            ["camelcase", "npm:6.2.0"],
             ["chalk", "npm:4.1.0"],
             ["jest-get-type", "npm:26.3.0"],
             ["leven", "npm:3.1.0"],
