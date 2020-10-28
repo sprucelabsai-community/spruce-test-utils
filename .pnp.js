@@ -5284,7 +5284,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-json-comments", "npm:3.1.1"],
             ["table", "npm:5.4.6"],
             ["text-table", "npm:0.2.0"],
-            ["v8-compile-cache", "npm:2.1.1"]
+            ["v8-compile-cache", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -13093,10 +13093,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["v8-compile-cache", [
-        ["npm:2.1.1", {
-          "packageLocation": "./.yarn/cache/v8-compile-cache-npm-2.1.1-efff1ef0a4-1290922fe1.zip/node_modules/v8-compile-cache/",
+        ["npm:2.2.0", {
+          "packageLocation": "./.yarn/cache/v8-compile-cache-npm-2.2.0-b4d8f03dca-1efc994640.zip/node_modules/v8-compile-cache/",
           "packageDependencies": [
-            ["v8-compile-cache", "npm:2.1.1"]
+            ["v8-compile-cache", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]
