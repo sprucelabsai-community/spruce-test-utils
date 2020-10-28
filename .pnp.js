@@ -2028,7 +2028,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@nodelib/fs.walk", "npm:1.2.4"],
             ["@nodelib/fs.scandir", "npm:2.1.3"],
-            ["fastq", "npm:1.8.0"]
+            ["fastq", "npm:1.9.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5773,10 +5773,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["fastq", [
-        ["npm:1.8.0", {
-          "packageLocation": "./.yarn/cache/fastq-npm-1.8.0-4c0923de4a-77d71545ba.zip/node_modules/fastq/",
+        ["npm:1.9.0", {
+          "packageLocation": "./.yarn/cache/fastq-npm-1.9.0-11e58b198d-e9b46ea899.zip/node_modules/fastq/",
           "packageDependencies": [
-            ["fastq", "npm:1.8.0"],
+            ["fastq", "npm:1.9.0"],
             ["reusify", "npm:1.0.4"]
           ],
           "linkType": "HARD",
