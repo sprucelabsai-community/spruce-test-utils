@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/error", "npm:2.4.1"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.1.4"],
-            ["@types/lodash", "npm:4.14.163"],
+            ["@types/lodash", "npm:4.14.164"],
             ["@typescript-eslint/eslint-plugin", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:4.6.0"],
             ["@typescript-eslint/parser", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:4.6.0"],
             ["chokidar-cli", "npm:2.1.0"],
@@ -2413,7 +2413,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/error", "npm:2.4.1"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.1.4"],
-            ["@types/lodash", "npm:4.14.163"],
+            ["@types/lodash", "npm:4.14.164"],
             ["@typescript-eslint/eslint-plugin", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:4.6.0"],
             ["@typescript-eslint/parser", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:4.6.0"],
             ["chokidar-cli", "npm:2.1.0"],
@@ -2569,10 +2569,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/lodash", [
-        ["npm:4.14.163", {
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.163-3fbedee5f4-f118aab4b7.zip/node_modules/@types/lodash/",
+        ["npm:4.14.164", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.164-619795b8bd-4158045fd1.zip/node_modules/@types/lodash/",
           "packageDependencies": [
-            ["@types/lodash", "npm:4.14.163"]
+            ["@types/lodash", "npm:4.14.164"]
           ],
           "linkType": "HARD",
         }]
