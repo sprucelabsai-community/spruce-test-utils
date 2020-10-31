@@ -3415,7 +3415,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/babel-plugin-dynamic-import-node-npm-2.3.3-be081936a9-6745b8edca.zip/node_modules/babel-plugin-dynamic-import-node/",
           "packageDependencies": [
             ["babel-plugin-dynamic-import-node", "npm:2.3.3"],
-            ["object.assign", "npm:4.1.1"]
+            ["object.assign", "npm:4.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -3746,6 +3746,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["to-object-path", "npm:0.3.0"],
             ["union-value", "npm:1.0.1"],
             ["unset-value", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["call-bind", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/call-bind-npm-1.0.0-6bb7f0ff8b-aeb82f8f5d.zip/node_modules/call-bind/",
+          "packageDependencies": [
+            ["call-bind", "npm:1.0.0"],
+            ["function-bind", "npm:1.1.1"],
+            ["get-intrinsic", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -4699,7 +4710,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["isarray", "npm:2.0.5"],
             ["object-is", "npm:1.1.3"],
             ["object-keys", "npm:1.1.1"],
-            ["object.assign", "npm:4.1.1"],
+            ["object.assign", "npm:4.1.2"],
             ["regexp.prototype.flags", "npm:1.3.0"],
             ["side-channel", "npm:1.0.3"],
             ["which-boxed-primitive", "npm:1.0.1"],
@@ -5131,7 +5142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-regex", "npm:1.1.1"],
             ["object-inspect", "npm:1.8.0"],
             ["object-keys", "npm:1.1.1"],
-            ["object.assign", "npm:4.1.1"],
+            ["object.assign", "npm:4.1.2"],
             ["string.prototype.trimend", "npm:1.0.2"],
             ["string.prototype.trimstart", "npm:1.0.2"]
           ],
@@ -5150,7 +5161,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-regex", "npm:1.1.1"],
             ["object-inspect", "npm:1.8.0"],
             ["object-keys", "npm:1.1.1"],
-            ["object.assign", "npm:4.1.1"],
+            ["object.assign", "npm:4.1.2"],
             ["string.prototype.trimend", "npm:1.0.2"],
             ["string.prototype.trimstart", "npm:1.0.2"]
           ],
@@ -6157,6 +6168,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/get-caller-file-npm-2.0.5-80e8a86305-9dd9e1e259.zip/node_modules/get-caller-file/",
           "packageDependencies": [
             ["get-caller-file", "npm:2.0.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["get-intrinsic", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/get-intrinsic-npm-1.0.1-8cfb9e0955-c38bc558f1.zip/node_modules/get-intrinsic/",
+          "packageDependencies": [
+            ["get-intrinsic", "npm:1.0.1"],
+            ["function-bind", "npm:1.1.1"],
+            ["has", "npm:1.0.3"],
+            ["has-symbols", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8140,7 +8163,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jsx-ast-utils", "npm:3.1.0"],
             ["array-includes", "npm:3.1.1"],
-            ["object.assign", "npm:4.1.1"]
+            ["object.assign", "npm:4.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -9866,12 +9889,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["object.assign", [
-        ["npm:4.1.1", {
-          "packageLocation": "./.yarn/cache/object.assign-npm-4.1.1-775388c06f-2038905bbf.zip/node_modules/object.assign/",
+        ["npm:4.1.2", {
+          "packageLocation": "./.yarn/cache/object.assign-npm-4.1.2-d52edada1c-a5855cc6db.zip/node_modules/object.assign/",
           "packageDependencies": [
-            ["object.assign", "npm:4.1.1"],
+            ["object.assign", "npm:4.1.2"],
+            ["call-bind", "npm:1.0.0"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.0-next.1"],
             ["has-symbols", "npm:1.0.1"],
             ["object-keys", "npm:1.1.1"]
           ],
