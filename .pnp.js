@@ -1746,7 +1746,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["espree", "npm:7.3.0"],
             ["globals", "npm:12.4.0"],
             ["ignore", "npm:4.0.6"],
-            ["import-fresh", "npm:3.2.1"],
+            ["import-fresh", "npm:3.2.2"],
             ["js-yaml", "npm:3.14.0"],
             ["lodash", "npm:4.17.20"],
             ["minimatch", "npm:3.0.4"],
@@ -4448,7 +4448,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["cosmiconfig", "npm:6.0.0"],
             ["@types/parse-json", "npm:4.0.0"],
-            ["import-fresh", "npm:3.2.1"],
+            ["import-fresh", "npm:3.2.2"],
             ["parse-json", "npm:5.1.0"],
             ["path-type", "npm:4.0.0"],
             ["yaml", "npm:1.10.0"]
@@ -5278,7 +5278,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob-parent", "npm:5.1.1"],
             ["globals", "npm:12.4.0"],
             ["ignore", "npm:4.0.6"],
-            ["import-fresh", "npm:3.2.1"],
+            ["import-fresh", "npm:3.2.2"],
             ["imurmurhash", "npm:0.1.4"],
             ["is-glob", "npm:4.0.1"],
             ["js-yaml", "npm:3.14.0"],
@@ -6682,10 +6682,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["import-fresh", [
-        ["npm:3.2.1", {
-          "packageLocation": "./.yarn/cache/import-fresh-npm-3.2.1-b4f6711244-5ace950631.zip/node_modules/import-fresh/",
+        ["npm:3.2.2", {
+          "packageLocation": "./.yarn/cache/import-fresh-npm-3.2.2-509b4e1291-839a4050e9.zip/node_modules/import-fresh/",
           "packageDependencies": [
-            ["import-fresh", "npm:3.2.1"],
+            ["import-fresh", "npm:3.2.2"],
             ["parent-module", "npm:1.0.1"],
             ["resolve-from", "npm:4.0.0"]
           ],
