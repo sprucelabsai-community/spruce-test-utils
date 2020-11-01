@@ -10988,10 +10988,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["regenerate", [
-        ["npm:1.4.1", {
-          "packageLocation": "./.yarn/cache/regenerate-npm-1.4.1-a91e5d9564-67fe7ea332.zip/node_modules/regenerate/",
+        ["npm:1.4.2", {
+          "packageLocation": "./.yarn/cache/regenerate-npm-1.4.2-b296c5b63a-54275a99ef.zip/node_modules/regenerate/",
           "packageDependencies": [
-            ["regenerate", "npm:1.4.1"]
+            ["regenerate", "npm:1.4.2"]
           ],
           "linkType": "HARD",
         }]
@@ -11001,7 +11001,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/regenerate-unicode-properties-npm-8.2.0-0e54c6463c-afe83304fb.zip/node_modules/regenerate-unicode-properties/",
           "packageDependencies": [
             ["regenerate-unicode-properties", "npm:8.2.0"],
-            ["regenerate", "npm:1.4.1"]
+            ["regenerate", "npm:1.4.2"]
           ],
           "linkType": "HARD",
         }]
@@ -11061,7 +11061,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/regexpu-core-npm-4.7.1-67fbfa97ed-a4d25a11cb.zip/node_modules/regexpu-core/",
           "packageDependencies": [
             ["regexpu-core", "npm:4.7.1"],
-            ["regenerate", "npm:1.4.1"],
+            ["regenerate", "npm:1.4.2"],
             ["regenerate-unicode-properties", "npm:8.2.0"],
             ["regjsgen", "npm:0.5.2"],
             ["regjsparser", "npm:0.6.4"],
