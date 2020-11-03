@@ -27,8 +27,9 @@ const errorAssertUtil = {
 		const spruceErr = error as AbstractSpruceError<any>
 
 		if (!spruceErr.options) {
-			assert.fail(
-				`Did not receive a SpruceError, got:\n\nMessage: ${spruceErr.message}\nStack: ${spruceErr.stack}`
+			assertUtil.fail(
+				`Did not receive a SpruceError, got:\n\nMessage: ${spruceErr.message}`,
+				spruceErr.stack
 			)
 		}
 		if (spruceErr.options.code === expectedCode) {
@@ -36,12 +37,13 @@ const errorAssertUtil = {
 				assert.doesInclude(spruceErr.options, expectedPartialOptions)
 			}
 		} else {
-			assert.fail(
+			assertUtil.fail(
 				`Invalid error code. Expected:\n\n'${expectedCode}'\n\nbut got:\n\nCode: '${
 					spruceErr.options.code
 				}'\nMessage: '${spruceErr.message}'\nOptions:${assertUtil.stringify(
 					spruceErr.options
-				)}`
+				)}`,
+				spruceErr.stack
 			)
 		}
 	},
