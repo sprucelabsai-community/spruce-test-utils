@@ -58,8 +58,11 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 
 	@test.skip('Enable to review pretty printed output. Always fails.')
 	protected static async testPrettyPrinting() {
-		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
-		errorAssertUtil.assertError(err, 'ERROR_TWO')
+		try {
+			throw new TestError({ code: 'ERROR_ONE', booleanParam: true })
+		} catch (err) {
+			errorAssertUtil.assertError(err, 'ERROR_TWO')
+		}
 	}
 
 	@test(
