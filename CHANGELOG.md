@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.1.850...v1.2.0) (2020-11-03)
+
+
+### Features
+
+* improve stack on assertError ([f9f9ced](https://github.com/sprucelabsai/spruce-test-utils/commit/f9f9ced))
+
 ## [1.1.850](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.1.849...v1.1.850) (2020-11-03)
 
 ## [1.1.849](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.1.848...v1.1.849) (2020-11-03)
