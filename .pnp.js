@@ -6972,10 +6972,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-core-module", [
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/is-core-module-npm-2.0.0-5ae474e0e9-de99dfbdf1.zip/node_modules/is-core-module/",
+        ["npm:2.1.0", {
+          "packageLocation": "./.yarn/cache/is-core-module-npm-2.1.0-8bf3cc89e9-6e9d45be21.zip/node_modules/is-core-module/",
           "packageDependencies": [
-            ["is-core-module", "npm:2.0.0"],
+            ["is-core-module", "npm:2.1.0"],
             ["has", "npm:1.0.3"]
           ],
           "linkType": "HARD",
@@ -11256,7 +11256,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/resolve-patch-af4189aea7-9e62d2803a.zip/node_modules/resolve/",
           "packageDependencies": [
             ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
-            ["is-core-module", "npm:2.0.0"],
+            ["is-core-module", "npm:2.1.0"],
             ["path-parse", "npm:1.0.6"]
           ],
           "linkType": "HARD",
