@@ -8936,10 +8936,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["marked", [
-        ["npm:1.2.2", {
-          "packageLocation": "./.yarn/cache/marked-npm-1.2.2-6528b1f8bc-e7eb3dfbd8.zip/node_modules/marked/",
+        ["npm:1.2.3", {
+          "packageLocation": "./.yarn/cache/marked-npm-1.2.3-034de6e27a-ea00ad0f4f.zip/node_modules/marked/",
           "packageDependencies": [
-            ["marked", "npm:1.2.2"]
+            ["marked", "npm:1.2.3"]
           ],
           "linkType": "HARD",
         }]
@@ -8954,7 +8954,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cardinal", "npm:2.1.1"],
             ["chalk", "npm:4.1.0"],
             ["cli-table", "npm:0.3.1"],
-            ["marked", "npm:1.2.2"],
+            ["marked", "npm:1.2.3"],
             ["node-emoji", "npm:1.10.0"],
             ["supports-hyperlinks", "npm:2.1.0"]
           ],
@@ -11480,7 +11480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hook-std", "npm:2.0.0"],
             ["hosted-git-info", "npm:3.0.7"],
             ["lodash", "npm:4.17.20"],
-            ["marked", "npm:1.2.2"],
+            ["marked", "npm:1.2.3"],
             ["marked-terminal", "virtual:bb5bc3dcd9feb52e63846a4f57dd689e0ab3bfeb7981a3f742238501291ee57f9438af8407b8b5b3d7f5e505eecb5d11c65894df072701bea1cd1b1ecce8afd6#npm:4.1.0"],
             ["micromatch", "npm:4.0.2"],
             ["p-each-series", "npm:2.1.0"],
