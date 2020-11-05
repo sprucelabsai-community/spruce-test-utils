@@ -2224,9 +2224,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/commit-analyzer", "virtual:bb5bc3dcd9feb52e63846a4f57dd689e0ab3bfeb7981a3f742238501291ee57f9438af8407b8b5b3d7f5e505eecb5d11c65894df072701bea1cd1b1ecce8afd6#npm:8.0.1"],
             ["@types/semantic-release", null],
-            ["conventional-changelog-angular", "npm:5.0.11"],
-            ["conventional-commits-filter", "npm:2.0.6"],
-            ["conventional-commits-parser", "npm:3.1.0"],
+            ["conventional-changelog-angular", "npm:5.0.12"],
+            ["conventional-commits-filter", "npm:2.0.7"],
+            ["conventional-commits-parser", "npm:3.2.0"],
             ["debug", "virtual:bb5bc3dcd9feb52e63846a4f57dd689e0ab3bfeb7981a3f742238501291ee57f9438af8407b8b5b3d7f5e505eecb5d11c65894df072701bea1cd1b1ecce8afd6#npm:4.3.0"],
             ["import-from", "npm:3.0.0"],
             ["lodash", "npm:4.17.20"],
@@ -2337,10 +2337,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/release-notes-generator", "virtual:bb5bc3dcd9feb52e63846a4f57dd689e0ab3bfeb7981a3f742238501291ee57f9438af8407b8b5b3d7f5e505eecb5d11c65894df072701bea1cd1b1ecce8afd6#npm:9.0.1"],
             ["@types/semantic-release", null],
-            ["conventional-changelog-angular", "npm:5.0.11"],
-            ["conventional-changelog-writer", "npm:4.0.17"],
-            ["conventional-commits-filter", "npm:2.0.6"],
-            ["conventional-commits-parser", "npm:3.1.0"],
+            ["conventional-changelog-angular", "npm:5.0.12"],
+            ["conventional-changelog-writer", "npm:4.0.18"],
+            ["conventional-commits-filter", "npm:2.0.7"],
+            ["conventional-commits-parser", "npm:3.2.0"],
             ["debug", "virtual:bb5bc3dcd9feb52e63846a4f57dd689e0ab3bfeb7981a3f742238501291ee57f9438af8407b8b5b3d7f5e505eecb5d11c65894df072701bea1cd1b1ecce8afd6#npm:4.3.0"],
             ["get-stream", "npm:5.2.0"],
             ["import-from", "npm:3.0.0"],
@@ -4328,10 +4328,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["conventional-changelog-angular", [
-        ["npm:5.0.11", {
-          "packageLocation": "./.yarn/cache/conventional-changelog-angular-npm-5.0.11-bc0a87da7d-aecf4183da.zip/node_modules/conventional-changelog-angular/",
+        ["npm:5.0.12", {
+          "packageLocation": "./.yarn/cache/conventional-changelog-angular-npm-5.0.12-0dd88eb3f8-984545414f.zip/node_modules/conventional-changelog-angular/",
           "packageDependencies": [
-            ["conventional-changelog-angular", "npm:5.0.11"],
+            ["conventional-changelog-angular", "npm:5.0.12"],
             ["compare-func", "npm:2.0.0"],
             ["q", "npm:1.5.1"]
           ],
@@ -4350,29 +4350,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["conventional-changelog-writer", [
-        ["npm:4.0.17", {
-          "packageLocation": "./.yarn/cache/conventional-changelog-writer-npm-4.0.17-4ff45b0742-652012a1dd.zip/node_modules/conventional-changelog-writer/",
+        ["npm:4.0.18", {
+          "packageLocation": "./.yarn/cache/conventional-changelog-writer-npm-4.0.18-9b877ff4a1-c3417585cf.zip/node_modules/conventional-changelog-writer/",
           "packageDependencies": [
-            ["conventional-changelog-writer", "npm:4.0.17"],
+            ["conventional-changelog-writer", "npm:4.0.18"],
             ["compare-func", "npm:2.0.0"],
-            ["conventional-commits-filter", "npm:2.0.6"],
+            ["conventional-commits-filter", "npm:2.0.7"],
             ["dateformat", "npm:3.0.3"],
             ["handlebars", "npm:4.7.6"],
             ["json-stringify-safe", "npm:5.0.1"],
             ["lodash", "npm:4.17.20"],
-            ["meow", "npm:7.1.1"],
+            ["meow", "npm:8.0.0"],
             ["semver", "npm:6.3.0"],
             ["split", "npm:1.0.1"],
-            ["through2", "npm:3.0.2"]
+            ["through2", "npm:4.0.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["conventional-commits-filter", [
-        ["npm:2.0.6", {
-          "packageLocation": "./.yarn/cache/conventional-commits-filter-npm-2.0.6-32048012e4-a8c80a3698.zip/node_modules/conventional-commits-filter/",
+        ["npm:2.0.7", {
+          "packageLocation": "./.yarn/cache/conventional-commits-filter-npm-2.0.7-8762ee3bfa-24e4e69c26.zip/node_modules/conventional-commits-filter/",
           "packageDependencies": [
-            ["conventional-commits-filter", "npm:2.0.6"],
+            ["conventional-commits-filter", "npm:2.0.7"],
             ["lodash.ismatch", "npm:4.4.0"],
             ["modify-values", "npm:1.0.1"]
           ],
@@ -4380,16 +4380,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["conventional-commits-parser", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/conventional-commits-parser-npm-3.1.0-f22e4f0e32-4ffefd7057.zip/node_modules/conventional-commits-parser/",
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/conventional-commits-parser-npm-3.2.0-33ce9c87c0-d531b2a076.zip/node_modules/conventional-commits-parser/",
           "packageDependencies": [
-            ["conventional-commits-parser", "npm:3.1.0"],
+            ["conventional-commits-parser", "npm:3.2.0"],
             ["JSONStream", "npm:1.3.5"],
             ["is-text-path", "npm:1.0.1"],
             ["lodash", "npm:4.17.20"],
-            ["meow", "npm:7.1.1"],
+            ["meow", "npm:8.0.0"],
             ["split2", "npm:2.2.0"],
-            ["through2", "npm:3.0.2"],
+            ["through2", "npm:4.0.2"],
             ["trim-off-newlines", "npm:1.0.1"]
           ],
           "linkType": "HARD",
@@ -8985,21 +8985,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["meow", [
-        ["npm:7.1.1", {
-          "packageLocation": "./.yarn/cache/meow-npm-7.1.1-8aa72d593e-de6d2f1533.zip/node_modules/meow/",
+        ["npm:8.0.0", {
+          "packageLocation": "./.yarn/cache/meow-npm-8.0.0-c991624515-536b8cdff3.zip/node_modules/meow/",
           "packageDependencies": [
-            ["meow", "npm:7.1.1"],
+            ["meow", "npm:8.0.0"],
             ["@types/minimist", "npm:1.2.0"],
             ["camelcase-keys", "npm:6.2.2"],
             ["decamelize-keys", "npm:1.1.0"],
             ["hard-rejection", "npm:2.1.0"],
             ["minimist-options", "npm:4.1.0"],
-            ["normalize-package-data", "npm:2.5.0"],
+            ["normalize-package-data", "npm:3.0.0"],
             ["read-pkg-up", "npm:7.0.1"],
             ["redent", "npm:3.0.0"],
             ["trim-newlines", "npm:3.0.0"],
-            ["type-fest", "npm:0.13.1"],
-            ["yargs-parser", "npm:18.1.3"]
+            ["type-fest", "npm:0.18.0"],
+            ["yargs-parser", "npm:20.2.3"]
           ],
           "linkType": "HARD",
         }]
@@ -9475,6 +9475,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hosted-git-info", "npm:2.8.8"],
             ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
             ["semver", "npm:5.7.1"],
+            ["validate-npm-package-license", "npm:3.0.4"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/normalize-package-data-npm-3.0.0-ac75fb58ce-1a7d7a2f98.zip/node_modules/normalize-package-data/",
+          "packageDependencies": [
+            ["normalize-package-data", "npm:3.0.0"],
+            ["hosted-git-info", "npm:3.0.7"],
+            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["semver", "npm:7.3.2"],
             ["validate-npm-package-license", "npm:3.0.4"]
           ],
           "linkType": "HARD",
@@ -12474,11 +12485,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:3.0.2", {
-          "packageLocation": "./.yarn/cache/through2-npm-3.0.2-403f837012-26c76a8989.zip/node_modules/through2/",
+        ["npm:4.0.2", {
+          "packageLocation": "./.yarn/cache/through2-npm-4.0.2-da7b2da443-5a844792cf.zip/node_modules/through2/",
           "packageDependencies": [
-            ["through2", "npm:3.0.2"],
-            ["inherits", "npm:2.0.4"],
+            ["through2", "npm:4.0.2"],
             ["readable-stream", "npm:3.6.0"]
           ],
           "linkType": "HARD",
@@ -12801,10 +12811,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:0.13.1", {
-          "packageLocation": "./.yarn/cache/type-fest-npm-0.13.1-7f4486b973-11acce4f34.zip/node_modules/type-fest/",
+        ["npm:0.18.0", {
+          "packageLocation": "./.yarn/cache/type-fest-npm-0.18.0-ac93bc6cd8-22f7fb528b.zip/node_modules/type-fest/",
           "packageDependencies": [
-            ["type-fest", "npm:0.13.1"]
+            ["type-fest", "npm:0.18.0"]
           ],
           "linkType": "HARD",
         }],
