@@ -1637,7 +1637,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-modules", "virtual:11629f6952872c22a3c8ecbbdee82916fbf215f439a3f2000711c7a192d1e7e4a2c7e0b13b5d0e89bd5c35759754c80ca27e6fa914110c0b3a0c92e6921521f0#npm:0.1.4"],
             ["@babel/types", "npm:7.12.6"],
             ["@types/babel__core", null],
-            ["core-js-compat", "npm:3.6.5"],
+            ["core-js-compat", "npm:3.7.0"],
             ["semver", "npm:5.7.1"]
           ],
           "packagePeers": [
@@ -1682,7 +1682,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@babel-runtime-corejs3-npm-7.12.5-204fea2510-254511bc71.zip/node_modules/@babel/runtime-corejs3/",
           "packageDependencies": [
             ["@babel/runtime-corejs3", "npm:7.12.5"],
-            ["core-js-pure", "npm:3.6.5"],
+            ["core-js-pure", "npm:3.7.0"],
             ["regenerator-runtime", "npm:0.13.7"]
           ],
           "linkType": "HARD",
@@ -4430,10 +4430,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["core-js-compat", [
-        ["npm:3.6.5", {
-          "packageLocation": "./.yarn/cache/core-js-compat-npm-3.6.5-f6ba2f501c-b263b5313f.zip/node_modules/core-js-compat/",
+        ["npm:3.7.0", {
+          "packageLocation": "./.yarn/cache/core-js-compat-npm-3.7.0-25fc26c779-4194aaeb0d.zip/node_modules/core-js-compat/",
           "packageDependencies": [
-            ["core-js-compat", "npm:3.6.5"],
+            ["core-js-compat", "npm:3.7.0"],
             ["browserslist", "npm:4.14.6"],
             ["semver", "npm:7.0.0"]
           ],
@@ -4441,10 +4441,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["core-js-pure", [
-        ["npm:3.6.5", {
-          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.6.5-c634b57d82/node_modules/core-js-pure/",
+        ["npm:3.7.0", {
+          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.7.0-213dcef0c2/node_modules/core-js-pure/",
           "packageDependencies": [
-            ["core-js-pure", "npm:3.6.5"]
+            ["core-js-pure", "npm:3.7.0"]
           ],
           "linkType": "HARD",
         }]
