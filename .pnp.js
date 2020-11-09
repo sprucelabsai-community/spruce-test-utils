@@ -8991,7 +8991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redent", "npm:3.0.0"],
             ["trim-newlines", "npm:3.0.0"],
             ["type-fest", "npm:0.18.0"],
-            ["yargs-parser", "npm:20.2.3"]
+            ["yargs-parser", "npm:20.2.4"]
           ],
           "linkType": "HARD",
         }]
@@ -12658,7 +12658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:1.0.4"],
             ["semver", "npm:7.3.2"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"],
-            ["yargs-parser", "npm:20.2.3"]
+            ["yargs-parser", "npm:20.2.4"]
           ],
           "packagePeers": [
             "@types/jest",
@@ -13697,10 +13697,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:20.2.3", {
-          "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.3-d0c9b251ab-6504b053bb.zip/node_modules/yargs-parser/",
+        ["npm:20.2.4", {
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.4-1de20916a6-00dd0f23b6.zip/node_modules/yargs-parser/",
           "packageDependencies": [
-            ["yargs-parser", "npm:20.2.3"]
+            ["yargs-parser", "npm:20.2.4"]
           ],
           "linkType": "HARD",
         }],
