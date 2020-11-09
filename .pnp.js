@@ -2584,10 +2584,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/minimist", [
-        ["npm:1.2.0", {
-          "packageLocation": "./.yarn/cache/@types-minimist-npm-1.2.0-cce0ca92ef-098945c2c2.zip/node_modules/@types/minimist/",
+        ["npm:1.2.1", {
+          "packageLocation": "./.yarn/cache/@types-minimist-npm-1.2.1-dc316d808d-3a6f5fe35f.zip/node_modules/@types/minimist/",
           "packageDependencies": [
-            ["@types/minimist", "npm:1.2.0"]
+            ["@types/minimist", "npm:1.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8981,7 +8981,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/meow-npm-8.0.0-c991624515-536b8cdff3.zip/node_modules/meow/",
           "packageDependencies": [
             ["meow", "npm:8.0.0"],
-            ["@types/minimist", "npm:1.2.0"],
+            ["@types/minimist", "npm:1.2.1"],
             ["camelcase-keys", "npm:6.2.2"],
             ["decamelize-keys", "npm:1.1.0"],
             ["hard-rejection", "npm:2.1.0"],
