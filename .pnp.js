@@ -3653,7 +3653,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["browserslist", "npm:4.14.7"],
             ["caniuse-lite", "npm:1.0.30001157"],
             ["colorette", "npm:1.2.1"],
-            ["electron-to-chromium", "npm:1.3.591"],
+            ["electron-to-chromium", "npm:1.3.592"],
             ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.66"]
           ],
@@ -5027,10 +5027,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["electron-to-chromium", [
-        ["npm:1.3.591", {
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.591-0cc8a4c373-c2ed7fabea.zip/node_modules/electron-to-chromium/",
+        ["npm:1.3.592", {
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.592-1339cc0f9c-162d85f201.zip/node_modules/electron-to-chromium/",
           "packageDependencies": [
-            ["electron-to-chromium", "npm:1.3.591"]
+            ["electron-to-chromium", "npm:1.3.592"]
           ],
           "linkType": "HARD",
         }]
