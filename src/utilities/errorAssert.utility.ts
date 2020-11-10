@@ -6,14 +6,14 @@ function removeProps(obj: Record<string, any>, keys: string[]) {
 	if (obj instanceof Array) {
 		obj.forEach(function (item, idx) {
 			if (item instanceof AbstractSpruceError) {
-				obj[idx] = item = item.options
+				obj[idx] = item = { options: item.options }
 			}
 			removeProps(item, keys)
 		})
 	} else if (typeof obj === 'object') {
 		Object.getOwnPropertyNames(obj).forEach(function (key) {
 			if (obj[key] instanceof AbstractSpruceError) {
-				obj[key] = obj[key].options
+				obj[key] = { options: obj[key].options }
 				removeProps(obj[key], keys)
 			} else if (keys.indexOf(key) !== -1) {
 				delete obj[key]
