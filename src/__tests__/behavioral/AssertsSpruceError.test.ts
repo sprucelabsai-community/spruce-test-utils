@@ -67,8 +67,35 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		{ results: { errors: [{ code: 'TEST', friendlyMessage: 'go away' }] } },
 		{ results: { errors: [{ code: 'TEST' }] } }
 	)
-	protected static async strippingFriendlyMessage(options: any, expected: any) {
+	protected static strippingFriendlyMessage(options: any, expected: any) {
 		const actual = errorAssertUtil.stripFriendlyMessageFromOptions(options)
 		assert.isEqualDeep(actual, expected)
+	}
+
+	@test()
+	protected static strippingFriendlyMessageConvertsSpruceErrorToOptions() {
+		const actual = errorAssertUtil.stripFriendlyMessageFromOptions({
+			fun: {
+				times: [
+					new TestError({ code: 'ERROR_ONE', booleanParam: true }),
+					new TestError({ code: 'ERROR_TWO', textParam: 'text' }),
+				],
+			},
+		})
+
+		assert.isEqualDeep(actual, {
+			fun: {
+				times: [
+					{
+						code: 'ERROR_ONE',
+						booleanParam: true,
+					},
+					{
+						code: 'ERROR_TWO',
+						textParam: 'text',
+					},
+				],
+			},
+		})
 	}
 }

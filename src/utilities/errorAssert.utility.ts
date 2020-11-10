@@ -4,12 +4,18 @@ import cloneDeep from 'lodash/cloneDeep'
 
 function removeProps(obj: Record<string, any>, keys: string[]) {
 	if (obj instanceof Array) {
-		obj.forEach(function (item) {
+		obj.forEach(function (item, idx) {
+			if (item instanceof AbstractSpruceError) {
+				obj[idx] = item = item.options
+			}
 			removeProps(item, keys)
 		})
 	} else if (typeof obj === 'object') {
 		Object.getOwnPropertyNames(obj).forEach(function (key) {
-			if (keys.indexOf(key) !== -1) {
+			if (obj[key] instanceof AbstractSpruceError) {
+				obj[key] = obj[key].options
+				removeProps(obj[key], keys)
+			} else if (keys.indexOf(key) !== -1) {
 				delete obj[key]
 			} else {
 				removeProps(obj[key], keys)

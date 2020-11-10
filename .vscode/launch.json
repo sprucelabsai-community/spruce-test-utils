@@ -8,11 +8,12 @@
 			"type": "node",
 			"request": "launch",
 			"name": "test.file",
-			"runtimeExecutable": "${env:NVM_BIN}/node",
+			"runtimeExecutable": "yarn",
 			"runtimeArgs": [
+				"run",
 				"--inspect-brk",
-				"${workspaceFolder}/node_modules/.bin/jest",
-				"${relativeFile}",
+				"jest",
+				"${fileBasenameNoExtension}",
 				"--no-cache"
 			],
 			"port": 9229,
@@ -24,10 +25,11 @@
 			"type": "node",
 			"request": "launch",
 			"name": "test.all",
-			"runtimeExecutable": "${env:NVM_BIN}/node",
+			"runtimeExecutable": "yarn",
 			"runtimeArgs": [
+				"run",
 				"--inspect-brk",
-				"${workspaceFolder}/node_modules/.bin/jest"
+				"jest",
 			],
 			"port": 9229,
 			"cwd": "${fileDirname}",
