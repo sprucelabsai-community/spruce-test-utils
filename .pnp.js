@@ -2309,7 +2309,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm", "npm:6.14.8"],
             ["rc", "npm:1.2.8"],
             ["read-pkg", "npm:5.2.0"],
-            ["registry-auth-token", "npm:4.2.0"],
+            ["registry-auth-token", "npm:4.2.1"],
             ["semantic-release", "npm:17.2.2"],
             ["semver", "npm:7.3.2"],
             ["tempy", "npm:0.5.0"]
@@ -11111,10 +11111,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:4.2.0", {
-          "packageLocation": "./.yarn/cache/registry-auth-token-npm-4.2.0-0aada8f019-bbdcbe2210.zip/node_modules/registry-auth-token/",
+        ["npm:4.2.1", {
+          "packageLocation": "./.yarn/cache/registry-auth-token-npm-4.2.1-200e2be697-10ca9caeea.zip/node_modules/registry-auth-token/",
           "packageDependencies": [
-            ["registry-auth-token", "npm:4.2.0"],
+            ["registry-auth-token", "npm:4.2.1"],
             ["rc", "npm:1.2.8"]
           ],
           "linkType": "HARD",
