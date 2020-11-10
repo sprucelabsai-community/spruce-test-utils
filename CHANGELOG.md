@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.2.167...v2.0.0) (2020-11-10)
+
+
+### Breaking Changes
+
+* convert spruce error to options ([2f0d11a](https://github.com/sprucelabsai/spruce-test-utils/commit/2f0d11a))
+
 ## [1.2.167](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.2.166...v1.2.167) (2020-11-10)
 
 ## [1.2.166](https://github.com/sprucelabsai/spruce-test-utils/compare/v1.2.165...v1.2.166) (2020-11-10)
