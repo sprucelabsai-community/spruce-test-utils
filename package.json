@@ -6,7 +6,7 @@
 	"files": [
 		"build"
 	],
-	"version": "1.1.322",
+	"version": "1.2.167",
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
 	"description": "Helpful utilities to make asserting more complicated conditions quick and easy! ⚡️",
@@ -24,6 +24,7 @@
 		"build": "yarn clean && yarn build.tsc",
 		"build.tsc": "tsc",
 		"build.watch": "tsc -w",
+		"rebuild": "yarn clean && rm -rf .yarn/cache && yarn && yarn build",
 		"clean": "rm -rf build/",
 		"lint": "eslint '**/*.ts' --fix && yarn lint.tsc",
 		"lint.watch": "chokidar 'index.ts' 'src/**/*.(js|jsx|ts|tsx)' -c 'yarn lint'",
@@ -34,36 +35,36 @@
 		"release": "semantic-release",
 		"upgrade.packages": "yarn run upgrade.packages.all",
 		"upgrade.packages.yarn2": "jq -r '(.dependencies, .devDependencies) | keys | .[]' package.json | sort |uniq | xargs yarn up",
-		"upgrade.packages.all": "yarn run upgrade.packages.yarn2 ; rm -f yarn.lock ; yarn ; yarn lint.fix || true",
+		"upgrade.packages.all": "yarn install ; yarn run upgrade.packages.yarn2 ; yarn ; yarn lint.fix || true",
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^2.2.471",
-		"@sprucelabs/test": "^7.0.139",
-		"@types/lodash": "^4.14.162"
+		"@sprucelabs/error": "^2.4.1",
+		"@sprucelabs/test": "^7.2.0",
+		"@types/lodash": "^4.14.165"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",
 		"@semantic-release/git": "^9.0.0",
 		"@sprucelabs/semantic-release": "^4.0.6",
-		"@typescript-eslint/eslint-plugin": "^4.4.0",
-		"@typescript-eslint/parser": "^4.4.0",
+		"@typescript-eslint/eslint-plugin": "^4.7.0",
+		"@typescript-eslint/parser": "^4.7.0",
 		"chokidar-cli": "^2.1.0",
 		"concurrently": "^5.3.0",
 		"conventional-changelog-sprucelabs": "^1.1.2",
-		"eslint": "^7.11.0",
-		"eslint-config-spruce": "^10.9.90",
+		"eslint": "^7.13.0",
+		"eslint-config-spruce": "^10.9.105",
 		"eslint-import-resolver-node": "^0.3.4",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-react": "^7.21.4",
-		"eslint-plugin-spruce": "^10.9.90",
-		"jest": "^26.5.3",
+		"eslint-plugin-react": "^7.21.5",
+		"eslint-plugin-spruce": "^10.9.105",
+		"jest": "^26.6.3",
 		"lodash": "^4.17.20",
 		"prettier": "^2.1.2",
-		"semantic-release": "^17.2.1",
+		"semantic-release": "^17.2.2",
 		"ts-node": "^9.0.0",
-		"typescript": "^4.0.3"
+		"typescript": "^4.0.5"
 	},
 	"jest": {
 		"testEnvironment": "node",

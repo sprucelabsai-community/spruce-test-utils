@@ -19,6 +19,7 @@ jobs:
               echo "[npm-publish] detected. No publish necessary 👊"
               circleci-agent step halt
             fi
+      - run: yarn install
       - run: yarn lint
       - run: yarn build
       - run: yarn test -w 1
@@ -54,6 +55,7 @@ jobs:
               echo "[npm-publish] detected. No publish necessary 👊"
               circleci-agent step halt
             fi
+      - run: yarn install
       - run: yarn run build
       - run: git config --global user.email "$GIT_AUTHOR_EMAIL"
       - run: git config --global user.name "$GIT_AUTHOR_NAME"
@@ -80,13 +82,10 @@ jobs:
             git reset --hard master
             git config --global user.email "$GIT_AUTHOR_EMAIL"
             git config --global user.name "$GIT_AUTHOR_NAME"
+            yarn install
             yarn run upgrade.packages.all
             if [[ $(git status) != *"modified"* ]]; then 
               echo "No modifications detected.  No push/PR necessary 👊"
-              circleci-agent step halt
-            fi
-            if [[ ! -f yarn.lock  ]]; then
-              echo "Upgrade errored and removed the yarn.lock. Likely due to a package version missing"
               circleci-agent step halt
             fi
             yarn

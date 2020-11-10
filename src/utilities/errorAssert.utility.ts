@@ -1,5 +1,5 @@
 import AbstractSpruceError from '@sprucelabs/error'
-import { assert } from '@sprucelabs/test'
+import { assert, assertUtil } from '@sprucelabs/test'
 import cloneDeep from 'lodash/cloneDeep'
 
 function removeProps(obj: Record<string, any>, keys: string[]) {
@@ -26,17 +26,30 @@ function removeProps(obj: Record<string, any>, keys: string[]) {
 
 const errorAssertUtil = {
 	assertError(
-		error: AbstractSpruceError<any>,
+		error: Error | AbstractSpruceError<any>,
 		expectedCode: string,
 		expectedPartialOptions?: Record<string, any>
 	) {
-		if (error.options.code === expectedCode) {
+		const spruceErr = error as AbstractSpruceError<any>
+
+		if (!spruceErr.options) {
+			assertUtil.fail(
+				`Did not receive a SpruceError, got:\n\nMessage: ${spruceErr.message}`,
+				spruceErr.stack
+			)
+		}
+		if (spruceErr.options.code === expectedCode) {
 			if (expectedPartialOptions) {
-				assert.doesInclude(error.options, expectedPartialOptions)
+				assert.doesInclude(spruceErr.options, expectedPartialOptions)
 			}
 		} else {
-			assert.fail(
-				`Invalid error code. Expected ${expectedCode} but got ${error.options.code}`
+			assertUtil.fail(
+				`Invalid error code. Expected:\n\n'${expectedCode}'\n\nbut got:\n\nCode: '${
+					spruceErr.options.code
+				}'\nMessage: '${spruceErr.message}'\nOptions:${assertUtil.stringify(
+					spruceErr.options
+				)}`,
+				spruceErr.stack
 			)
 		}
 	},
