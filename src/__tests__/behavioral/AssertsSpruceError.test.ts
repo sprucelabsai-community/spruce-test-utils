@@ -105,12 +105,16 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 			fun: {
 				times: [
 					{
-						code: 'ERROR_ONE',
-						booleanParam: true,
+						options:{
+							code: 'ERROR_ONE',
+							booleanParam: true,
+						}
 					},
 					{
-						code: 'ERROR_TWO',
-						textParam: 'text',
+						options:{
+							code: 'ERROR_TWO',
+							textParam: 'text',
+						}
 					},
 				],
 			},
