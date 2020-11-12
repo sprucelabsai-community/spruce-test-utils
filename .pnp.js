@@ -2459,7 +2459,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/parser", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"],
             ["@types/babel__generator", "npm:7.6.2"],
-            ["@types/babel__template", "npm:7.0.3"],
+            ["@types/babel__template", "npm:7.4.0"],
             ["@types/babel__traverse", "npm:7.0.15"]
           ],
           "linkType": "HARD",
@@ -2476,10 +2476,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/babel__template", [
-        ["npm:7.0.3", {
-          "packageLocation": "./.yarn/cache/@types-babel__template-npm-7.0.3-7d9695a7d2-936119303a.zip/node_modules/@types/babel__template/",
+        ["npm:7.4.0", {
+          "packageLocation": "./.yarn/cache/@types-babel__template-npm-7.4.0-e906ff43dc-7a81a59f85.zip/node_modules/@types/babel__template/",
           "packageDependencies": [
-            ["@types/babel__template", "npm:7.0.3"],
+            ["@types/babel__template", "npm:7.4.0"],
             ["@babel/parser", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"]
           ],
