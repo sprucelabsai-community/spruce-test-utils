@@ -9000,7 +9000,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["read-pkg-up", "npm:7.0.1"],
             ["redent", "npm:3.0.0"],
             ["trim-newlines", "npm:3.0.0"],
-            ["type-fest", "npm:0.18.0"],
+            ["type-fest", "npm:0.18.1"],
             ["yargs-parser", "npm:20.2.4"]
           ],
           "linkType": "HARD",
@@ -12812,10 +12812,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:0.18.0", {
-          "packageLocation": "./.yarn/cache/type-fest-npm-0.18.0-ac93bc6cd8-22f7fb528b.zip/node_modules/type-fest/",
+        ["npm:0.18.1", {
+          "packageLocation": "./.yarn/cache/type-fest-npm-0.18.1-47b079775d-0d6d338e72.zip/node_modules/type-fest/",
           "packageDependencies": [
-            ["type-fest", "npm:0.18.0"]
+            ["type-fest", "npm:0.18.1"]
           ],
           "linkType": "HARD",
         }],
