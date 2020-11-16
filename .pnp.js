@@ -3349,10 +3349,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["axe-core", [
-        ["npm:4.0.2", {
-          "packageLocation": "./.yarn/cache/axe-core-npm-4.0.2-5871a8513b-27f5b3c24f.zip/node_modules/axe-core/",
+        ["npm:4.1.0", {
+          "packageLocation": "./.yarn/cache/axe-core-npm-4.1.0-844a112e8e-bc343dfc2d.zip/node_modules/axe-core/",
           "packageDependencies": [
-            ["axe-core", "npm:4.0.2"]
+            ["axe-core", "npm:4.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5418,7 +5418,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["aria-query", "npm:4.2.2"],
             ["array-includes", "npm:3.1.1"],
             ["ast-types-flow", "npm:0.0.7"],
-            ["axe-core", "npm:4.0.2"],
+            ["axe-core", "npm:4.1.0"],
             ["axobject-query", "npm:2.2.0"],
             ["damerau-levenshtein", "npm:1.0.6"],
             ["emoji-regex", "npm:9.2.0"],
