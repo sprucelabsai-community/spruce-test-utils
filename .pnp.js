@@ -1848,7 +1848,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-validate", "npm:26.6.2"],
             ["jest-watcher", "npm:26.6.2"],
             ["micromatch", "npm:4.0.2"],
-            ["p-each-series", "npm:2.1.0"],
+            ["p-each-series", "npm:2.2.0"],
             ["rimraf", "npm:3.0.2"],
             ["slash", "npm:3.0.0"],
             ["strip-ansi", "npm:6.0.0"]
@@ -10107,10 +10107,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["p-each-series", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/p-each-series-npm-2.1.0-345e6f9034-cc7516dbb8.zip/node_modules/p-each-series/",
+        ["npm:2.2.0", {
+          "packageLocation": "./.yarn/cache/p-each-series-npm-2.2.0-b9907a1ae6-d5a0896eb7.zip/node_modules/p-each-series/",
           "packageDependencies": [
-            ["p-each-series", "npm:2.1.0"]
+            ["p-each-series", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -11511,7 +11511,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["marked", "npm:1.2.4"],
             ["marked-terminal", "virtual:36ac126a3e4809f9257c91504461e9202704b7bf2ab19f6aa3ae3b0061ea015a9d794b3e60b357f9dcc8733571d9dee887533e1e9907aa9ea853ea4a8a02f3c6#npm:4.1.0"],
             ["micromatch", "npm:4.0.2"],
-            ["p-each-series", "npm:2.1.0"],
+            ["p-each-series", "npm:2.2.0"],
             ["p-reduce", "npm:2.1.0"],
             ["read-pkg-up", "npm:7.0.1"],
             ["resolve-from", "npm:5.0.0"],
