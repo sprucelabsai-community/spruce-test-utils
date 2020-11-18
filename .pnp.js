@@ -3219,12 +3219,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["array.prototype.flatmap", [
-        ["npm:1.2.3", {
-          "packageLocation": "./.yarn/cache/array.prototype.flatmap-npm-1.2.3-5a87b1ccec-adbf30f271.zip/node_modules/array.prototype.flatmap/",
+        ["npm:1.2.4", {
+          "packageLocation": "./.yarn/cache/array.prototype.flatmap-npm-1.2.4-77697fdbe6-2718f73b91.zip/node_modules/array.prototype.flatmap/",
           "packageDependencies": [
-            ["array.prototype.flatmap", "npm:1.2.3"],
+            ["array.prototype.flatmap", "npm:1.2.4"],
+            ["call-bind", "npm:1.0.0"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.17.7"],
+            ["es-abstract", "npm:1.18.0-next.1"],
             ["function-bind", "npm:1.1.1"]
           ],
           "linkType": "HARD",
@@ -5479,7 +5480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:7.21.5"],
             ["@types/eslint", null],
             ["array-includes", "npm:3.1.1"],
-            ["array.prototype.flatmap", "npm:1.2.3"],
+            ["array.prototype.flatmap", "npm:1.2.4"],
             ["doctrine", "npm:2.1.0"],
             ["eslint", "npm:7.13.0"],
             ["has", "npm:1.0.3"],
