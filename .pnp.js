@@ -3643,7 +3643,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.14.7-3f4edaffc6-62b671a69a.zip/node_modules/browserslist/",
           "packageDependencies": [
             ["browserslist", "npm:4.14.7"],
-            ["caniuse-lite", "npm:1.0.30001158"],
+            ["caniuse-lite", "npm:1.0.30001159"],
             ["colorette", "npm:1.2.1"],
             ["electron-to-chromium", "npm:1.3.598"],
             ["escalade", "npm:3.1.1"],
@@ -3815,10 +3815,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["caniuse-lite", [
-        ["npm:1.0.30001158", {
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001158-c24bf95ec0-5e8e370bd6.zip/node_modules/caniuse-lite/",
+        ["npm:1.0.30001159", {
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001159-31ea3cb3d6-d1fbf0a51c.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
-            ["caniuse-lite", "npm:1.0.30001158"]
+            ["caniuse-lite", "npm:1.0.30001159"]
           ],
           "linkType": "HARD",
         }]
