@@ -2001,7 +2001,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/istanbul-lib-coverage", "npm:2.0.3"],
             ["@types/istanbul-reports", "npm:3.0.0"],
             ["@types/node", "npm:14.14.8"],
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["chalk", "npm:4.1.0"]
           ],
           "linkType": "HARD",
@@ -2649,10 +2649,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/yargs", [
-        ["npm:15.0.9", {
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.9-b209c123e3-643069491a.zip/node_modules/@types/yargs/",
+        ["npm:15.0.10", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.10-dc61489546-151fc79f81.zip/node_modules/@types/yargs/",
           "packageDependencies": [
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["@types/yargs-parser", "npm:15.0.0"]
           ],
           "linkType": "HARD",
@@ -7893,7 +7893,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/transform", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["chalk", "npm:4.1.0"],
             ["cjs-module-lexer", "npm:0.6.0"],
             ["collect-v8-coverage", "npm:1.0.1"],
