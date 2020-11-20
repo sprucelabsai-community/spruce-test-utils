@@ -5584,7 +5584,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.values", "npm:1.1.1"],
             ["prop-types", "npm:15.7.2"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["string.prototype.matchall", "npm:4.0.2"]
+            ["string.prototype.matchall", "npm:4.0.3"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -5608,7 +5608,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.values", "npm:1.1.1"],
             ["prop-types", "npm:15.7.2"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["string.prototype.matchall", "npm:4.0.2"]
+            ["string.prototype.matchall", "npm:4.0.3"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -12267,12 +12267,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["string.prototype.matchall", [
-        ["npm:4.0.2", {
-          "packageLocation": "./.yarn/cache/string.prototype.matchall-npm-4.0.2-ee3186a639-0ca2937d28.zip/node_modules/string.prototype.matchall/",
+        ["npm:4.0.3", {
+          "packageLocation": "./.yarn/cache/string.prototype.matchall-npm-4.0.3-4f273acdaf-3458202fb0.zip/node_modules/string.prototype.matchall/",
           "packageDependencies": [
-            ["string.prototype.matchall", "npm:4.0.2"],
+            ["string.prototype.matchall", "npm:4.0.3"],
+            ["call-bind", "npm:1.0.0"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.17.7"],
+            ["es-abstract", "npm:1.18.0-next.1"],
             ["has-symbols", "npm:1.0.1"],
             ["internal-slot", "npm:1.0.2"],
             ["regexp.prototype.flags", "npm:1.3.0"],
