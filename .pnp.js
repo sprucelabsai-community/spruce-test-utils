@@ -2298,7 +2298,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.20"],
             ["nerf-dart", "npm:1.0.0"],
             ["normalize-url", "npm:5.3.0"],
-            ["npm", "npm:6.14.8"],
+            ["npm", "npm:6.14.9"],
             ["rc", "npm:1.2.8"],
             ["read-pkg", "npm:5.2.0"],
             ["registry-auth-token", "npm:4.2.1"],
@@ -9656,10 +9656,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["npm", [
-        ["npm:6.14.8", {
-          "packageLocation": "./.yarn/unplugged/npm-npm-6.14.8-ab3e9dc4ed/node_modules/npm/",
+        ["npm:6.14.9", {
+          "packageLocation": "./.yarn/unplugged/npm-npm-6.14.9-5bae14f59e/node_modules/npm/",
           "packageDependencies": [
-            ["npm", "npm:6.14.8"],
+            ["npm", "npm:6.14.9"],
             ["JSONStream", "npm:1.3.5"],
             ["abbrev", "npm:1.1.1"],
             ["ansicolors", "npm:0.3.2"],
