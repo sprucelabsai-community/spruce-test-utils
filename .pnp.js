@@ -5223,8 +5223,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-inspect", "npm:1.8.0"],
             ["object-keys", "npm:1.1.1"],
             ["object.assign", "npm:4.1.2"],
-            ["string.prototype.trimend", "npm:1.0.2"],
-            ["string.prototype.trimstart", "npm:1.0.2"]
+            ["string.prototype.trimend", "npm:1.0.3"],
+            ["string.prototype.trimstart", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }],
@@ -5242,8 +5242,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-inspect", "npm:1.8.0"],
             ["object-keys", "npm:1.1.1"],
             ["object.assign", "npm:4.1.2"],
-            ["string.prototype.trimend", "npm:1.0.2"],
-            ["string.prototype.trimstart", "npm:1.0.2"]
+            ["string.prototype.trimend", "npm:1.0.3"],
+            ["string.prototype.trimstart", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -12271,23 +12271,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["string.prototype.trimend", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/string.prototype.trimend-npm-1.0.2-051dced0e2-6e89c1fc6a.zip/node_modules/string.prototype.trimend/",
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/string.prototype.trimend-npm-1.0.3-c0c24507b7-0dd169f2e1.zip/node_modules/string.prototype.trimend/",
           "packageDependencies": [
-            ["string.prototype.trimend", "npm:1.0.2"],
-            ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.0-next.1"]
+            ["string.prototype.trimend", "npm:1.0.3"],
+            ["call-bind", "npm:1.0.0"],
+            ["define-properties", "npm:1.1.3"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["string.prototype.trimstart", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/string.prototype.trimstart-npm-1.0.2-a49f26003e-9b94804eb9.zip/node_modules/string.prototype.trimstart/",
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/string.prototype.trimstart-npm-1.0.3-dcb692d4d7-09468693c9.zip/node_modules/string.prototype.trimstart/",
           "packageDependencies": [
-            ["string.prototype.trimstart", "npm:1.0.2"],
-            ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.0-next.1"]
+            ["string.prototype.trimstart", "npm:1.0.3"],
+            ["call-bind", "npm:1.0.0"],
+            ["define-properties", "npm:1.1.3"]
           ],
           "linkType": "HARD",
         }]
