@@ -6511,7 +6511,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minimist", "npm:1.2.5"],
             ["neo-async", "npm:2.6.2"],
             ["source-map", "npm:0.6.1"],
-            ["uglify-js", "npm:3.11.6"],
+            ["uglify-js", "npm:3.12.0"],
             ["wordwrap", "npm:1.0.0"]
           ],
           "linkType": "HARD",
@@ -12986,10 +12986,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["uglify-js", [
-        ["npm:3.11.6", {
-          "packageLocation": "./.yarn/cache/uglify-js-npm-3.11.6-04392d04c1-26b7dc245f.zip/node_modules/uglify-js/",
+        ["npm:3.12.0", {
+          "packageLocation": "./.yarn/cache/uglify-js-npm-3.12.0-e30f7266b8-9b9316bf33.zip/node_modules/uglify-js/",
           "packageDependencies": [
-            ["uglify-js", "npm:3.11.6"]
+            ["uglify-js", "npm:3.12.0"]
           ],
           "linkType": "HARD",
         }]
