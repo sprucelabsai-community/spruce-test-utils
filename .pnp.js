@@ -2440,7 +2440,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.12.7"],
             ["@types/babel__generator", "npm:7.6.2"],
             ["@types/babel__template", "npm:7.4.0"],
-            ["@types/babel__traverse", "npm:7.0.15"]
+            ["@types/babel__traverse", "npm:7.0.16"]
           ],
           "linkType": "HARD",
         }]
@@ -2467,10 +2467,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/babel__traverse", [
-        ["npm:7.0.15", {
-          "packageLocation": "./.yarn/cache/@types-babel__traverse-npm-7.0.15-9c15ba934c-70c4bcc395.zip/node_modules/@types/babel__traverse/",
+        ["npm:7.0.16", {
+          "packageLocation": "./.yarn/cache/@types-babel__traverse-npm-7.0.16-2ec8ed539a-72b7530a63.zip/node_modules/@types/babel__traverse/",
           "packageDependencies": [
-            ["@types/babel__traverse", "npm:7.0.15"],
+            ["@types/babel__traverse", "npm:7.0.16"],
             ["@babel/types", "npm:7.12.7"]
           ],
           "linkType": "HARD",
@@ -3496,7 +3496,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/template", "npm:7.12.7"],
             ["@babel/types", "npm:7.12.7"],
             ["@types/babel__core", "npm:7.1.12"],
-            ["@types/babel__traverse", "npm:7.0.15"]
+            ["@types/babel__traverse", "npm:7.0.16"]
           ],
           "linkType": "HARD",
         }]
@@ -8044,7 +8044,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-snapshot", "npm:26.6.2"],
             ["@babel/types", "npm:7.12.7"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/babel__traverse", "npm:7.0.15"],
+            ["@types/babel__traverse", "npm:7.0.16"],
             ["@types/prettier", "npm:2.1.5"],
             ["chalk", "npm:4.1.0"],
             ["expect", "npm:26.6.2"],
