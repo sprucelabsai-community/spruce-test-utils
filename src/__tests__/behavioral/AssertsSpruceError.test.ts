@@ -1,13 +1,15 @@
-import AbstractSpruceError, { ISpruceErrorOptions } from '@sprucelabs/error'
+import AbstractSpruceError, {
+	ErrorOptions as IErrorOptions,
+} from '@sprucelabs/error'
 import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
 import errorAssertUtil from '../../utilities/errorAssert.utility'
 
-interface ErrorOne extends ISpruceErrorOptions {
+interface ErrorOne extends IErrorOptions {
 	code: 'ERROR_ONE'
 	booleanParam: boolean
 }
 
-interface ErrorTwo extends ISpruceErrorOptions {
+interface ErrorTwo extends IErrorOptions {
 	code: 'ERROR_TWO'
 	textParam: string
 }
