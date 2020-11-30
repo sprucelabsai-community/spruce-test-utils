@@ -3783,7 +3783,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:2.7.1"],
             ["ssri", "npm:6.0.1"],
             ["unique-filename", "npm:1.1.1"],
-            ["y18n", "npm:4.0.0"]
+            ["y18n", "npm:4.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8598,7 +8598,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["safe-buffer", "npm:5.1.2"],
             ["update-notifier", "npm:2.5.0"],
             ["which", "npm:1.3.1"],
-            ["y18n", "npm:4.0.0"],
+            ["y18n", "npm:4.0.1"],
             ["yargs", "npm:14.2.3"]
           ],
           "linkType": "HARD",
@@ -13673,10 +13673,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:4.0.0", {
-          "packageLocation": "./.yarn/cache/y18n-npm-4.0.0-55cd797cc5-5b7434c95d.zip/node_modules/y18n/",
+        ["npm:4.0.1", {
+          "packageLocation": "./.yarn/cache/y18n-npm-4.0.1-b22ff0d5e0-e589620d8d.zip/node_modules/y18n/",
           "packageDependencies": [
-            ["y18n", "npm:4.0.0"]
+            ["y18n", "npm:4.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -13726,7 +13726,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["set-blocking", "npm:2.0.0"],
             ["string-width", "npm:3.1.0"],
             ["which-module", "npm:2.0.0"],
-            ["y18n", "npm:4.0.0"],
+            ["y18n", "npm:4.0.1"],
             ["yargs-parser", "npm:13.1.2"]
           ],
           "linkType": "HARD",
@@ -13744,7 +13744,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["set-blocking", "npm:2.0.0"],
             ["string-width", "npm:3.1.0"],
             ["which-module", "npm:2.0.0"],
-            ["y18n", "npm:4.0.0"],
+            ["y18n", "npm:4.0.1"],
             ["yargs-parser", "npm:15.0.1"]
           ],
           "linkType": "HARD",
@@ -13762,7 +13762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["set-blocking", "npm:2.0.0"],
             ["string-width", "npm:4.2.0"],
             ["which-module", "npm:2.0.0"],
-            ["y18n", "npm:4.0.0"],
+            ["y18n", "npm:4.0.1"],
             ["yargs-parser", "npm:18.1.3"]
           ],
           "linkType": "HARD",
