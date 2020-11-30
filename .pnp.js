@@ -7019,10 +7019,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-bigint", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/is-bigint-npm-1.0.0-181b178937-88a68a7d29.zip/node_modules/is-bigint/",
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/is-bigint-npm-1.0.1-6228cdc523-dd132ab80f.zip/node_modules/is-bigint/",
           "packageDependencies": [
-            ["is-bigint", "npm:1.0.0"]
+            ["is-bigint", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -13443,7 +13443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/which-boxed-primitive-npm-1.0.1-de65e49014-16c7648861.zip/node_modules/which-boxed-primitive/",
           "packageDependencies": [
             ["which-boxed-primitive", "npm:1.0.1"],
-            ["is-bigint", "npm:1.0.0"],
+            ["is-bigint", "npm:1.0.1"],
             ["is-boolean-object", "npm:1.0.1"],
             ["is-number-object", "npm:1.0.4"],
             ["is-string", "npm:1.0.5"],
