@@ -2309,7 +2309,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["read-pkg", "npm:5.2.0"],
             ["registry-auth-token", "npm:4.2.1"],
             ["semantic-release", "npm:17.3.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tempy", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -2393,7 +2393,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test", "npm:7.2.0"],
             ["@babel/core", "npm:7.12.9"],
             ["@babel/preset-env", "virtual:18279a3e5e2915987f5d376e51dc958d6db21f5425ae99910a14ac4c34b5c38362d8b5c4f473408d1ddd32d4eb87af93284f91f167f7e3254e70a170351b07da#npm:7.12.7"],
-            ["@types/jest", "npm:26.0.15"],
+            ["@types/jest", "npm:26.0.16"],
             ["babel-jest", "virtual:caddf51df4928b33a437ca87b8f5ddfb6205ebd6d8231f74d4ee7223f3866e6f815b221aa1e2bd33e98915f701e95bae72a93d2288b49a34a6246bdbc2a4a132#npm:26.6.3"],
             ["chalk", "npm:4.1.0"],
             ["deep-equal", "npm:2.0.4"],
@@ -2534,10 +2534,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:26.0.15", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.15-123adbed89-42fe39d582.zip/node_modules/@types/jest/",
+        ["npm:26.0.16", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.16-521e0e28bb-0c94186cdf.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:26.0.15"],
+            ["@types/jest", "npm:26.0.16"],
             ["jest-diff", "npm:26.6.2"],
             ["pretty-format", "npm:26.6.2"]
           ],
@@ -2687,7 +2687,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.14.0"],
             ["functional-red-black-tree", "npm:1.0.1"],
             ["regexpp", "npm:3.1.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tsutils", "virtual:aafbbfe4c05fab1e3bf56892178851ff2c0d3688495ed873d3739f16e9d0be72de218da5617a55cb07a0c148267bcea9a2022f56598dcd08466f6b3fbc97eb39#npm:3.17.1"],
             ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
@@ -2713,7 +2713,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", null],
             ["functional-red-black-tree", "npm:1.0.1"],
             ["regexpp", "npm:3.1.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tsutils", "virtual:a72039a05114b16599fe154c14c556eca626243965f25fd99bd06c0f89b1f14c971bf3501b0cb7e1ec455bad5f6ef3b4ce15e2086153bac47438f6fb4e6db236#npm:3.17.1"],
             ["typescript", null]
           ],
@@ -2838,7 +2838,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:11.0.1"],
             ["is-glob", "npm:4.0.1"],
             ["lodash", "npm:4.17.20"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tsutils", "virtual:a72039a05114b16599fe154c14c556eca626243965f25fd99bd06c0f89b1f14c971bf3501b0cb7e1ec455bad5f6ef3b4ce15e2086153bac47438f6fb4e6db236#npm:3.17.1"],
             ["typescript", null]
           ],
@@ -2857,7 +2857,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:11.0.1"],
             ["is-glob", "npm:4.0.1"],
             ["lodash", "npm:4.17.20"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tsutils", "virtual:aafbbfe4c05fab1e3bf56892178851ff2c0d3688495ed873d3739f16e9d0be72de218da5617a55cb07a0c148267bcea9a2022f56598dcd08466f6b3fbc97eb39#npm:3.17.1"],
             ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
@@ -5391,7 +5391,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["optionator", "npm:0.9.1"],
             ["progress", "npm:2.0.3"],
             ["regexpp", "npm:3.1.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["strip-ansi", "npm:6.0.0"],
             ["strip-json-comments", "npm:3.1.1"],
             ["table", "npm:5.4.6"],
@@ -8075,7 +8075,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-resolve", "npm:26.6.2"],
             ["natural-compare", "npm:1.4.0"],
             ["pretty-format", "npm:26.6.2"],
-            ["semver", "npm:7.3.2"]
+            ["semver", "npm:7.3.3"]
           ],
           "linkType": "HARD",
         }]
@@ -9545,7 +9545,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
             ["rimraf", "npm:3.0.2"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["tar", "npm:6.0.5"],
             ["which", "npm:2.0.2"]
           ],
@@ -9577,7 +9577,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-notifier", "npm:8.0.0"],
             ["growly", "npm:1.3.0"],
             ["is-wsl", "npm:2.2.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["shellwords", "npm:0.1.1"],
             ["uuid", "npm:8.3.1"],
             ["which", "npm:2.0.2"]
@@ -9631,7 +9631,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normalize-package-data", "npm:3.0.0"],
             ["hosted-git-info", "npm:3.0.7"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["validate-npm-package-license", "npm:3.0.4"]
           ],
           "linkType": "HARD",
@@ -11643,7 +11643,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["p-reduce", "npm:2.1.0"],
             ["read-pkg-up", "npm:7.0.1"],
             ["resolve-from", "npm:5.0.0"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["semver-diff", "npm:3.1.1"],
             ["signale", "npm:1.4.0"],
             ["yargs", "npm:15.4.1"]
@@ -11673,10 +11673,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:7.3.2", {
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.2-161b023bbb-bceb46d396.zip/node_modules/semver/",
+        ["npm:7.3.3", {
+          "packageLocation": "./.yarn/cache/semver-npm-7.3.3-ab9e992d5e-18511db56c.zip/node_modules/semver/",
           "packageDependencies": [
-            ["semver", "npm:7.3.2"]
+            ["semver", "npm:7.3.3"],
+            ["lru-cache", "npm:4.1.5"]
           ],
           "linkType": "HARD",
         }]
@@ -12800,7 +12801,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-0940d07f30/0/cache/ts-jest-npm-26.4.4-6fd34d9b91-bee46b789c.zip/node_modules/ts-jest/",
           "packageDependencies": [
             ["ts-jest", "virtual:18279a3e5e2915987f5d376e51dc958d6db21f5425ae99910a14ac4c34b5c38362d8b5c4f473408d1ddd32d4eb87af93284f91f167f7e3254e70a170351b07da#npm:26.4.4"],
-            ["@types/jest", "npm:26.0.15"],
+            ["@types/jest", "npm:26.0.16"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
             ["buffer-from", "npm:1.1.1"],
@@ -12811,7 +12812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash.memoize", "npm:4.1.2"],
             ["make-error", "npm:1.3.6"],
             ["mkdirp", "npm:1.0.4"],
-            ["semver", "npm:7.3.2"],
+            ["semver", "npm:7.3.3"],
             ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"],
             ["yargs-parser", "npm:20.2.4"]
           ],
