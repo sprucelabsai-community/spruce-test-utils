@@ -3717,7 +3717,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.14.7-3f4edaffc6-62b671a69a.zip/node_modules/browserslist/",
           "packageDependencies": [
             ["browserslist", "npm:4.14.7"],
-            ["caniuse-lite", "npm:1.0.30001163"],
+            ["caniuse-lite", "npm:1.0.30001164"],
             ["colorette", "npm:1.2.1"],
             ["electron-to-chromium", "npm:1.3.612"],
             ["escalade", "npm:3.1.1"],
@@ -3889,10 +3889,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["caniuse-lite", [
-        ["npm:1.0.30001163", {
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001163-3421138746-5bf226231a.zip/node_modules/caniuse-lite/",
+        ["npm:1.0.30001164", {
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001164-06a6ff51d2-ac2213c81b.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
-            ["caniuse-lite", "npm:1.0.30001163"]
+            ["caniuse-lite", "npm:1.0.30001164"]
           ],
           "linkType": "HARD",
         }]
@@ -5240,7 +5240,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has-symbols", "npm:1.0.1"],
             ["is-callable", "npm:1.2.2"],
             ["is-regex", "npm:1.1.1"],
-            ["object-inspect", "npm:1.8.0"],
+            ["object-inspect", "npm:1.9.0"],
             ["object-keys", "npm:1.1.1"],
             ["object.assign", "npm:4.1.2"],
             ["string.prototype.trimend", "npm:1.0.3"],
@@ -5259,7 +5259,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-callable", "npm:1.2.2"],
             ["is-negative-zero", "npm:2.0.0"],
             ["is-regex", "npm:1.1.1"],
-            ["object-inspect", "npm:1.8.0"],
+            ["object-inspect", "npm:1.9.0"],
             ["object-keys", "npm:1.1.1"],
             ["object.assign", "npm:4.1.2"],
             ["string.prototype.trimend", "npm:1.0.3"],
@@ -10024,10 +10024,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["object-inspect", [
-        ["npm:1.8.0", {
-          "packageLocation": "./.yarn/cache/object-inspect-npm-1.8.0-81c2d7cdce-4da23a188b.zip/node_modules/object-inspect/",
+        ["npm:1.9.0", {
+          "packageLocation": "./.yarn/cache/object-inspect-npm-1.9.0-75d8ab6cd7-63b412167d.zip/node_modules/object-inspect/",
           "packageDependencies": [
-            ["object-inspect", "npm:1.8.0"]
+            ["object-inspect", "npm:1.9.0"]
           ],
           "linkType": "HARD",
         }]
@@ -11789,7 +11789,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["side-channel", "npm:1.0.3"],
             ["es-abstract", "npm:1.18.0-next.1"],
-            ["object-inspect", "npm:1.8.0"]
+            ["object-inspect", "npm:1.9.0"]
           ],
           "linkType": "HARD",
         }]
