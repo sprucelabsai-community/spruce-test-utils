@@ -151,7 +151,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.12.9"],
             ["@babel/helper-validator-option", "npm:7.12.1"],
             ["@types/babel__core", null],
-            ["browserslist", "npm:4.14.7"],
+            ["browserslist", "npm:4.15.0"],
             ["semver", "npm:5.7.1"]
           ],
           "packagePeers": [
@@ -3713,10 +3713,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["browserslist", [
-        ["npm:4.14.7", {
-          "packageLocation": "./.yarn/cache/browserslist-npm-4.14.7-3f4edaffc6-62b671a69a.zip/node_modules/browserslist/",
+        ["npm:4.15.0", {
+          "packageLocation": "./.yarn/cache/browserslist-npm-4.15.0-860763974d-d8c222ad06.zip/node_modules/browserslist/",
           "packageDependencies": [
-            ["browserslist", "npm:4.14.7"],
+            ["browserslist", "npm:4.15.0"],
             ["caniuse-lite", "npm:1.0.30001164"],
             ["colorette", "npm:1.2.1"],
             ["electron-to-chromium", "npm:1.3.612"],
@@ -4501,7 +4501,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/core-js-compat-npm-3.8.0-cd64f3d732-e0278c0e64.zip/node_modules/core-js-compat/",
           "packageDependencies": [
             ["core-js-compat", "npm:3.8.0"],
-            ["browserslist", "npm:4.14.7"],
+            ["browserslist", "npm:4.15.0"],
             ["semver", "npm:7.0.0"]
           ],
           "linkType": "HARD",
