@@ -2396,7 +2396,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:26.0.16"],
             ["babel-jest", "virtual:caddf51df4928b33a437ca87b8f5ddfb6205ebd6d8231f74d4ee7223f3866e6f815b221aa1e2bd33e98915f701e95bae72a93d2288b49a34a6246bdbc2a4a132#npm:26.6.3"],
             ["chalk", "npm:4.1.0"],
-            ["deep-equal", "npm:2.0.4"],
+            ["deep-equal", "npm:2.0.5"],
             ["jest", "npm:26.6.3"],
             ["lodash", "npm:4.17.20"],
             ["ts-expect", "npm:1.1.0"],
@@ -4781,12 +4781,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["deep-equal", [
-        ["npm:2.0.4", {
-          "packageLocation": "./.yarn/cache/deep-equal-npm-2.0.4-12b5c19968-377b0a3d4b.zip/node_modules/deep-equal/",
+        ["npm:2.0.5", {
+          "packageLocation": "./.yarn/cache/deep-equal-npm-2.0.5-746423a919-bf99bc27fa.zip/node_modules/deep-equal/",
           "packageDependencies": [
-            ["deep-equal", "npm:2.0.4"],
-            ["es-abstract", "npm:1.18.0-next.1"],
+            ["deep-equal", "npm:2.0.5"],
+            ["call-bind", "npm:1.0.0"],
             ["es-get-iterator", "npm:1.1.1"],
+            ["get-intrinsic", "npm:1.0.1"],
             ["is-arguments", "npm:1.0.4"],
             ["is-date-object", "npm:1.0.2"],
             ["is-regex", "npm:1.1.1"],
