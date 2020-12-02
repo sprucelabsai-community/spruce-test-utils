@@ -1989,7 +1989,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/istanbul-lib-coverage", "npm:2.0.3"],
             ["@types/istanbul-reports", "npm:3.0.0"],
             ["@types/node", "npm:14.14.10"],
-            ["@types/yargs", "npm:15.0.10"],
+            ["@types/yargs", "npm:15.0.11"],
             ["chalk", "npm:4.1.0"]
           ],
           "linkType": "HARD",
@@ -2647,10 +2647,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/yargs", [
-        ["npm:15.0.10", {
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.10-dc61489546-151fc79f81.zip/node_modules/@types/yargs/",
+        ["npm:15.0.11", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.11-f8853c80c8-e26daf9b3a.zip/node_modules/@types/yargs/",
           "packageDependencies": [
-            ["@types/yargs", "npm:15.0.10"],
+            ["@types/yargs", "npm:15.0.11"],
             ["@types/yargs-parser", "npm:15.0.0"]
           ],
           "linkType": "HARD",
@@ -3711,7 +3711,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["browserslist", "npm:4.15.0"],
             ["caniuse-lite", "npm:1.0.30001164"],
             ["colorette", "npm:1.2.1"],
-            ["electron-to-chromium", "npm:1.3.613"],
+            ["electron-to-chromium", "npm:1.3.614"],
             ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.67"]
           ],
@@ -5103,10 +5103,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["electron-to-chromium", [
-        ["npm:1.3.613", {
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.613-54c8855dfc-1d20b85bc9.zip/node_modules/electron-to-chromium/",
+        ["npm:1.3.614", {
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.614-7b339b98b3-a82e0c407d.zip/node_modules/electron-to-chromium/",
           "packageDependencies": [
-            ["electron-to-chromium", "npm:1.3.613"]
+            ["electron-to-chromium", "npm:1.3.614"]
           ],
           "linkType": "HARD",
         }]
@@ -8014,7 +8014,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/transform", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/yargs", "npm:15.0.10"],
+            ["@types/yargs", "npm:15.0.11"],
             ["chalk", "npm:4.1.0"],
             ["cjs-module-lexer", "npm:0.6.0"],
             ["collect-v8-coverage", "npm:1.0.1"],
