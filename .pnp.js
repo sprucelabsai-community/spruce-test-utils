@@ -2085,10 +2085,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/plugin-paginate-rest", [
-        ["virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:2.6.1", {
-          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-paginate-rest-virtual-83450a5839/0/cache/@octokit-plugin-paginate-rest-npm-2.6.1-4e6fe82fa1-8b55bd9acd.zip/node_modules/@octokit/plugin-paginate-rest/",
+        ["virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1", {
+          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-paginate-rest-virtual-612535d661/0/cache/@octokit-plugin-paginate-rest-npm-2.6.1-4e6fe82fa1-8b55bd9acd.zip/node_modules/@octokit/plugin-paginate-rest/",
           "packageDependencies": [
-            ["@octokit/plugin-paginate-rest", "virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:2.6.1"],
+            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1"],
             ["@octokit/core", "npm:3.2.2"],
             ["@octokit/types", "npm:6.0.1"],
             ["@types/octokit__core", null]
@@ -2101,10 +2101,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/plugin-request-log", [
-        ["virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:1.0.2", {
-          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-request-log-virtual-2d2fe66fc1/0/cache/@octokit-plugin-request-log-npm-1.0.2-e4bca3d662-c587973f42.zip/node_modules/@octokit/plugin-request-log/",
+        ["virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:1.0.2", {
+          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-request-log-virtual-796f20ae0f/0/cache/@octokit-plugin-request-log-npm-1.0.2-e4bca3d662-c587973f42.zip/node_modules/@octokit/plugin-request-log/",
           "packageDependencies": [
-            ["@octokit/plugin-request-log", "virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:1.0.2"],
+            ["@octokit/plugin-request-log", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:1.0.2"],
             ["@octokit/core", "npm:3.2.2"],
             ["@types/octokit__core", null]
           ],
@@ -2116,11 +2116,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/plugin-rest-endpoint-methods", [
-        ["npm:4.2.1", {
-          "packageLocation": "./.yarn/cache/@octokit-plugin-rest-endpoint-methods-npm-4.2.1-ec7b0d4c06-2a98a00b9a.zip/node_modules/@octokit/plugin-rest-endpoint-methods/",
+        ["npm:4.3.0", {
+          "packageLocation": "./.yarn/cache/@octokit-plugin-rest-endpoint-methods-npm-4.3.0-7b09641caf-73b56c08a9.zip/node_modules/@octokit/plugin-rest-endpoint-methods/",
           "packageDependencies": [
-            ["@octokit/plugin-rest-endpoint-methods", "npm:4.2.1"],
-            ["@octokit/types", "npm:5.5.0"],
+            ["@octokit/plugin-rest-endpoint-methods", "npm:4.3.0"],
+            ["@octokit/types", "npm:6.0.1"],
             ["deprecation", "npm:2.3.1"]
           ],
           "linkType": "HARD",
@@ -2156,27 +2156,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/rest", [
-        ["npm:18.0.9", {
-          "packageLocation": "./.yarn/cache/@octokit-rest-npm-18.0.9-3eeff50f33-b332c0d279.zip/node_modules/@octokit/rest/",
+        ["npm:18.0.10", {
+          "packageLocation": "./.yarn/cache/@octokit-rest-npm-18.0.10-4053e17cb3-2c42aea110.zip/node_modules/@octokit/rest/",
           "packageDependencies": [
-            ["@octokit/rest", "npm:18.0.9"],
+            ["@octokit/rest", "npm:18.0.10"],
             ["@octokit/core", "npm:3.2.2"],
-            ["@octokit/plugin-paginate-rest", "virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:2.6.1"],
-            ["@octokit/plugin-request-log", "virtual:3eeff50f3308d794f37c81d7b758dc4a0015ea0c9c0766f5cbcaf23bbfd534e0311d64dfbf83fb2d59bb770fb2d90a413bb3cbf61ec61c0ca9ccf3edbd335889#npm:1.0.2"],
-            ["@octokit/plugin-rest-endpoint-methods", "npm:4.2.1"]
+            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1"],
+            ["@octokit/plugin-request-log", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:1.0.2"],
+            ["@octokit/plugin-rest-endpoint-methods", "npm:4.3.0"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@octokit/types", [
-        ["npm:5.5.0", {
-          "packageLocation": "./.yarn/cache/@octokit-types-npm-5.5.0-9fc65c7f63-ef5429c90b.zip/node_modules/@octokit/types/",
-          "packageDependencies": [
-            ["@octokit/types", "npm:5.5.0"],
-            ["@types/node", "npm:14.14.10"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:6.0.1", {
           "packageLocation": "./.yarn/cache/@octokit-types-npm-6.0.1-529f00a002-2107f875d3.zip/node_modules/@octokit/types/",
           "packageDependencies": [
@@ -2265,7 +2257,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@semantic-release-github-virtual-faed04eff4/0/cache/@semantic-release-github-npm-7.2.0-2ee8d59c23-3921f67515.zip/node_modules/@semantic-release/github/",
           "packageDependencies": [
             ["@semantic-release/github", "virtual:658c1c8f717be79914dfbfafdda43c864325b59d76c94eca012a9b4a78d49d47a97297ae40ebf4a5bdf4e83b769b9e4f72763f05fce08a6bf74147d6dc3c70b3#npm:7.2.0"],
-            ["@octokit/rest", "npm:18.0.9"],
+            ["@octokit/rest", "npm:18.0.10"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["@types/semantic-release", null],
             ["aggregate-error", "npm:3.1.0"],
@@ -5631,7 +5623,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/eslint-plugin-spruce-npm-10.9.114-65a273f8c6-3a5f3ecf54.zip/node_modules/eslint-plugin-spruce/",
           "packageDependencies": [
             ["eslint-plugin-spruce", "npm:10.9.114"],
-            ["pascal-case", "npm:3.1.1"]
+            ["pascal-case", "npm:3.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -8945,11 +8937,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lower-case", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/lower-case-npm-2.0.1-f34f50c78b-52a55327ea.zip/node_modules/lower-case/",
+        ["npm:2.0.2", {
+          "packageLocation": "./.yarn/cache/lower-case-npm-2.0.2-151055f1c2-aabaca9cef.zip/node_modules/lower-case/",
           "packageDependencies": [
-            ["lower-case", "npm:2.0.1"],
-            ["tslib", "npm:1.14.1"]
+            ["lower-case", "npm:2.0.2"],
+            ["tslib", "npm:2.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -9475,12 +9467,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["no-case", [
-        ["npm:3.0.3", {
-          "packageLocation": "./.yarn/cache/no-case-npm-3.0.3-4918b64cc1-619e0bd00a.zip/node_modules/no-case/",
+        ["npm:3.0.4", {
+          "packageLocation": "./.yarn/cache/no-case-npm-3.0.4-12884c3d98-84db4909ca.zip/node_modules/no-case/",
           "packageDependencies": [
-            ["no-case", "npm:3.0.3"],
-            ["lower-case", "npm:2.0.1"],
-            ["tslib", "npm:1.14.1"]
+            ["no-case", "npm:3.0.4"],
+            ["lower-case", "npm:2.0.2"],
+            ["tslib", "npm:2.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -10483,12 +10475,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pascal-case", [
-        ["npm:3.1.1", {
-          "packageLocation": "./.yarn/cache/pascal-case-npm-3.1.1-1341da3441-56f66aea7f.zip/node_modules/pascal-case/",
+        ["npm:3.1.2", {
+          "packageLocation": "./.yarn/cache/pascal-case-npm-3.1.2-35f5b9bff6-31708cecab.zip/node_modules/pascal-case/",
           "packageDependencies": [
-            ["pascal-case", "npm:3.1.1"],
-            ["no-case", "npm:3.0.3"],
-            ["tslib", "npm:1.14.1"]
+            ["pascal-case", "npm:3.1.2"],
+            ["no-case", "npm:3.0.4"],
+            ["tslib", "npm:2.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -12864,6 +12856,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-f44fe7f216.zip/node_modules/tslib/",
           "packageDependencies": [
             ["tslib", "npm:1.14.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.0.3", {
+          "packageLocation": "./.yarn/cache/tslib-npm-2.0.3-62a2b3751d-447bfca5de.zip/node_modules/tslib/",
+          "packageDependencies": [
+            ["tslib", "npm:2.0.3"]
           ],
           "linkType": "HARD",
         }]
