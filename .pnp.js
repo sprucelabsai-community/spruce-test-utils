@@ -2085,10 +2085,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/plugin-paginate-rest", [
-        ["virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1", {
-          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-paginate-rest-virtual-612535d661/0/cache/@octokit-plugin-paginate-rest-npm-2.6.1-4e6fe82fa1-8b55bd9acd.zip/node_modules/@octokit/plugin-paginate-rest/",
+        ["virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.2", {
+          "packageLocation": "./.yarn/$$virtual/@octokit-plugin-paginate-rest-virtual-667e530c24/0/cache/@octokit-plugin-paginate-rest-npm-2.6.2-096f74e0a3-9ea8462bf7.zip/node_modules/@octokit/plugin-paginate-rest/",
           "packageDependencies": [
-            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1"],
+            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.2"],
             ["@octokit/core", "npm:3.2.2"],
             ["@octokit/types", "npm:6.0.3"],
             ["@types/octokit__core", null]
@@ -2161,7 +2161,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@octokit/rest", "npm:18.0.10"],
             ["@octokit/core", "npm:3.2.2"],
-            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.1"],
+            ["@octokit/plugin-paginate-rest", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:2.6.2"],
             ["@octokit/plugin-request-log", "virtual:4053e17cb34c166bb6372a13245fd7dc2e2f581850b4874380d5f5fbb66de24e4e7f725671c442260097e3f248a72ee40ec25fafbfdcb73cae7a3008561ad02c#npm:1.0.2"],
             ["@octokit/plugin-rest-endpoint-methods", "npm:4.3.0"]
           ],
