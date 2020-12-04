@@ -5265,7 +5265,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has", "npm:1.0.3"],
             ["has-symbols", "npm:1.0.1"],
             ["is-callable", "npm:1.2.2"],
-            ["is-negative-zero", "npm:2.0.0"],
+            ["is-negative-zero", "npm:2.0.1"],
             ["is-regex", "npm:1.1.1"],
             ["object-inspect", "npm:1.9.0"],
             ["object-keys", "npm:1.1.1"],
@@ -7307,10 +7307,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-negative-zero", [
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/is-negative-zero-npm-2.0.0-fd9b9ac0e5-87ddefbdf7.zip/node_modules/is-negative-zero/",
+        ["npm:2.0.1", {
+          "packageLocation": "./.yarn/cache/is-negative-zero-npm-2.0.1-d8f3dbcfe1-e2160af9a6.zip/node_modules/is-negative-zero/",
           "packageDependencies": [
-            ["is-negative-zero", "npm:2.0.0"]
+            ["is-negative-zero", "npm:2.0.1"]
           ],
           "linkType": "HARD",
         }]
