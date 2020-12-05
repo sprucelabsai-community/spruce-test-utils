@@ -4806,7 +4806,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["side-channel", "npm:1.0.3"],
             ["which-boxed-primitive", "npm:1.0.1"],
             ["which-collection", "npm:1.0.1"],
-            ["which-typed-array", "npm:1.1.2"]
+            ["which-typed-array", "npm:1.1.4"]
           ],
           "linkType": "HARD",
         }]
@@ -13532,12 +13532,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["which-typed-array", [
-        ["npm:1.1.2", {
-          "packageLocation": "./.yarn/cache/which-typed-array-npm-1.1.2-c3d789ea3d-577bfb6457.zip/node_modules/which-typed-array/",
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/which-typed-array-npm-1.1.4-f7615bf1ef-aa89770be0.zip/node_modules/which-typed-array/",
           "packageDependencies": [
-            ["which-typed-array", "npm:1.1.2"],
+            ["which-typed-array", "npm:1.1.4"],
             ["available-typed-arrays", "npm:1.0.2"],
-            ["es-abstract", "npm:1.17.7"],
+            ["call-bind", "npm:1.0.0"],
+            ["es-abstract", "npm:1.18.0-next.1"],
             ["foreach", "npm:2.0.5"],
             ["function-bind", "npm:1.1.1"],
             ["has-symbols", "npm:1.0.1"],
