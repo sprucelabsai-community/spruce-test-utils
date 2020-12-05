@@ -7499,12 +7499,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-typed-array", [
-        ["npm:1.1.3", {
-          "packageLocation": "./.yarn/cache/is-typed-array-npm-1.1.3-ed48350c78-9e4d525e83.zip/node_modules/is-typed-array/",
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/is-typed-array-npm-1.1.4-b14efc037f-51038a52af.zip/node_modules/is-typed-array/",
           "packageDependencies": [
-            ["is-typed-array", "npm:1.1.3"],
+            ["is-typed-array", "npm:1.1.4"],
             ["available-typed-arrays", "npm:1.0.2"],
-            ["es-abstract", "npm:1.17.7"],
+            ["call-bind", "npm:1.0.0"],
+            ["es-abstract", "npm:1.18.0-next.1"],
             ["foreach", "npm:2.0.5"],
             ["has-symbols", "npm:1.0.1"]
           ],
@@ -13532,7 +13533,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["foreach", "npm:2.0.5"],
             ["function-bind", "npm:1.1.1"],
             ["has-symbols", "npm:1.0.1"],
-            ["is-typed-array", "npm:1.1.3"]
+            ["is-typed-array", "npm:1.1.4"]
           ],
           "linkType": "HARD",
         }]
