@@ -4088,10 +4088,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cli-table", [
-        ["npm:0.3.3", {
-          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.3-b1ebe7563a-7691f2c357.zip/node_modules/cli-table/",
+        ["npm:0.3.4", {
+          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.4-084da8c932-812fb01d07.zip/node_modules/cli-table/",
           "packageDependencies": [
-            ["cli-table", "npm:0.3.3"],
+            ["cli-table", "npm:0.3.4"],
             ["chalk", "npm:2.4.2"],
             ["string-width", "npm:4.2.0"]
           ],
@@ -9123,7 +9123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-escapes", "npm:4.3.1"],
             ["cardinal", "npm:2.1.1"],
             ["chalk", "npm:4.1.0"],
-            ["cli-table", "npm:0.3.3"],
+            ["cli-table", "npm:0.3.4"],
             ["marked", "npm:1.2.5"],
             ["node-emoji", "npm:1.10.0"],
             ["supports-hyperlinks", "npm:2.1.0"]
