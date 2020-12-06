@@ -4088,11 +4088,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cli-table", [
-        ["npm:0.3.1", {
-          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.1-3a7d522e25-887b0cf31b.zip/node_modules/cli-table/",
+        ["npm:0.3.3", {
+          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.3-b1ebe7563a-7691f2c357.zip/node_modules/cli-table/",
           "packageDependencies": [
-            ["cli-table", "npm:0.3.1"],
-            ["colors", "npm:1.0.3"]
+            ["cli-table", "npm:0.3.3"],
+            ["chalk", "npm:2.4.2"],
+            ["string-width", "npm:4.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4243,13 +4244,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["colors", [
-        ["npm:1.0.3", {
-          "packageLocation": "./.yarn/cache/colors-npm-1.0.3-6c5d583ab3-d5b1f35612.zip/node_modules/colors/",
-          "packageDependencies": [
-            ["colors", "npm:1.0.3"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:1.4.0", {
           "packageLocation": "./.yarn/cache/colors-npm-1.4.0-7e2cf12234-a0f266ac04.zip/node_modules/colors/",
           "packageDependencies": [
@@ -9129,7 +9123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-escapes", "npm:4.3.1"],
             ["cardinal", "npm:2.1.1"],
             ["chalk", "npm:4.1.0"],
-            ["cli-table", "npm:0.3.1"],
+            ["cli-table", "npm:0.3.3"],
             ["marked", "npm:1.2.5"],
             ["node-emoji", "npm:1.10.0"],
             ["supports-hyperlinks", "npm:2.1.0"]
