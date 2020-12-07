@@ -1749,7 +1749,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globals", "npm:12.4.0"],
             ["ignore", "npm:4.0.6"],
             ["import-fresh", "npm:3.2.2"],
-            ["js-yaml", "npm:3.14.0"],
+            ["js-yaml", "npm:3.14.1"],
             ["lodash", "npm:4.17.20"],
             ["minimatch", "npm:3.0.4"],
             ["strip-json-comments", "npm:3.1.1"]
@@ -1777,7 +1777,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["camelcase", "npm:5.3.1"],
             ["find-up", "npm:4.1.0"],
             ["get-package-type", "npm:0.1.0"],
-            ["js-yaml", "npm:3.14.0"],
+            ["js-yaml", "npm:3.14.1"],
             ["resolve-from", "npm:5.0.0"]
           ],
           "linkType": "HARD",
@@ -3796,7 +3796,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["browserslist", "npm:4.15.0"],
             ["caniuse-lite", "npm:1.0.30001165"],
             ["colorette", "npm:1.2.1"],
-            ["electron-to-chromium", "npm:1.3.616"],
+            ["electron-to-chromium", "npm:1.3.617"],
             ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.67"]
           ],
@@ -5191,10 +5191,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["electron-to-chromium", [
-        ["npm:1.3.616", {
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.616-b1a4527a16-fac5591662.zip/node_modules/electron-to-chromium/",
+        ["npm:1.3.617", {
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.617-da843c47b3-d08ea58394.zip/node_modules/electron-to-chromium/",
           "packageDependencies": [
-            ["electron-to-chromium", "npm:1.3.616"]
+            ["electron-to-chromium", "npm:1.3.617"]
           ],
           "linkType": "HARD",
         }]
@@ -5463,7 +5463,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["import-fresh", "npm:3.2.2"],
             ["imurmurhash", "npm:0.1.4"],
             ["is-glob", "npm:4.0.1"],
-            ["js-yaml", "npm:3.14.0"],
+            ["js-yaml", "npm:3.14.1"],
             ["json-stable-stringify-without-jsonify", "npm:1.0.1"],
             ["levn", "npm:0.4.1"],
             ["lodash", "npm:4.17.20"],
@@ -8310,10 +8310,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["js-yaml", [
-        ["npm:3.14.0", {
-          "packageLocation": "./.yarn/cache/js-yaml-npm-3.14.0-7ecf74b3d2-2eb95464e5.zip/node_modules/js-yaml/",
+        ["npm:3.14.1", {
+          "packageLocation": "./.yarn/cache/js-yaml-npm-3.14.1-b968c6095e-46b61f8897.zip/node_modules/js-yaml/",
           "packageDependencies": [
-            ["js-yaml", "npm:3.14.0"],
+            ["js-yaml", "npm:3.14.1"],
             ["argparse", "npm:1.0.10"],
             ["esprima", "npm:4.0.1"]
           ],
