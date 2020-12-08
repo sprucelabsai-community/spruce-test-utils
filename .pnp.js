@@ -2425,7 +2425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test", "npm:7.2.1"],
             ["@babel/core", "npm:7.12.9"],
             ["@babel/preset-env", "virtual:3920650a3757cf31f74208eebf99390276e23640f9f97a07dec10b8ac4d609e3ad3e3ed3d5ee4e92162a01504e7d631c93ac79e717798c9a6641d473c4df08ce#npm:7.12.7"],
-            ["@types/jest", "npm:26.0.16"],
+            ["@types/jest", "npm:26.0.17"],
             ["babel-jest", "virtual:3920650a3757cf31f74208eebf99390276e23640f9f97a07dec10b8ac4d609e3ad3e3ed3d5ee4e92162a01504e7d631c93ac79e717798c9a6641d473c4df08ce#npm:27.0.0-next.2"],
             ["chalk", "npm:4.1.0"],
             ["deep-equal", "npm:2.0.5"],
@@ -2566,10 +2566,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:26.0.16", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.16-521e0e28bb-0c94186cdf.zip/node_modules/@types/jest/",
+        ["npm:26.0.17", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.17-f0db7be398-025af4f5b5.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:26.0.16"],
+            ["@types/jest", "npm:26.0.17"],
             ["jest-diff", "npm:26.6.2"],
             ["pretty-format", "npm:26.6.2"]
           ],
@@ -12963,7 +12963,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-04ee7c73cf/0/cache/ts-jest-npm-26.4.4-6fd34d9b91-bee46b789c.zip/node_modules/ts-jest/",
           "packageDependencies": [
             ["ts-jest", "virtual:3920650a3757cf31f74208eebf99390276e23640f9f97a07dec10b8ac4d609e3ad3e3ed3d5ee4e92162a01504e7d631c93ac79e717798c9a6641d473c4df08ce#npm:26.4.4"],
-            ["@types/jest", "npm:26.0.16"],
+            ["@types/jest", "npm:26.0.17"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
             ["buffer-from", "npm:1.1.1"],
