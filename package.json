@@ -40,7 +40,7 @@
 	},
 	"dependencies": {
 		"@sprucelabs/error": "^4.0.1",
-		"@sprucelabs/test": "^7.2.1",
+		"@sprucelabs/test": "^7.3.0",
 		"@types/lodash": "^4.14.165"
 	},
 	"devDependencies": {
