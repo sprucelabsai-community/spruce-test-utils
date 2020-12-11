@@ -32,10 +32,14 @@ const errorAssertUtil = {
 	) {
 		const spruceErr = error as AbstractSpruceError<any>
 
-		if (!spruceErr.options) {
+		if (!(spruceErr instanceof AbstractSpruceError)) {
 			assertUtil.fail(
-				`Did not receive a SpruceError, got:\n\nMessage: ${spruceErr.message}`,
-				spruceErr.stack
+				`Did not receive a SpruceError, got:\n\nMessage: ${
+					//@ts-ignore
+					spruceErr.message ?? '***missing***'
+				}`,
+				//@ts-ignore
+				spruceErr.stack ?? ''
 			)
 		}
 		if (spruceErr.options.code === expectedCode) {

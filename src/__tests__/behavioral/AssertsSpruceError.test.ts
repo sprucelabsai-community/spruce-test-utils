@@ -35,6 +35,17 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 			() => errorAssertUtil.assertError(new Error('taco bell'), 'ERROR_THREE'),
 			/Did not receive a SpruceError/
 		)
+
+		assert.doesThrow(
+			//@ts-ignore
+			() =>
+				errorAssertUtil.assertError(
+					//@ts-ignore
+					{ options: { code: 'TEST_ERROR' } },
+					'TEST_ERROR'
+				),
+			/Did not receive a SpruceError/
+		)
 	}
 
 	@test()
