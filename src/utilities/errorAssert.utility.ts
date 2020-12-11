@@ -30,17 +30,23 @@ const errorAssertUtil = {
 		expectedCode: string,
 		expectedPartialOptions?: Record<string, any>
 	) {
-		const spruceErr = error as AbstractSpruceError<any>
+		const spruceErr = error as any
 
 		if (!(spruceErr instanceof AbstractSpruceError)) {
-			assertUtil.fail(
-				`Did not receive a SpruceError, got:\n\nMessage: ${
-					//@ts-ignore
-					spruceErr.message ?? '***missing***'
-				}`,
-				//@ts-ignore
-				spruceErr.stack ?? ''
-			)
+			if (spruceErr instanceof Error) {
+				assertUtil.fail(
+					`Did not receive a SpruceError, got:\n\nMessage: ${
+						spruceErr.message ?? '***missing***'
+					}`,
+					spruceErr.stack ?? ''
+				)
+			} else {
+				assertUtil.fail(
+					`Did not receive a SpruceError, got: \n\n${assertUtil.stringify(
+						error
+					)}`
+				)
+			}
 		}
 		if (spruceErr.options.code === expectedCode) {
 			if (expectedPartialOptions) {
