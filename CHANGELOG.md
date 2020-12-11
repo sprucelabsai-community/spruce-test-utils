@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v2.0.423...v3.0.0) (2020-12-11)
+
+
+### Breaking Changes
+
+* instanceof check on spruce errors ([8324da9](https://github.com/sprucelabsai/spruce-test-utils/commit/8324da9))
+
 ## [2.0.423](https://github.com/sprucelabsai/spruce-test-utils/compare/v2.0.422...v2.0.423) (2020-12-10)
 
 ## [2.0.422](https://github.com/sprucelabsai/spruce-test-utils/compare/v2.0.421...v2.0.422) (2020-12-10)
