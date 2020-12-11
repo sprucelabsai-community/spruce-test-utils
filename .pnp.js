@@ -4425,7 +4425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/config-chain-npm-1.1.12-9791350b34-caf4b96491.zip/node_modules/config-chain/",
           "packageDependencies": [
             ["config-chain", "npm:1.1.12"],
-            ["ini", "npm:1.3.7"],
+            ["ini", "npm:1.3.8"],
             ["proto-list", "npm:1.2.4"]
           ],
           "linkType": "HARD",
@@ -6538,7 +6538,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/global-dirs-npm-0.1.1-87c167e806-0d46e90b45.zip/node_modules/global-dirs/",
           "packageDependencies": [
             ["global-dirs", "npm:0.1.1"],
-            ["ini", "npm:1.3.7"]
+            ["ini", "npm:1.3.8"]
           ],
           "linkType": "HARD",
         }]
@@ -7024,10 +7024,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ini", [
-        ["npm:1.3.7", {
-          "packageLocation": "./.yarn/cache/ini-npm-1.3.7-188ee858c0-cf00289cb4.zip/node_modules/ini/",
+        ["npm:1.3.8", {
+          "packageLocation": "./.yarn/cache/ini-npm-1.3.8-fb5040b4c0-62189ce7ea.zip/node_modules/ini/",
           "packageDependencies": [
-            ["ini", "npm:1.3.7"]
+            ["ini", "npm:1.3.8"]
           ],
           "linkType": "HARD",
         }]
@@ -8629,7 +8629,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["figgy-pudding", "npm:3.5.2"],
             ["find-npm-prefix", "npm:1.0.2"],
             ["graceful-fs", "npm:4.2.4"],
-            ["ini", "npm:1.3.7"],
+            ["ini", "npm:1.3.8"],
             ["lock-verify", "npm:2.2.1"],
             ["mkdirp", "npm:0.5.5"],
             ["npm-lifecycle", "npm:3.1.5"],
@@ -8692,7 +8692,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["libnpmconfig", "npm:1.2.1"],
             ["figgy-pudding", "npm:3.5.2"],
             ["find-up", "npm:3.0.0"],
-            ["ini", "npm:1.3.7"]
+            ["ini", "npm:1.3.8"]
           ],
           "linkType": "HARD",
         }]
@@ -9866,7 +9866,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["infer-owner", "npm:1.0.4"],
             ["inflight", "npm:1.0.6"],
             ["inherits", "npm:2.0.4"],
-            ["ini", "npm:1.3.7"],
+            ["ini", "npm:1.3.8"],
             ["init-package-json", "npm:1.10.3"],
             ["is-cidr", "npm:3.1.1"],
             ["json-parse-better-errors", "npm:1.0.2"],
@@ -11102,7 +11102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["rc", "npm:1.2.8"],
             ["deep-extend", "npm:0.6.0"],
-            ["ini", "npm:1.3.7"],
+            ["ini", "npm:1.3.8"],
             ["minimist", "npm:1.2.5"],
             ["strip-json-comments", "npm:2.0.1"]
           ],
