@@ -1,4 +1,6 @@
-import AbstractSpruceError, { ISpruceErrorOptions } from '@sprucelabs/error'
+import AbstractSpruceError, {
+	ErrorOptions as ISpruceErrorOptions,
+} from '@sprucelabs/error'
 import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
 import errorAssertUtil from '../../utilities/errorAssert.utility'
 
@@ -31,6 +33,17 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		assert.doesThrow(
 			//@ts-ignore
 			() => errorAssertUtil.assertError(new Error('taco bell'), 'ERROR_THREE'),
+			/Did not receive a SpruceError/
+		)
+
+		assert.doesThrow(
+			//@ts-ignore
+			() =>
+				errorAssertUtil.assertError(
+					//@ts-ignore
+					{ options: { code: 'TEST_ERROR' } },
+					'TEST_ERROR'
+				),
 			/Did not receive a SpruceError/
 		)
 	}
