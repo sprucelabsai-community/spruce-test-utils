@@ -84,7 +84,7 @@ jobs:
             git config --global user.name "$GIT_AUTHOR_NAME"
             yarn install
             yarn run upgrade.packages.all
-            if [[ $(git status) != *"modified"* ]]; then 
+            if [[ $(git status --porcelain | grep -v .yarn/install-state.gz| wc -l) -eq 0 ]]; then 
               echo "No modifications detected.  No push/PR necessary 👊"
               circleci-agent step halt
             fi
