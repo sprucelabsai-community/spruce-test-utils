@@ -5358,7 +5358,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has-symbols", "npm:1.0.1"],
             ["is-arguments", "npm:1.1.0"],
             ["is-map", "npm:2.0.1"],
-            ["is-set", "npm:2.0.1"],
+            ["is-set", "npm:2.0.2"],
             ["is-string", "npm:1.0.5"],
             ["isarray", "npm:2.0.5"]
           ],
@@ -7518,10 +7518,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-set", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/is-set-npm-2.0.1-e09db7c5f0-97a9f4dd73.zip/node_modules/is-set/",
+        ["npm:2.0.2", {
+          "packageLocation": "./.yarn/cache/is-set-npm-2.0.2-7e9ba84a8c-5fb8f3c67d.zip/node_modules/is-set/",
           "packageDependencies": [
-            ["is-set", "npm:2.0.1"]
+            ["is-set", "npm:2.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -13646,7 +13646,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["which-collection", "npm:1.0.1"],
             ["is-map", "npm:2.0.1"],
-            ["is-set", "npm:2.0.1"],
+            ["is-set", "npm:2.0.2"],
             ["is-weakmap", "npm:2.0.1"],
             ["is-weakset", "npm:2.0.1"]
           ],
