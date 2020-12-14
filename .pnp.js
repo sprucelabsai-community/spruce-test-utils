@@ -3793,7 +3793,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.16.0-d5acd57d38-5385f3dfb1.zip/node_modules/browserslist/",
           "packageDependencies": [
             ["browserslist", "npm:4.16.0"],
-            ["caniuse-lite", "npm:1.0.30001165"],
+            ["caniuse-lite", "npm:1.0.30001166"],
             ["colorette", "npm:1.2.1"],
             ["electron-to-chromium", "npm:1.3.625"],
             ["escalade", "npm:3.1.1"],
@@ -3965,10 +3965,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["caniuse-lite", [
-        ["npm:1.0.30001165", {
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001165-3c2ba6b019-f01ea7f223.zip/node_modules/caniuse-lite/",
+        ["npm:1.0.30001166", {
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001166-49f24ae994-29a3178f25.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
-            ["caniuse-lite", "npm:1.0.30001165"]
+            ["caniuse-lite", "npm:1.0.30001166"]
           ],
           "linkType": "HARD",
         }]
@@ -5357,7 +5357,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-intrinsic", "npm:1.0.1"],
             ["has-symbols", "npm:1.0.1"],
             ["is-arguments", "npm:1.1.0"],
-            ["is-map", "npm:2.0.1"],
+            ["is-map", "npm:2.0.2"],
             ["is-set", "npm:2.0.2"],
             ["is-string", "npm:1.0.5"],
             ["isarray", "npm:2.0.5"]
@@ -7362,10 +7362,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-map", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/is-map-npm-2.0.1-4c3a8a09a1-16524b5d2e.zip/node_modules/is-map/",
+        ["npm:2.0.2", {
+          "packageLocation": "./.yarn/cache/is-map-npm-2.0.2-486724dabc-2d9b1a0b0d.zip/node_modules/is-map/",
           "packageDependencies": [
-            ["is-map", "npm:2.0.1"]
+            ["is-map", "npm:2.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -13647,7 +13647,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/which-collection-npm-1.0.1-cd2c054585-839a5aca35.zip/node_modules/which-collection/",
           "packageDependencies": [
             ["which-collection", "npm:1.0.1"],
-            ["is-map", "npm:2.0.1"],
+            ["is-map", "npm:2.0.2"],
             ["is-set", "npm:2.0.2"],
             ["is-weakmap", "npm:2.0.1"],
             ["is-weakset", "npm:2.0.1"]
