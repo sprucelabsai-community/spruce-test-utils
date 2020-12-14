@@ -8296,7 +8296,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-worker", "npm:27.0.0-next.2"],
             ["@types/node", "npm:14.14.13"],
             ["merge-stream", "npm:2.0.0"],
-            ["supports-color", "npm:8.0.0"]
+            ["supports-color", "npm:8.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -12623,10 +12623,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:8.0.0", {
-          "packageLocation": "./.yarn/cache/supports-color-npm-8.0.0-4e20d65310-9f60da6f11.zip/node_modules/supports-color/",
+        ["npm:8.1.0", {
+          "packageLocation": "./.yarn/cache/supports-color-npm-8.1.0-f1688888e2-6213162d55.zip/node_modules/supports-color/",
           "packageDependencies": [
-            ["supports-color", "npm:8.0.0"],
+            ["supports-color", "npm:8.1.0"],
             ["has-flag", "npm:4.0.0"]
           ],
           "linkType": "HARD",
