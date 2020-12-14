@@ -4876,7 +4876,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.assign", "npm:4.1.2"],
             ["regexp.prototype.flags", "npm:1.3.0"],
             ["side-channel", "npm:1.0.3"],
-            ["which-boxed-primitive", "npm:1.0.1"],
+            ["which-boxed-primitive", "npm:1.0.2"],
             ["which-collection", "npm:1.0.1"],
             ["which-typed-array", "npm:1.1.4"]
           ],
@@ -13629,10 +13629,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["which-boxed-primitive", [
-        ["npm:1.0.1", {
-          "packageLocation": "./.yarn/cache/which-boxed-primitive-npm-1.0.1-de65e49014-16c7648861.zip/node_modules/which-boxed-primitive/",
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/which-boxed-primitive-npm-1.0.2-e214f9ae5a-771ef43357.zip/node_modules/which-boxed-primitive/",
           "packageDependencies": [
-            ["which-boxed-primitive", "npm:1.0.1"],
+            ["which-boxed-primitive", "npm:1.0.2"],
             ["is-bigint", "npm:1.0.1"],
             ["is-boolean-object", "npm:1.1.0"],
             ["is-number-object", "npm:1.0.4"],
