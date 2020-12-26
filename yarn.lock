@@ -1903,7 +1903,7 @@ __metadata:
     "@semantic-release/git": ^9.0.0
     "@sprucelabs/error": ^4.0.2
     "@sprucelabs/semantic-release": ^4.0.6
-    "@sprucelabs/test": ^7.4.2
+    "@sprucelabs/test": ^7.4.3
     "@types/lodash": ^4.14.166
     "@typescript-eslint/eslint-plugin": ^4.11.0
     "@typescript-eslint/parser": ^4.11.0
@@ -1926,9 +1926,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sprucelabs/test@npm:^7.4.2":
-  version: 7.4.2
-  resolution: "@sprucelabs/test@npm:7.4.2"
+"@sprucelabs/test@npm:^7.4.3":
+  version: 7.4.3
+  resolution: "@sprucelabs/test@npm:7.4.3"
   dependencies:
     "@babel/core": ^7.12.10
     "@babel/preset-env": ^7.12.11
@@ -1942,7 +1942,7 @@ __metadata:
     ts-jest: ^26.4.1
     typescript: ^4.1.3
     variable-diff: ^2.0.2
-  checksum: 41651a6d1c2c71282923efbfc8e36cd282b6fcd9b04e20bc5a42d167a92e78ed4bde25cef7ff06df353a1a81c405761ff443838a99d75a6e71f7c68d7cef0078
+  checksum: d511401a97c95690f021d198bc467e86fe9f6bbf732e5c2c3d87f020a5265ff3450dcdf9bd482b385b1ebf8981c1678b66fedfd312181706d035c9842f712651
   languageName: node
   linkType: hard
 
