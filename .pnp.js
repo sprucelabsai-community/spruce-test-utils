@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@semantic-release/changelog", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:5.0.1"],
             ["@semantic-release/git", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:4.0.2"],
+            ["@sprucelabs/error", "npm:4.0.3"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.4.3"],
             ["@types/lodash", "npm:4.14.166"],
@@ -2801,10 +2801,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sprucelabs/error", [
-        ["npm:4.0.2", {
-          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-4.0.2-462bc065cd-9026f3c2dd.zip/node_modules/@sprucelabs/error/",
+        ["npm:4.0.3", {
+          "packageLocation": "./.yarn/cache/@sprucelabs-error-npm-4.0.3-f1f238b01d-1e30e21826.zip/node_modules/@sprucelabs/error/",
           "packageDependencies": [
-            ["@sprucelabs/error", "npm:4.0.2"]
+            ["@sprucelabs/error", "npm:4.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -2850,7 +2850,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sprucelabs/test-utils", "workspace:."],
             ["@semantic-release/changelog", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:5.0.1"],
             ["@semantic-release/git", "virtual:ab065088c0142bebe5d893f0198fe10cbf7ecbd227533c62aa72c69fe176d7521bb2d170026ba623bb8d06236250fffd4a9f638b42bc8316c843e2d7ea3e22e4#npm:9.0.0"],
-            ["@sprucelabs/error", "npm:4.0.2"],
+            ["@sprucelabs/error", "npm:4.0.3"],
             ["@sprucelabs/semantic-release", "npm:4.0.6"],
             ["@sprucelabs/test", "npm:7.4.3"],
             ["@types/lodash", "npm:4.14.166"],
