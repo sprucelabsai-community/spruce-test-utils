@@ -1,3 +1,23 @@
+## [3.0.32](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.31...v3.0.32) (2020-12-31)
+
+## [3.0.31](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.30...v3.0.31) (2020-12-30)
+
+## [3.0.30](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.29...v3.0.30) (2020-12-29)
+
+## [3.0.29](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.28...v3.0.29) (2020-12-28)
+
+## [3.0.28](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.27...v3.0.28) (2020-12-28)
+
+## [3.0.27](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.26...v3.0.27) (2020-12-26)
+
+## [3.0.26](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.25...v3.0.26) (2020-12-25)
+
+## [3.0.25](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.24...v3.0.25) (2020-12-24)
+
+## [3.0.24](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.23...v3.0.24) (2020-12-23)
+
+## [3.0.23](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.22...v3.0.23) (2020-12-23)
+
 ## [3.0.22](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.21...v3.0.22) (2020-12-23)
 
 ## [3.0.21](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.20...v3.0.21) (2020-12-21)
