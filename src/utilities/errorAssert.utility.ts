@@ -33,7 +33,7 @@ const errorAssertUtil = {
 		const spruceErr = error as any
 
 		if (!(spruceErr instanceof AbstractSpruceError)) {
-			if (spruceErr instanceof Error) {
+			if (spruceErr instanceof Error || spruceErr.message) {
 				assertUtil.fail(
 					`Did not receive a SpruceError, got:\n\nMessage: ${
 						spruceErr.message ?? '***missing***'
