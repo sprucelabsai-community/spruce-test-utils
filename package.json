@@ -21,10 +21,11 @@
 		"url": "https://github.com/sprucelabsai/spruce-test-utils/issues"
 	},
 	"scripts": {
-		"build": "yarn clean && yarn build.tsc",
+		"build": "yarn build.tsc",
 		"build.tsc": "tsc",
-		"rebuild": "yarn clean && rm -rf .yarn/cache && yarn && yarn build",
+		"rebuild": "yarn clean.all && yarn && yarn build",
 		"clean": "rm -rf build/",
+		"clean.all": "rm -rf node_modules/ ; rm yarn.lock; yarn clean",
 		"lint": "eslint '**/*.ts' --fix && yarn lint.tsc",
 		"lint.watch": "chokidar 'index.ts' 'src/**/*.(js|jsx|ts|tsx)' -c 'yarn lint'",
 		"lint.tsc": "tsc -p . --noEmit",
