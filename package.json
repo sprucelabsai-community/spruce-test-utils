@@ -39,14 +39,15 @@
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/error": "^4.0.3",
-		"@sprucelabs/test": "^7.4.3",
+		"@sprucelabs/error": "latest",
+		"@sprucelabs/test": "latest",
 		"@types/lodash": "^4.14.166",
 		"lodash": "^4.17.20"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",
 		"@semantic-release/git": "^9.0.0",
+		"@sprucelabs/jest-json-reporter": "latest",
 		"@sprucelabs/semantic-release": "^4.0.6",
 		"@typescript-eslint/eslint-plugin": "^4.11.1",
 		"@typescript-eslint/parser": "^4.11.1",
@@ -61,6 +62,7 @@
 		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-spruce": "^10.9.127",
 		"jest": "^26.6.3",
+		"jest-circus": "^26.6.3",
 		"prettier": "^2.2.1",
 		"semantic-release": "^17.3.1",
 		"ts-node": "^9.1.1",
@@ -79,6 +81,13 @@
 		],
 		"testMatch": [
 			"**/__tests__/**/*.test.js?(x)"
+		]
+	},
+	"yarn-upgrade-all": {
+		"ignore": [
+			"@sprucelabs/error",
+			"@sprucelabs/test",
+			"@sprucelabs/jest-json-reporter"
 		]
 	}
 }
