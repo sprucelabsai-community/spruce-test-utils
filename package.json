@@ -27,13 +27,13 @@
 		"build.dist": "yarn build.tsc && tsc --project tsconfig.dist.json && yarn build.esm-postbuild",
 		"build.esm-postbuild": "esm-postbuild --target build/esm --patterns '**/*.js'",
 		"build.tsc": "tsc",
-		"rebuild": "yarn clean.all && yarn && yarn build.dev",
+		"fix.lint": "eslint --fix '**/*.ts'",
 		"clean": "rm -rf build/",
 		"clean.all": "rm -rf node_modules/ yarn.lock; yarn clean",
 		"lint": "eslint '**/*.ts' --fix && yarn lint.tsc",
 		"lint.watch": "chokidar 'index.ts' 'src/**/*.(js|jsx|ts|tsx)' -c 'yarn lint'",
 		"lint.tsc": "tsc -p . --noEmit",
-		"lint.fix": "eslint --fix '**/*.ts'",
+		"rebuild": "yarn clean.all && yarn && yarn build.dev",
 		"release": "semantic-release",
 		"test": "jest",
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
@@ -47,7 +47,7 @@
 		"lodash": "^4.17.20"
 	},
 	"devDependencies": {
-		"@sprucelabs/esm-postbuild": "^1.0.1",
+		"@sprucelabs/esm-postbuild": "latest",
 		"@sprucelabs/jest-json-reporter": "latest",
 		"@sprucelabs/semantic-release": "latest",
 		"@types/lodash": "^4.14.166",
@@ -80,11 +80,11 @@
 	"yarn-upgrade-all": {
 		"ignore": [
 			"@sprucelabs/error",
-			"@sprucelabs/test",
+			"@sprucelabs/esm-postbuild",
 			"@sprucelabs/jest-json-reporter",
 			"@sprucelabs/semantic-release",
-			"eslint-config-spruce",
-			"eslint-plugin-spruce"
+			"@sprucelabs/test",
+			"eslint-config-spruce"
 		]
 	}
 }
