@@ -6,7 +6,7 @@
             "command": "yarn",
             "group": "build",
             "args": [
-                "watch.tsc",
+                "watch.build.dev",
                 "--noEmit",
                 "--project",
                 "tsconfig.json"
@@ -41,50 +41,6 @@
                 "panel": "dedicated",
                 "focus": false,
                 "reveal": "silent"
-            }
-        },
-        {
-            "label": "test.file",
-            "command": "spruce",
-            "args": [
-                "test",
-                "--inspect",
-                "5200",
-                "--pattern",
-                "${fileBasenameNoExtension}",
-                "--watchMode",
-                "standard"
-            ],
-            "promptOnClose": false,
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated",
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "test.reporter",
-            "command": "spruce",
-            "args": [
-                "test",
-                "--shouldHoldAtStart",
-                "true",
-                "--watchMode",
-                "smart"
-            ],
-            "promptOnClose": false,
-            "group": "test",
-            "runOptions": {
-                "runOn": "folderOpen"
-            },
-            "presentation": {
-                "panel": "shared",
-                "focus": true,
-                "reveal": "always"
             }
         },
         {

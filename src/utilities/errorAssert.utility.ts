@@ -53,12 +53,11 @@ const errorAssertUtil = {
 				assert.doesInclude(spruceErr.options, expectedPartialOptions)
 			}
 		} else {
+			const { code, friendlyMessage, ...options } = spruceErr.options
 			assertUtil.fail(
-				`Invalid error code. Expected:\n\n'${expectedCode}'\n\nbut got:\n\nCode: '${
-					spruceErr.options.code
-				}'\nMessage: '${spruceErr.message}'\nOptions:${assertUtil.stringify(
-					spruceErr.options
-				)}`,
+				`Invalid error code. Expected:\n\n'${expectedCode}'\n\nbut got:\n\nCode: '${code}'\nMessage: '${
+					friendlyMessage ?? spruceErr.message
+				}'\nOptions:${assertUtil.stringify(options)}`,
 				spruceErr.stack
 			)
 		}
