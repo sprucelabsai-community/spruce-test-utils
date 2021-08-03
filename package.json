@@ -43,7 +43,7 @@
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
 		"upgrade.packages.all": "yarn install && yarn upgrade.packages",
 		"upgrade.packages.test": "yarn run upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
-		"watch.build.dev": "tsc -w"
+		"watch.build.dev": "tsc -w --sourceMap"
 	},
 	"dependencies": {
 		"@sprucelabs/error": "latest",
