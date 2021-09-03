@@ -1,5 +1,13 @@
 {
   "installed": [
     "test"
-  ]
+  ],
+  "writer": {
+    "skips": [
+      "src/index.ts"
+    ]
+  },
+  "scriptUpdater": {
+    "skips": []
+  }
 }

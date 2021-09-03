@@ -73,7 +73,7 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	protected static async testPrettyPrinting() {
 		try {
 			throw new TestError({ code: 'ERROR_ONE', booleanParam: true })
-		} catch (err) {
+		} catch (err: any) {
 			errorAssertUtil.assertError(err, 'ERROR_TWO')
 		}
 	}
