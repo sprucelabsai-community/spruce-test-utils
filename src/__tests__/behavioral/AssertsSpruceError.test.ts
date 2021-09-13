@@ -98,6 +98,17 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		{ results: { errors: [{ code: 'TEST', friendlyMessage: 'go away' }] } },
 		{ results: { errors: [{ code: 'TEST' }] } }
 	)
+	@test(
+		'can handle null value',
+		{
+			results: {
+				errors: [
+					{ code: 'TEST', aNullValue: null, friendlyMessage: 'go away' },
+				],
+			},
+		},
+		{ results: { errors: [{ code: 'TEST', aNullValue: null }] } }
+	)
 	protected static strippingFriendlyMessage(options: any, expected: any) {
 		const actual = errorAssertUtil.stripFriendlyMessageFromOptions(options)
 		assert.isEqualDeep(actual, expected)

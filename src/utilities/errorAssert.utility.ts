@@ -10,7 +10,7 @@ function removeProps(obj: Record<string, any>, keys: string[]) {
 			}
 			removeProps(item, keys)
 		})
-	} else if (typeof obj === 'object') {
+	} else if (obj && typeof obj === 'object') {
 		Object.getOwnPropertyNames(obj).forEach(function (key) {
 			if (obj[key] instanceof AbstractSpruceError) {
 				obj[key] = { options: obj[key].options }
