@@ -6,7 +6,7 @@
             "command": "yarn",
             "group": "build",
             "args": [
-                "watch.build.dev",
+                "watch.tsc",
                 "--noEmit",
                 "--project",
                 "tsconfig.json"
@@ -17,8 +17,7 @@
             "isBackground": true,
             "presentation": {
                 "reveal": "never",
-                "focus": false,
-                "clear": true
+                "focus": false
             },
             "problemMatcher": {
                 "base": "$tsc-watch",
@@ -26,12 +25,10 @@
             }
         },
         {
-            "label": "watch.build.dev",
-            "command": "yarn",
-            "args": [
-                "watch.build.dev"
-            ],
+            "type": "npm",
+            "script": "watch.build.dev",
             "group": "build",
+            "label": "watch.build.dev",
             "isBackground": true,
             "runOptions": {
                 "runOn": "folderOpen"

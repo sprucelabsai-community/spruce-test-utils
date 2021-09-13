@@ -8,6 +8,11 @@
     ]
   },
   "scriptUpdater": {
+    "skipped": [
+      "build.dev",
+      "build.tsc",
+      "build.ci"
+    ],
     "skips": []
   }
 }
