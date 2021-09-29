@@ -11,7 +11,10 @@
     "skipped": [
       "build.dev",
       "build.tsc",
-      "build.ci"
+      "build.ci",
+      "build.copy-files",
+      "build.resolve-paths",
+      "watch.lint"
     ],
     "skips": []
   }
