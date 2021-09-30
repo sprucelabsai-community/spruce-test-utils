@@ -63,11 +63,11 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^5.0.113",
-    "@sprucelabs/test": "^7.7.94",
+    "@sprucelabs/test": "^7.7.95",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.152",
+    "@sprucelabs/esm-postbuild": "^1.0.153",
     "@sprucelabs/semantic-release": "^4.0.7",
     "@types/lodash": "^4.14.175",
     "@types/node": "^16.10.2",
