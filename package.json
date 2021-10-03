@@ -62,12 +62,12 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.174",
-    "@sprucelabs/test": "^7.7.155",
+    "@sprucelabs/error": "^5.0.175",
+    "@sprucelabs/test": "^7.7.156",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.215",
+    "@sprucelabs/esm-postbuild": "^1.0.216",
     "@sprucelabs/semantic-release": "^4.0.7",
     "@types/lodash": "^4.14.175",
     "@types/node": "^16.10.2",
