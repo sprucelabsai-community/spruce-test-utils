@@ -1,3 +1,5 @@
+## [3.0.176](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.175...v3.0.176) (2021-10-05)
+
 ## [3.0.175](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.174...v3.0.175) (2021-10-05)
 
 ## [3.0.174](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.173...v3.0.174) (2021-10-04)
