@@ -62,13 +62,13 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.243",
-    "@sprucelabs/test": "^7.7.201",
+    "@sprucelabs/error": "^5.0.244",
+    "@sprucelabs/test": "^7.7.202",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.267",
-    "@sprucelabs/semantic-release": "^4.0.7",
+    "@sprucelabs/esm-postbuild": "^1.0.268",
+    "@sprucelabs/semantic-release": "^4.0.8",
     "@types/lodash": "^4.14.175",
     "@types/node": "^16.11.1",
     "chokidar-cli": "^3.0.0",
