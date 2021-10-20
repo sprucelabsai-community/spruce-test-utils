@@ -62,7 +62,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.245",
+    "@sprucelabs/error": "^5.0.246",
     "@sprucelabs/test": "^7.7.203",
     "lodash": "^4.17.21"
   },
