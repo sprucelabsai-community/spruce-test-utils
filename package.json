@@ -62,15 +62,15 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.252",
-    "@sprucelabs/test": "^7.7.206",
+    "@sprucelabs/error": "^5.0.253",
+    "@sprucelabs/test": "^7.7.207",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.271",
+    "@sprucelabs/esm-postbuild": "^1.0.272",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/lodash": "^4.14.176",
-    "@types/node": "^16.11.3",
+    "@types/node": "^16.11.4",
     "chokidar-cli": "^3.0.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.0.1",
@@ -78,7 +78,7 @@
     "jest": "^27.3.1",
     "jest-circus": "^27.3.1",
     "prettier": "^2.4.1",
-    "ts-node": "^10.3.1",
+    "ts-node": "^10.4.0",
     "tsc-watch": "^4.5.0",
     "tsconfig-paths": "^3.11.0",
     "typescript": "^4.4.4"
