@@ -63,13 +63,13 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^5.0.277",
-    "@sprucelabs/test": "^7.7.220",
+    "@sprucelabs/test": "^7.7.221",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.281",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@types/lodash": "^4.14.176",
+    "@types/lodash": "^4.14.177",
     "@types/node": "^16.11.7",
     "chokidar-cli": "^3.0.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
