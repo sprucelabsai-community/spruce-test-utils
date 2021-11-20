@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^5.0.285",
-    "@sprucelabs/test": "^7.7.225",
+    "@sprucelabs/test": "^7.7.226",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
@@ -80,7 +80,7 @@
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
     "tsc-watch": "^4.5.0",
-    "tsconfig-paths": "^3.11.0",
+    "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.2"
   },
   "jest": {
