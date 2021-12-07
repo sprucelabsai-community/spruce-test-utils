@@ -73,7 +73,7 @@
     "@types/node": "^16.11.11",
     "chokidar-cli": "^3.0.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
-    "eslint": "^8.4.0",
+    "eslint": "^8.4.1",
     "eslint-config-spruce": "^10.10.16",
     "jest": "^27.4.3",
     "jest-circus": "^27.4.2",
