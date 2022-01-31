@@ -2,7 +2,7 @@ import AbstractSpruceError, {
 	ErrorOptions as IErrorOptions,
 } from '@sprucelabs/error'
 import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
-import errorAssertUtil from '../../utilities/errorAssert.utility'
+import errorAssert from '../../utilities/errorAssert'
 
 interface ErrorOne extends IErrorOptions {
 	code: 'ERROR_ONE'
@@ -23,7 +23,7 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	protected static async failsWhenErrorCodeDoesNotMatch() {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		assert.doesThrow(
-			() => errorAssertUtil.assertError(err, 'ERROR_THREE'),
+			() => errorAssert.assertError(err, 'ERROR_THREE'),
 			/Invalid error code. Expected.*?ERROR_THREE.*?but got.*?ERROR_ONE/gis
 		)
 	}
@@ -32,14 +32,14 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	protected static async failsWhenErrorIsNotSpruceError() {
 		assert.doesThrow(
 			//@ts-ignore
-			() => errorAssertUtil.assertError(new Error('taco bell'), 'ERROR_THREE'),
+			() => errorAssert.assertError(new Error('taco bell'), 'ERROR_THREE'),
 			/Did not receive a SpruceError/
 		)
 
 		assert.doesThrow(
 			//@ts-ignore
 			() =>
-				errorAssertUtil.assertError(
+				errorAssert.assertError(
 					//@ts-ignore
 					{ options: { code: 'TEST_ERROR' } },
 					'TEST_ERROR'
@@ -52,7 +52,7 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	protected static async failsWhenCodeMatchesButOptionsDoNotMatch() {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		assert.doesThrow(
-			() => errorAssertUtil.assertError(err, 'ERROR_ONE', { hello: 'world' }),
+			() => errorAssert.assertError(err, 'ERROR_ONE', { hello: 'world' }),
 			/hello(.*?)was not found in/gis
 		)
 	}
@@ -60,13 +60,13 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 	@test()
 	protected static async passesWhenCodeMatches() {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
-		errorAssertUtil.assertError(err, 'ERROR_ONE')
+		errorAssert.assertError(err, 'ERROR_ONE')
 	}
 
 	@test()
 	protected static async passesWhenCodeAndPayloadMatches() {
 		const err = new TestError({ code: 'ERROR_ONE', booleanParam: true })
-		errorAssertUtil.assertError(err, 'ERROR_ONE', { booleanParam: true })
+		errorAssert.assertError(err, 'ERROR_ONE', { booleanParam: true })
 	}
 
 	@test.skip('Enable to review pretty printed output. Always fails.')
@@ -74,7 +74,7 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		try {
 			throw new TestError({ code: 'ERROR_ONE', booleanParam: true })
 		} catch (err: any) {
-			errorAssertUtil.assertError(err, 'ERROR_TWO')
+			errorAssert.assertError(err, 'ERROR_TWO')
 		}
 	}
 
@@ -110,13 +110,13 @@ export default class AssertsSpruceErrorTest extends AbstractSpruceTest {
 		{ results: { errors: [{ code: 'TEST', aNullValue: null }] } }
 	)
 	protected static strippingFriendlyMessage(options: any, expected: any) {
-		const actual = errorAssertUtil.stripFriendlyMessageFromOptions(options)
+		const actual = errorAssert.stripFriendlyMessageFromOptions(options)
 		assert.isEqualDeep(actual, expected)
 	}
 
 	@test()
 	protected static strippingFriendlyMessageConvertsSpruceErrorToOptions() {
-		const actual = errorAssertUtil.stripFriendlyMessageFromOptions({
+		const actual = errorAssert.stripFriendlyMessageFromOptions({
 			fun: {
 				times: [
 					new TestError({ code: 'ERROR_ONE', booleanParam: true }),
