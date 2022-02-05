@@ -71,7 +71,7 @@
     "@sprucelabs/esm-postbuild": "^1.0.334",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/lodash": "^4.14.178",
-    "@types/node": "^17.0.14",
+    "@types/node": "^17.0.15",
     "chokidar-cli": "^3.0.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.8.0",
