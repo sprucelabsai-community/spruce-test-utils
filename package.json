@@ -63,8 +63,8 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.392",
-    "@sprucelabs/test": "^7.7.278",
+    "@sprucelabs/error": "^5.0.393",
+    "@sprucelabs/test": "^7.7.279",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
@@ -76,8 +76,8 @@
     "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.8.0",
     "eslint-config-spruce": "^10.11.2",
-    "jest": "^27.5.0",
-    "jest-circus": "^27.5.0",
+    "jest": "^27.5.1",
+    "jest-circus": "^27.5.1",
     "prettier": "^2.5.1",
     "ts-node": "^10.5.0",
     "tsc-watch": "^4.6.0",
