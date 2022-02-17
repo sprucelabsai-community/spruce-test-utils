@@ -68,7 +68,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.343",
+    "@sprucelabs/esm-postbuild": "^1.0.344",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/lodash": "^4.14.178",
     "@types/node": "^17.0.18",
