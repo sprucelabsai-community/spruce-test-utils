@@ -65,7 +65,7 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^5.0.461",
-    "@sprucelabs/test": "^7.7.319",
+    "@sprucelabs/test": "^7.7.320",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
