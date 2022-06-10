@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.571...v3.1.0) (2022-06-10)
+
+
+### Features
+
+* Now can generateId without outside dependencies ([6162534](https://github.com/sprucelabsai/spruce-test-utils/commit/6162534))
+
 ## [3.0.571](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.570...v3.0.571) (2022-06-07)
 
 ## [3.0.570](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.0.569...v3.0.570) (2022-06-07)
