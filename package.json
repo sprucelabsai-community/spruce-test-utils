@@ -109,7 +109,7 @@
           "sheetId": "1DoWM7mYgGDa-PJXptLomrZmbIBZiuxS1YiAsRXU2Gm0",
           "worksheetId": 1823878579,
           "testMap": {
-            "passesExpectedPredicates": "D14"
+            "returnValuesAreUnique": "D14"
           }
         }
       ]
