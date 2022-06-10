@@ -1,6 +1,6 @@
 import AbstractSpruceError from '@sprucelabs/error'
 import { assert, assertUtil } from '@sprucelabs/test'
-import cloneDeep from 'lodash/cloneDeep'
+import cloneDeep from 'just-clone'
 
 function removeProps(obj: Record<string, any>, keys: string[]) {
 	if (obj instanceof Array) {
