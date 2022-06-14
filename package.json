@@ -65,8 +65,8 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.467",
-    "@sprucelabs/test": "^7.7.324",
+    "@sprucelabs/error": "^5.0.468",
+    "@sprucelabs/test": "^7.7.325",
     "just-clone": "^6.0.1"
   },
   "devDependencies": {
@@ -80,7 +80,7 @@
     "eslint-config-spruce": "^10.11.2",
     "jest": "^28.1.1",
     "jest-circus": "^28.1.1",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.0",
     "ts-node": "^10.8.1",
     "tsc-watch": "^5.0.3",
     "tsconfig-paths": "^4.0.0",
