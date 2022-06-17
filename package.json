@@ -66,7 +66,7 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^5.0.471",
-    "@sprucelabs/test": "^7.7.326",
+    "@sprucelabs/test": "^7.7.327",
     "just-clone": "^6.0.1"
   },
   "devDependencies": {
