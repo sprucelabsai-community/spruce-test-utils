@@ -75,7 +75,6 @@
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/node": "^18.0.0",
     "chokidar-cli": "^3.0.0",
-    "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.18.0",
     "eslint-config-spruce": "^10.11.3",
     "jest": "^28.1.2",
