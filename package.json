@@ -67,7 +67,7 @@
   "dependencies": {
     "@sprucelabs/error": "^5.0.491",
     "@sprucelabs/test": "^7.7.341",
-    "just-clone": "^6.0.1"
+    "just-clone": "^6.1.0"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.407",
