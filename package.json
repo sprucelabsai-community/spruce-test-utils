@@ -15,8 +15,7 @@
       "@sprucelabs/resolve-path-aliases",
       "@sprucelabs/spruce-test-fixtures",
       "@sprucelabs/test-utils",
-      "@sprucelabs/esm-postbuild",
-      "typescript"
+      "@sprucelabs/esm-postbuild"
     ]
   },
   "main": "./build/index.js",

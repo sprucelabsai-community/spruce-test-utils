@@ -22,3 +22,8 @@ esm/
 
 yarn.lock
 .eslintcache
+
+# dotenv environment variables file
+.env
+.env.*
+.env-*
