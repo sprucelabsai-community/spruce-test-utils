@@ -65,8 +65,8 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.503",
-    "@sprucelabs/test": "^7.7.353",
+    "@sprucelabs/error": "^5.0.504",
+    "@sprucelabs/test": "^7.7.354",
     "just-clone": "^6.1.1"
   },
   "devDependencies": {
@@ -77,8 +77,8 @@
     "chokidar-cli": "^3.0.0",
     "eslint": "^8.23.0",
     "eslint-config-spruce": "^10.11.4",
-    "jest": "^29.0.1",
-    "jest-circus": "^29.0.1",
+    "jest": "^29.0.2",
+    "jest-circus": "^29.0.2",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
     "tsc-watch": "^5.0.3",
