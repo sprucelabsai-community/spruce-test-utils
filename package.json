@@ -65,7 +65,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^5.0.504",
+    "@sprucelabs/error": "^5.0.505",
     "@sprucelabs/test": "^7.7.354",
     "just-clone": "^6.1.1"
   },
