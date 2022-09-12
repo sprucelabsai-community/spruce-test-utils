@@ -1,7 +1,8 @@
-import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
+import assert from '../../assert/assert'
+import test from '../../decorators'
 import generateId from '../../utilities/generateId.utility'
 
-export default class GeneratesRandomIdTest extends AbstractSpruceTest {
+export default class GeneratesRandomIdTest {
 	@test()
 	protected static canGenerateId() {
 		assert.isFunction(generateId)

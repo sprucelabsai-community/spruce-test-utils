@@ -1,6 +1,7 @@
 import AbstractSpruceError from '@sprucelabs/error'
-import { assert, assertUtil } from '@sprucelabs/test'
 import cloneDeep from 'just-clone'
+import assert from '../assert/assert'
+import assertUtil from '../assert/assert.utility'
 
 function removeProps(obj: Record<string, any>, keys: string[]) {
 	if (obj instanceof Array) {

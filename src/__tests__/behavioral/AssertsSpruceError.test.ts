@@ -1,7 +1,9 @@
 import AbstractSpruceError, {
 	ErrorOptions as IErrorOptions,
 } from '@sprucelabs/error'
-import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
+import AbstractSpruceTest from '../../AbstractSpruceTest'
+import assert from '../../assert/assert'
+import test from '../../decorators'
 import errorAssert from '../../utilities/errorAssert'
 
 interface ErrorOne extends IErrorOptions {
