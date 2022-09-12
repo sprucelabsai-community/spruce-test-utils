@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.1.83...v3.2.0) (2022-09-12)
+
+
+### Features
+
+* assert, utils, and more pulled from spruce-test to be ([d5c11c5](https://github.com/sprucelabsai/spruce-test-utils/commit/d5c11c5))
+
 ## [3.1.83](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.1.82...v3.1.83) (2022-09-12)
 
 ## [3.1.82](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.1.81...v3.1.82) (2022-09-12)
