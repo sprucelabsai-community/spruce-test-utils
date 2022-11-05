@@ -3,6 +3,9 @@
     "test"
   ],
   "writer": {
+    "skipped": [
+      ".nvmrc"
+    ],
     "skips": [
       "src/index.ts"
     ]
