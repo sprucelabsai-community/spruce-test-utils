@@ -30,6 +30,7 @@ type TypeEqual<T, U> = IsAny<T> extends never
 function isExactType<T, E, Pass = TypeEqual<T, E>>(_: Pass) {}
 
 export interface ISpruceAssert {
+	isInstanceOf<T>(test: T, Test: new (...props: any[]) => T): void
 	isNumber(actual: any, message?: string): asserts actual is number
 	isType: typeof expectType
 	isExactType: typeof isExactType
@@ -416,6 +417,9 @@ const assert: ISpruceAssert = {
 	},
 
 	fail: assertUtil.fail,
+	isInstanceOf<T>(test: T, Test: new (...props: any[]) => T): void {
+		assert.isTrue(test instanceof Test)
+	},
 }
 
 export default assert

@@ -670,6 +670,21 @@ export default class AssertTest extends AbstractSpruceTest {
 		assert.isNumber(2)
 	}
 
+	@test()
+	protected static canAssertIstanceOf() {
+		class Test {
+			public test = true
+		}
+
+		const test = new Test()
+		const test2: any = true
+		const test3: any = { hello: 'world' }
+
+		assert.doesThrow(() => assert.isInstanceOf(test2, Test))
+		assert.doesThrow(() => assert.isInstanceOf(test3, Test))
+		assert.isInstanceOf(test, Test)
+	}
+
 	@test.skip('Example of pretty print. Remove skip() to see. Always fails.')
 	protected static printsNiceDiff() {
 		// assert.isEqualDeep(
