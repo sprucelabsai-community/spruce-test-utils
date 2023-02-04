@@ -417,8 +417,11 @@ const assert: ISpruceAssert = {
 	},
 
 	fail: assertUtil.fail,
-	isInstanceOf<T>(test: T, Test: new (...props: any[]) => T): void {
-		assert.isTrue(test instanceof Test)
+	isInstanceOf<T>(actual: T, Class: new (...props: any[]) => T): void {
+		assert.isTrue(
+			actual instanceof Class,
+			`actual is not an instance of:\n\n${Class}`
+		)
 	},
 }
 
