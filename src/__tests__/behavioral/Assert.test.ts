@@ -683,7 +683,6 @@ export default class AssertTest extends AbstractSpruceTest {
 		assert.doesThrow(() => assert.isInstanceOf(test2, Test))
 		assert.doesThrow(() => assert.isInstanceOf(test3, Test))
 		assert.isInstanceOf(test, Test)
-		assert.isInstanceOf(test3, Test)
 	}
 
 	@test.skip('Example of pretty print. Remove skip() to see. Always fails.')
