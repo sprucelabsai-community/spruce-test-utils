@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.2.108...v3.3.0) (2023-02-03)
+
+
+### Features
+
+* isInstanceOf added! ([071bc8d](https://github.com/sprucelabsai/spruce-test-utils/commit/071bc8d))
+
 ## [3.2.108](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.2.107...v3.2.108) (2023-02-03)
 
 ## [3.2.107](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.2.106...v3.2.107) (2023-02-02)
