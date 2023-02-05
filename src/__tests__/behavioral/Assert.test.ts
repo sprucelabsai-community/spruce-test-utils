@@ -676,13 +676,21 @@ export default class AssertTest extends AbstractSpruceTest {
 			public test = true
 		}
 
+		class Test2 {
+			public test = false
+		}
+
 		const test = new Test()
 		const test2: any = true
 		const test3: any = { hello: 'world' }
+		const test4 = new Test2()
 
 		assert.doesThrow(() => assert.isInstanceOf(test2, Test))
 		assert.doesThrow(() => assert.isInstanceOf(test3, Test))
+		assert.doesThrow(() => assert.isInstanceOf(test4, Test))
+		assert.doesThrow(() => assert.isInstanceOf(test, Test2))
 		assert.isInstanceOf(test, Test)
+		// assert.isInstanceOf(test4, Test)
 	}
 
 	@test.skip('Example of pretty print. Remove skip() to see. Always fails.')

@@ -420,7 +420,7 @@ const assert: ISpruceAssert = {
 	isInstanceOf<T>(actual: T, Class: new (...props: any[]) => T): void {
 		assert.isTrue(
 			actual instanceof Class,
-			`actual is not an instance of:\n\n${Class}`
+			`${assertUtil.stringify(actual)} is not an instance of:\n\n${Class}`
 		)
 	},
 }
