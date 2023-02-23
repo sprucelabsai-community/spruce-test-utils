@@ -1,3 +1,10 @@
+# [3.4.0](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.10...v3.4.0) (2023-02-23)
+
+
+### Features
+
+* isNotEqualDeep! ([27ac91a](https://github.com/sprucelabsai/spruce-test-utils/commit/27ac91a))
+
 ## [3.3.10](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.9...v3.3.10) (2023-02-17)
 
 ## [3.3.9](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.8...v3.3.9) (2023-02-15)
