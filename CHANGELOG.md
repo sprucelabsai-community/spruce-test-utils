@@ -1,3 +1,19 @@
+## [3.3.10](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.9...v3.3.10) (2023-02-17)
+
+## [3.3.9](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.8...v3.3.9) (2023-02-15)
+
+## [3.3.8](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.7...v3.3.8) (2023-02-15)
+
+## [3.3.7](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.6...v3.3.7) (2023-02-13)
+
+## [3.3.6](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.5...v3.3.6) (2023-02-08)
+
+## [3.3.5](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.4...v3.3.5) (2023-02-07)
+
+## [3.3.4](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.3...v3.3.4) (2023-02-07)
+
+## [3.3.3](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.2...v3.3.3) (2023-02-05)
+
 ## [3.3.2](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.1...v3.3.2) (2023-02-05)
 
 ## [3.3.1](https://github.com/sprucelabsai/spruce-test-utils/compare/v3.3.0...v3.3.1) (2023-02-04)
