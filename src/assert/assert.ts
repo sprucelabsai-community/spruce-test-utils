@@ -44,6 +44,7 @@ export interface ISpruceAssert {
 		message?: string,
 		shouldAppendDelta?: boolean
 	): asserts actual is T
+	isNotEqualDeep<T>(actual: T, expected: T, message?: string): void
 	isAbove<T>(actual: T, floor: T, message?: string): void
 	isBelow<T>(actual: T, ceiling: T, message?: string): void
 	isUndefined<T>(actual: T, message?: string): void
@@ -142,6 +143,14 @@ const assert: ISpruceAssert = {
 				}${shouldAppendDelta ? `\n\n${result.text}` : ``}`
 			)
 		}
+	},
+
+	isNotEqualDeep(actual, expected, message) {
+		this.doesThrow(
+			() => this.isEqualDeep(actual, expected),
+			undefined,
+			message ?? `The objects you passed are deep equal! They should not be!`
+		)
 	},
 
 	isAbove(actual, floor, message) {

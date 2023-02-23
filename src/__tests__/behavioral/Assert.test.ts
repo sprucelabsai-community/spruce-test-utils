@@ -587,14 +587,29 @@ export default class AssertTest extends AbstractSpruceTest {
 	@test()
 	protected static deepEqual() {
 		assert.isEqualDeep({ test: true }, { test: true })
+		assert.doesThrow(() =>
+			assert.isNotEqualDeep({ test: true }, { test: true })
+		)
+
 		assert.doesThrow(
 			() => assert.isEqualDeep({ test: true }, { test: false }),
 			/true => false/
 		)
+		assert.isNotEqualDeep({ test: true }, { test: false })
 
 		assert.doesThrow(
 			() => assert.isEqualDeep({ test: '1' }, { test: 1 }),
 			/"1" => 1/
+		)
+
+		assert.doesThrow(() =>
+			assert.isNotEqualDeep(
+				{ test: true, hello: 'world' },
+				{
+					test: true,
+					hello: 'world',
+				}
+			)
 		)
 	}
 
