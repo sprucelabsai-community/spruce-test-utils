@@ -410,7 +410,7 @@ const assert: ISpruceAssert = {
 			return err
 		}
 
-		this.fail('Expected a thrown error, but never got one!')
+		this.fail(msg ?? 'Expected a thrown error, but never got one!')
 	},
 
 	async doesThrowAsync(cb, matcher, msg) {
@@ -422,7 +422,7 @@ const assert: ISpruceAssert = {
 			return err
 		}
 
-		this.fail('Expected a thrown error, but never got one!')
+		this.fail(msg ?? 'Expected a thrown error, but never got one!')
 	},
 
 	fail: assertUtil.fail,
