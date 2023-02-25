@@ -76,7 +76,7 @@
     "@sprucelabs/esm-postbuild": "^2.0.22",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.420",
+    "@sprucelabs/test": "^7.7.421",
     "@types/deep-equal": "^1.0.1",
     "@types/jest": "^29.4.0",
     "@types/lodash": "^4.14.191",
@@ -89,7 +89,7 @@
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.0",
-    "tsconfig-paths": "^4.1.2",
+    "tsconfig-paths": "^3.14.2",
     "typescript": "^4.9.5"
   },
   "jest": {
