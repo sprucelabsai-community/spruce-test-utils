@@ -80,7 +80,7 @@
     "@types/deep-equal": "^1.0.1",
     "@types/jest": "^29.5.2",
     "@types/lodash": "^4.14.195",
-    "@types/node": "^20.3.0",
+    "@types/node": "^20.3.1",
     "chokidar-cli": "^3.0.0",
     "eslint": "^8.42.0",
     "eslint-config-spruce": "^10.12.0",
