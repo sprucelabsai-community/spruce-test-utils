@@ -1,3 +1,10 @@
+# [4.0.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v3.4.76...v4.0.0) (2023-07-07)
+
+
+### Breaking Changes
+
+* upgrade ([ac0c64f](https://github.com/sprucelabsai-community/spruce-test-utils/commit/ac0c64f))
+
 ## [3.4.76](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v3.4.75...v3.4.76) (2023-07-07)
 
 ## [3.4.75](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v3.4.74...v3.4.75) (2023-06-17)
