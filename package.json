@@ -76,7 +76,7 @@
     "@sprucelabs/esm-postbuild": "^2.0.22",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.39",
+    "@sprucelabs/test": "^8.0.40",
     "@types/deep-equal": "^1.0.4",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.14.202",
