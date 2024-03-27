@@ -256,7 +256,8 @@ const assertUtil = {
 		isHaystackObject: boolean
 	) {
 		let passed = false
-		const escapedNeedle = escapeRegExp(needle)
+		const escapedNeedle =
+			typeof needle === 'string' ? escapeRegExp(needle) : needle
 		if (
 			typeof haystack === 'string' &&
 			typeof needle === 'string' &&
