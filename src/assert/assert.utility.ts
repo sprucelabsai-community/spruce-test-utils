@@ -1,4 +1,5 @@
 import chalk from 'chalk'
+import escapeRegExp from 'lodash/escapeRegExp'
 import get from 'lodash/get'
 import includes from 'lodash/includes'
 import isObject from 'lodash/isObject'
@@ -255,19 +256,20 @@ const assertUtil = {
 		isHaystackObject: boolean
 	) {
 		let passed = false
+		const escapedNeedle = escapeRegExp(needle)
 		if (
 			typeof haystack === 'string' &&
 			typeof needle === 'string' &&
-			haystack.search(needle) > -1
+			haystack.search(escapedNeedle) > -1
 		) {
 			passed = true
 		}
 
-		if (isHaystackObject && includes(haystack, needle)) {
+		if (isHaystackObject && includes(haystack, escapedNeedle)) {
 			passed = true
 		}
 
-		if (isHaystackObject && this.partialContains(haystack, needle)) {
+		if (isHaystackObject && this.partialContains(haystack, escapedNeedle)) {
 			passed = true
 		}
 		return passed

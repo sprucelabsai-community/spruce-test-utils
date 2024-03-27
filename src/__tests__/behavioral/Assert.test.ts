@@ -717,4 +717,14 @@ export default class AssertTest extends AbstractSpruceTest {
 
 		assert.isFalsy([new Error('yay')])
 	}
+
+	@test.only()
+	protected static async doesNotThrowRegexErrorIfStringNotFound() {
+		const err = assert.doesThrow(() => {
+			debugger
+			assert.doesInclude('hello', '+1 555 555 5555')
+		})
+
+		assert.doesNotInclude(err.message, 'Invalid regular')
+	}
 }
