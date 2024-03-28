@@ -27,3 +27,5 @@ yarn.lock
 .env
 .env.*
 .env-*
+
+**/.spruce/*cache.json
