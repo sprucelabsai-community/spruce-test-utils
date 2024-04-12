@@ -79,7 +79,7 @@
     "@types/deep-equal": "^1.0.4",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.0",
-    "@types/node": "^20.12.4",
+    "@types/node": "^20.12.7",
     "chokidar-cli": "^3.0.0",
     "eslint": "^8.57.0",
     "eslint-config-spruce": "^10.13.6",
@@ -89,7 +89,7 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "jest": {
     "testEnvironment": "node",
