@@ -1,3 +1,10 @@
+# [5.0.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v4.0.157...v5.0.0) (2024-04-15)
+
+
+### Breaking Changes
+
+* upgrade ([c14504a](https://github.com/sprucelabsai-community/spruce-test-utils/commit/c14504a))
+
 ## [4.0.157](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v4.0.156...v4.0.157) (2024-04-05)
 
 ## [4.0.156](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v4.0.155...v4.0.156) (2024-04-04)
