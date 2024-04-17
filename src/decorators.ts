@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /** Hooks up before, after, etc. */
 function hookupTestClass(target: any) {
     if (target.__isTestingHookedUp) {
