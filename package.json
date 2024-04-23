@@ -72,8 +72,8 @@
     "variable-diff": "^2.0.2"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.5",
-    "@sprucelabs/jest-json-reporter": "^8.0.3",
+    "@sprucelabs/esm-postbuild": "^6.0.6",
+    "@sprucelabs/jest-json-reporter": "^8.0.4",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^5.0.1",
     "@sprucelabs/test": "^9.0.6",
