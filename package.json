@@ -59,7 +59,6 @@
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
     "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
     "watch.build.dev": "tsc-watch --sourceMap --onCompilationComplete 'yarn run post.watch.build'",
-    "watch.lint": "true",
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev",
     "watch.tsc": "tsc -w"
   },
