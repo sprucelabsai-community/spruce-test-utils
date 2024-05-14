@@ -1,6 +1,6 @@
 if (typeof it === 'undefined') {
     //@ts-ignore
-    it = () => {}
+    global.it = () => {}
 }
 
 /** Hooks up before, after, etc. */
