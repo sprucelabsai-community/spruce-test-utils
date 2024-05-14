@@ -1,3 +1,8 @@
+if (typeof it === 'undefined') {
+    //@ts-ignore
+    it = () => {}
+}
+
 /** Hooks up before, after, etc. */
 function hookupTestClass(target: any) {
     if (target.__isTestingHookedUp) {
