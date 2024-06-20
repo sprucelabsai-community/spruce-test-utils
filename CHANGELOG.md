@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.0.91...v5.1.0) (2024-06-20)
+
+
+### Features
+
+* assert.isBetween and assert.isBetweenInclusive ([5f27be4](https://github.com/sprucelabsai-community/spruce-test-utils/commit/5f27be4))
+
 ## [5.0.91](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.0.90...v5.0.91) (2024-06-19)
 
 ## [5.0.90](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.0.89...v5.0.90) (2024-06-19)
