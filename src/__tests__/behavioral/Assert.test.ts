@@ -751,4 +751,22 @@ export default class AssertTest extends AbstractSpruceTest {
 
         assert.doesNotInclude(err.message, 'Invalid regular')
     }
+
+    @test()
+    protected static async canFindInBetween() {
+        assert.doesThrow(() => assert.isBetween(1, 2, 3))
+        assert.isBetween(3, 0, 5)
+        assert.doesThrow(() => assert.isBetween(3, 0, 3))
+        assert.isBetween(4, 3, 5)
+    }
+
+    @test()
+    protected static async isBetweenInclusive() {
+        assert.doesThrow(() => assert.isBetweenInclusive(1, 2, 3))
+        assert.isBetweenInclusive(3, 0, 5)
+        assert.isBetweenInclusive(1, 1, 1)
+        assert.doesThrow(() => assert.isBetweenInclusive(3, 0, 2))
+        assert.isBetweenInclusive(4, 3, 4)
+        assert.isBetweenInclusive(4, 4, 4)
+    }
 }

@@ -104,6 +104,19 @@ export interface ISpruceAssert {
         msg?: string | undefined
     ): Promise<Error>
     fail(message?: string): void
+    isBetween(
+        actual: number,
+        floor: number,
+        ceiling: number,
+        message?: string
+    ): void
+
+    isBetweenInclusive(
+        actual: number,
+        floor: number,
+        ceiling: number,
+        message?: string
+    ): void
 }
 
 const assert: ISpruceAssert = {
@@ -441,6 +454,22 @@ const assert: ISpruceAssert = {
         assert.isTrue(
             actual instanceof Class,
             `${assertUtil.stringify(actual)} is not an instance of:\n\n${Class}`
+        )
+    },
+
+    isBetween(actual, floor, ceiling, message) {
+        assert.isBelow(actual, ceiling, message)
+        assert.isAbove(actual, floor, message)
+    },
+
+    isBetweenInclusive(actual, floor, ceiling, message) {
+        if (actual >= floor && actual <= ceiling) {
+            return
+        }
+
+        assert.fail(
+            message ??
+                `${actual} is not between ${floor} and ${ceiling} (inclusive)`
         )
     },
 }
