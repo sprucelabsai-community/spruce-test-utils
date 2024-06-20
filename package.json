@@ -71,7 +71,7 @@
     "variable-diff": "^2.0.2"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.47",
+    "@sprucelabs/esm-postbuild": "^6.0.48",
     "@sprucelabs/jest-json-reporter": "^8.0.66",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^5.0.1",
@@ -89,7 +89,7 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.2"
   },
   "jest": {
     "testEnvironment": "node",
