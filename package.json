@@ -68,14 +68,14 @@
     "variable-diff": "^2.0.2"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.60",
-    "@sprucelabs/jest-json-reporter": "^8.0.79",
+    "@sprucelabs/esm-postbuild": "^6.0.61",
+    "@sprucelabs/jest-json-reporter": "^8.0.80",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^5.0.2",
-    "@sprucelabs/test": "^9.0.34",
+    "@sprucelabs/test": "^9.0.35",
     "@types/deep-equal": "^1.0.4",
     "@types/jest": "^29.5.12",
-    "@types/lodash": "^4.17.5",
+    "@types/lodash": "^4.17.6",
     "@types/node": "^20.14.9",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.5.0",
