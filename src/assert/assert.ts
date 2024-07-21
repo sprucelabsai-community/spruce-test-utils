@@ -486,11 +486,11 @@ const assert: ISpruceAssert = {
 export default assert
 function buildErrorMessage(
     defaultMessage: string,
-    message: string | undefined
+    customMessage: string | undefined
 ) {
     let m = defaultMessage
-    if (message) {
-        m += `\n\n${message}`
+    if (customMessage) {
+        m += `\n\n${customMessage}`
     }
     return m
 }
