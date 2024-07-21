@@ -45,6 +45,8 @@ export default class AssertTest extends AbstractSpruceTest {
     protected static isEqual() {
         assert.doesThrow(() => assert.isEqual('hello', 'world'), /not equal/)
         assert.isEqual(1, 1)
+        assert.isEqual(1, 1, 'works with error message')
+        assert.isEqual('testing', 'testing', 'works with error message')
     }
 
     @test()
