@@ -128,15 +128,22 @@ const assert: ISpruceAssert = {
 
     isNumber(actual, message) {
         if (typeof actual !== 'number') {
-            this.fail(message ?? `${stringify(actual)} is not a number!`)
+            this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not a number!`,
+                    message
+                )
+            )
         }
     },
 
     isEqual(actual, expected, message) {
         if (actual !== expected) {
             this.fail(
-                message ??
-                    `${stringify(actual)} does not equal ${stringify(expected)}`
+                buildErrorMessage(
+                    `${stringify(actual)} does not equal ${stringify(expected)}`,
+                    message
+                )
             )
         }
     },
@@ -144,8 +151,10 @@ const assert: ISpruceAssert = {
     isNotEqual(actual, expected, message) {
         if (actual === expected) {
             this.fail(
-                message ??
-                    `${stringify(actual)} should not equal ${stringify(expected)}`
+                buildErrorMessage(
+                    `${stringify(actual)} should not equal ${stringify(expected)}`,
+                    message
+                )
             )
         }
     },
@@ -475,3 +484,13 @@ const assert: ISpruceAssert = {
 }
 
 export default assert
+function buildErrorMessage(
+    defaultMessage: string,
+    message: string | undefined
+) {
+    let m = defaultMessage
+    if (message) {
+        m += `\n\n${message}`
+    }
+    return m
+}
