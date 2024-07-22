@@ -488,9 +488,7 @@ function buildErrorMessage(
     defaultMessage: string,
     customMessage: string | undefined
 ) {
-    let m = defaultMessage
-    if (customMessage) {
-        m += `\n\n${customMessage}`
-    }
-    return m
+    return customMessage
+        ? `${customMessage}\n\n${defaultMessage}\n`
+        : defaultMessage + '\n'
 }
