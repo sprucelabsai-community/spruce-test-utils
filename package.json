@@ -60,7 +60,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^6.0.166",
+    "@sprucelabs/error": "^6.0.168",
     "deep-equal": "^2.2.3",
     "just-clone": "^6.2.0",
     "lodash": "^4.17.21",
@@ -68,11 +68,11 @@
     "variable-diff": "^2.0.2"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.151",
-    "@sprucelabs/jest-json-reporter": "^8.0.169",
+    "@sprucelabs/esm-postbuild": "^6.0.152",
+    "@sprucelabs/jest-json-reporter": "^8.0.170",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^5.0.2",
-    "@sprucelabs/test": "^9.0.38",
+    "@sprucelabs/test": "^9.0.39",
     "@types/deep-equal": "^1.0.4",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.7",
@@ -86,7 +86,7 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "jest": {
     "testEnvironment": "node",
