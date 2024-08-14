@@ -76,11 +76,17 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.areSameType(true, true)
     }
 
-    @test()
+    @test.only()
     protected static async canMatchErrorByString() {
         assert.doesThrow(() => {
             throw new Error('Match on string')
         }, 'on string')
+
+        assert.doesThrow(() => {
+            throw new Error(
+                'crudAssert.beforeEach(this.views) is is here with dots and parentheses'
+            )
+        }, 'crudAssert.beforeEach(this.views)')
 
         await assert.doesThrowAsync(async () => {
             throw new Error('canMatchErrorByString: Match on string')

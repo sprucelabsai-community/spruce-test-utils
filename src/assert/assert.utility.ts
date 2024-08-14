@@ -179,7 +179,11 @@ const assertUtil = {
     ) {
         const message = err.stack ?? err.message ?? '**MISSING ERROR MESSAGE**'
 
-        if (typeof matcher === 'string' && message.search(matcher) === -1) {
+        if (
+            typeof matcher === 'string' &&
+            message.search(matcher) === -1 &&
+            !message.includes(matcher)
+        ) {
             this.fail(
                 msg ??
                     `Expected thrown error whose message contains: \n\n${chalk.bold(
