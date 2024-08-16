@@ -303,9 +303,11 @@ const assert: ISpruceAssert = {
     },
 
     doesInclude(haystack: any, needle: any, message?: string) {
-        let msg =
-            message ??
-            `Could not find ${stringify(needle)} in ${stringify(haystack)}`
+        let msg = `Could not find ${stringify(needle)} in ${stringify(haystack)}`
+
+        if (message) {
+            msg = message + `\n\n` + msg
+        }
 
         const isNeedleString = typeof needle === 'string'
         const isNeedleRegex = needle instanceof RegExp
