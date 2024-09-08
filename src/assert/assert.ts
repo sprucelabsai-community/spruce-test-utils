@@ -276,10 +276,7 @@ const assert: ISpruceAssert = {
         this.isEqual(
             actual.length,
             expected,
-            message ??
-                `Expected length of ${stringify(
-                    expected
-                )}, but got a length of ${stringify(actual.length)}`
+            message ?? `Your array is not the expected length!`
         )
     },
 
