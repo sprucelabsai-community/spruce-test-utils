@@ -488,6 +488,6 @@ function buildErrorMessage(
     customMessage: string | undefined
 ) {
     return customMessage
-        ? `${customMessage}\n\n${defaultMessage}\n`
+        ? `${customMessage}\n${defaultMessage}\n`
         : defaultMessage + '\n'
 }
