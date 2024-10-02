@@ -1,3 +1,5 @@
+## [5.1.370](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.369...v5.1.370) (2024-10-02)
+
 ## [5.1.369](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.368...v5.1.369) (2024-10-02)
 
 ## [5.1.368](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.367...v5.1.368) (2024-10-02)
