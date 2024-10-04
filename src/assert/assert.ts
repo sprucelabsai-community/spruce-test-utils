@@ -31,7 +31,11 @@ type TypeEqual<T, U> =
 function isExactType<T, E, Pass = TypeEqual<T, E>>(_: Pass) {}
 
 export interface ISpruceAssert {
-    isInstanceOf<T>(test: T, Test: new (...props: any[]) => T): void
+    isInstanceOf<T>(
+        test: T,
+        Test: new (...props: any[]) => T,
+        message?: string
+    ): void
     isNumber(actual: any, message?: string): asserts actual is number
     isType: typeof expectType
     isExactType: typeof isExactType
@@ -163,10 +167,10 @@ const assert: ISpruceAssert = {
         if (!deepEqual(actual, expected, { strict: true })) {
             let result = diff(actual, expected)
             this.fail(
-                `${
-                    message ??
-                    `Deep equal failed.\n\nActual would need the following changes to match expected:`
-                }${shouldAppendDelta ? `\n\n${result.text}` : ``}`
+                buildErrorMessage(
+                    `${`Deep equal failed.\n\nActual would need the following changes to match expected:`}${shouldAppendDelta ? `\n\n${result.text}` : ``}`,
+                    message
+                )
             )
         }
     },
@@ -182,32 +186,51 @@ const assert: ISpruceAssert = {
 
     isAbove(actual, floor, message) {
         if (typeof actual !== 'number') {
-            this.fail(message ?? `${stringify(actual)} is not a number!`)
+            this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not a number!`,
+                    message
+                )
+            )
         }
         if (actual <= floor) {
             this.fail(
-                message ??
-                    `${stringify(actual)} is not above ${stringify(floor)}`
+                buildErrorMessage(
+                    `${stringify(actual)} is not above ${stringify(floor)}`,
+                    message
+                )
             )
         }
     },
 
     isBelow(actual, ceiling, message) {
         if (typeof actual !== 'number') {
-            this.fail(message ?? `${stringify(actual)} is not a number!`)
+            this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not a number!`,
+                    message
+                )
+            )
         }
 
         if (actual >= ceiling) {
             this.fail(
-                message ??
-                    `${stringify(actual)} is not below ${stringify(ceiling)}`
+                buildErrorMessage(
+                    `${stringify(actual)} is not below ${stringify(ceiling)}`,
+                    message
+                )
             )
         }
     },
 
     isUndefined(actual, message) {
         if (typeof actual !== 'undefined') {
-            this.fail(message ?? `${stringify(actual)} is not undefined`)
+            this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not undefined`,
+                    message
+                )
+            )
         }
     },
 
@@ -218,19 +241,25 @@ const assert: ISpruceAssert = {
             typeof actual === 'undefined' ||
             actual === 0
         ) {
-            this.fail(message ?? `${stringify(actual)} is not truthy`)
+            this.fail(
+                buildErrorMessage(`${stringify(actual)} is not truthy`, message)
+            )
         }
     },
 
     isFalsy(actual, message) {
         if (actual) {
-            this.fail(message ?? `${stringify(actual)} is not falsy`)
+            this.fail(
+                buildErrorMessage(`${stringify(actual)} is not falsy`, message)
+            )
         }
     },
 
     isNull(actual: any, message?) {
         if (actual !== null) {
-            this.fail(message ?? `${stringify(actual)} is not null`)
+            this.fail(
+                buildErrorMessage(`${stringify(actual)} is not null`, message)
+            )
         }
     },
 
@@ -254,21 +283,33 @@ const assert: ISpruceAssert = {
 
     isObject(actual, message) {
         if (!isObjectLike(actual)) {
-            throw this.fail(message ?? `${stringify(actual)} is not an object`)
+            throw this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not an object`,
+                    message
+                )
+            )
         }
     },
 
     isArray(actual, message) {
         if (!Array.isArray(actual)) {
-            throw this.fail(message ?? `${stringify(actual)} is not an array`)
+            throw this.fail(
+                buildErrorMessage(
+                    `${stringify(actual)} is not an array`,
+                    message
+                )
+            )
         }
     },
 
     isLength(actual, expected, message) {
         if (!actual) {
             throw this.fail(
-                message ??
-                    `Expected array of length ${expected}, but got ${stringify(actual)}`
+                buildErrorMessage(
+                    `Expected array of length ${expected}, but got ${stringify(actual)}`,
+                    message
+                )
             )
         }
 
@@ -276,7 +317,7 @@ const assert: ISpruceAssert = {
         this.isEqual(
             actual.length,
             expected,
-            message ?? `Your array is not the expected length!`
+            buildErrorMessage(`Your array is not the expected length!`, message)
         )
     },
 
@@ -291,20 +332,18 @@ const assert: ISpruceAssert = {
 
         if (doesInclude) {
             this.fail(
-                message ??
+                buildErrorMessage(
                     `${stringify(haystack)} should not include ${stringify(
                         needle
-                    )}, but it does`
+                    )}, but it does`,
+                    message
+                )
             )
         }
     },
 
     doesInclude(haystack: any, needle: any, message?: string) {
         let msg = `Could not find ${stringify(needle)} in ${stringify(haystack)}`
-
-        if (message) {
-            msg = message + `\n\n` + msg
-        }
 
         const isNeedleString = typeof needle === 'string'
         const isNeedleRegex = needle instanceof RegExp
@@ -420,14 +459,17 @@ const assert: ISpruceAssert = {
             )} in ${stringify(actualBeforeArray)}.`
         }
 
-        this.fail(msg)
+        this.fail(buildErrorMessage(msg, message))
     },
 
-    hasAllFunctions(obj, functionNames) {
+    hasAllFunctions(obj, functionNames, message?: string) {
         functionNames.forEach((name) => {
             if (typeof obj[name] !== 'function') {
                 this.fail(
-                    `A function named "${name}" does not exist on ${stringify(obj)}`
+                    buildErrorMessage(
+                        `A function named "${name}" does not exist on ${stringify(obj)}`,
+                        message
+                    )
                 )
             }
         })
@@ -438,11 +480,15 @@ const assert: ISpruceAssert = {
             cb()
         } catch (err: any) {
             assertUtil.checkDoesThrowError(matcher, err, msg)
-
             return err
         }
 
-        this.fail(msg ?? 'Expected a thrown error, but never got one!')
+        this.fail(
+            buildErrorMessage(
+                'Expected a thrown error, but never got one!',
+                msg
+            )
+        )
     },
 
     async doesThrowAsync(cb, matcher, msg) {
@@ -454,14 +500,26 @@ const assert: ISpruceAssert = {
             return err
         }
 
-        this.fail(msg ?? 'Expected a thrown error, but never got one!')
+        this.fail(
+            buildErrorMessage(
+                'Expected a thrown error, but never got one!',
+                msg
+            )
+        )
     },
 
     fail: assertUtil.fail,
-    isInstanceOf<T>(actual: T, Class: new (...props: any[]) => T): void {
+    isInstanceOf<T>(
+        actual: T,
+        Class: new (...props: any[]) => T,
+        message?: string
+    ): void {
         assert.isTrue(
             actual instanceof Class,
-            `${assertUtil.stringify(actual)} is not an instance of:\n\n${Class}`
+            buildErrorMessage(
+                `${assertUtil.stringify(actual)} is not an instance of:\n\n${Class}`,
+                message
+            )
         )
     },
 
@@ -479,8 +537,10 @@ const assert: ISpruceAssert = {
         }
 
         assert.fail(
-            message ??
-                `${actual} is not between ${floor} and ${ceiling} (inclusive)`
+            buildErrorMessage(
+                `${actual} is not between ${floor} and ${ceiling} (inclusive)`,
+                message
+            )
         )
     },
 }

@@ -177,7 +177,7 @@ const assertUtil = {
         err: Error,
         msg?: string | undefined
     ) {
-        const message = err.stack ?? err.message ?? '**MISSING ERROR MESSAGE**'
+        const message = err.message ?? ''
 
         if (
             typeof matcher === 'string' &&

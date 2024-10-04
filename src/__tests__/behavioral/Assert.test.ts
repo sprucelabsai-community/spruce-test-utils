@@ -1,6 +1,5 @@
 import AbstractSpruceTest from '../../AbstractSpruceTest'
 import assert from '../../assert/assert'
-import assertUtil from '../../assert/assert.utility'
 import test from '../../decorators'
 
 interface ICustomObj {
@@ -76,7 +75,7 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.areSameType(true, true)
     }
 
-    @test.only()
+    @test()
     protected static async canMatchErrorByString() {
         assert.doesThrow(() => {
             throw new Error('Match on string')
@@ -534,24 +533,6 @@ export default class AssertTest extends AbstractSpruceTest {
     }
 
     @test()
-    protected static doesThrowIncludesOriginalStackTrace() {
-        function throwError() {
-            throw new Error('taco')
-        }
-
-        try {
-            throwError()
-        } catch (err: any) {
-            const errWithStack = assert.doesThrow(
-                () => assertUtil.checkDoesThrowError(/bravo/, err),
-                /taco/
-            )
-
-            assert.doesInclude(errWithStack.message, /at new Promise/)
-        }
-    }
-
-    @test()
     protected static isTruthy() {
         const run = (): string | undefined => {
             return 'test'
@@ -672,7 +653,7 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.isLength(['test'], 1)
         assert.doesThrow(
             () => assert.isLength(['test'], 4),
-            /expected length of/gi
+            /expected length/gi
         )
         assert.doesThrow(() => assert.isLength(undefined, 4), /undefined/gi)
         assert.doesThrow(() => assert.isLength(null, 4), /null/gi)
@@ -776,5 +757,15 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.doesThrow(() => assert.isBetweenInclusive(3, 0, 2))
         assert.isBetweenInclusive(4, 3, 4)
         assert.isBetweenInclusive(4, 4, 4)
+    }
+
+    @test()
+    protected static async doesThrowDoesNotCheckErrorStack() {
+        const err = new Error('taco')
+        err.stack = 'one two three'
+
+        assert.doesThrow(() => {
+            throw err
+        }, 'taco')
     }
 }
