@@ -105,18 +105,18 @@ export interface ISpruceAssert {
     ): Promise<Error>
     fail(message?: string): void
     isBetween(
-        actual: number,
+        actual: any,
         floor: number,
         ceiling: number,
         message?: string
-    ): void
+    ): asserts actual is number
 
     isBetweenInclusive(
-        actual: number,
+        actual: any,
         floor: number,
         ceiling: number,
         message?: string
-    ): void
+    ): asserts actual is number
 }
 
 const assert: ISpruceAssert = {
@@ -471,6 +471,9 @@ const assert: ISpruceAssert = {
     },
 
     isBetweenInclusive(actual, floor, ceiling, message) {
+        //@ts-ignore
+        this.isNumber(actual, message)
+
         if (actual >= floor && actual <= ceiling) {
             return
         }
