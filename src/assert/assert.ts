@@ -179,8 +179,10 @@ const assert: ISpruceAssert = {
         this.doesThrow(
             () => this.isEqualDeep(actual, expected),
             undefined,
-            message ??
-                `The objects you passed are deep equal! They should not be!`
+            buildErrorMessage(
+                `The objects you passed are deep equal! They should not be!`,
+                message
+            )
         )
     },
 
@@ -479,7 +481,7 @@ const assert: ISpruceAssert = {
         try {
             cb()
         } catch (err: any) {
-            assertUtil.checkDoesThrowError(matcher, err, msg)
+            assertUtil.assertErrorIncludes(matcher, err, msg)
             return err
         }
 
@@ -495,7 +497,7 @@ const assert: ISpruceAssert = {
         try {
             await cb()
         } catch (err: any) {
-            assertUtil.checkDoesThrowError(matcher, err, msg)
+            assertUtil.assertErrorIncludes(matcher, err, msg)
 
             return err
         }

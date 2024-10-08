@@ -172,34 +172,38 @@ const assertUtil = {
         }
     },
 
-    checkDoesThrowError(
+    assertErrorIncludes(
         matcher: string | RegExp | undefined,
         err: Error,
         msg?: string | undefined
     ) {
-        const message = err.message ?? ''
+        const originalErrorMessage = err.message ?? ''
+        const errorMessage = originalErrorMessage.toLowerCase()
+        const needle =
+            typeof matcher === 'string' ? matcher.toLowerCase() : matcher
 
         if (
-            typeof matcher === 'string' &&
-            message.search(matcher) === -1 &&
-            !message.includes(matcher)
+            typeof needle === 'string' &&
+            errorMessage.search(needle) === -1 &&
+            !errorMessage.includes(needle)
         ) {
             this.fail(
                 msg ??
                     `Expected thrown error whose message contains: \n\n${chalk.bold(
                         matcher
-                    )}\n\nbut got back:\n\n\`${chalk.bold(message)}\`.`,
+                    )}\n\nbut got back:\n\n\`${chalk.bold(originalErrorMessage)}\`.`,
                 '\n\nStack: ' + err.stack
             )
         } else if (
-            matcher instanceof RegExp &&
-            message.search(matcher) === -1
+            needle instanceof RegExp &&
+            errorMessage.search(needle) === -1 &&
+            originalErrorMessage.search(needle) === -1
         ) {
             this.fail(
                 msg ??
                     `Expected thrown error whose message matches the regex: \n\n${chalk.bold(
                         matcher
-                    )}\n\nbut got back:\n\n\`${chalk.bold(message)}\`.`,
+                    )}\n\nbut got back:\n\n\`${chalk.bold(originalErrorMessage)}\`.`,
                 '\n\nStack: ' + err.stack
             )
         }

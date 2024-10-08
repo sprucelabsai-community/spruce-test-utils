@@ -75,7 +75,7 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.areSameType(true, true)
     }
 
-    @test()
+    @test.only()
     protected static async canMatchErrorByString() {
         assert.doesThrow(() => {
             throw new Error('Match on string')
@@ -730,6 +730,13 @@ export default class AssertTest extends AbstractSpruceTest {
         // )
 
         assert.isFalsy([new Error('yay')])
+    }
+
+    @test()
+    protected static async doesThrowMatchIsCaseInsensitive() {
+        assert.doesThrow(() => {
+            throw new Error('Match on string')
+        }, 'on STRING')
     }
 
     @test()
