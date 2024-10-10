@@ -75,7 +75,7 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.areSameType(true, true)
     }
 
-    @test.only()
+    @test()
     protected static async canMatchErrorByString() {
         assert.doesThrow(() => {
             throw new Error('Match on string')
@@ -774,5 +774,21 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.doesThrow(() => {
             throw err
         }, 'taco')
+    }
+
+    @test()
+    protected static async doesIncludeThrowsWithExpectedError() {
+        const haystack = [{ taco: 'breath' }]
+        const needle = [{ burrito: true }]
+
+        assert.doesThrow(
+            () =>
+                assert.doesInclude(
+                    haystack,
+                    needle,
+                    `Oh no! I checked the map and could not find that pin anywhere! Try 'this.mapVc.addPin(...)'!`
+                ),
+            'could not find that'
+        )
     }
 }

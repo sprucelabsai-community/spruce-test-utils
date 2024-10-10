@@ -326,7 +326,7 @@ const assert: ISpruceAssert = {
     doesNotInclude(haystack: any, needle: any, message?: string) {
         let doesInclude = false
         try {
-            this.doesInclude(haystack, needle)
+            this.doesInclude(haystack, needle, message)
             doesInclude = true
         } catch {
             doesInclude = false
@@ -383,7 +383,7 @@ const assert: ISpruceAssert = {
         if (isHaystackObject && isObjectLike(needle)) {
             try {
                 //@ts-ignore
-                this.isEqualDeep(haystack, needle)
+                this.isEqualDeep(haystack, needle, message)
                 return
             } catch {}
         }
@@ -430,7 +430,12 @@ const assert: ISpruceAssert = {
                 return
             } else {
                 //@ts-ignore
-                this.isEqualDeep(expected, actual, msg, false)
+                this.isEqualDeep(
+                    expected,
+                    actual,
+                    buildErrorMessage(msg, message),
+                    false
+                )
             }
 
             return
@@ -441,7 +446,7 @@ const assert: ISpruceAssert = {
                 assertUtil.splitPathBasedOnArrayNotation(path, haystack)
 
             if (!Array.isArray(actualBeforeArray)) {
-                this.fail(msg)
+                this.fail(buildErrorMessage(msg, message))
             }
 
             const found = assertUtil.doHaystacksPassCheck(
