@@ -6,6 +6,7 @@ export default class AssertionError extends Error {
         this.message = message
         this.stack =
             this.message +
+            '\n' +
             StackCleaner.clean(
                 `${(stack ?? this.stack ?? '').replace(message, '')}`
             )
