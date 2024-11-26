@@ -60,7 +60,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^6.0.544",
+    "@sprucelabs/error": "^6.0.546",
     "deep-equal": "^2.2.3",
     "just-clone": "^6.2.0",
     "lodash": "^4.17.21",
@@ -76,7 +76,7 @@
     "@types/deep-equal": "^1.0.4",
     "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.13",
-    "@types/node": "^22.9.4",
+    "@types/node": "^22.10.0",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.15.0",
     "eslint-config-spruce": "^11.2.26",
