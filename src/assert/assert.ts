@@ -5,6 +5,7 @@ import isObjectLike from 'lodash/isObjectLike'
 import { expectType } from 'ts-expect'
 import diff from 'variable-diff'
 import assertUtil from './assert.utility'
+export * from './assert.utility'
 
 const stringify = assertUtil.stringify.bind(assertUtil)
 
