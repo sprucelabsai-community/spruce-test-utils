@@ -559,6 +559,6 @@ function buildErrorMessage(
     customMessage: string | undefined
 ) {
     return customMessage
-        ? `${customMessage}\n${defaultMessage}`
+        ? `${customMessage}\n\n${defaultMessage}`
         : defaultMessage
 }
