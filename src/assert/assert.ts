@@ -146,7 +146,7 @@ const assert: ISpruceAssert = {
         if (actual !== expected) {
             this.fail(
                 buildErrorMessage(
-                    `${stringify(actual)} does not equal ${stringify(expected)}`,
+                    `${stringify(actual)}\n\n does not equal \n\n${stringify(expected)}`,
                     message
                 )
             )
@@ -157,7 +157,7 @@ const assert: ISpruceAssert = {
         if (actual === expected) {
             this.fail(
                 buildErrorMessage(
-                    `${stringify(actual)} should not equal ${stringify(expected)}`,
+                    `${stringify(actual)}\n\n should not equal ${stringify(expected)}\n\n`,
                     message
                 )
             )

@@ -52,7 +52,7 @@ const assertUtil = {
 
         stringified = assertUtil.replacePlaceholders(stringified)
 
-        return `\n\n${chalk.bold(stringified)}\n\n`
+        return `${chalk.bold(stringified)}`
     },
 
     replacePlaceholders(str: string) {
