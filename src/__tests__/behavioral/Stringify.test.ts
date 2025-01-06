@@ -154,9 +154,7 @@ export default class StringifyTest {
 
         assert.isEqual(
             stringified,
-            '\n\n' +
-                chalk.bold(assertUtil.replacePlaceholders(expected)) +
-                '\n\n'
+            chalk.bold(assertUtil.replacePlaceholders(expected))
         )
     }
 
