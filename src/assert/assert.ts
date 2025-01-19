@@ -414,11 +414,11 @@ const assert: ISpruceAssert = {
                     haystack
                 )}`
             } else {
-                msg = `Expected ${chalk.green(
+                msg = `Expected:\n${chalk.green(
                     stringify(needle[path])
-                )} but found ${chalk.red(stringify(actual))} at ${stringify(
+                )}\nbut found:\n${chalk.red(stringify(actual))}\nat:\n${stringify(
                     path
-                )} in ${stringify(haystack)}`
+                )}\nin:\n${stringify(haystack)}`
             }
 
             if (
