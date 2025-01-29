@@ -430,7 +430,7 @@ export default class AssertTest extends AbstractSpruceTest {
             cheese: { size: 'large', toppings: { meat: true } },
         },
         { 'cheese.toppings.meat': false },
-        /expected(.*?)false(.*?)but found(.*?)true(.*?) at(.*?)cheese.toppings.meat/gis
+        /expected(.*?)false(.*?)but found(.*?)true(.*?)at(.*?)cheese.toppings.meat/gis
     )
     @test(
         "include fails when can't find in an array",
