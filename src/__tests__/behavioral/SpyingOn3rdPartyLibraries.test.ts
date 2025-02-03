@@ -188,6 +188,22 @@ export default class SpyingOn3rdPartyLibrariesTest extends AbstractSpruceTest {
         assert.doesThrow(() => spy.assertLastCalledWith([arg1, generateId()]))
     }
 
+    @test()
+    protected static async canSpyOnInstanceOfSomething() {
+        const instance = new StubUtility()
+        const spy = this.spy(instance, 'tacoBravo')
+        instance.tacoBravo()
+        spy.assertCalledTotalTimes(1)
+    }
+
+    @test()
+    protected static async canHandleAsyncOnInstance() {
+        const instance = new StubUtility()
+        const spy = this.spy(instance, 'tacoBravoAsync')
+        await instance.tacoBravoAsync()
+        spy.assertCalledTotalTimes(1)
+    }
+
     private static spyOnMethod(
         method: Utility1Method | Utility2Method,
         object: Utility1 | Utility2 = utility1
@@ -243,3 +259,8 @@ type Utility1Method = keyof Utility1
 
 type Utility2 = typeof utility2
 type Utility2Method = keyof Utility2
+
+class StubUtility {
+    public tacoBravo() {}
+    public async tacoBravoAsync() {}
+}
