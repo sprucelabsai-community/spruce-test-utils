@@ -21,5 +21,8 @@
       "watch.lint"
     ],
     "skips": []
-  }
+  },
+  "skipped": [
+    "skill"
+  ]
 }
