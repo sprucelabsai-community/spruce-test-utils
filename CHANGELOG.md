@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.553...v5.2.0) (2025-02-03)
+
+
+### Features
+
+* new Spier to make spying on methods easier ([1c8fc8f](https://github.com/sprucelabsai-community/spruce-test-utils/commit/1c8fc8f))
+
 ## [5.1.553](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.552...v5.1.553) (2025-02-02)
 
 ## [5.1.552](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.1.551...v5.1.552) (2025-02-01)
