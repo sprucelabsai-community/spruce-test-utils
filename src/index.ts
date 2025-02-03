@@ -8,3 +8,6 @@ export * from './assert/assert'
 export { default as test } from './decorators'
 export { default as assertUtil } from './assert/assert.utility'
 export { default as StackCleaner } from './StackCleaner'
+
+export { default as Spier } from './utilities/spies/Spier'
+export { default as Spy } from './utilities/spies/Spy'
