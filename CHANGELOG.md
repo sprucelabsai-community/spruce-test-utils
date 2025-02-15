@@ -1,3 +1,10 @@
+# [5.3.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.2.13...v5.3.0) (2025-02-15)
+
+
+### Features
+
+* can run tests on instance based test declarations ([4f9d987](https://github.com/sprucelabsai-community/spruce-test-utils/commit/4f9d987))
+
 ## [5.2.13](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.2.12...v5.2.13) (2025-02-14)
 
 ## [5.2.12](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.2.11...v5.2.12) (2025-02-14)
