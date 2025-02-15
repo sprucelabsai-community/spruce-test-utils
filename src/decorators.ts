@@ -3,6 +3,13 @@ if (typeof it === 'undefined') {
     global.it = () => {}
 }
 
+class Test {
+    public static ActiveTestClass?: any
+    public static resolveActiveTest(target: any) {
+        return this.ActiveTestClass ? new this.ActiveTestClass() : target
+    }
+}
+
 /** Hooks up before, after, etc. */
 function hookupTestClass(target: any) {
     if (target.__isTestingHookedUp) {
@@ -36,10 +43,11 @@ export default function test(description?: string, ...args: any[]) {
         // Lets attach before/after
         hookupTestClass(target)
 
-        const bound = descriptor.value.bind(target)
-
         // Make sure each test gets the spruce
         it(description ?? propertyKey, async () => {
+            const testClass = Test.resolveActiveTest(target)
+            const bound = descriptor.value.bind(testClass)
+
             //@ts-ignore
             global.activeTest = {
                 file: target.name,
@@ -47,6 +55,14 @@ export default function test(description?: string, ...args: any[]) {
             }
             return bound(...args)
         })
+    }
+}
+
+export function suite() {
+    return function (Target: any) {
+        Test.ActiveTestClass = Target
+        // Test.activeTest.__isTestingHookedUp = false
+        // hookupTestClass(Test.activeTest)
     }
 }
 
@@ -60,10 +76,11 @@ test.only = (description?: string, ...args: any[]) => {
         // Lets attach before/after
         hookupTestClass(target)
 
-        const bound = descriptor.value.bind(target)
-
         // Make sure each test gets the spruce
         it.only(description ?? propertyKey, async () => {
+            debugger
+            const bound = descriptor.value.bind(Test.resolveActiveTest(target))
+            debugger
             return bound(...args)
         })
     }
@@ -90,10 +107,9 @@ test.skip = (description?: string, ...args: any[]) => {
         // Lets attach before/after
         hookupTestClass(target)
 
-        const bound = descriptor.value.bind(target)
-
         // Make sure each test gets the spruce
         it.skip(description ?? propertyKey, async () => {
+            const bound = descriptor.value.bind(Test.resolveActiveTest(target))
             return bound(...args)
         })
     }
