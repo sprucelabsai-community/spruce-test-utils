@@ -78,9 +78,7 @@ test.only = (description?: string, ...args: any[]) => {
 
         // Make sure each test gets the spruce
         it.only(description ?? propertyKey, async () => {
-            debugger
             const bound = descriptor.value.bind(Test.resolveActiveTest(target))
-            debugger
             return bound(...args)
         })
     }
