@@ -6,6 +6,7 @@ export { default } from './AbstractSpruceTest'
 export { default as assert } from './assert/assert'
 export * from './assert/assert'
 export { default as test } from './decorators'
+export * from './decorators'
 export { default as assertUtil } from './assert/assert.utility'
 export { default as StackCleaner } from './StackCleaner'
 
