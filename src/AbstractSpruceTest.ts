@@ -36,21 +36,39 @@ export default class AbstractSpruceTest {
         })
     }
 
-    //instance declariations
     protected static log(...args: any[]) {
         const str = args.map((a) => `${a}`).join(' ')
         process.stderr.write(str)
     }
 
+    //instance declariations
+    protected cwd = process.cwd()
+
     protected async wait(ms = 1000) {
-        return AbstractSpruceTest.wait(ms)
+        return new Promise((resolve) => {
+            setTimeout(() => resolve(true), ms)
+        })
     }
 
     protected log(...args: any[]) {
-        AbstractSpruceTest.log(...args)
+        const str = args.map((a) => `${a}`).join(' ')
+        process.stderr.write(str)
     }
 
-    protected cwd!: string
+    protected resolvePath(...filePath: string[]) {
+        const cwd = this.cwd
+        let builtPath = path.join(...filePath)
+
+        if (builtPath[0] !== '/') {
+            if (builtPath.substr(0, 2) === './') {
+                builtPath = builtPath.substr(1)
+            }
+
+            builtPath = path.join(cwd, builtPath)
+        }
+
+        return builtPath
+    }
 
     protected async beforeEach() {}
     protected async afterEach() {}

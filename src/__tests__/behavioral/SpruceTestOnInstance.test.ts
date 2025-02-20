@@ -71,4 +71,56 @@ export default class SpruceTest extends AbstractSpruceTest {
     protected async skippedTestShouldNotRun() {
         assert.fail('This test should not run')
     }
+
+    @test('can wait for 1000', 1000)
+    @test('can wait for 2000', 2000)
+    protected async shouldBeAbleToWait(waitMs: number) {
+        const now = Date.now()
+        await this.wait(waitMs)
+        const after = Date.now()
+
+        assert.isBetweenInclusive(after - now, waitMs, waitMs + 20)
+    }
+
+    @test('can log simple message', ['hey'])
+    @test('can log multiple messages', ['hey', 'there'])
+    protected async canLog(messages: string[]) {
+        let passedMessages: string | undefined
+
+        //@ts-ignore
+        process.stderr.write = (message) => {
+            passedMessages = message as string
+        }
+
+        const expected = messages.join(' ')
+
+        this.log(...messages)
+
+        assert.isEqual(passedMessages, expected)
+    }
+
+    @test()
+    protected pwdShouldbeSet() {
+        assert.isEqual(this.cwd, process.cwd())
+    }
+
+    @test()
+    protected async resolvePathShouldWork() {
+        await AbstractSpruceTest.beforeAll()
+        this.assertResolvePathReturnsSameAsStatic(['test'])
+        this.assertResolvePathReturnsSameAsStatic(['test', 'behavioral'])
+        this.assertResolvePathReturnsSameAsStatic([
+            'test',
+            'behavioral',
+            'SpruceTestOnInstance.test.ts',
+        ])
+        this.assertResolvePathReturnsSameAsStatic(['/ok'])
+    }
+
+    private assertResolvePathReturnsSameAsStatic(parts: string[]) {
+        const expected = AbstractSpruceTest.resolvePath(...parts)
+        const actual = this.resolvePath(...parts)
+
+        assert.isEqual(actual, expected)
+    }
 }
