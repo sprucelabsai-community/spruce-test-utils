@@ -52,11 +52,6 @@ export default class AbstractSpruceTest {
 
     protected cwd!: string
 
-    protected async beforeAll() {
-        this.cwd = process.cwd()
-    }
-
-    protected async afterAll() {}
     protected async beforeEach() {}
     protected async afterEach() {}
 }

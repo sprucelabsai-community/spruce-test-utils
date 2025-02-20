@@ -10,7 +10,7 @@ let afterEachCount = 0
 export default class SpruceTest extends AbstractSpruceTest {
     private wasInstancePropertySet = false
 
-    protected async beforeAll() {
+    protected static async beforeAll() {
         beforeAllCount += 1
     }
 
@@ -24,7 +24,7 @@ export default class SpruceTest extends AbstractSpruceTest {
 
     @test()
     protected async doesCallBeforeAll() {
-        assert.isEqual(beforeAllCount, 1)
+        assert.isEqual(beforeAllCount, 1, 'Did not call beforeAll')
     }
 
     @test()

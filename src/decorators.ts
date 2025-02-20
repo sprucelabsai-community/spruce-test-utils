@@ -11,16 +11,20 @@ class Test {
 }
 
 /** Hooks up before, after, etc. */
-function hookupTestClass(target: any) {
+function hookupTestClass(target: any, h?: string[]) {
     if (target.__isTestingHookedUp) {
         return
     }
-    target.__isTestingHookedUp = true
-    const hooks = ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
+    target.__isTestingHookedUp = !h
+    const hooks = h ?? ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
     hooks.forEach((hook) => {
         // Have they defined a hook
         if (!target[hook]) {
             return
+        }
+
+        if (Test.ActiveTestClass && !h && hook === 'beforeAll') {
+            throw new Error(`beforeAll() and afterAll() must be static`)
         }
 
         // @ts-ignore
@@ -62,7 +66,7 @@ export function suite() {
     return function (Target: any) {
         Test.ActiveTestClass = Target
         // Test.activeTest.__isTestingHookedUp = false
-        // hookupTestClass(Test.activeTest)
+        hookupTestClass(Target, ['beforeAll', 'afterAll'])
     }
 }
 
