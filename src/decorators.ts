@@ -3,10 +3,19 @@ if (typeof it === 'undefined') {
     global.it = () => {}
 }
 
-class SpruceTestDecoratorResolver {
+export class SpruceTestDecoratorResolver {
     public static ActiveTestClass?: any
+    private static __activeTest: any
+
     public static resolveActiveTest(target: any) {
-        return this.ActiveTestClass ? new this.ActiveTestClass() : target
+        this.__activeTest = this.ActiveTestClass
+            ? new this.ActiveTestClass()
+            : target
+        return this.__activeTest
+    }
+
+    public static getActiveTest() {
+        return this.__activeTest
     }
 }
 
@@ -35,6 +44,10 @@ function hookupTestClass(target: any, h?: string[]) {
         if (global[hook]) {
             // @ts-ignore
             global[hook](async () => {
+                if (hook === 'afterAll') {
+                    //@ts-ignore
+                    SpruceTestDecoratorResolver.__activeTest = null
+                }
                 return target[hook]()
             })
         }
