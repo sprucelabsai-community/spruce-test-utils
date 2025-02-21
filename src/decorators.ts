@@ -22,6 +22,19 @@ export class SpruceTestResolver {
     }
 }
 
+//recursive function to get static method by name looping up through constructor chain
+function resolveMethod(Target: any, name: string) {
+    if (Target[name]) {
+        return Target[name]
+    }
+
+    if (Target.constructor && Target.constructor !== Target) {
+        return resolveMethod(Target.constructor, name)
+    }
+
+    return null
+}
+
 /** Hooks up before, after, etc. */
 function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
     if (Target.__isTestingHookedUp) {
@@ -30,10 +43,9 @@ function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
     Target.__isTestingHookedUp = !h
     const hooks = h ?? ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
     hooks.forEach((hook) => {
-        const cb = Target[hook] ?? Target?.constructor?.[hook]
+        const cb = resolveMethod(Target, hook)
         // Have they defined a hook
         if (!cb) {
-            debugger
             return
         }
 
@@ -52,7 +64,11 @@ function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
                     // @ts-ignore
                     delete SpruceTestResolver.__activeTest
                 } else {
-                    await cb.apply(Target)
+                    if (SpruceTestResolver.ActiveTestClass) {
+                        await cb.apply(Target.constructor)
+                    } else {
+                        await cb.apply(Target)
+                    }
                 }
             })
         }
