@@ -3,7 +3,7 @@ if (typeof it === 'undefined') {
     global.it = () => {}
 }
 
-class Test {
+class SpruceTestDecoratorResolver {
     public static ActiveTestClass?: any
     public static resolveActiveTest(target: any) {
         return this.ActiveTestClass ? new this.ActiveTestClass() : target
@@ -23,7 +23,11 @@ function hookupTestClass(target: any, h?: string[]) {
             return
         }
 
-        if (Test.ActiveTestClass && !h && hook === 'beforeAll') {
+        if (
+            SpruceTestDecoratorResolver.ActiveTestClass &&
+            !h &&
+            hook === 'beforeAll'
+        ) {
             throw new Error(`beforeAll() and afterAll() must be static`)
         }
 
@@ -49,7 +53,8 @@ export default function test(description?: string, ...args: any[]) {
 
         // Make sure each test gets the spruce
         it(description ?? propertyKey, async () => {
-            const testClass = Test.resolveActiveTest(target)
+            const testClass =
+                SpruceTestDecoratorResolver.resolveActiveTest(target)
             const bound = descriptor.value.bind(testClass)
 
             //@ts-ignore
@@ -64,7 +69,7 @@ export default function test(description?: string, ...args: any[]) {
 
 export function suite() {
     return function (Target: any) {
-        Test.ActiveTestClass = Target
+        SpruceTestDecoratorResolver.ActiveTestClass = Target
         // Test.activeTest.__isTestingHookedUp = false
         hookupTestClass(Target, ['beforeAll', 'afterAll'])
     }
@@ -82,7 +87,9 @@ test.only = (description?: string, ...args: any[]) => {
 
         // Make sure each test gets the spruce
         it.only(description ?? propertyKey, async () => {
-            const bound = descriptor.value.bind(Test.resolveActiveTest(target))
+            const bound = descriptor.value.bind(
+                SpruceTestDecoratorResolver.resolveActiveTest(target)
+            )
             return bound(...args)
         })
     }
@@ -111,7 +118,9 @@ test.skip = (description?: string, ...args: any[]) => {
 
         // Make sure each test gets the spruce
         it.skip(description ?? propertyKey, async () => {
-            const bound = descriptor.value.bind(Test.resolveActiveTest(target))
+            const bound = descriptor.value.bind(
+                SpruceTestDecoratorResolver.resolveActiveTest(target)
+            )
             return bound(...args)
         })
     }
