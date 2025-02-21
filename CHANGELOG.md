@@ -1,3 +1,10 @@
+# [5.4.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.3.5...v5.4.0) (2025-02-21)
+
+
+### Features
+
+* SpruceTestDecoratorResolver ([831ab74](https://github.com/sprucelabsai-community/spruce-test-utils/commit/831ab74))
+
 ## [5.3.5](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.3.4...v5.3.5) (2025-02-21)
 
 ## [5.3.4](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.3.3...v5.3.4) (2025-02-20)
