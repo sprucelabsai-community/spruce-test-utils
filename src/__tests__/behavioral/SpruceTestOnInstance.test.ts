@@ -9,6 +9,8 @@ let afterEachCount = 0
 @suite()
 export default class SpruceTest extends AbstractSpruceTest {
     private wasInstancePropertySet = false
+    private beforeEachCount = 0
+    private static instanceToCheckAfterEach?: SpruceTest
 
     protected static async beforeAll() {
         beforeAllCount += 1
@@ -16,10 +18,20 @@ export default class SpruceTest extends AbstractSpruceTest {
 
     protected async beforeEach() {
         beforeEachCount += 1
+        this.beforeEachCount++
+        assert.isInstanceOf(this, SpruceTest)
     }
 
     protected async afterEach() {
         afterEachCount += 1
+        assert.isInstanceOf(this, SpruceTest)
+        if (SpruceTest.instanceToCheckAfterEach) {
+            assert.isEqual(this, SpruceTest.instanceToCheckAfterEach)
+        }
+    }
+
+    protected static async afterAll() {
+        assert.isTruthy(SpruceTest.instanceToCheckAfterEach)
     }
 
     @test()
@@ -115,6 +127,16 @@ export default class SpruceTest extends AbstractSpruceTest {
             'SpruceTestOnInstance.test.ts',
         ])
         this.assertResolvePathReturnsSameAsStatic(['/ok'])
+    }
+
+    @test()
+    protected async beforeEachCalledOnSameInstance() {
+        assert.isEqual(this.beforeEachCount, 1)
+    }
+
+    @test()
+    protected async afterEachCalledAOnSameInsntance() {
+        SpruceTest.instanceToCheckAfterEach = this
     }
 
     private assertResolvePathReturnsSameAsStatic(parts: string[]) {

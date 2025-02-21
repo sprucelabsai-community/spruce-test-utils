@@ -3,14 +3,17 @@ if (typeof it === 'undefined') {
     global.it = () => {}
 }
 
-export class SpruceTestDecoratorResolver {
+export class SpruceTestResolver {
     public static ActiveTestClass?: any
     private static __activeTest: any
 
-    public static resolveActiveTest(target: any) {
-        this.__activeTest = this.ActiveTestClass
-            ? new this.ActiveTestClass()
-            : target
+    public static resolveTestClass(target: any) {
+        if (!this.__activeTest) {
+            this.__activeTest = this.ActiveTestClass
+                ? new this.ActiveTestClass()
+                : target
+        }
+
         return this.__activeTest
     }
 
@@ -20,35 +23,37 @@ export class SpruceTestDecoratorResolver {
 }
 
 /** Hooks up before, after, etc. */
-function hookupTestClass(target: any, h?: string[]) {
-    if (target.__isTestingHookedUp) {
+function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
+    if (Target.__isTestingHookedUp) {
         return
     }
-    target.__isTestingHookedUp = !h
+    Target.__isTestingHookedUp = !h
     const hooks = h ?? ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
     hooks.forEach((hook) => {
+        const cb = Target[hook] ?? Target?.constructor?.[hook]
         // Have they defined a hook
-        if (!target[hook]) {
+        if (!cb) {
+            debugger
             return
-        }
-
-        if (
-            SpruceTestDecoratorResolver.ActiveTestClass &&
-            !h &&
-            hook === 'beforeAll'
-        ) {
-            throw new Error(`beforeAll() and afterAll() must be static`)
         }
 
         // @ts-ignore
         if (global[hook]) {
             // @ts-ignore
             global[hook](async () => {
-                if (hook === 'afterAll') {
-                    //@ts-ignore
-                    SpruceTestDecoratorResolver.__activeTest = null
+                if (hook === 'beforeEach') {
+                    await SpruceTestResolver.resolveTestClass(
+                        Target
+                    ).beforeEach()
+                } else if (hook === 'afterEach') {
+                    await SpruceTestResolver.resolveTestClass(
+                        Target
+                    ).afterEach()
+                    // @ts-ignore
+                    delete SpruceTestResolver.__activeTest
+                } else {
+                    await cb.apply(Target)
                 }
-                return target[hook]()
             })
         }
     })
@@ -61,13 +66,11 @@ export default function test(description?: string, ...args: any[]) {
         propertyKey: string,
         descriptor: PropertyDescriptor
     ) {
-        // Lets attach before/after
-        hookupTestClass(target)
+        hookupTestClassToJestLifecycle(target)
 
         // Make sure each test gets the spruce
         it(description ?? propertyKey, async () => {
-            const testClass =
-                SpruceTestDecoratorResolver.resolveActiveTest(target)
+            const testClass = SpruceTestResolver.resolveTestClass(target)
             const bound = descriptor.value.bind(testClass)
 
             //@ts-ignore
@@ -82,9 +85,7 @@ export default function test(description?: string, ...args: any[]) {
 
 export function suite() {
     return function (Target: any) {
-        SpruceTestDecoratorResolver.ActiveTestClass = Target
-        // Test.activeTest.__isTestingHookedUp = false
-        hookupTestClass(Target, ['beforeAll', 'afterAll'])
+        SpruceTestResolver.ActiveTestClass = Target
     }
 }
 
@@ -96,12 +97,12 @@ test.only = (description?: string, ...args: any[]) => {
         descriptor: PropertyDescriptor
     ) {
         // Lets attach before/after
-        hookupTestClass(target)
+        hookupTestClassToJestLifecycle(target)
 
         // Make sure each test gets the spruce
         it.only(description ?? propertyKey, async () => {
             const bound = descriptor.value.bind(
-                SpruceTestDecoratorResolver.resolveActiveTest(target)
+                SpruceTestResolver.resolveTestClass(target)
             )
             return bound(...args)
         })
@@ -112,7 +113,7 @@ test.only = (description?: string, ...args: any[]) => {
 test.todo = (description?: string, ..._args: any[]) => {
     return function (target: any, propertyKey: string) {
         // Lets attach before/after
-        hookupTestClass(target)
+        hookupTestClassToJestLifecycle(target)
 
         // Make sure each test gets the spruce
         it.todo(description ?? propertyKey)
@@ -127,12 +128,12 @@ test.skip = (description?: string, ...args: any[]) => {
         descriptor: PropertyDescriptor
     ) {
         // Lets attach before/after
-        hookupTestClass(target)
+        hookupTestClassToJestLifecycle(target)
 
         // Make sure each test gets the spruce
         it.skip(description ?? propertyKey, async () => {
             const bound = descriptor.value.bind(
-                SpruceTestDecoratorResolver.resolveActiveTest(target)
+                SpruceTestResolver.resolveTestClass(target)
             )
             return bound(...args)
         })
