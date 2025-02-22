@@ -4,16 +4,18 @@ if (typeof it === 'undefined') {
 }
 
 type TestLifecycleListener = () => any | Promise<any>
+type TestLifecycleListenerWithTest = (Test: any) => any | Promise<any>
 
 export class TestLifecycleListeners {
     public static beforeBeforeAll: TestLifecycleListener[] = []
     public static afterBeforeAll: TestLifecycleListener[] = []
-    public static beforeBeforeEach: TestLifecycleListener[] = []
-    public static afterBeforeEach: TestLifecycleListener[] = []
-    public static beforeAfterEach: TestLifecycleListener[] = []
-    public static afterAfterEach: TestLifecycleListener[] = []
     public static beforeAfterAll: TestLifecycleListener[] = []
     public static afterAfterAll: TestLifecycleListener[] = []
+
+    public static beforeBeforeEach: TestLifecycleListenerWithTest[] = []
+    public static afterBeforeEach: TestLifecycleListenerWithTest[] = []
+    public static beforeAfterEach: TestLifecycleListenerWithTest[] = []
+    public static afterAfterEach: TestLifecycleListenerWithTest[] = []
 
     public static async runWillBeforeAll() {
         for (const cb of this.beforeBeforeAll) {
@@ -29,25 +31,25 @@ export class TestLifecycleListeners {
 
     public static async runBeforeEach() {
         for (const cb of this.beforeBeforeEach) {
-            await cb()
+            await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
     public static async runAfterBeforeEach() {
         for (const cb of this.afterBeforeEach) {
-            await cb()
+            await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
     public static async runBeforeAfterEach() {
         for (const cb of this.beforeAfterEach) {
-            await cb()
+            await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
     public static async runAfterAfterEach() {
         for (const cb of this.afterAfterEach) {
-            await cb()
+            await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
@@ -90,19 +92,19 @@ export class SpruceTestResolver {
         TestLifecycleListeners.afterBeforeAll.push(cb)
     }
 
-    public static onBeforeBeforeEach(cb: TestLifecycleListener) {
+    public static onBeforeBeforeEach(cb: TestLifecycleListenerWithTest) {
         TestLifecycleListeners.beforeBeforeEach.push(cb)
     }
 
-    public static onAfterBeforeEach(cb: TestLifecycleListener) {
+    public static onAfterBeforeEach(cb: TestLifecycleListenerWithTest) {
         TestLifecycleListeners.afterBeforeEach.push(cb)
     }
 
-    public static onBeforeAfterEach(cb: TestLifecycleListener) {
+    public static onBeforeAfterEach(cb: TestLifecycleListenerWithTest) {
         TestLifecycleListeners.beforeAfterEach.push(cb)
     }
 
-    public static onAfterAfterEach(cb: TestLifecycleListener) {
+    public static onAfterAfterEach(cb: TestLifecycleListenerWithTest) {
         TestLifecycleListeners.afterAfterEach.push(cb)
     }
 

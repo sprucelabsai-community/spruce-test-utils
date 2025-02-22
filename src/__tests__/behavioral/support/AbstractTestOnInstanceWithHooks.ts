@@ -30,7 +30,6 @@ export default abstract class AbstractTestOnInstanceWithHooksTest extends Abstra
     public static afterAfterAll2 = 0
 
     protected static async beforeAll() {
-        debugger
         assert.isEqual(
             this.beforeBeforeAllCount,
             1,
@@ -55,7 +54,6 @@ export default abstract class AbstractTestOnInstanceWithHooksTest extends Abstra
     }
 
     protected async beforeEach() {
-        debugger
         this.beforeEachCount += 1
 
         assert.isEqual(
@@ -86,7 +84,6 @@ export default abstract class AbstractTestOnInstanceWithHooksTest extends Abstra
     }
 
     protected async afterEach() {
-        debugger
         this.afterEachCount += 1
 
         assert.isEqual(
@@ -115,7 +112,6 @@ export default abstract class AbstractTestOnInstanceWithHooksTest extends Abstra
     }
 
     protected static async afterAll() {
-        debugger
         assert.isEqual(this.beforeAllCount, 1, 'beforeAll not called once')
         assert.isEqual(
             this.afterBeforeAllCount,

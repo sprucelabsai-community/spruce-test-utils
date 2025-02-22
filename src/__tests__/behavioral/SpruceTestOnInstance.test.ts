@@ -29,6 +29,11 @@ let beforeAfterAll2 = 0
 let afterAfterAll = 0
 let afterAfterAll2 = 0
 
+let beforeBeforeEachTest: any
+let afterBeforeEachTest: any
+let beforeAfterEachTest: any
+let afterAfterEachTest: any
+
 @suite()
 export default class SpruceTest extends AbstractSpruceTest {
     private wasInstancePropertySet = false
@@ -150,6 +155,30 @@ export default class SpruceTest extends AbstractSpruceTest {
             assert.isEqual(afterAfterAll, 1, 'afterAfterAll not called')
             assert.isEqual(afterAfterAll2, 1, 'afterAfterAll not called')
         }, 10)
+
+        assert.isEqual(
+            beforeBeforeEachTest,
+            SpruceTest.instanceToCheckAfterEach,
+            'Did not pass test instance to beforeBeforeEach'
+        )
+
+        assert.isEqual(
+            afterBeforeEachTest,
+            SpruceTest.instanceToCheckAfterEach,
+            'Did not pass test instance to afterBeforeEach'
+        )
+
+        assert.isEqual(
+            beforeAfterEachTest,
+            SpruceTest.instanceToCheckAfterEach,
+            'Did not pass test instance to beforeAfterEach'
+        )
+
+        assert.isEqual(
+            afterAfterEachTest,
+            SpruceTest.instanceToCheckAfterEach,
+            'Did not pass test instance to afterAfterEach'
+        )
     }
 
     @test()
@@ -281,7 +310,8 @@ SpruceTestResolver.onAfterBeforeAll(() => {
     afterBeforeAllCount2++
 })
 
-SpruceTestResolver.onBeforeBeforeEach(() => {
+SpruceTestResolver.onBeforeBeforeEach((Test) => {
+    beforeBeforeEachTest = Test
     beforeBeforeEach++
 })
 
@@ -289,7 +319,8 @@ SpruceTestResolver.onBeforeBeforeEach(() => {
     beforeBeforeEach2++
 })
 
-SpruceTestResolver.onAfterBeforeEach(() => {
+SpruceTestResolver.onAfterBeforeEach((Test) => {
+    afterBeforeEachTest = Test
     afterBeforeEach++
 })
 
@@ -297,7 +328,8 @@ SpruceTestResolver.onAfterBeforeEach(() => {
     afterBeforeEach2++
 })
 
-SpruceTestResolver.onBeforeAfterEach(() => {
+SpruceTestResolver.onBeforeAfterEach((Test) => {
+    beforeAfterEachTest = Test
     beforeAfterEach++
 })
 
@@ -305,7 +337,8 @@ SpruceTestResolver.onBeforeAfterEach(() => {
     beforeAfterEach2++
 })
 
-SpruceTestResolver.onAfterAfterEach(() => {
+SpruceTestResolver.onAfterAfterEach((Test) => {
+    afterAfterEachTest = Test
     afterAfterEach++
 })
 

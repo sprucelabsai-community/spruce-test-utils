@@ -32,7 +32,6 @@ export default class SpruceTestOnInstanceExtendsTest extends AbstractTestOnInsta
 
     protected async beforeEach() {
         SpruceTestOnInstanceExtendsTest.beforeEachCount += 1
-        debugger
 
         assert.isEqual(
             SpruceTestOnInstanceExtendsTest.beforeBeforeEach,
@@ -189,7 +188,6 @@ SpruceTestResolver.onAfterBeforeAll(() => {
 })
 
 SpruceTestResolver.onBeforeBeforeEach(() => {
-    debugger
     SpruceTestOnInstanceExtendsTest.beforeBeforeEach++
 })
 
