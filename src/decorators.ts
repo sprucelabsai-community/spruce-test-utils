@@ -5,7 +5,7 @@ if (typeof it === 'undefined') {
 
 type TestLifecycleListener = () => any | Promise<any>
 
-class TestLifecycleListeners {
+export class TestLifecycleListeners {
     public static beforeBeforeAll: TestLifecycleListener[] = []
     public static afterBeforeAll: TestLifecycleListener[] = []
     public static beforeBeforeEach: TestLifecycleListener[] = []
