@@ -1,3 +1,10 @@
+# [5.5.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.4.3...v5.5.0) (2025-02-22)
+
+
+### Features
+
+* test lifecycle ([2f8695c](https://github.com/sprucelabsai-community/spruce-test-utils/commit/2f8695c))
+
 ## [5.4.3](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.4.2...v5.4.3) (2025-02-21)
 
 ## [5.4.2](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.4.1...v5.4.2) (2025-02-21)
