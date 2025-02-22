@@ -9,17 +9,14 @@ let afterEachCount = 0
 
 export default class SpruceTest extends AbstractSpruceTest {
     protected static async beforeAll() {
-        debugger
         beforeAllCount += 1
     }
 
     protected static async beforeEach() {
-        debugger
         beforeEachCount += 1
     }
 
     protected static async afterEach() {
-        debugger
         afterEachCount += 1
     }
 
@@ -51,7 +48,7 @@ export default class SpruceTest extends AbstractSpruceTest {
     }
 
     @test()
-    protected static async asyncDebuggerWaits() {
+    protected static async asyncWaits() {
         const results = await this.wait(1000)
         assert.isTruthy(results)
     }

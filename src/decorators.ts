@@ -29,8 +29,6 @@ function hookupTestClassToJestLifecycle(Target: any) {
     Target.__areLifecycleHooksInPlace = true
     const hooks = ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
     hooks.forEach((hook) => {
-        const cb = resolveMethod(Target, hook)
-
         // @ts-ignore
         if (global[hook]) {
             // @ts-ignore

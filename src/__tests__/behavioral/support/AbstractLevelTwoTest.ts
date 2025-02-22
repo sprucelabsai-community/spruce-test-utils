@@ -6,12 +6,10 @@ export default abstract class AbstractBeforeAllLevelTwoTest extends AbstractSpru
 
     protected static async beforeAll() {
         await super.beforeAll()
-        debugger
         this.wasBeforeAllLevelTwoCalled = true
     }
 
     protected async beforeEach(): Promise<void> {
-        debugger
         await super.beforeEach()
         this.wasBeforeEachLevelTwoCalled = true
     }

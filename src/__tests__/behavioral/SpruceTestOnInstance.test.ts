@@ -47,7 +47,6 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
     private static instanceToCheckAfterEach?: SpruceTestOnInstanceTest
 
     protected static async beforeAll() {
-        debugger
         assert.isEqual(
             beforeBeforeAllCount,
             1,
@@ -242,7 +241,7 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
     }
 
     @test()
-    protected async asyncDebuggerWaits() {
+    protected async asyncWaits() {
         const results = await this.wait(1000)
         assert.isTruthy(results)
     }

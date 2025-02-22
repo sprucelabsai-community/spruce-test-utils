@@ -6,7 +6,6 @@ import AbstractForInstanceTest from '../support/AbstractForInstanceTest'
 export default class TestOnInstanceWithParentBeforeAllTest extends AbstractForInstanceTest {
     @test()
     protected async canCreateTestOnInstanceWithParentBeforeAll() {
-        debugger
         assert.isTrue(
             TestOnInstanceWithParentBeforeAllTest.wasBeforeAllCalled,
             'beforeAll was not called on parent class'
