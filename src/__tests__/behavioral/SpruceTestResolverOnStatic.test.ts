@@ -1,6 +1,7 @@
 import AbstractSpruceTest from '../../AbstractSpruceTest'
 import assert from '../../assert/assert'
-import test, { SpruceTestResolver } from '../../decorators'
+import test from '../../decorators'
+import SpruceTestResolver from '../../SpruceTestResolver'
 
 export default class SpruceTestDecoratorResolverOnStaticTest extends AbstractSpruceTest {
     @test()

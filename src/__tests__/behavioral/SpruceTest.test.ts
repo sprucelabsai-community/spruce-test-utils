@@ -9,14 +9,17 @@ let afterEachCount = 0
 
 export default class SpruceTest extends AbstractSpruceTest {
     protected static async beforeAll() {
+        debugger
         beforeAllCount += 1
     }
 
     protected static async beforeEach() {
+        debugger
         beforeEachCount += 1
     }
 
     protected static async afterEach() {
+        debugger
         afterEachCount += 1
     }
 

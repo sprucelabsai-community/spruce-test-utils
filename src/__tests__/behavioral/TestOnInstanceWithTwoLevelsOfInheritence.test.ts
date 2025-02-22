@@ -7,7 +7,8 @@ export default class TestOnInstanceWithTwoLevelsOfInheritenceTest extends Abstra
     @test()
     protected async canCreateTestOnInstanceWithTwoLevelsOfInheritence() {
         assert.isTrue(
-            TestOnInstanceWithTwoLevelsOfInheritenceTest.wasBeforeAllLevelTwoCalled
+            TestOnInstanceWithTwoLevelsOfInheritenceTest.wasBeforeAllLevelTwoCalled,
+            'beforeAll was not called on level two class'
         )
 
         assert.isTrue(this.wasBeforeEachLevelTwoCalled)

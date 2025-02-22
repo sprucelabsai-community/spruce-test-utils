@@ -1,5 +1,6 @@
 import assert from '../../assert/assert'
-import test, { SpruceTestResolver, suite } from '../../decorators'
+import test, { suite } from '../../decorators'
+import SpruceTestResolver from '../../SpruceTestResolver'
 import AbstractTestOnInstanceWithHooksTest from './support/AbstractTestOnInstanceWithHooks'
 
 @suite()

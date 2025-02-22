@@ -1,6 +1,7 @@
 import AbstractSpruceTest from '../../AbstractSpruceTest'
 import assert from '../../assert/assert'
-import test, { SpruceTestResolver, suite } from '../../decorators'
+import test, { suite } from '../../decorators'
+import SpruceTestResolver from '../../SpruceTestResolver'
 
 let beforeAllCount = 0
 let beforeEachCount = 0
@@ -34,13 +35,19 @@ let afterBeforeEachTest: any
 let beforeAfterEachTest: any
 let afterAfterEachTest: any
 
+let beforeAfterAllTest: any
+let afterAfterAllTest: any
+let beforeBeforeAllTest: any
+let afterBeforeAllTest: any
+
 @suite()
-export default class SpruceTest extends AbstractSpruceTest {
+export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
     private wasInstancePropertySet = false
     private beforeEachCount = 0
-    private static instanceToCheckAfterEach?: SpruceTest
+    private static instanceToCheckAfterEach?: SpruceTestOnInstanceTest
 
     protected static async beforeAll() {
+        debugger
         assert.isEqual(
             beforeBeforeAllCount,
             1,
@@ -59,7 +66,7 @@ export default class SpruceTest extends AbstractSpruceTest {
         )
         beforeAllCount += 1
 
-        assert.isEqual(this, SpruceTest)
+        assert.isEqual(this, SpruceTestOnInstanceTest)
     }
 
     protected async beforeEach() {
@@ -90,7 +97,7 @@ export default class SpruceTest extends AbstractSpruceTest {
         )
 
         this.beforeEachCount++
-        assert.isInstanceOf(this, SpruceTest)
+        assert.isInstanceOf(this, SpruceTestOnInstanceTest)
     }
 
     protected async afterEach() {
@@ -123,14 +130,17 @@ export default class SpruceTest extends AbstractSpruceTest {
         assert.isEqual(beforeAfterAll, 0, 'beforeAfterAll called too soon')
         assert.isEqual(beforeAfterAll2, 0, 'beforeAfterAll called too soon')
 
-        assert.isInstanceOf(this, SpruceTest)
-        if (SpruceTest.instanceToCheckAfterEach) {
-            assert.isEqual(this, SpruceTest.instanceToCheckAfterEach)
+        assert.isInstanceOf(this, SpruceTestOnInstanceTest)
+        if (SpruceTestOnInstanceTest.instanceToCheckAfterEach) {
+            assert.isEqual(
+                this,
+                SpruceTestOnInstanceTest.instanceToCheckAfterEach
+            )
         }
     }
 
     protected static async afterAll() {
-        assert.isTruthy(SpruceTest.instanceToCheckAfterEach)
+        assert.isTruthy(SpruceTestOnInstanceTest.instanceToCheckAfterEach)
         assert.isEqual(beforeAllCount, 1, 'beforeAll not called once')
         assert.isEqual(
             afterBeforeAllCount,
@@ -146,37 +156,63 @@ export default class SpruceTest extends AbstractSpruceTest {
         assert.isEqual(beforeAfterAll, 1, 'beforeAfterAll was not called')
         assert.isEqual(beforeAfterAll2, 1, 'beforeAfterAll was not called')
 
-        assert.isEqual(this, SpruceTest)
+        assert.isEqual(this, SpruceTestOnInstanceTest)
 
         assert.isEqual(afterAfterAll, 0, 'afterAfterAll called too soon')
         assert.isEqual(afterAfterAll2, 0, 'afterAfterAll called too soon')
 
+        assert.isEqual(
+            beforeBeforeAllTest,
+            SpruceTestOnInstanceTest,
+            'beforeAll did not pass test class'
+        )
+
         setTimeout(() => {
             assert.isEqual(afterAfterAll, 1, 'afterAfterAll not called')
             assert.isEqual(afterAfterAll2, 1, 'afterAfterAll not called')
-        }, 10)
+            assert.isEqual(
+                beforeBeforeAllTest,
+                SpruceTestOnInstanceTest,
+                'beforeAll did not pass test class'
+            )
+            assert.isEqual(
+                afterBeforeAllTest,
+                SpruceTestOnInstanceTest,
+                'afterBeforeAll did not pass test class'
+            )
+            assert.isEqual(
+                beforeAfterAllTest,
+                SpruceTestOnInstanceTest,
+                'beforeAfterAll did not pass test class'
+            )
+            assert.isEqual(
+                afterAfterAllTest,
+                SpruceTestOnInstanceTest,
+                'afterAfterAll did not pass test class'
+            )
+        }, 1)
 
         assert.isEqual(
             beforeBeforeEachTest,
-            SpruceTest.instanceToCheckAfterEach,
+            SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to beforeBeforeEach'
         )
 
         assert.isEqual(
             afterBeforeEachTest,
-            SpruceTest.instanceToCheckAfterEach,
+            SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to afterBeforeEach'
         )
 
         assert.isEqual(
             beforeAfterEachTest,
-            SpruceTest.instanceToCheckAfterEach,
+            SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to beforeAfterEach'
         )
 
         assert.isEqual(
             afterAfterEachTest,
-            SpruceTest.instanceToCheckAfterEach,
+            SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to afterAfterEach'
         )
     }
@@ -283,7 +319,7 @@ export default class SpruceTest extends AbstractSpruceTest {
 
     @test()
     protected async afterEachCalledAOnSameInsntance() {
-        SpruceTest.instanceToCheckAfterEach = this
+        SpruceTestOnInstanceTest.instanceToCheckAfterEach = this
     }
 
     private assertResolvePathReturnsSameAsStatic(parts: string[]) {
@@ -294,7 +330,8 @@ export default class SpruceTest extends AbstractSpruceTest {
     }
 }
 
-SpruceTestResolver.onWillCallBeforeAll(() => {
+SpruceTestResolver.onWillCallBeforeAll((Test) => {
+    beforeBeforeAllTest = Test
     beforeBeforeAllCount++
 })
 
@@ -302,7 +339,8 @@ SpruceTestResolver.onWillCallBeforeAll(() => {
     beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidBeforeAll((Test) => {
+    afterBeforeAllTest = Test
     afterBeforeAllCount++
 })
 
@@ -346,7 +384,8 @@ SpruceTestResolver.onDidCallAfterEach(() => {
     afterAfterEach2++
 })
 
-SpruceTestResolver.onWillCallAfterAll(() => {
+SpruceTestResolver.onWillCallAfterAll((Test) => {
+    beforeAfterAllTest = Test
     beforeAfterAll++
 })
 
@@ -354,8 +393,9 @@ SpruceTestResolver.onWillCallAfterAll(() => {
     beforeAfterAll2++
 })
 
-SpruceTestResolver.onDidCallAfterAll(() => {
+SpruceTestResolver.onDidCallAfterAll((Test) => {
     afterAfterAll++
+    afterAfterAllTest = Test
 })
 
 SpruceTestResolver.onDidCallAfterAll(() => {
