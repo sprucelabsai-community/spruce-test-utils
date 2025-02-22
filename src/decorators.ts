@@ -59,13 +59,18 @@ function hookupTestClassToJestLifecycle(Target: any) {
 }
 
 async function runBeforeAll(Target: any) {
-    const cb = resolveMethod(Target, 'beforeAll')
-    await cb?.apply?.(Target.constructor)
+    await callStaticHook(Target, 'beforeAll')
 }
 
 async function runAfterAll(Target: any) {
-    const cb = resolveMethod(Target, 'afterAll')
-    await cb?.apply?.(Target.constructor)
+    await callStaticHook(Target, 'afterAll')
+}
+
+async function callStaticHook(Target: any, hook: 'beforeAll' | 'afterAll') {
+    const cb = resolveMethod(Target, hook)
+    await cb?.apply?.(
+        SpruceTestResolver.ActiveTestClass ? Target.constructor : Target
+    )
 }
 
 async function runAfterEach(Target: any) {
