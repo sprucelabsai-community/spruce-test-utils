@@ -7,60 +7,62 @@ type TestLifecycleListener = () => any | Promise<any>
 type TestLifecycleListenerWithTest = (Test: any) => any | Promise<any>
 
 export class TestLifecycleListeners {
-    public static beforeBeforeAll: TestLifecycleListener[] = []
-    public static afterBeforeAll: TestLifecycleListener[] = []
-    public static beforeAfterAll: TestLifecycleListener[] = []
-    public static afterAfterAll: TestLifecycleListener[] = []
+    public static willBeforeAllListeners: TestLifecycleListener[] = []
+    public static didBeforeAllListeners: TestLifecycleListener[] = []
 
-    public static beforeBeforeEach: TestLifecycleListenerWithTest[] = []
-    public static afterBeforeEach: TestLifecycleListenerWithTest[] = []
-    public static beforeAfterEach: TestLifecycleListenerWithTest[] = []
-    public static afterAfterEach: TestLifecycleListenerWithTest[] = []
+    public static willBeforeEachListeners: TestLifecycleListenerWithTest[] = []
+    public static didBeforeEachListeners: TestLifecycleListenerWithTest[] = []
 
-    public static async runWillBeforeAll() {
-        for (const cb of this.beforeBeforeAll) {
+    public static willAfterEachListeners: TestLifecycleListenerWithTest[] = []
+    public static didAfterEachListeners: TestLifecycleListenerWithTest[] = []
+
+    public static willAfterAllListeners: TestLifecycleListener[] = []
+    public static didAfterAllListeners: TestLifecycleListener[] = []
+
+    public static async emitWillRunBeforeAll() {
+        for (const cb of this.willBeforeAllListeners) {
             await cb()
         }
     }
 
-    public static async runAfterBeforeAll() {
-        for (const cb of this.afterBeforeAll) {
+    public static async emitDidRunBeforeAll() {
+        for (const cb of this.didBeforeAllListeners) {
             await cb()
         }
     }
 
-    public static async runBeforeEach() {
-        for (const cb of this.beforeBeforeEach) {
+    public static async emitWillRunBeforeEach() {
+        for (const cb of this.willBeforeEachListeners) {
             await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
-    public static async runAfterBeforeEach() {
-        for (const cb of this.afterBeforeEach) {
+    public static async emitDidRunBeforeEach() {
+        for (const cb of this.didBeforeEachListeners) {
             await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
-    public static async runBeforeAfterEach() {
-        for (const cb of this.beforeAfterEach) {
+    public static async emitWillRunAfterEach() {
+        for (const cb of this.willAfterEachListeners) {
             await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
-    public static async runAfterAfterEach() {
-        for (const cb of this.afterAfterEach) {
+    public static async emitDidRunAfterEach() {
+        for (const cb of this.didAfterEachListeners) {
             await cb(SpruceTestResolver.getActiveTest())
         }
     }
 
-    public static async runBeforeAfterAll() {
-        for (const cb of this.beforeAfterAll) {
+    public static async emitWillRunAfterAll() {
+        for (const cb of this.willAfterAllListeners) {
             await cb()
         }
     }
 
-    public static async runAfterAfterAll() {
-        for (const cb of this.afterAfterAll) {
+    public static async emitDidRunAfterAll() {
+        for (const cb of this.didAfterAllListeners) {
             await cb()
         }
     }
@@ -84,36 +86,36 @@ export class SpruceTestResolver {
         return this.__activeTest
     }
 
-    public static onWillBeforeAll(cb: TestLifecycleListener) {
-        TestLifecycleListeners.beforeBeforeAll.push(cb)
+    public static onWillCallBeforeAll(cb: TestLifecycleListener) {
+        TestLifecycleListeners.willBeforeAllListeners.push(cb)
     }
 
-    public static onAfterBeforeAll(cb: TestLifecycleListener) {
-        TestLifecycleListeners.afterBeforeAll.push(cb)
+    public static onDidBeforeAll(cb: TestLifecycleListener) {
+        TestLifecycleListeners.didBeforeAllListeners.push(cb)
     }
 
-    public static onBeforeBeforeEach(cb: TestLifecycleListenerWithTest) {
-        TestLifecycleListeners.beforeBeforeEach.push(cb)
+    public static onWillCallBeforeEach(cb: TestLifecycleListenerWithTest) {
+        TestLifecycleListeners.willBeforeEachListeners.push(cb)
     }
 
-    public static onAfterBeforeEach(cb: TestLifecycleListenerWithTest) {
-        TestLifecycleListeners.afterBeforeEach.push(cb)
+    public static onDidCallBeforeEach(cb: TestLifecycleListenerWithTest) {
+        TestLifecycleListeners.didBeforeEachListeners.push(cb)
     }
 
-    public static onBeforeAfterEach(cb: TestLifecycleListenerWithTest) {
-        TestLifecycleListeners.beforeAfterEach.push(cb)
+    public static onWillCallAfterEach(cb: TestLifecycleListenerWithTest) {
+        TestLifecycleListeners.willAfterEachListeners.push(cb)
     }
 
-    public static onAfterAfterEach(cb: TestLifecycleListenerWithTest) {
-        TestLifecycleListeners.afterAfterEach.push(cb)
+    public static onDidCallAfterEach(cb: TestLifecycleListenerWithTest) {
+        TestLifecycleListeners.didAfterEachListeners.push(cb)
     }
 
-    public static onBeforeAfterAll(cb: TestLifecycleListener) {
-        TestLifecycleListeners.beforeAfterAll.push(cb)
+    public static onWillCallAfterAll(cb: TestLifecycleListener) {
+        TestLifecycleListeners.willAfterAllListeners.push(cb)
     }
 
-    public static onAfterAfterAll(cb: TestLifecycleListener) {
-        TestLifecycleListeners.afterAfterAll.push(cb)
+    public static onDidCallAfterAll(cb: TestLifecycleListener) {
+        TestLifecycleListeners.didAfterAllListeners.push(cb)
     }
 }
 
@@ -151,21 +153,21 @@ function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
             global[hook](async () => {
                 if (hook === 'beforeEach') {
                     SpruceTestResolver.resolveTestClass(Target)
-                    await TestLifecycleListeners.runBeforeEach()
+                    await TestLifecycleListeners.emitWillRunBeforeEach()
                     await runBeforeEach(Target)
-                    await TestLifecycleListeners.runAfterBeforeEach()
+                    await TestLifecycleListeners.emitDidRunBeforeEach()
                 } else if (hook === 'afterEach') {
-                    await TestLifecycleListeners.runBeforeAfterEach()
+                    await TestLifecycleListeners.emitWillRunAfterEach()
                     await runAfterEach(Target)
-                    await TestLifecycleListeners.runAfterAfterEach()
+                    await TestLifecycleListeners.emitDidRunAfterEach()
 
                     // @ts-ignore
                     delete SpruceTestResolver.__activeTest
                 } else {
                     if (hook === 'beforeAll') {
-                        await TestLifecycleListeners.runWillBeforeAll()
+                        await TestLifecycleListeners.emitWillRunBeforeAll()
                     } else if (hook === 'afterAll') {
-                        await TestLifecycleListeners.runBeforeAfterAll()
+                        await TestLifecycleListeners.emitWillRunAfterAll()
                     }
 
                     if (SpruceTestResolver.ActiveTestClass) {
@@ -175,9 +177,9 @@ function hookupTestClassToJestLifecycle(Target: any, h?: string[]) {
                     }
 
                     if (hook === 'beforeAll') {
-                        await TestLifecycleListeners.runAfterBeforeAll()
+                        await TestLifecycleListeners.emitDidRunBeforeAll()
                     } else if (hook === 'afterAll') {
-                        await TestLifecycleListeners.runAfterAfterAll()
+                        await TestLifecycleListeners.emitDidRunAfterAll()
                     }
                 }
             })

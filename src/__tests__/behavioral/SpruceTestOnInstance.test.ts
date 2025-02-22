@@ -294,70 +294,70 @@ export default class SpruceTest extends AbstractSpruceTest {
     }
 }
 
-SpruceTestResolver.onWillBeforeAll(() => {
+SpruceTestResolver.onWillCallBeforeAll(() => {
     beforeBeforeAllCount++
 })
 
-SpruceTestResolver.onWillBeforeAll(() => {
+SpruceTestResolver.onWillCallBeforeAll(() => {
     beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onAfterBeforeAll(() => {
+SpruceTestResolver.onDidBeforeAll(() => {
     afterBeforeAllCount++
 })
 
-SpruceTestResolver.onAfterBeforeAll(() => {
+SpruceTestResolver.onDidBeforeAll(() => {
     afterBeforeAllCount2++
 })
 
-SpruceTestResolver.onBeforeBeforeEach((Test) => {
+SpruceTestResolver.onWillCallBeforeEach((Test) => {
     beforeBeforeEachTest = Test
     beforeBeforeEach++
 })
 
-SpruceTestResolver.onBeforeBeforeEach(() => {
+SpruceTestResolver.onWillCallBeforeEach(() => {
     beforeBeforeEach2++
 })
 
-SpruceTestResolver.onAfterBeforeEach((Test) => {
+SpruceTestResolver.onDidCallBeforeEach((Test) => {
     afterBeforeEachTest = Test
     afterBeforeEach++
 })
 
-SpruceTestResolver.onAfterBeforeEach(() => {
+SpruceTestResolver.onDidCallBeforeEach(() => {
     afterBeforeEach2++
 })
 
-SpruceTestResolver.onBeforeAfterEach((Test) => {
+SpruceTestResolver.onWillCallAfterEach((Test) => {
     beforeAfterEachTest = Test
     beforeAfterEach++
 })
 
-SpruceTestResolver.onBeforeAfterEach(() => {
+SpruceTestResolver.onWillCallAfterEach(() => {
     beforeAfterEach2++
 })
 
-SpruceTestResolver.onAfterAfterEach((Test) => {
+SpruceTestResolver.onDidCallAfterEach((Test) => {
     afterAfterEachTest = Test
     afterAfterEach++
 })
 
-SpruceTestResolver.onAfterAfterEach(() => {
+SpruceTestResolver.onDidCallAfterEach(() => {
     afterAfterEach2++
 })
 
-SpruceTestResolver.onBeforeAfterAll(() => {
+SpruceTestResolver.onWillCallAfterAll(() => {
     beforeAfterAll++
 })
 
-SpruceTestResolver.onBeforeAfterAll(() => {
+SpruceTestResolver.onWillCallAfterAll(() => {
     beforeAfterAll2++
 })
 
-SpruceTestResolver.onAfterAfterAll(() => {
+SpruceTestResolver.onDidCallAfterAll(() => {
     afterAfterAll++
 })
 
-SpruceTestResolver.onAfterAfterAll(() => {
+SpruceTestResolver.onDidCallAfterAll(() => {
     afterAfterAll2++
 })

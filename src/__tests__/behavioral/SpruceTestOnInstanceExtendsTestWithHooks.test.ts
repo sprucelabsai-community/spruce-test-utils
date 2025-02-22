@@ -19,66 +19,66 @@ export default class SpruceTestOnInstanceExtendsTestWithHooks extends AbstractTe
     }
 }
 
-SpruceTestResolver.onWillBeforeAll(() => {
+SpruceTestResolver.onWillCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.beforeBeforeAllCount++
 })
 
-SpruceTestResolver.onWillBeforeAll(() => {
+SpruceTestResolver.onWillCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onAfterBeforeAll(() => {
+SpruceTestResolver.onDidBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterBeforeAllCount++
 })
 
-SpruceTestResolver.onAfterBeforeAll(() => {
+SpruceTestResolver.onDidBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterBeforeAllCount2++
 })
 
-SpruceTestResolver.onBeforeBeforeEach(() => {
+SpruceTestResolver.onWillCallBeforeEach(() => {
     SpruceTestResolver.getActiveTest().beforeBeforeEach++
 })
 
-SpruceTestResolver.onBeforeBeforeEach(() => {
+SpruceTestResolver.onWillCallBeforeEach(() => {
     SpruceTestResolver.getActiveTest().beforeBeforeEach2++
 })
 
-SpruceTestResolver.onAfterBeforeEach(() => {
+SpruceTestResolver.onDidCallBeforeEach(() => {
     SpruceTestResolver.getActiveTest().afterBeforeEach++
 })
 
-SpruceTestResolver.onAfterBeforeEach(() => {
+SpruceTestResolver.onDidCallBeforeEach(() => {
     SpruceTestResolver.getActiveTest().afterBeforeEach2++
 })
 
-SpruceTestResolver.onBeforeAfterEach(() => {
+SpruceTestResolver.onWillCallAfterEach(() => {
     SpruceTestResolver.getActiveTest().beforeAfterEach++
 })
 
-SpruceTestResolver.onBeforeAfterEach(() => {
+SpruceTestResolver.onWillCallAfterEach(() => {
     SpruceTestResolver.getActiveTest().beforeAfterEach2++
 })
 
-SpruceTestResolver.onAfterAfterEach(() => {
+SpruceTestResolver.onDidCallAfterEach(() => {
     SpruceTestResolver.getActiveTest().afterAfterEach++
 })
 
-SpruceTestResolver.onAfterAfterEach(() => {
+SpruceTestResolver.onDidCallAfterEach(() => {
     SpruceTestResolver.getActiveTest().afterAfterEach2++
 })
 
-SpruceTestResolver.onBeforeAfterAll(() => {
+SpruceTestResolver.onWillCallAfterAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.beforeAfterAll++
 })
 
-SpruceTestResolver.onBeforeAfterAll(() => {
+SpruceTestResolver.onWillCallAfterAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.beforeAfterAll2++
 })
 
-SpruceTestResolver.onAfterAfterAll(() => {
+SpruceTestResolver.onDidCallAfterAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterAfterAll++
 })
 
-SpruceTestResolver.onAfterAfterAll(() => {
+SpruceTestResolver.onDidCallAfterAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterAfterAll2++
 })
