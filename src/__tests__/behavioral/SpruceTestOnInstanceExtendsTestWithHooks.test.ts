@@ -28,11 +28,11 @@ SpruceTestResolver.onWillCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterBeforeAllCount++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTestWithHooks.afterBeforeAllCount2++
 })
 

@@ -180,11 +180,11 @@ SpruceTestResolver.onWillCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTest.beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTest.afterBeforeAllCount++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     SpruceTestOnInstanceExtendsTest.afterBeforeAllCount2++
 })
 

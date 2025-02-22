@@ -21,7 +21,7 @@ SpruceTestResolver.onWillCallBeforeAll(() => {
     beforeBeforeAllCount++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     afterBeforeAllCount++
 })
 

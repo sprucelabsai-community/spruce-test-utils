@@ -88,7 +88,7 @@ export default class SpruceTestResolver {
         TestLifecycleListeners.willBeforeAllListeners.push(cb)
     }
 
-    public static onDidBeforeAll(cb: TestLifecycleListener) {
+    public static onDidCallBeforeAll(cb: TestLifecycleListener) {
         TestLifecycleListeners.didBeforeAllListeners.push(cb)
     }
 

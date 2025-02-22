@@ -338,12 +338,12 @@ SpruceTestResolver.onWillCallBeforeAll(() => {
     beforeBeforeAllCount2++
 })
 
-SpruceTestResolver.onDidBeforeAll((Test) => {
+SpruceTestResolver.onDidCallBeforeAll((Test) => {
     afterBeforeAllTest = Test
     afterBeforeAllCount++
 })
 
-SpruceTestResolver.onDidBeforeAll(() => {
+SpruceTestResolver.onDidCallBeforeAll(() => {
     afterBeforeAllCount2++
 })
 
