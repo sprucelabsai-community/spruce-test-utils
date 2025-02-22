@@ -12,3 +12,6 @@ export { default as StackCleaner } from './StackCleaner'
 
 export { default as Spier } from './utilities/spies/Spier'
 export { default as Spy } from './utilities/spies/Spy'
+
+export { default as SpruceTestResolver } from './SpruceTestResolver'
+export * from './SpruceTestResolver'
