@@ -1,10 +1,33 @@
 import AbstractSpruceTest from '../../AbstractSpruceTest'
 import assert from '../../assert/assert'
-import test, { suite } from '../../decorators'
+import test, { SpruceTestResolver, suite } from '../../decorators'
 
 let beforeAllCount = 0
 let beforeEachCount = 0
 let afterEachCount = 0
+
+let beforeBeforeAllCount = 0
+let beforeBeforeAllCount2 = 0
+let afterBeforeAllCount = 0
+let afterBeforeAllCount2 = 0
+
+let beforeBeforeEach = 0
+let beforeBeforeEach2 = 0
+
+let afterBeforeEach = 0
+let afterBeforeEach2 = 0
+
+let beforeAfterEach = 0
+let beforeAfterEach2 = 0
+
+let afterAfterEach = 0
+let afterAfterEach2 = 0
+
+let beforeAfterAll = 0
+let beforeAfterAll2 = 0
+
+let afterAfterAll = 0
+let afterAfterAll2 = 0
 
 @suite()
 export default class SpruceTest extends AbstractSpruceTest {
@@ -13,17 +36,88 @@ export default class SpruceTest extends AbstractSpruceTest {
     private static instanceToCheckAfterEach?: SpruceTest
 
     protected static async beforeAll() {
+        assert.isEqual(
+            beforeBeforeAllCount,
+            1,
+            'beforeBeforeAll not called first'
+        )
+        assert.isEqual(
+            beforeBeforeAllCount2,
+            1,
+            'beforeBeforeAll not called second time'
+        )
+        assert.isEqual(afterBeforeAllCount, 0, 'afterBeforeAll called too soon')
+        assert.isEqual(
+            afterBeforeAllCount2,
+            0,
+            'afterBeforeAll called too soon'
+        )
         beforeAllCount += 1
+
+        assert.isEqual(this, SpruceTest)
     }
 
     protected async beforeEach() {
         beforeEachCount += 1
+
+        assert.isEqual(
+            beforeBeforeEach,
+            beforeEachCount,
+            'beforeBeforeEach not called first'
+        )
+
+        assert.isEqual(
+            beforeBeforeEach2,
+            beforeEachCount,
+            'beforeBeforeEach not called second time'
+        )
+
+        assert.isEqual(
+            afterBeforeEach,
+            beforeEachCount - 1,
+            'afterBeforeEach called too soon'
+        )
+
+        assert.isEqual(
+            afterBeforeEach2,
+            beforeEachCount - 1,
+            'afterBeforeEach called too soon'
+        )
+
         this.beforeEachCount++
         assert.isInstanceOf(this, SpruceTest)
     }
 
     protected async afterEach() {
         afterEachCount += 1
+
+        assert.isEqual(
+            beforeAfterEach,
+            afterEachCount,
+            'beforeAfterEach not called first'
+        )
+
+        assert.isEqual(
+            beforeAfterEach2,
+            afterEachCount,
+            'beforeAfterEach not called second time'
+        )
+
+        assert.isEqual(
+            afterAfterEach,
+            afterEachCount - 1,
+            'afterAfterEach called too soon'
+        )
+
+        assert.isEqual(
+            afterAfterEach2,
+            afterEachCount - 1,
+            'afterAfterEach called too soon'
+        )
+
+        assert.isEqual(beforeAfterAll, 0, 'beforeAfterAll called too soon')
+        assert.isEqual(beforeAfterAll2, 0, 'beforeAfterAll called too soon')
+
         assert.isInstanceOf(this, SpruceTest)
         if (SpruceTest.instanceToCheckAfterEach) {
             assert.isEqual(this, SpruceTest.instanceToCheckAfterEach)
@@ -32,6 +126,30 @@ export default class SpruceTest extends AbstractSpruceTest {
 
     protected static async afterAll() {
         assert.isTruthy(SpruceTest.instanceToCheckAfterEach)
+        assert.isEqual(beforeAllCount, 1, 'beforeAll not called once')
+        assert.isEqual(
+            afterBeforeAllCount,
+            1,
+            'afterBeforeAll not called first'
+        )
+        assert.isEqual(
+            afterBeforeAllCount2,
+            1,
+            'afterBeforeAll not called second time'
+        )
+
+        assert.isEqual(beforeAfterAll, 1, 'beforeAfterAll was not called')
+        assert.isEqual(beforeAfterAll2, 1, 'beforeAfterAll was not called')
+
+        assert.isEqual(this, SpruceTest)
+
+        assert.isEqual(afterAfterAll, 0, 'afterAfterAll called too soon')
+        assert.isEqual(afterAfterAll2, 0, 'afterAfterAll called too soon')
+
+        setTimeout(() => {
+            assert.isEqual(afterAfterAll, 1, 'afterAfterAll not called')
+            assert.isEqual(afterAfterAll2, 1, 'afterAfterAll not called')
+        }, 10)
     }
 
     @test()
@@ -66,7 +184,7 @@ export default class SpruceTest extends AbstractSpruceTest {
 
     @test.todo('can create a TODO test')
     protected async todo() {
-        // TODO
+        assert.fail('This test should not run')
     }
 
     @test()
@@ -146,3 +264,67 @@ export default class SpruceTest extends AbstractSpruceTest {
         assert.isEqual(actual, expected)
     }
 }
+
+SpruceTestResolver.onWillBeforeAll(() => {
+    beforeBeforeAllCount++
+})
+
+SpruceTestResolver.onWillBeforeAll(() => {
+    beforeBeforeAllCount2++
+})
+
+SpruceTestResolver.onAfterBeforeAll(() => {
+    afterBeforeAllCount++
+})
+
+SpruceTestResolver.onAfterBeforeAll(() => {
+    afterBeforeAllCount2++
+})
+
+SpruceTestResolver.onBeforeBeforeEach(() => {
+    beforeBeforeEach++
+})
+
+SpruceTestResolver.onBeforeBeforeEach(() => {
+    beforeBeforeEach2++
+})
+
+SpruceTestResolver.onAfterBeforeEach(() => {
+    afterBeforeEach++
+})
+
+SpruceTestResolver.onAfterBeforeEach(() => {
+    afterBeforeEach2++
+})
+
+SpruceTestResolver.onBeforeAfterEach(() => {
+    beforeAfterEach++
+})
+
+SpruceTestResolver.onBeforeAfterEach(() => {
+    beforeAfterEach2++
+})
+
+SpruceTestResolver.onAfterAfterEach(() => {
+    afterAfterEach++
+})
+
+SpruceTestResolver.onAfterAfterEach(() => {
+    afterAfterEach2++
+})
+
+SpruceTestResolver.onBeforeAfterAll(() => {
+    beforeAfterAll++
+})
+
+SpruceTestResolver.onBeforeAfterAll(() => {
+    beforeAfterAll2++
+})
+
+SpruceTestResolver.onAfterAfterAll(() => {
+    afterAfterAll++
+})
+
+SpruceTestResolver.onAfterAfterAll(() => {
+    afterAfterAll2++
+})
