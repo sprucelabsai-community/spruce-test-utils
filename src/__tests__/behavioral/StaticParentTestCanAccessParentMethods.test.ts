@@ -7,6 +7,9 @@ export default class StaticParentTestCanAccessParentMethodsTest extends Abstract
 
     protected static async afterAll(): Promise<void> {
         await super.afterAll()
+
+        assert.isEqual(this, StaticParentTestCanAccessParentMethodsTest)
+
         assert.isTrue(
             this.didCallAnotherStaticMethodInBeforeEach,
             'beforeAll in parent class not referrenced'

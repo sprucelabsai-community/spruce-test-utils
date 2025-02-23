@@ -293,6 +293,16 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
         assert.isEqual(passedMessages, expected)
     }
 
+    @test('simple single parameter', 'test')
+    protected passesThroughSimpleParameter(param1: any) {
+        assert.isEqual(param1, 'test')
+    }
+
+    @test('array singe parameter', [1])
+    protected passesThroughARrayParameter(param1: any) {
+        assert.isEqualDeep(param1, [1])
+    }
+
     @test()
     protected pwdShouldbeSet() {
         assert.isEqual(this.cwd, process.cwd())
