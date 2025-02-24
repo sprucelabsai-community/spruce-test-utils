@@ -1,7 +1,7 @@
 import path from 'path'
 
 export default class AbstractSpruceTest {
-    protected static cwd: string
+    public static cwd: string
 
     protected static async beforeAll() {
         this.cwd = process.cwd()
@@ -42,7 +42,7 @@ export default class AbstractSpruceTest {
     }
 
     //instance declariations
-    protected cwd = process.cwd()
+    public cwd = process.cwd()
 
     protected async wait(ms = 1000) {
         return new Promise((resolve) => {
