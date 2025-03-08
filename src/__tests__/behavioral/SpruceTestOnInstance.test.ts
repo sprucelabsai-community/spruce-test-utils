@@ -7,38 +7,38 @@ let beforeAllCount = 0
 let beforeEachCount = 0
 let afterEachCount = 0
 
-let beforeBeforeAllCount = 0
-let beforeBeforeAllCount2 = 0
-let afterBeforeAllCount = 0
-let afterBeforeAllCount2 = 0
+let willCallBeforeAllCount = 0
+let willCallBeforeAllCount2 = 0
+let didCallBeforeAllCount = 0
+let didCallBeforeAllCount2 = 0
 
-let beforeBeforeEach = 0
-let beforeBeforeEach2 = 0
+let willCallBeforeEachCount = 0
+let willCallBeforeEachCount2 = 0
 
-let afterBeforeEach = 0
-let afterBeforeEach2 = 0
+let didCallBeforeEachCount = 0
+let didCallBeforeEachCount2 = 0
 
-let beforeAfterEach = 0
-let beforeAfterEach2 = 0
+let willCallAfterEachCount = 0
+let willCallAfterEachCount2 = 0
 
-let afterAfterEach = 0
-let afterAfterEach2 = 0
+let didCallAfterEachCount = 0
+let didCallAfterEachCount2 = 0
 
-let beforeAfterAll = 0
-let beforeAfterAll2 = 0
+let willCallAfterAllCount = 0
+let willCallAfterAllCount2 = 0
 
-let afterAfterAll = 0
-let afterAfterAll2 = 0
+let didCallAfterAllCount = 0
+let didCallAfterAllCount2 = 0
 
-let beforeBeforeEachTest: any
-let afterBeforeEachTest: any
-let beforeAfterEachTest: any
-let afterAfterEachTest: any
+let willCallBeforeEachTest: any
+let didCallBeforeEachTest: any
+let willCallAfterEachTest: any
+let didCallAfterEachTest: any
 
-let beforeAfterAllTest: any
-let afterAfterAllTest: any
-let beforeBeforeAllTest: any
-let afterBeforeAllTest: any
+let willCallAfterAllTest: any
+let didCallAfterAllTest: any
+let willCallBeforeAllTest: any
+let didCallBeforeAllTest: any
 
 @suite()
 export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
@@ -48,20 +48,20 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
 
     protected static async beforeAll() {
         assert.isEqual(
-            beforeBeforeAllCount,
+            willCallBeforeAllCount,
             1,
-            'beforeBeforeAll not called first'
+            'willCallBeforeAllCount missmatch'
         )
         assert.isEqual(
-            beforeBeforeAllCount2,
+            willCallBeforeAllCount2,
             1,
-            'beforeBeforeAll not called second time'
+            'willCallBeforeAllCount2 missmatch'
         )
-        assert.isEqual(afterBeforeAllCount, 0, 'afterBeforeAll called too soon')
+        assert.isEqual(didCallBeforeAllCount, 0, 'didCallBeforeAll missmatch')
         assert.isEqual(
-            afterBeforeAllCount2,
+            didCallBeforeAllCount2,
             0,
-            'afterBeforeAll called too soon'
+            'didCallBeforeAll missmatched'
         )
         beforeAllCount += 1
 
@@ -72,25 +72,25 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
         beforeEachCount += 1
 
         assert.isEqual(
-            beforeBeforeEach,
+            willCallBeforeEachCount,
             beforeEachCount,
-            'beforeBeforeEach not called first'
+            'willCallBeforeEach not called first'
         )
 
         assert.isEqual(
-            beforeBeforeEach2,
+            willCallBeforeEachCount2,
             beforeEachCount,
-            'beforeBeforeEach not called second time'
+            'willCallBeforeEach not called second time'
         )
 
         assert.isEqual(
-            afterBeforeEach,
+            didCallBeforeEachCount,
             beforeEachCount - 1,
             'afterBeforeEach called too soon'
         )
 
         assert.isEqual(
-            afterBeforeEach2,
+            didCallBeforeEachCount2,
             beforeEachCount - 1,
             'afterBeforeEach called too soon'
         )
@@ -103,31 +103,39 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
         afterEachCount += 1
 
         assert.isEqual(
-            beforeAfterEach,
+            willCallAfterEachCount,
             afterEachCount,
             'beforeAfterEach not called first'
         )
 
         assert.isEqual(
-            beforeAfterEach2,
+            willCallAfterEachCount2,
             afterEachCount,
             'beforeAfterEach not called second time'
         )
 
         assert.isEqual(
-            afterAfterEach,
+            didCallAfterEachCount,
             afterEachCount - 1,
             'afterAfterEach called too soon'
         )
 
         assert.isEqual(
-            afterAfterEach2,
+            didCallAfterEachCount2,
             afterEachCount - 1,
             'afterAfterEach called too soon'
         )
 
-        assert.isEqual(beforeAfterAll, 0, 'beforeAfterAll called too soon')
-        assert.isEqual(beforeAfterAll2, 0, 'beforeAfterAll called too soon')
+        assert.isEqual(
+            willCallAfterAllCount,
+            0,
+            'beforeAfterAll called too soon'
+        )
+        assert.isEqual(
+            willCallAfterAllCount2,
+            0,
+            'beforeAfterAll called too soon'
+        )
 
         assert.isInstanceOf(this, SpruceTestOnInstanceTest)
         if (SpruceTestOnInstanceTest.instanceToCheckAfterEach) {
@@ -140,77 +148,101 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
 
     protected static async afterAll() {
         assert.isTruthy(SpruceTestOnInstanceTest.instanceToCheckAfterEach)
-        assert.isEqual(beforeAllCount, 1, 'beforeAll not called once')
+        assert.isEqual(beforeAllCount, 1, 'willCallBeforeAll not called once')
         assert.isEqual(
-            afterBeforeAllCount,
+            didCallBeforeAllCount,
             1,
-            'afterBeforeAll not called first'
+            'didCallBeforeAll not called first'
         )
         assert.isEqual(
-            afterBeforeAllCount2,
+            didCallBeforeAllCount2,
             1,
-            'afterBeforeAll not called second time'
+            'didCallBeforeAll not called second time'
         )
 
-        assert.isEqual(beforeAfterAll, 1, 'beforeAfterAll was not called')
-        assert.isEqual(beforeAfterAll2, 1, 'beforeAfterAll was not called')
+        assert.isEqual(
+            willCallAfterAllCount,
+            1,
+            'beforeAfterAll was not called'
+        )
+        assert.isEqual(
+            willCallAfterAllCount2,
+            1,
+            'beforeAfterAll was not called'
+        )
 
         assert.isEqual(this, SpruceTestOnInstanceTest)
 
-        assert.isEqual(afterAfterAll, 0, 'afterAfterAll called too soon')
-        assert.isEqual(afterAfterAll2, 0, 'afterAfterAll called too soon')
+        assert.isEqual(
+            didCallAfterAllCount,
+            0,
+            'didCallAfterAll called too soon'
+        )
+        assert.isEqual(
+            didCallAfterAllCount2,
+            0,
+            'didCallAfterAll called too soon'
+        )
 
         assert.isEqual(
-            beforeBeforeAllTest,
+            willCallBeforeAllTest,
             SpruceTestOnInstanceTest,
-            'beforeAll did not pass test class'
+            'willCallBeforeAll did not pass test class'
         )
 
         setTimeout(() => {
-            assert.isEqual(afterAfterAll, 1, 'afterAfterAll not called')
-            assert.isEqual(afterAfterAll2, 1, 'afterAfterAll not called')
             assert.isEqual(
-                beforeBeforeAllTest,
-                SpruceTestOnInstanceTest,
-                'beforeAll did not pass test class'
+                didCallAfterAllCount,
+                1,
+                'didCallAfterAll not called'
             )
             assert.isEqual(
-                afterBeforeAllTest,
-                SpruceTestOnInstanceTest,
-                'afterBeforeAll did not pass test class'
+                didCallAfterAllCount2,
+                1,
+                'didCallAfterAll not called'
             )
             assert.isEqual(
-                beforeAfterAllTest,
+                willCallBeforeAllTest,
+                SpruceTestOnInstanceTest,
+                'willCallBeforeAll did not pass test class'
+            )
+            assert.isEqual(
+                didCallBeforeAllTest,
+                SpruceTestOnInstanceTest,
+                'didCallBeforeAll did not pass test class'
+            )
+            assert.isEqual(
+                willCallAfterAllTest,
                 SpruceTestOnInstanceTest,
                 'beforeAfterAll did not pass test class'
             )
             assert.isEqual(
-                afterAfterAllTest,
+                didCallAfterAllTest,
                 SpruceTestOnInstanceTest,
-                'afterAfterAll did not pass test class'
+                'didCallAfterAll did not pass test class'
             )
         }, 1)
 
         assert.isEqual(
-            beforeBeforeEachTest,
+            willCallBeforeEachTest,
             SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to beforeBeforeEach'
         )
 
         assert.isEqual(
-            afterBeforeEachTest,
+            didCallBeforeEachTest,
             SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to afterBeforeEach'
         )
 
         assert.isEqual(
-            beforeAfterEachTest,
+            willCallAfterEachTest,
             SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to beforeAfterEach'
         )
 
         assert.isEqual(
-            afterAfterEachTest,
+            didCallAfterEachTest,
             SpruceTestOnInstanceTest.instanceToCheckAfterEach,
             'Did not pass test instance to afterAfterEach'
         )
@@ -326,8 +358,11 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
         assert.isEqual(this.beforeEachCount, 1)
     }
 
+    @test.skip()
+    protected static async thisShouldThrowBecauseIsStatic() {}
+
     @test()
-    protected async afterEachCalledAOnSameInsntance() {
+    protected async afterEachCalledAOnSameInsntanceRUN_THIS_LAST() {
         SpruceTestOnInstanceTest.instanceToCheckAfterEach = this
     }
 
@@ -340,73 +375,73 @@ export default class SpruceTestOnInstanceTest extends AbstractSpruceTest {
 }
 
 SpruceTestResolver.onWillCallBeforeAll((Test) => {
-    beforeBeforeAllTest = Test
-    beforeBeforeAllCount++
+    willCallBeforeAllTest = Test
+    willCallBeforeAllCount++
 })
 
 SpruceTestResolver.onWillCallBeforeAll(() => {
-    beforeBeforeAllCount2++
+    willCallBeforeAllCount2++
 })
 
 SpruceTestResolver.onDidCallBeforeAll((Test) => {
-    afterBeforeAllTest = Test
-    afterBeforeAllCount++
+    didCallBeforeAllTest = Test
+    didCallBeforeAllCount++
 })
 
 SpruceTestResolver.onDidCallBeforeAll(() => {
-    afterBeforeAllCount2++
+    didCallBeforeAllCount2++
 })
 
 SpruceTestResolver.onWillCallBeforeEach((Test) => {
-    beforeBeforeEachTest = Test
-    beforeBeforeEach++
+    willCallBeforeEachTest = Test
+    willCallBeforeEachCount++
 })
 
 SpruceTestResolver.onWillCallBeforeEach(() => {
-    beforeBeforeEach2++
+    willCallBeforeEachCount2++
 })
 
 SpruceTestResolver.onDidCallBeforeEach((Test) => {
-    afterBeforeEachTest = Test
-    afterBeforeEach++
+    didCallBeforeEachTest = Test
+    didCallBeforeEachCount++
 })
 
 SpruceTestResolver.onDidCallBeforeEach(() => {
-    afterBeforeEach2++
+    didCallBeforeEachCount2++
 })
 
 SpruceTestResolver.onWillCallAfterEach((Test) => {
-    beforeAfterEachTest = Test
-    beforeAfterEach++
+    willCallAfterEachTest = Test
+    willCallAfterEachCount++
 })
 
 SpruceTestResolver.onWillCallAfterEach(() => {
-    beforeAfterEach2++
+    willCallAfterEachCount2++
 })
 
 SpruceTestResolver.onDidCallAfterEach((Test) => {
-    afterAfterEachTest = Test
-    afterAfterEach++
+    didCallAfterEachTest = Test
+    didCallAfterEachCount++
 })
 
 SpruceTestResolver.onDidCallAfterEach(() => {
-    afterAfterEach2++
+    didCallAfterEachCount2++
 })
 
 SpruceTestResolver.onWillCallAfterAll((Test) => {
-    beforeAfterAllTest = Test
-    beforeAfterAll++
+    willCallAfterAllTest = Test
+    willCallAfterAllCount++
 })
 
 SpruceTestResolver.onWillCallAfterAll(() => {
-    beforeAfterAll2++
+    willCallAfterAllCount2++
 })
 
 SpruceTestResolver.onDidCallAfterAll((Test) => {
-    afterAfterAll++
-    afterAfterAllTest = Test
+    didCallAfterAllCount++
+    didCallAfterAllTest = Test
 })
 
 SpruceTestResolver.onDidCallAfterAll(() => {
-    afterAfterAll2++
+    didCallAfterAllCount2++
 })

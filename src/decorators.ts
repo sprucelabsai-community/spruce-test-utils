@@ -7,6 +7,8 @@ if (typeof it === 'undefined') {
     global.it = () => {}
 }
 
+let areLifecycleHooksInPlace = false
+
 //recursive function to get static method by name looping up through constructor chain
 function resolveMethod(Target: any, name: string) {
     if (Target[name]) {
@@ -22,11 +24,11 @@ function resolveMethod(Target: any, name: string) {
 
 /** Hooks up before, after, etc. */
 function hookupTestClassToJestLifecycle(Target: any) {
-    if (Target.__areLifecycleHooksInPlace) {
+    if (areLifecycleHooksInPlace) {
         return
     }
 
-    Target.__areLifecycleHooksInPlace = true
+    areLifecycleHooksInPlace = true
     const hooks = ['beforeAll', 'beforeEach', 'afterAll', 'afterEach']
     hooks.forEach((hook) => {
         // @ts-ignore
@@ -98,20 +100,27 @@ async function runBeforeEach(Target: any) {
 /** Test decorator */
 export default function test(description?: string, ...args: any[]) {
     return function (
-        target: any,
+        Target: any,
         propertyKey: string,
         descriptor: PropertyDescriptor
     ) {
-        hookupTestClassToJestLifecycle(target)
+        hookupTestClassToJestLifecycle(Target)
 
         // Make sure each test gets the spruce
         it(description ?? propertyKey, async () => {
-            const testClass = SpruceTestResolver.resolveTestClass(target)
-            const bound = descriptor.value.bind(testClass)
+            const Resolved = SpruceTestResolver.resolveTestClass(Target)
+
+            if (!Resolved[propertyKey]) {
+                throw new Error(
+                    `The test '${propertyKey}()' should NOT be static when tests run with suite()`
+                )
+            }
+
+            const bound = descriptor.value.bind(Resolved)
 
             //@ts-ignore
             global.activeTest = {
-                file: target.name,
+                file: Target.name,
                 test: propertyKey,
             }
             return bound(...args)
