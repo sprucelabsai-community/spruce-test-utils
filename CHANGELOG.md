@@ -1,3 +1,10 @@
+# [6.0.0](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.5.59...v6.0.0) (2025-06-10)
+
+
+### Breaking Changes
+
+* jest update ([5378638](https://github.com/sprucelabsai-community/spruce-test-utils/commit/5378638))
+
 ## [5.5.59](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.5.58...v5.5.59) (2025-06-06)
 
 ## [5.5.58](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v5.5.57...v5.5.58) (2025-06-05)
