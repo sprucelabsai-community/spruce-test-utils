@@ -60,7 +60,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^7.0.33",
+    "@sprucelabs/error": "^7.1.0",
     "deep-equal": "^2.2.3",
     "just-clone": "^6.2.0",
     "lodash": "^4.17.21",
