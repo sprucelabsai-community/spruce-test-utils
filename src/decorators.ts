@@ -112,7 +112,7 @@ export default function test(description?: string, ...args: any[]) {
 
             if (!Resolved[propertyKey]) {
                 throw new Error(
-                    `The test '${propertyKey}()' should NOT be static when tests run with suite()`
+                    `The test '${propertyKey}()' should NOT be static when tests run with suite(). Or, if you are not using suite(), you MUST make your test static.`
                 )
             }
 
