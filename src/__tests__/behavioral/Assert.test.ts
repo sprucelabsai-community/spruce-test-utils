@@ -737,18 +737,28 @@ export default class AssertTest extends AbstractSpruceTest {
         'Example of pretty print with does include. Remove only() to see. Always fails.'
     )
     protected static printsNiceDiffWithDoesInclude() {
-        // this.simpleDoesIncludePrettyPrint()
+        this.simpleDoesIncludePrettyPrint()
 
         assert.doesInclude(
             [
                 {
-                    body: '7d8f53fb8596443caea7e124cb6d1482',
+                    body: generateId(),
                     classification: 'transactional',
                     source: {
                         isCore: true,
                     },
                     target: {
-                        personId: '68ddcee0fe36ce7b38c95743',
+                        personId: generateId(),
+                    },
+                },
+                {
+                    body: generateId(),
+                    classification: 'transactional',
+                    source: {
+                        isCore: true,
+                    },
+                    target: {
+                        personId: generateId(),
                     },
                 },
             ],
