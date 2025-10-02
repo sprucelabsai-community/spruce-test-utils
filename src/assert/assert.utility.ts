@@ -21,8 +21,8 @@ const assertUtil = {
         let stringified
 
         if (Array.isArray(object)) {
-            stringified = `[\n${object.map((o) =>
-                this.stringify(o).split('\n').join('\n\t')
+            stringified = `[\n  ${object.map((o) =>
+                this.stringify(o).split('\n').join('\n  ')
             )}\n]`
         } else if (typeof object === 'number') {
             // this hack allows the Spruce Test Reporter to render number errors (they got eaten by terminal-kit's style regex)

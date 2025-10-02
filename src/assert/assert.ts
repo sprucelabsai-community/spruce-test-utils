@@ -1,5 +1,6 @@
 import chalk from 'chalk'
 import deepEqual from 'deep-equal'
+import { set } from 'lodash'
 import escapeRegExp from 'lodash/escapeRegExp'
 import isObjectLike from 'lodash/isObjectLike'
 import { expectType } from 'ts-expect'
@@ -346,7 +347,7 @@ const assert: ISpruceAssert = {
     },
 
     doesInclude(haystack: any, needle: any, message?: string) {
-        let msg = `Could not find ${stringify(needle)} in ${stringify(haystack)}`
+        let msg = `Could not find \n\n${stringify(needle)}\n\n in \n\n${stringify(haystack)}\n\n`
 
         const isNeedleString = typeof needle === 'string'
         const isNeedleRegex = needle instanceof RegExp
@@ -414,11 +415,21 @@ const assert: ISpruceAssert = {
                     haystack
                 )}`
             } else {
-                msg = `Expected:\n${chalk.green(
-                    stringify(needle[path])
-                )}\nbut found:\n${chalk.red(stringify(actual))}\nat:\n${stringify(
+                const actual = needle[path]
+                // msg = `Expected:\n\n${chalk.green(
+                //     stringify(actual)
+                // )}\n\nbut found:\n\n${chalk.red(stringify(actual))}\n\nat key:\n\n${stringify(
+                //     path
+                // )}\n\nin:\n\n${stringify(haystack)}`
+
+                msg = `Expected:\n\n${chalk.green(
+                    stringify(actual)
+                )}\n\nbut found:\n\n${chalk.red(stringify(actual))}\n\nat key:\n\n${stringify(
                     path
-                )}\nin:\n${stringify(haystack)}`
+                )}`
+
+                haystack = set(haystack, path, `${actual} -> ${expected}`)
+                msg += `\n\nHere is the change:\n\n${stringify(haystack)}`
             }
 
             if (

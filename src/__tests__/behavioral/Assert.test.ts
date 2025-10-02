@@ -1,6 +1,7 @@
 import AbstractSpruceTest from '../../AbstractSpruceTest'
 import assert from '../../assert/assert'
 import test from '../../decorators'
+import generateId from '../../utilities/generateId.utility'
 
 interface ICustomObj {
     testStr: string
@@ -730,6 +731,38 @@ export default class AssertTest extends AbstractSpruceTest {
         // )
 
         assert.isFalsy([new Error('yay')])
+    }
+
+    @test.only(
+        'Example of pretty print with does include. Remove only() to see. Always fails.'
+    )
+    protected static printsNiceDiffWithDoesInclude() {
+        // this.simpleDoesIncludePrettyPrint()
+
+        assert.doesInclude(
+            [
+                {
+                    body: '7d8f53fb8596443caea7e124cb6d1482',
+                    classification: 'transactional',
+                    source: {
+                        isCore: true,
+                    },
+                    target: {
+                        personId: '68ddcee0fe36ce7b38c95743',
+                    },
+                },
+            ],
+            {
+                target: {
+                    address: '+1 555 555 5555',
+                    personId: generateId(),
+                },
+            }
+        )
+    }
+
+    private static simpleDoesIncludePrettyPrint() {
+        assert.doesInclude({ test: true, taco: 'bell' }, { test: false })
     }
 
     @test()
