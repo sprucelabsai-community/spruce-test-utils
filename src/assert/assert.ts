@@ -1,6 +1,6 @@
 import chalk from 'chalk'
 import deepEqual from 'deep-equal'
-import { set } from 'lodash'
+import { cloneDeep, set } from 'lodash'
 import escapeRegExp from 'lodash/escapeRegExp'
 import isObjectLike from 'lodash/isObjectLike'
 import { expectType } from 'ts-expect'
@@ -415,7 +415,6 @@ const assert: ISpruceAssert = {
                     haystack
                 )}`
             } else {
-                const actual = needle[path]
                 // msg = `Expected:\n\n${chalk.green(
                 //     stringify(actual)
                 // )}\n\nbut found:\n\n${chalk.red(stringify(actual))}\n\nat key:\n\n${stringify(
@@ -423,13 +422,18 @@ const assert: ISpruceAssert = {
                 // )}\n\nin:\n\n${stringify(haystack)}`
 
                 msg = `Expected:\n\n${chalk.green(
-                    stringify(actual)
+                    stringify(needle[path])
                 )}\n\nbut found:\n\n${chalk.red(stringify(actual))}\n\nat key:\n\n${stringify(
                     path
                 )}`
 
-                haystack = set(haystack, path, `${actual} -> ${expected}`)
-                msg += `\n\nHere is the change:\n\n${stringify(haystack)}`
+                let clonedHaystack = cloneDeep(haystack)
+                clonedHaystack = set(
+                    clonedHaystack,
+                    path,
+                    `${actual} -> ${expected}`
+                )
+                msg += `\n\nHere is the change:\n\n${stringify(clonedHaystack)}`
             }
 
             if (

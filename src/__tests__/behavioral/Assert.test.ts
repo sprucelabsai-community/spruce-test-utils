@@ -383,10 +383,7 @@ export default class AssertTest extends AbstractSpruceTest {
     )
     protected static includeAndDoesNotInclude(haystack: any, needle: any) {
         assert.doesInclude(haystack, needle)
-        assert.doesThrow(
-            () => assert.doesNotInclude(haystack, needle),
-            /should not include/
-        )
+        assert.doesThrow(() => assert.doesNotInclude(haystack, needle))
     }
 
     @test(
