@@ -1,3 +1,37 @@
+## [6.0.90](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.89...v6.0.90) (2025-09-30)
+
+## [6.0.89](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.88...v6.0.89) (2025-09-30)
+
+## [6.0.88](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.87...v6.0.88) (2025-09-30)
+
+## [6.0.87](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.86...v6.0.87) (2025-09-29)
+
+## [6.0.86](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.85...v6.0.86) (2025-09-29)
+
+## [6.0.85](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.84...v6.0.85) (2025-09-21)
+
+## [6.0.84](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.83...v6.0.84) (2025-09-20)
+
+## [6.0.83](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.82...v6.0.83) (2025-09-20)
+
+## [6.0.82](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.81...v6.0.82) (2025-09-18)
+
+## [6.0.81](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.80...v6.0.81) (2025-09-18)
+
+## [6.0.80](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.79...v6.0.80) (2025-09-18)
+
+## [6.0.79](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.78...v6.0.79) (2025-09-14)
+
+## [6.0.78](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.77...v6.0.78) (2025-09-14)
+
+## [6.0.77](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.76...v6.0.77) (2025-09-13)
+
+## [6.0.76](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.75...v6.0.76) (2025-09-13)
+
+## [6.0.75](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.74...v6.0.75) (2025-09-12)
+
+## [6.0.74](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.73...v6.0.74) (2025-09-09)
+
 ## [6.0.73](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.72...v6.0.73) (2025-09-06)
 
 ## [6.0.72](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.71...v6.0.72) (2025-09-05)
