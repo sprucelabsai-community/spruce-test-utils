@@ -733,7 +733,7 @@ export default class AssertTest extends AbstractSpruceTest {
         assert.isFalsy([new Error('yay')])
     }
 
-    @test.only(
+    @test.skip(
         'Example of pretty print with does include. Remove only() to see. Always fails.'
     )
     protected static printsNiceDiffWithDoesInclude() {
