@@ -1,5 +1,6 @@
 import chalk from 'chalk'
 import deepEqual from 'deep-equal'
+import { printDiffOrStringify } from 'jest-matcher-utils'
 import { cloneDeep, set } from 'lodash'
 import escapeRegExp from 'lodash/escapeRegExp'
 import isObjectLike from 'lodash/isObjectLike'
@@ -145,12 +146,14 @@ const assert: ISpruceAssert = {
 
     isEqual(actual, expected, message) {
         if (actual !== expected) {
-            this.fail(
-                buildErrorMessage(
-                    `${stringify(actual)}\n\n does not equal \n\n${stringify(expected)}`,
-                    message
-                )
+            const diff = printDiffOrStringify(
+                actual,
+                expected,
+                'Expected',
+                'Actual',
+                false
             )
+            this.fail(buildErrorMessage(`${diff}`, message))
         }
     },
 
