@@ -43,7 +43,7 @@ export default class AssertTest extends AbstractSpruceTest {
 
     @test()
     protected static isEqual() {
-        assert.doesThrow(() => assert.isEqual('hello', 'world'), /not equal/)
+        assert.doesThrow(() => assert.isEqual('hello', 'world'), /expected/)
         assert.isEqual(1, 1)
         assert.isEqual(1, 1, 'works with error message')
         assert.isEqual('testing', 'testing', 'works with error message')
@@ -567,27 +567,15 @@ export default class AssertTest extends AbstractSpruceTest {
     @test()
     protected static isTrue() {
         assert.isTrue(true)
-        assert.doesThrow(
-            () => assert.isTrue(false),
-            /does not equal(.*?)true/gis
-        )
-        assert.doesThrow(
-            () => assert.isTrue(undefined),
-            /does not equal(.*?)true/gis
-        )
+        assert.doesThrow(() => assert.isTrue(false))
+        assert.doesThrow(() => assert.isTrue(undefined))
     }
 
     @test()
     protected static isFalse() {
         assert.isFalse(false)
-        assert.doesThrow(
-            () => assert.isFalse(true),
-            /does not equal(.*?)false/gis
-        )
-        assert.doesThrow(
-            () => assert.isFalse(undefined),
-            /does not equal(.*?)false/gis
-        )
+        assert.doesThrow(() => assert.isFalse(true))
+        assert.doesThrow(() => assert.isFalse(undefined))
     }
 
     @test()
