@@ -708,7 +708,7 @@ export default class AssertTest extends AbstractSpruceTest {
         // assert.isInstanceOf(test4, Test)
     }
 
-    @test.skip('Example of pretty print. Remove skip() to see. Always fails.')
+    @test.only('Example of pretty print. Remove skip() to see. Always fails.')
     protected static printsNiceDiff() {
         // assert.isEqualDeep(
         // 	{ test: true, taco: 'bell' },
@@ -716,7 +716,7 @@ export default class AssertTest extends AbstractSpruceTest {
         // )
 
         // assert.isFalsy([new Error('yay')])
-        assert.isEqual('string one', 'streng ont')
+        assert.isEqual('actual: string one', 'expected: string two')
     }
 
     @test.skip(

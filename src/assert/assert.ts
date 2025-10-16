@@ -149,8 +149,8 @@ const assert: ISpruceAssert = {
             const diff = printDiffOrStringify(
                 actual,
                 expected,
-                'Expected',
                 'Actual',
+                'Expected',
                 false
             )
             this.fail(buildErrorMessage(`${diff}`, message))
