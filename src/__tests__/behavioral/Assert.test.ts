@@ -708,7 +708,7 @@ export default class AssertTest extends AbstractSpruceTest {
         // assert.isInstanceOf(test4, Test)
     }
 
-    @test.only('Example of pretty print. Remove skip() to see. Always fails.')
+    @test.skip('Example of pretty print. Remove skip() to see. Always fails.')
     protected static printsNiceDiff() {
         // assert.isEqualDeep(
         // 	{ test: true, taco: 'bell' },
