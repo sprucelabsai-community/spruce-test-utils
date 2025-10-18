@@ -147,10 +147,10 @@ const assert: ISpruceAssert = {
     isEqual(actual, expected, message) {
         if (actual !== expected) {
             const diff = printDiffOrStringify(
-                actual,
                 expected,
-                'Actual',
+                actual,
                 'Expected',
+                'Actual',
                 false
             )
             this.fail(buildErrorMessage(`${diff}`, message))
