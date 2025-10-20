@@ -60,7 +60,7 @@
     "watch.tsc": "tsc -w"
   },
   "dependencies": {
-    "@sprucelabs/error": "^7.1.36",
+    "@sprucelabs/error": "^7.1.37",
     "deep-equal": "^2.2.3",
     "jest-matcher-utils": "^30.2.0",
     "just-clone": "^6.2.0",
@@ -69,8 +69,8 @@
     "variable-diff": "^2.0.2"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^7.0.47",
-    "@sprucelabs/jest-json-reporter": "^9.0.69",
+    "@sprucelabs/esm-postbuild": "^7.0.48",
+    "@sprucelabs/jest-json-reporter": "^9.0.70",
     "@sprucelabs/jest-sheets-reporter": "^2.0.20",
     "@sprucelabs/semantic-release": "^5.0.2",
     "@sprucelabs/test": "^10.0.25",
