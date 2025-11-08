@@ -1,3 +1,8 @@
+## <small>6.0.122 (2025-11-08)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([20ab670](https://github.com/sprucelabsai-community/spruce-test-utils/commit/20ab670))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([c7b9c4e](https://github.com/sprucelabsai-community/spruce-test-utils/commit/c7b9c4e))
+
 ## <small>6.0.121 (2025-11-08)</small>
 
 * Automated CI/CD permissions update ([428d1de](https://github.com/sprucelabsai-community/spruce-test-utils/commit/428d1de))
