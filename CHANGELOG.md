@@ -1,3 +1,8 @@
+## <small>6.0.121 (2025-11-08)</small>
+
+* Automated CI/CD permissions update ([428d1de](https://github.com/sprucelabsai-community/spruce-test-utils/commit/428d1de))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([028f0b5](https://github.com/sprucelabsai-community/spruce-test-utils/commit/028f0b5))
+
 ## [6.0.120](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.119...v6.0.120) (2025-10-29)
 
 ## [6.0.119](https://github.com/sprucelabsai-community/spruce-test-utils/compare/v6.0.118...v6.0.119) (2025-10-28)
