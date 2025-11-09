@@ -1,3 +1,7 @@
+## 7.0.0 (2025-11-09)
+
+* major: upgrade ([b409d63](https://github.com/sprucelabsai-community/spruce-test-utils/commit/b409d63))
+
 ## <small>6.0.123 (2025-11-09)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([f73fa01](https://github.com/sprucelabsai-community/spruce-test-utils/commit/f73fa01))
