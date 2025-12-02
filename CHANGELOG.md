@@ -1,3 +1,8 @@
+## <small>7.0.16 (2025-12-02)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([94b3072](https://github.com/sprucelabsai-community/spruce-test-utils/commit/94b3072))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([e0ba1cf](https://github.com/sprucelabsai-community/spruce-test-utils/commit/e0ba1cf))
+
 ## <small>7.0.15 (2025-12-01)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([cc8456f](https://github.com/sprucelabsai-community/spruce-test-utils/commit/cc8456f))
