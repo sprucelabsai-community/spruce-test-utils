@@ -15,3 +15,6 @@ export { default as Spy } from './utilities/spies/Spy'
 
 export { default as SpruceTestResolver } from './SpruceTestResolver'
 export * from './SpruceTestResolver'
+
+export { default as MockFetch } from './MockFetch'
+export * from './MockFetch'
