@@ -1,3 +1,8 @@
+## <small>7.1.1 (2025-12-27)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([1b2be95](https://github.com/sprucelabsai-community/spruce-test-utils/commit/1b2be95))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([57a3044](https://github.com/sprucelabsai-community/spruce-test-utils/commit/57a3044))
+
 ## 7.1.0 (2025-12-27)
 
 * minor: fake fetch ([75abd67](https://github.com/sprucelabsai-community/spruce-test-utils/commit/75abd67))
