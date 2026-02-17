@@ -1,3 +1,8 @@
+## <small>7.2.6 (2026-02-17)</small>
+
+* patch: upgrade ([2005dab](https://github.com/sprucelabsai-community/spruce-test-utils/commit/2005dab))
+* fix: resolve lint errors from eslint-config-spruce upgrade ([657c64b](https://github.com/sprucelabsai-community/spruce-test-utils/commit/657c64b))
+
 ## <small>7.2.5 (2026-01-27)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([6b52b81](https://github.com/sprucelabsai-community/spruce-test-utils/commit/6b52b81))
