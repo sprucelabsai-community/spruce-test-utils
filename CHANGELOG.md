@@ -1,3 +1,8 @@
+## <small>7.2.7 (2026-02-17)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([3209ee0](https://github.com/sprucelabsai-community/spruce-test-utils/commit/3209ee0))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([e28e217](https://github.com/sprucelabsai-community/spruce-test-utils/commit/e28e217))
+
 ## <small>7.2.6 (2026-02-17)</small>
 
 * patch: upgrade ([2005dab](https://github.com/sprucelabsai-community/spruce-test-utils/commit/2005dab))
