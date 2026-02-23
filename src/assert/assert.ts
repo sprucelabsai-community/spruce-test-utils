@@ -1,7 +1,8 @@
 import chalk from 'chalk'
 import deepEqual from 'deep-equal'
 import { printDiffOrStringify } from 'jest-matcher-utils'
-import { cloneDeep, set } from 'lodash'
+import lodash from 'lodash'
+const { cloneDeep, set } = lodash
 import escapeRegExp from 'lodash/escapeRegExp'
 import isObjectLike from 'lodash/isObjectLike'
 import { expectType } from 'ts-expect'
