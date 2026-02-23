@@ -1,3 +1,7 @@
+## <small>7.2.14 (2026-02-23)</small>
+
+* patch: fix ESM lodash interop in assert for Node 24 module loading ([132038c](https://github.com/sprucelabsai-community/spruce-test-utils/commit/132038c))
+
 ## <small>7.2.13 (2026-02-20)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([a1c37a8](https://github.com/sprucelabsai-community/spruce-test-utils/commit/a1c37a8))
