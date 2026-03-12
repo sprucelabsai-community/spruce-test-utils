@@ -1,3 +1,10 @@
+## <small>7.2.16 (2026-03-12)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([ccb4520](https://github.com/sprucelabsai-community/spruce-test-utils/commit/ccb4520))
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([63bf274](https://github.com/sprucelabsai-community/spruce-test-utils/commit/63bf274))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([45bf463](https://github.com/sprucelabsai-community/spruce-test-utils/commit/45bf463))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([755570c](https://github.com/sprucelabsai-community/spruce-test-utils/commit/755570c))
+
 ## <small>7.2.15 (2026-02-23)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([219191d](https://github.com/sprucelabsai-community/spruce-test-utils/commit/219191d))
