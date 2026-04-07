@@ -1,3 +1,7 @@
+## <small>7.2.20 (2026-04-07)</small>
+
+* Upgrade dependencies and fix TypeScript 6.0 tsconfig deprecations ([1024aa2](https://github.com/sprucelabsai-community/spruce-test-utils/commit/1024aa2))
+
 ## <small>7.2.19 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([de9ac29](https://github.com/sprucelabsai-community/spruce-test-utils/commit/de9ac29))
